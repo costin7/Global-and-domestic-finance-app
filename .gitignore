@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.DS_Store
+data/market_raw.json
+data/news_raw.json
+tools/
+_site/
+node_modules/

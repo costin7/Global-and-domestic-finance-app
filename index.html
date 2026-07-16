@@ -1,0 +1,1151 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🧭</text></svg>">
+<meta name="description" content="财经罗盘：AI 每日自动更新的全球与中国财经热点、经济走向分析与基金策略仪表盘">
+<title>财经罗盘 · 全球与中国财经热点分析</title>
+<style>
+  :root {
+    --page: #f9f9f7;
+    --surface: #fcfcfb;
+    --ink: #0b0b0b;
+    --ink-2: #52514e;
+    --muted: #898781;
+    --grid: #e1e0d9;
+    --baseline: #c3c2b7;
+    --border: rgba(11,11,11,0.10);
+    --s1: #2a78d6; --s2: #1baf7a; --s3: #eda100; --s4: #008300;
+    --s5: #4a3aa7; --s6: #e34948; --s7: #e87ba4; --s8: #eb6834;
+    --up-ink: #b42a26;   --up-mark: #d03b3b;
+    --down-ink: #006300; --down-mark: #0ca30c;
+    --warn-bg: #fdf6e3; --warn-border: #e8d9a0;
+    --risk-bg: #fbeeee; --risk-border: #ecc8c8;
+    --accent: #2a78d6;
+    --accent-soft: rgba(42,120,214,0.10);
+    --deemph: #c9c8c0;
+  }
+  html[data-theme="dark"] {
+    --page: #0d0d0d;
+    --surface: #1a1a19;
+    --ink: #ffffff;
+    --ink-2: #c3c2b7;
+    --muted: #898781;
+    --grid: #2c2c2a;
+    --baseline: #383835;
+    --border: rgba(255,255,255,0.10);
+    --s1: #3987e5; --s2: #199e70; --s3: #c98500; --s4: #008300;
+    --s5: #9085e9; --s6: #e66767; --s7: #d55181; --s8: #d95926;
+    --up-ink: #e66767;   --up-mark: #e66767;
+    --down-ink: #0ca30c; --down-mark: #0ca30c;
+    --warn-bg: #2a2416; --warn-border: #4d411f;
+    --risk-bg: #2a1717; --risk-border: #4d2626;
+    --accent: #3987e5;
+    --accent-soft: rgba(57,135,229,0.16);
+    --deemph: #4a4a46;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: var(--page);
+    color: var(--ink);
+    font-family: system-ui, -apple-system, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Segoe UI", sans-serif;
+    line-height: 1.6;
+    font-size: 15px;
+  }
+  .app { max-width: 1140px; margin: 0 auto; padding: 20px 20px 60px; }
+
+  /* ---------- header ---------- */
+  .hdr { display: flex; flex-wrap: wrap; align-items: baseline; gap: 10px 16px; padding: 8px 0 4px; }
+  .hdr h1 { font-size: 26px; font-weight: 700; letter-spacing: 0.5px; }
+  .hdr .sub { color: var(--ink-2); font-size: 14px; }
+  .hdr .spacer { flex: 1; }
+  .chip {
+    display: inline-flex; align-items: center; gap: 5px;
+    font-size: 12px; color: var(--ink-2);
+    border: 1px solid var(--border); border-radius: 999px;
+    padding: 2px 10px; background: var(--surface); white-space: nowrap;
+  }
+  .chip b { color: var(--ink); font-weight: 600; }
+  .theme-btn { cursor: pointer; user-select: none; }
+  .theme-btn:hover { background: var(--accent-soft); }
+  .meta-line { color: var(--muted); font-size: 12.5px; margin: 2px 0 14px; }
+
+  .notice {
+    background: var(--warn-bg); border: 1px solid var(--warn-border);
+    border-radius: 10px; padding: 9px 14px; font-size: 13px; color: var(--ink-2);
+    margin-bottom: 16px;
+  }
+  .notice b { color: var(--ink); }
+
+  /* ---------- tabs ---------- */
+  .tabs {
+    position: sticky; top: 0; z-index: 30;
+    display: flex; gap: 6px; overflow-x: auto;
+    background: var(--page);
+    padding: 8px 0; margin-bottom: 18px;
+    border-bottom: 1px solid var(--grid);
+  }
+  .tab {
+    border: 1px solid transparent; background: transparent; color: var(--ink-2);
+    font: inherit; font-size: 14.5px; padding: 6px 14px; border-radius: 999px;
+    cursor: pointer; white-space: nowrap;
+  }
+  .tab:hover { background: var(--accent-soft); color: var(--ink); }
+  .tab[aria-selected="true"] {
+    background: var(--surface); border-color: var(--border);
+    color: var(--ink); font-weight: 600;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.04);
+  }
+  main section[role="tabpanel"] { display: none; }
+  main section[role="tabpanel"].active { display: block; }
+
+  /* ---------- cards & layout ---------- */
+  .card {
+    background: var(--surface); border: 1px solid var(--border);
+    border-radius: 14px; padding: 18px 20px; margin-bottom: 16px;
+  }
+  .card h2 { font-size: 18px; margin-bottom: 4px; }
+  .card h3 { font-size: 15.5px; margin: 14px 0 6px; }
+  .card .desc { color: var(--ink-2); font-size: 13.5px; margin-bottom: 10px; }
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+  @media (max-width: 860px) { .grid2 { grid-template-columns: 1fr; } }
+
+  .sec-title { font-size: 20px; font-weight: 700; margin: 6px 0 12px; display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+  .sec-title .chip { font-weight: 400; }
+
+  /* ---------- KPI tiles ---------- */
+  .kpis { display: grid; grid-template-columns: repeat(auto-fill, minmax(158px, 1fr)); gap: 10px; margin-bottom: 8px; }
+  .tile {
+    background: var(--surface); border: 1px solid var(--border);
+    border-radius: 12px; padding: 12px 14px 10px;
+  }
+  .tile .lb { font-size: 12.5px; color: var(--ink-2); margin-bottom: 2px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .tile .vl { font-size: 21px; font-weight: 650; letter-spacing: -0.2px; }
+  .tile .dt { font-size: 12.5px; margin-top: 1px; font-weight: 600; }
+  .tile .dt .per { color: var(--muted); font-weight: 400; }
+  .dt.up { color: var(--up-ink); } .dt.down { color: var(--down-ink); } .dt.flat { color: var(--muted); }
+
+  /* ---------- news ---------- */
+  .news-list { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+  @media (max-width: 860px) { .news-list { grid-template-columns: 1fr; } }
+  .news {
+    background: var(--surface); border: 1px solid var(--border);
+    border-radius: 12px; padding: 14px 16px;
+    display: flex; flex-direction: column; gap: 6px;
+  }
+  .news .top { display: flex; align-items: center; gap: 8px; font-size: 12px; color: var(--muted); }
+  .news .tag {
+    font-size: 11.5px; padding: 1px 8px; border-radius: 999px;
+    background: var(--accent-soft); color: var(--accent); font-weight: 600;
+  }
+  .news h4 { font-size: 15px; line-height: 1.45; }
+  .news .sum { font-size: 13.5px; color: var(--ink-2); }
+  .news .imp {
+    font-size: 13px; padding: 7px 10px; border-radius: 8px;
+    background: var(--accent-soft); color: var(--ink);
+  }
+  .news .imp b { color: var(--accent); font-weight: 600; }
+  .news .src { font-size: 12px; }
+  .news .src a { color: var(--muted); text-decoration: none; border-bottom: 1px dotted var(--baseline); }
+  .news .src a:hover { color: var(--accent); }
+
+  /* ---------- figure / chart ---------- */
+  figure.viz { margin: 0 0 6px; }
+  figure.viz .fig-hd { display: flex; align-items: baseline; gap: 4px 10px; margin-bottom: 8px; flex-wrap: wrap; }
+  figure.viz .fig-hd .t { min-width: 0; }
+  figure.viz .fig-hd .t { font-size: 15px; font-weight: 650; }
+  figure.viz .fig-hd .s { font-size: 12.5px; color: var(--muted); flex: 1; }
+  .tbl-btn {
+    font: inherit; font-size: 12px; color: var(--ink-2); background: transparent;
+    border: 1px solid var(--border); border-radius: 999px; padding: 1px 10px; cursor: pointer;
+  }
+  .tbl-btn:hover { background: var(--accent-soft); color: var(--ink); }
+  figure.viz svg { display: block; width: 100%; }
+  figure.viz .tblwrap { overflow-x: auto; }
+  figure.viz table { border-collapse: collapse; width: 100%; font-size: 13px; }
+  figure.viz th, figure.viz td { padding: 6px 10px; border-bottom: 1px solid var(--grid); text-align: right; font-variant-numeric: tabular-nums; }
+  figure.viz th:first-child, figure.viz td:first-child { text-align: left; font-variant-numeric: normal; }
+  figure.viz th { color: var(--ink-2); font-weight: 600; }
+  .legend { display: flex; flex-wrap: wrap; gap: 4px 16px; font-size: 12.5px; color: var(--ink-2); margin: 2px 0 6px; }
+  .legend .it { display: inline-flex; align-items: center; gap: 6px; }
+  .legend .sw-line { width: 14px; height: 2px; border-radius: 2px; display: inline-block; }
+  .legend .sw-rect { width: 10px; height: 10px; border-radius: 3px; display: inline-block; }
+
+  #tooltip {
+    position: fixed; z-index: 99; pointer-events: none; display: none;
+    background: var(--surface); border: 1px solid var(--border); border-radius: 10px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+    padding: 8px 12px; font-size: 12.5px; min-width: 120px; max-width: 260px;
+  }
+  #tooltip .tt-t { color: var(--muted); font-size: 11.5px; margin-bottom: 3px; }
+  #tooltip .row { display: flex; align-items: center; gap: 7px; padding: 1px 0; }
+  #tooltip .row .k { width: 14px; height: 2.5px; border-radius: 2px; flex: none; }
+  #tooltip .row .n { color: var(--ink-2); flex: 1; }
+  #tooltip .row .v { font-weight: 650; color: var(--ink); }
+
+  /* ---------- analysis ---------- */
+  .prose p { margin: 8px 0; font-size: 14.5px; color: var(--ink); }
+  .prose p b { font-weight: 650; }
+  .callout {
+    border-left: 3px solid var(--accent); background: var(--accent-soft);
+    border-radius: 0 10px 10px 0; padding: 10px 14px; margin: 10px 0; font-size: 14px;
+  }
+  .scen { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 12px; margin-top: 10px; }
+  .scen .sc { border: 1px solid var(--border); border-radius: 12px; padding: 12px 14px; background: var(--surface); }
+  .scen .sc .nm { font-weight: 650; font-size: 14px; display: flex; justify-content: space-between; align-items: center; }
+  .scen .sc .pb { font-size: 12px; color: var(--accent); background: var(--accent-soft); border-radius: 999px; padding: 0 8px; }
+  .scen .sc p { font-size: 13px; color: var(--ink-2); margin-top: 6px; }
+
+  /* ---------- funds ---------- */
+  .fund-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+  @media (max-width: 860px) { .fund-grid { grid-template-columns: 1fr; } }
+  .fund {
+    border: 1px solid var(--border); border-radius: 12px; padding: 14px 16px;
+    background: var(--surface); display: flex; flex-direction: column; gap: 7px;
+  }
+  .fund .hd { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+  .fund .hd h4 { font-size: 15px; flex: 1; }
+  .fund .role { font-size: 11.5px; padding: 1px 8px; border-radius: 999px; font-weight: 600; }
+  .role.core { background: var(--accent-soft); color: var(--accent); }
+  .role.sat { background: rgba(237,161,0,0.14); color: #9a6a00; }
+  html[data-theme="dark"] .role.sat { color: #eda100; }
+  .fund .tickers { display: flex; flex-wrap: wrap; gap: 6px; }
+  .fund .tk { font-size: 12px; border: 1px solid var(--border); border-radius: 6px; padding: 1px 7px; color: var(--ink-2); background: var(--page); }
+  .fund .lg { font-size: 13.5px; color: var(--ink); }
+  .fund .rk { font-size: 12.5px; color: var(--ink-2); background: var(--risk-bg); border: 1px solid var(--risk-border); border-radius: 8px; padding: 6px 10px; }
+  .fund .meta { display: flex; gap: 14px; font-size: 12.5px; color: var(--muted); flex-wrap: wrap; }
+  .risk-dots { display: inline-flex; gap: 3px; align-items: center; }
+  .risk-dots i { width: 7px; height: 7px; border-radius: 50%; background: var(--deemph); }
+  .risk-dots i.on { background: var(--up-mark); }
+
+  .warn-banner {
+    background: var(--risk-bg); border: 1px solid var(--risk-border);
+    border-radius: 12px; padding: 12px 16px; font-size: 13.5px; margin-bottom: 14px;
+  }
+  .warn-banner b { color: var(--up-ink); }
+  .warn-banner ul { margin: 6px 0 0 18px; }
+  .warn-banner li { margin: 2px 0; color: var(--ink-2); }
+
+  .spec-card { border: 1px solid var(--risk-border); border-radius: 12px; padding: 14px 16px; background: var(--surface); margin-bottom: 12px; }
+  .spec-card .hd { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; margin-bottom: 6px; }
+  .spec-card .hd h4 { font-size: 15px; flex: 1; }
+  .spec-card .hot { font-size: 11.5px; color: var(--up-ink); border: 1px solid var(--risk-border); background: var(--risk-bg); padding: 1px 8px; border-radius: 999px; font-weight: 600; }
+  .spec-card dl { display: grid; grid-template-columns: 76px 1fr; gap: 4px 10px; font-size: 13.5px; }
+  .spec-card dt { color: var(--muted); }
+  .spec-card dd { color: var(--ink); }
+  .spec-card dd.risk { color: var(--up-ink); }
+
+  /* ---------- overview ---------- */
+  .hero-card { display: flex; flex-direction: column; gap: 4px; }
+  .hero-kicker { font-size: 13px; color: var(--accent); font-weight: 650; letter-spacing: 1px; }
+  .hero-num { font-size: 50px; font-weight: 700; line-height: 1.15; letter-spacing: -0.5px; }
+  .hero-desc { color: var(--ink-2); font-size: 14.5px; max-width: 760px; }
+  .judgments { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 12px; margin-top: 6px; }
+  .jd { border: 1px solid var(--border); border-radius: 12px; padding: 12px 14px; background: var(--surface); }
+  .jd .no { font-size: 12px; color: var(--accent); font-weight: 700; }
+  .jd .tt { font-weight: 650; font-size: 14.5px; margin: 2px 0 4px; }
+  .jd p { font-size: 13px; color: var(--ink-2); }
+
+  /* ---------- footer ---------- */
+  footer { margin-top: 28px; color: var(--muted); font-size: 12.5px; }
+  footer .box { border-top: 1px solid var(--grid); padding-top: 14px; }
+  footer h5 { font-size: 13px; color: var(--ink-2); margin: 10px 0 4px; }
+  footer .srcs { display: flex; flex-wrap: wrap; gap: 4px 14px; }
+  footer a { color: var(--muted); text-decoration: none; border-bottom: 1px dotted var(--baseline); }
+  footer a:hover { color: var(--accent); }
+  footer .disc { margin-top: 10px; line-height: 1.7; }
+
+  svg text { font-family: inherit; }
+  .visually-hidden { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+</style>
+</head>
+<body>
+<div class="app">
+  <header class="hdr">
+    <h1>财经罗盘</h1>
+    <span class="sub">全球 × 中国 财经热点与基金策略仪表盘</span>
+    <span class="spacer"></span>
+    <span class="chip" id="risk-chip"></span>
+    <button class="chip theme-btn" id="theme-btn" title="切换明暗主题">🌓 主题</button>
+  </header>
+  <div class="meta-line" id="meta-line"></div>
+  <div class="notice"><b>免责声明：</b>本应用由 AI 自动搜集公开信息生成，仅供参考，<b>不构成任何投资建议</b>。AI 并非持牌投资顾问，数据可能存在误差或滞后，基金有风险，投资需谨慎，决策前请自行核实并独立判断。</div>
+
+  <nav class="tabs" role="tablist" id="tabs">
+    <button class="tab" role="tab" data-tab="overview">总览</button>
+    <button class="tab" role="tab" data-tab="global">🌍 全球热点</button>
+    <button class="tab" role="tab" data-tab="china">🇨🇳 全国热点</button>
+    <button class="tab" role="tab" data-tab="trend">📈 走向分析</button>
+    <button class="tab" role="tab" data-tab="funds">🧭 基金建议</button>
+    <button class="tab" role="tab" data-tab="spec">⚡ 投机观察</button>
+  </nav>
+
+  <main>
+    <section role="tabpanel" id="panel-overview"></section>
+    <section role="tabpanel" id="panel-global"></section>
+    <section role="tabpanel" id="panel-china"></section>
+    <section role="tabpanel" id="panel-trend"></section>
+    <section role="tabpanel" id="panel-funds"></section>
+    <section role="tabpanel" id="panel-spec"></section>
+  </main>
+
+  <footer>
+    <div class="box">
+      <h5>数据来源（点击查看原文）</h5>
+      <div class="srcs" id="src-list"></div>
+      <div class="disc" id="full-disc"></div>
+    </div>
+  </footer>
+</div>
+<div id="tooltip" role="status"></div>
+
+<script>
+/* ================= DATA（由 AI 每次生成时注入） ================= */
+const FALLBACK_DATA = {
+  meta: {
+    generatedAt: "2026-07-10 22:25（北京时间）",
+    riskProfile: "平衡型",
+    scope: "国内 + 海外",
+    newsWindow: "近 30 天焦点",
+    fullDisclaimer: "免责声明：本页面全部内容由 AI 于生成时点自动搜集公开报道与官方数据整理而成，仅用于信息参考与学习交流，不构成任何证券、基金投资建议或收益承诺。AI 并非持牌投资顾问；数据可能存在错漏、口径差异或时滞（各指标截至日期以标注为准），请以官方与基金销售机构披露为准。基金有风险，过往业绩不代表未来表现，杠杆与主题投机可能造成本金快速亏损。请根据自身风险承受能力独立决策，必要时咨询持牌专业人士。"
+  },
+  overview: {
+    heroTitle: "沪指重上 4,000 点",
+    heroDesc: "7月9日 A 股强力反弹：上证收 4,036.59（+1.65%），科创50 单日 +8.41%，两市成交 2.91 万亿元；同日美股再创新高、SK 海力士今日以史上最大外国公司 IPO 登陆美股。另一边，美联储会议纪要显示官员分歧加大、美伊停火破裂——全球「类滞胀 + AI 景气」与中国「温和再通胀」的组合，正在重新定价大类资产。",
+    judgments: [
+      { title: "中国再通胀确认，结构牛延续", desc: "PPI 同比连升至 +4.1%、结束 41 个月负增长后逐月走高，PMI 重返扩张，盈利修复支撑 A 股；但科技主线极度拥挤（科创50 半年 +64%），「科技+红利」哑铃比单边押注更稳。" },
+      { title: "美国类滞胀，宽松时代结束", desc: "5月 CPI 反弹至 4.2% 而 6月非农仅增 5.7 万，美联储连续四次按兵不动、市场甚至定价年内加息；美元资产波动放大，QDII 还要扣掉人民币年内升值约 5.5% 的汇兑损耗与场内高溢价。" },
+      { title: "地缘与油价是最大尾部风险", desc: "美伊停火破裂、霍尔木兹航运遇袭，布伦特单日 +5.9%。若能源二次冲击落地，「再通胀交易」会恶化为「滞胀交易」——黄金与现金是组合里的保险，别在情绪高点卖光它们。" }
+    ]
+  },
+  global: {
+    kpis: [
+      { label: "标普500", value: "7,543.64", delta: "+10.2%", deltaLabel: "年内", dir: "up" },
+      { label: "纳斯达克综合", value: "26,206.89", delta: "≈+12.8%", deltaLabel: "年内", dir: "up" },
+      { label: "道琼斯", value: "52,487.44", delta: "≈+9.2%", deltaLabel: "年内", dir: "up" },
+      { label: "10Y美债收益率", value: "4.55%", delta: "≈+35bp", deltaLabel: "年内", dir: "up" },
+      { label: "美元指数 DXY", value: "≈101.2", delta: "+3.65%", deltaLabel: "年内", dir: "up" },
+      { label: "现货黄金", value: "≈$4,115", delta: "-26%", deltaLabel: "距1月峰值", dir: "down" },
+      { label: "布伦特原油", value: "$79.10", delta: "+11.9%", deltaLabel: "同比", dir: "up" },
+      { label: "比特币", value: "$62,643", delta: "-50%", deltaLabel: "距25年10月峰值", dir: "down" }
+    ],
+    news: [
+      { date: "06-17 / 07-08", tag: "货币政策", title: "美联储连续第四次按兵不动，市场开始定价年内“加息”", summary: "FOMC 一致投票维持联邦基金利率 3.50%-3.75%，称通胀仍高于 2% 目标；7月8日公布的会议纪要显示官员分歧明显，市场已定价 10 月前加息 25bp 的可能，下次会议 7月28-29日。", implication: "宽松周期实质终结、政策重心转向抗通胀，利率敏感资产（长债、加密、高估值成长）承压。", source: { name: "美联储 · FOMC声明", url: "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm" } },
+      { date: "06-10", tag: "通胀", title: "美国 5月 CPI 同比 4.2%，创 2023年4月以来新高", summary: "环比 +0.5%，能源贡献六成以上（汽油环比 +7.0%、同比 +40.5%），核心 CPI 2.9%；伊朗冲突推高油价叠加 2月底 15% 全球关税是主因。6月 CPI 将于 7月14日公布。", implication: "通胀重新抬头锁死降息空间，美债实际利率与收益率易上难下。", source: { name: "美国劳工统计局 BLS", url: "https://www.bls.gov/news.release/archives/cpi_06102026.htm" } },
+      { date: "07-02", tag: "就业", title: "美国 6月非农仅增 5.7 万人，就业明显降温", summary: "大幅不及预期，失业率 4.2%；「通胀热、就业冷」的类滞胀组合令美联储进退两难。", implication: "股债对每份宏观数据的敏感度都会放大，事件日波动加剧。", source: { name: "CNBC", url: "https://www.cnbc.com/2026/07/02/jobs-report-june-2026-.html" } },
+      { date: "07-06 ~ 07-09", tag: "美股", title: "美股无视战火屡创新高：道指首次站上 53,000 点", summary: "英伟达供应商鸿海营收超预期、三星季度利润预计同比增约 18 倍点燃 AI 情绪；7月9日标普收 7,543.64（+0.81%）、纳指 +1.30%，存储/芯片领涨（美光 +7.3%、AMD +7.1%），VIX 跌破 16。", implication: "AI 资本开支与芯片景气仍是美股主引擎，市场对地缘冲击呈罕见钝化。", source: { name: "TheStreet · 7月9日收盘", url: "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-july-9-2026" } },
+      { date: "06-11", tag: "欧洲", title: "欧央行近三年来首次加息至 2.25%，「衰退边缘 + 被迫紧缩」", summary: "伊朗战争推升能源价格（能源分项 +10.9%），欧元区 5月 HICP 达 3.2%；而一季度 GDP 环比 -0.2%。市场定价 9月再加息概率约 50%。", implication: "欧洲面临最差组合，欧元区风险资产与外围国债利差承压。", source: { name: "Euronews / 欧央行", url: "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.mp260611~4d41bd5e83.en.html" } },
+      { date: "06-16 ~ 06-30", tag: "日本", title: "日银加息至 1%（1995年以来最高），日元仍跌至 40 年新低", summary: "美元/日元 6月30日 触及约 162（1986年以来最低），超 700 亿美元汇市干预与加息均未扭转趋势；彭博称日元疲软为日银提前再加息提供理由。", implication: "套息交易主导日元，若日银被迫加快加息，全球流动性或再受扰动。", source: { name: "CNBC", url: "https://www.cnbc.com/2026/06/30/japan-yen-falls-lowest-level-since-1986-dollar-intervention-risk.html" } },
+      { date: "07-09", tag: "大宗商品", title: "黄金距 1月峰值回落约 26%，油价因中东局势单日大涨 5.9%", summary: "金价 1月曾创 $5,608 历史新高，7月9日期金约 $4,115（同比仍 +24.9%）；布伦特 7月8日单日 +5.9% 至 $78.55、9日报 $79.10，仍远低于 2月冲突峰值 $113+。", implication: "商品「高位但降温」；霍尔木兹若再受阻，能源驱动的二次通胀是最大尾部风险。", source: { name: "TradingEconomics · 黄金", url: "https://tradingeconomics.com/commodity/gold" } },
+      { date: "07-09", tag: "地缘", title: "美伊停火破裂：美国再度空袭，霍尔木兹海峡航运遇袭", summary: "伊朗以打击海湾目标与海峡航运回应，特朗普表示停火已经结束。此轮冲突 2月曾令布伦特突破 $113、道指自高点回撤约 10%。", implication: "地缘溢价主要体现在油、金与欧洲通胀上；海峡实质封锁将改变所有资产定价。", source: { name: "TheStreet", url: "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-july-9-2026" } },
+      { date: "07-09", tag: "加密资产", title: "加密深熊：比特币自 $126,210 峰值腰斩，约 2 万亿美元市值蒸发", summary: "BTC 报 $62,643；关税冲击令降息预期消失、现货 ETF 持续净赎回、6月3日单日 18.6 亿美元杠杆清算等接连打击。", implication: "加密与「降息交易」高度绑定，联储转鹰下反弹缺乏宏观催化。", source: { name: "Backpack Learn", url: "https://learn.backpack.exchange/articles/bitcoin-crash" } },
+      { date: "07-10", tag: "科技", title: "SK 海力士今日登陆美股：史上最大规模外国公司 IPO", summary: "IPO 定价每股 $149，7月10日挂牌；消息带动美股存储板块大涨，市场对 HBM/AI 芯片供给周期热情高涨。", implication: "AI 硬件产业链融资与景气双高，半导体仍是全球风险偏好的风向标。", source: { name: "TheStreet", url: "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-july-9-2026" } }
+    ]
+  },
+  china: {
+    kpis: [
+      { label: "上证指数", value: "4,036.59", delta: "≈+1.7%", deltaLabel: "年内", dir: "up" },
+      { label: "沪深300", value: "≈4,770", delta: "≈+4.8%", deltaLabel: "年内", dir: "up" },
+      { label: "创业板指", value: "4,018.17", delta: "≈+25.5%", deltaLabel: "年内", dir: "up" },
+      { label: "科创50", value: "2,185.62", delta: "≈+62.7%", deltaLabel: "年内", dir: "up" },
+      { label: "恒生指数", value: "24,030.18", delta: "-10.7%", deltaLabel: "上半年", dir: "down" },
+      { label: "恒生科技", value: "4,731.56", delta: "-18.9%", deltaLabel: "上半年", dir: "down" },
+      { label: "10Y国债收益率", value: "≈1.73%", delta: "低位震荡", deltaLabel: "1.70-1.90区间", dir: "flat" },
+      { label: "美元兑人民币", value: "6.8054", delta: "-5.5%", deltaLabel: "人民币年内升值", dir: "down" },
+      { label: "LPR (1Y/5Y+)", value: "3.0% / 3.5%", delta: "年内未变", deltaLabel: "7/20 更新", dir: "flat" }
+    ],
+    news: [
+      { date: "07-09", tag: "宏观·物价", title: "6月 CPI 同比 +1.0%、PPI 同比 +4.1%，再通胀态势确认", summary: "PPI 自 3月结束连续 41 个月负增长后逐月走高（5月 +3.9% → 6月 +4.1%），煤炭（+20.6%）、有色矿采选（+25.5%）领涨；核心 CPI +1.0%。", implication: "利好上游资源与顺周期盈利，但也压缩进一步总量宽松的想象空间。", source: { name: "国家统计局解读", url: "https://www.stats.gov.cn/sj/sjjd/202607/t20260709_1964082.html" } },
+      { date: "06-30", tag: "宏观·景气", title: "6月制造业 PMI 回升至 50.3%，重返扩张区间", summary: "较 5月（50.0%）回升 0.3 个百分点，需求好转带动，出厂价格指数出现年内首降。", implication: "验证二季度末经济动能边际修复，为中报盈利提供支撑。", source: { name: "国家统计局", url: "https://www.stats.gov.cn/sj/zxfb/202606/t20260630_1964032.html" } },
+      { date: "07-10", tag: "宏观·GDP", title: "经济「半年报」7月15日前后揭晓，二季度 GDP 预期约 4.8%", summary: "一季度 GDP +5.0%；前 5 个月外贸进出口 +15.3% 展现韧性，房地产投资一季度 -11.2% 仍是拖累。", implication: "出口韧性与消费以旧换新的持续性是下半年政策力度的锚。", source: { name: "国家统计局 · 一季度核算", url: "https://www.stats.gov.cn/sj/zxfb/202604/t20260417_1963336.html" } },
+      { date: "06-22", tag: "货币政策", title: "LPR 连续按兵不动：1年期 3.0%、5年期以上 3.5%", summary: "自 2025年5月调降后未变；央行两个月内通过公开市场净投放中长期资金约 2 万亿元，结构性工具约 5.5 万亿元。", implication: "物价回升下总量宽松节奏放缓、预期后移，政策更倚重结构性工具。", source: { name: "央视网", url: "https://jingji.cctv.com/2026/06/22/ARTIN7l0eAD644P0czBYWKUA260622.shtml" } },
+      { date: "07-06", tag: "金融数据", title: "6月信贷社融临近公布，机构预计同比少增", summary: "机构预测 6月新增贷款约 1.8-2 万亿元（去年同期 2.24 万亿）、社融增量约 2.9-3.7 万亿元（去年同期 4.2 万亿），M2 约 8.2%。", implication: "实体融资需求仍偏弱，宽信用政策仍需接力，留意数据落地对债市的影响。", source: { name: "证券日报", url: "http://m.zqrb.cn/finance/hongguanjingji/2026-07-06/A1783097992933.html" } },
+      { date: "07-08", tag: "产业政策", title: "价格法修改在即，「反内卷」整治持续加码", summary: "拟完善低价倾销认定规则；上半年部署 16 项专项行动，发布外卖平台补贴规范十条，处罚 7 家平台合计 35.97 亿元。", implication: "利好行业价格秩序与中游盈利修复，配合 PPI 回升强化「反内卷」交易主线。", source: { name: "新华网", url: "https://www.news.cn/fortune/20260708/d2422a32ce174e6da9205dd1f6eb4ab7/c.html" } },
+      { date: "07-03", tag: "房地产", title: "楼市延续分化：6月百城二手房价环比 -0.42%，公积金条例修订征求意见", summary: "百城二手均价同比 -7.68%，上海连涨 4 个月、深圳转涨；新房均价环比 +0.16%；上半年 300 城宅地出让金同比 -31.2%。公积金提取范围拟扩至装修、物业费。", implication: "一线企稳、低能级承压的分化固化，政策仍在托底通道，地产链弹性有限。", source: { name: "中指研究院", url: "https://www.cih-index.com/news/2026-07-03/54848968.html" } },
+      { date: "07-09", tag: "A股", title: "沪指重回 4000 点：科创50 单日 +8.41%，半导体链集体爆发", summary: "上证 +1.65%、创业板指 +4.49%，两市成交 2.91 万亿元；中芯国际涨超 13% 创新高，兆易创新一度飙涨近 22%。上半年 A 股成交 317.53 万亿创纪录、两融首破 3 万亿，科创50 半年 +64.25%。", implication: "AI 算力 + 存储周期触底 + 国产替代是最强主线，但拥挤度与波动同步放大。", source: { name: "新浪财经 · 收盘", url: "https://www.sina.cn/news/detail/5318811238797126.html" } },
+      { date: "07-09", tag: "港股", title: "港股上半年罕见跑输后回暖：恒指收 24,030 点", summary: "上半年恒指 -10.73%、恒生科技 -18.92%；7月8日科技股大涨（恒生科技 +5%+），南向资金年内净流入 3,246 亿港元，央行表态增加外汇储备在港资产配置。", implication: "估值洼地 + 南向支撑，等待盈利与流动性拐点的左侧修复机会。", source: { name: "东方财富", url: "https://finance.eastmoney.com/a/202607093800035631.html" } },
+      { date: "07-07", tag: "汇率", title: "人民币年内大幅升值：对美元中间价升至 6.8054", summary: "年初以来对美元升值约 5.5%，即期约 6.77-6.80；央行重申无意通过贬值获取贸易竞争优势。", implication: "利好人民币资产估值与进口成本，挤压出口企业利润，并直接侵蚀 QDII 美元资产的换汇收益。", source: { name: "中国人民银行", url: "https://www.pbc.gov.cn/zhengcehuobisi/125207/125217/125925/2026070709021779660/index.html" } }
+    ]
+  },
+  trend: {
+    assetYTD: [
+      { label: "科创50", value: 62.7, note: "约数 · 截至07-09" },
+      { label: "日经225", value: 32, note: "约数 · 截至06-04" },
+      { label: "创业板指", value: 25.5, note: "约数 · 截至07-09" },
+      { label: "中证500", value: 21.0, note: "截至06-30" },
+      { label: "纳指100", value: 17.7, note: "截至07-09" },
+      { label: "标普500", value: 10.2, note: "截至07-09" },
+      { label: "沪深300", value: 4.8, note: "约数 · 截至07-08" },
+      { label: "上证指数", value: 1.7, note: "约数 · 截至07-09" },
+      { label: "红利低波", value: -1.4, note: "截至05-29" },
+      { label: "恒生指数", value: -6.0, note: "约数 · 截至07-09" },
+      { label: "现货黄金", value: -7, note: "约数 · 截至06月末" },
+      { label: "恒生科技", value: -14.2, note: "约数 · 截至07-09" }
+    ],
+    chinaMacro: {
+      months: ["1月", "2月", "3月", "4月", "5月", "6月"],
+      cpi: [0.2, 1.3, 1.0, 1.2, 1.2, 1.0],
+      ppi: [-1.4, -0.9, 0.5, 2.8, 3.9, 4.1],
+      pmi: [49.3, 49.0, 50.4, 50.3, 50.0, 50.3]
+    },
+    usMacro: {
+      months: ["25/9", "25/10", "25/11", "25/12", "1月", "2月", "3月", "4月", "5月"],
+      cpi: [null, null, null, 2.7, 2.4, 2.4, 3.3, 3.8, 4.2],
+      ffr: [4.25, 4.0, 4.0, 3.75, 3.75, 3.75, 3.75, 3.75, 3.75]
+    },
+    globalAnalysis: [
+      "货币政策拐点：全球宽松周期实质终结。美联储连续四次按兵不动（3.50%-3.75%）且市场开始定价年内加息，欧央行三年来首次加息至 2.25%，日本央行加息至 1%（1995年以来最高）。全球利率中枢上移，是与 2024-2025 年最大的宏观分野——「无风险利率不再下行」意味着估值扩张逻辑让位于盈利兑现逻辑。",
+      "类滞胀化的增长-通胀错位：美国 5月 CPI 同比 4.2% 创三年新高（能源 + 关税驱动），而 6月非农仅增 5.7 万人——「通胀热、就业冷」令联储进退两难；欧元区则是「衰退边缘被迫加息」（一季度 GDP 环比 -0.2%、HICP 3.2%）。往后看，7月14日的美国 6月 CPI 与 7月28-29日 FOMC 是全球资产的定价锚。",
+      "资产层面的巨大分化：AI 硬件景气独撑美股新高（标普 7,543、道指首破 53,000，SK 海力士完成史上最大外国 IPO），而流动性敏感资产已先行定价紧缩——比特币较峰值腰斩、黄金较 1月峰值回落约 26%。「实体 AI 繁荣 vs 金融条件收紧」的裂口是下半年最大看点：若 AI 盈利兑现不及预期，美股缺乏估值缓冲。",
+      "地缘与机构视角：美伊停火破裂、霍尔木兹航运遇袭令布伦特单日 +5.9%。油价是全球通胀路径的钥匙——海峡实质受阻将同时终结欧美「再宽松」希望。机构侧，高盛仍看金价 2026年末 4,900 美元（央行购金支撑），意味着当前回调在其框架内属周期中段而非趋势终结；但这一判断依赖「联储重启降息」这一目前并不成立的前提，需动态跟踪。"
+    ],
+    chinaAnalysis: [
+      "再通胀确认：PPI 自 3月结束连续 41 个月负增长后逐月走高至 +4.1%（煤炭 +20.6%、有色矿采选 +25.5%），CPI 温和 +1.0%，制造业 PMI 重返 50.3。名义增长修复 + 企业盈利改善的组合对权益市场整体友好，上游资源与中游价格修复方向最受益；7月15日公布的二季度 GDP（预期约 4.8%）与 6月社融是短期最重要的验证点。",
+      "政策取向切换：物价回升后总量宽松节奏放缓——LPR 连续 13 个月未动、降准降息预期后移至下半年，重心转向约 5.5 万亿的结构性工具与「反内卷」（价格法修改 + 16 项专项整治重塑价格秩序）。这对指数是「少了流动性梦想、多了盈利现实」：向上弹性收敛，但下行有基本面托底。",
+      "市场结构极致分化：科创50 上半年 +64.25%、半导体行业 +93.7%、24 只 ETF 净值翻倍，两市半年成交 317 万亿创纪录；同时沪深300 系 ETF 持续净流出（6月下旬四只合计流出超 257 亿元）、红利相对全 A 收益差触及约 -14% 的历史极值。拥挤度是当前最大的短期风险——「高切低」再平衡随时可能发生；港股上半年罕见跑输（恒指 -10.7%）但 7月起回暖，南向资金年内净流入 3,246 亿港元，属于典型的左侧修复标的。",
+      "汇率与机构共识：人民币对美元年内升值约 5.5%（中间价 6.8054），改善人民币资产吸引力与进口成本、挤压出口利润。机构下半年基调普遍是「结构牛/慢牛」：中金「稳好于快、慎估择优」（AI 产业链、储能电网、周期反转）；中信以「K 型思维」抓供需最紧俏环节（覆铜板、玻纤）；大摩认为中国拥有美国之外唯一完整的 AI 生态、外资将进一步回流；瑞银预计 2026 年 A 股盈利增速升至 11%、偏好成长与周期。公募共识配置是「科技 + 高股息」哑铃。"
+    ],
+    scenarios: [
+      { name: "基准：温和再通胀 + 高利率平台", prob: "55%", desc: "中国 PPI 回升、盈利修复，美国通胀高位但不失控。A股结构牛延续、波动放大，美股靠 AI 盈利消化紧缩，黄金宽幅震荡。策略：哑铃配置 + 季度再平衡。" },
+      { name: "乐观：停火 + 通胀回落", prob: "20%", desc: "中东实质停火、油价回落，美国通胀见顶回落令降息预期重启。风险资产普涨，港股、黄金与成长风格弹性最大，人民币继续走强。" },
+      { name: "悲观：能源二次冲击", prob: "25%", desc: "霍尔木兹实质受阻或美联储被迫加息：油价急涨、全球风险偏好收缩，A股科技拥挤交易踩踏式回撤（20%+ 级别），出口与汇率同步承压。防御靠红利 + 短债 + 黄金 + 现金。" }
+    ]
+  },
+  funds: {
+    allocation: [
+      { label: "A股核心", pct: 30, color: "--s1", note: "宽基为主 + 红利打底（哑铃的稳定端）" },
+      { label: "债券", pct: 25, color: "--s2", note: "短久期利率债 / 存单为主，少量可转债" },
+      { label: "行业卫星", pct: 15, color: "--s6", note: "科技 / 顺周期主题，短期方向的仓位来源" },
+      { label: "黄金", pct: 10, color: "--s5", note: "滞胀与地缘尾部风险的对冲" },
+      { label: "海外权益", pct: 10, color: "--s3", note: "QDII（注意溢价与限购）" },
+      { label: "现金", pct: 10, color: "--muted", note: "货基 / 存单，保留再平衡子弹" }
+    ],
+    longTerm: [
+      { category: "A股宽基指数", tickers: ["沪深300ETF (510300)", "中证A500ETF (563360)", "中证500 相关指数基金"], role: "核心", risk: 3, logic: "再通胀确认 + 机构预计 2026 年 A股盈利增速 6%-11% + 人民币升值引外资回流（大摩/瑞银观点）；科技虹吸后传统宽基估值不贵、持续净流出反而是「高切低」再平衡的承接方向。", risks: "若 7/15 二季度 GDP 与 6月社融不及预期，指数中枢下移；结构牛下宽基弹性显著弱于主题，需接受「跑输热点」。", horizon: "3 年以上 · 定投/分批", weight: "20-30%" },
+      { category: "红利低波 / 高股息", tickers: ["红利低波ETF (512890)", "中证红利ETF (515080)"], role: "核心", risk: 2, logic: "红利相对全 A 收益差处约 -14% 的历史极值、股息率约 5.2%、PB 约 0.8 倍；5、6月每月 90 亿+ 的逆势净流入表明配置资金在低位吸筹；货基收益跌破 1% 时代的「类固收+」替代。", risks: "科技行情延续期将继续跑输；银行、煤炭等权重行业盈利下修会侵蚀股息基础。", horizon: "3 年以上", weight: "10-15%" },
+      { category: "债券（短久期为主）", tickers: ["短融ETF (511360)", "同业存单指数基金", "可转债ETF (511380) 少量"], role: "核心", risk: 1, logic: "10Y 国债仅 1.7% 出头、票息空间薄 + PPI 回升制约利率下行，短久期吃票息更稳；债券 ETF 规模半年 +8% 至近 9,000 亿元、机构持续增配；可转债攻守兼备（上半年 +2.27% 为债类最佳）。", risks: "再通胀超预期 → 收益率上行、长久期品种净值回撤；可转债跟随权益波动。", horizon: "1 年以上", weight: "20-25%" },
+      { category: "黄金（逢低分批）", tickers: ["黄金ETF (518880)"], role: "核心", risk: 3, logic: "高盛看 2026年末 $4,900；央行购金 + 滞胀与地缘环境下的对冲价值不可替代；较 1月峰值已回调约 26%，6月「百亿资金出逃」式恐慌赎回释放较充分。", risks: "美联储若真加息、实际利率上行，金价可能再下台阶；短期趋势仍向下——必须分批，严禁一次性抄底。", horizon: "2 年以上 · 分 3 批以上", weight: "5-10%" },
+      { category: "海外宽基 QDII", tickers: ["标普500ETF (513500)", "纳指ETF (513100)"], role: "卫星", risk: 4, logic: "AI 盈利兑现支撑美股（纳指100 年内 +17.7%）、全球科技景气是长期主线；QDII 是境内参与的主要合规通道。", risks: "「溢价陷阱」：6月 12 只纳指 ETF 因高溢价史上首次集体停牌，513100 溢价近日仍约 7.9%——高溢价买入等于先亏一笔情绪税；叠加美国通胀 4.2%、可能加息，以及人民币升值 5.5% 的汇兑损耗。仅在溢价 <2% 时分批。", horizon: "3 年以上", weight: "5-10%" },
+      { category: "港股 / 恒生科技（左侧）", tickers: ["恒生科技ETF (513180)", "港股通互联网类指数基金"], role: "卫星", risk: 4, logic: "上半年 -18.9% 后 7月回暖；瑞银预计恒生科技 2026 年盈利 +37%；南向资金年内净流入 3,246 亿港元 + 央行表态增加在港资产配置；与 A股科技存在明显估值差。", risks: "左侧特征明显：下跌趋势未完全扭转、IPO 抽血、美元利率若再升港股首当其冲。", horizon: "1-3 年 · 分批", weight: "5-10%" }
+    ],
+    shortTerm: [
+      { category: "半导体 / 存储链", tickers: ["半导体ETF (512480)", "科创半导体ETF (588170)"], role: "卫星", risk: 5, logic: "存储周期触底 + 国产替代 + SK 海力士 IPO 点燃全球链情绪；上半年半导体行业 +93.7%、中芯国际创新高，当前市场绝对主线。", risks: "拥挤度极高：科创50 单日 +8.41% 之后追高，历史胜率很差；业绩兑现不及预期即 20% 级回撤。", horizon: "1-3 个月 · 严设止损", weight: "≤10%" },
+      { category: "创新药 / 机器人（轮动接力）", tickers: ["科创创新药ETF (589120)", "机器人ETF (159530)"], role: "卫星", risk: 5, logic: "6月底-7月初单周 +19%~22% 的接力主线；港股生物科技 7/9 单日 +6.66%；资金在高景气赛道间快速轮动。", risks: "单周 20% 级波动的高 β 品种，轮动退潮极快，接最后一棒代价高昂。", horizon: "1-3 个月", weight: "≤5-8%" },
+      { category: "反内卷 / 顺周期修复", tickers: ["光伏ETF (515790)", "电池ETF (159755)", "化工类主题基金"], role: "卫星", risk: 4, logic: "价格法修改 + 16 项专项整治推进价格秩序修复，PPI 连升 4 个月；中金（储能电网、周期反转）与中信（覆铜板、玻纤等供需紧俏环节）的下半年方向与此共振。", risks: "政策落地与产能出清慢于预期；主题尚未形成持续赚钱效应，需要耐心。", horizon: "3-6 个月", weight: "≤10%" },
+      { category: "上游资源 / 油气（通胀对冲）", tickers: ["有色金属相关ETF (如 512400)", "油气类QDII (注意溢价)"], role: "卫星", risk: 4, logic: "PPI 结构中煤炭 +20.6%、有色矿采选 +25.5% 直接映射上游盈利弹性；美伊冲突反复给油价提供事件溢价。", risks: "地缘随时反转：停火修复日油气单日 -6% 同样常见；南方原油等 QDII 溢价曾超 20%。", horizon: "1-3 个月 · 事件驱动", weight: "≤8%" }
+    ],
+    notes: [
+      "关键日历：7/14 美国6月CPI → 7/15 中国二季度GDP → 7/20 LPR报价 → 7/28-29 美联储FOMC。事件密集期分批操作，避免满仓押注单一结果。",
+      "QDII 三查再下单：查溢价率（>2% 不买，6月曾有 12 只纳指ETF因高溢价集体停牌）、查限购状态（额度荒下「放宽一周即收紧」）、查汇率（人民币年内升值 5.5% 已直接侵蚀美元资产收益）。",
+      "哑铃结构是当前公募中期策略共识：一端科技成长（卫星、控制总量），一端红利低波 + 短债（核心、提供现金流）。单边押注科技的组合波动远超「平衡型」承受范围。",
+      "再平衡纪律：每季度或单一资产偏离目标 ±5 个百分点时，机械地「涨多的卖一点、跌多的买一点」——科创50 年内 +62% 之后，这条纪律恰恰最值钱。",
+      "费率红利：2026年起公募销售新规实施（主动权益认申购费上限 0.8%、持有超 1 年免销售服务费，行业年让利超 500 亿元）——优先场内 ETF 与 A 类份额长持，成本就是确定的超额收益。"
+    ]
+  },
+  spec: {
+    rules: [
+      "投机总仓位 ≤ 总资产 10%，单一主题 ≤ 5%——先定仓位，再谈方向。",
+      "进场前写好退出计划：-10%~-15% 无条件止损，+20%~+30% 分批止盈；亏损绝不用长期仓位「补仓摊薄」。",
+      "不加杠杆；不追单日涨幅 >5% 品种的次日高开；重大数据（CPI/GDP/FOMC）公布前后轻仓过事件。",
+      "以下内容为热点观察、非操作建议——每一条都可能让你在一周内亏损两位数。"
+    ],
+    items: [
+      { theme: "存储 / 先进封装「主升浪追击」", heat: "极高热度", drivers: "SK 海力士今日以史上最大外国 IPO 登陆美股；三星季度利润指引同比增约 18 倍；兆易创新单日一度 +22%、中芯国际创新高——中美存储链共振。", catalysts: "7月中下旬 A股中报预告；HBM 供需与涨价数据；SK 海力士上市首日表现。", vehicles: "科创半导体ETF (588170)、半导体设备类ETF；美股链为 QDII 覆盖（注意溢价）。", risks: "全市场最拥挤的交易：科创50 单日 +8.41% 后波动率极端放大，景气证伪或情绪退潮时 20% 级回撤起步，隔日追高历史胜率很差。", discipline: "仓位 ≤5%；只在回调日分批、不追 >5% 高开；-12% 硬止损。" },
+      { theme: "恒生科技「困境反转」博弈", heat: "中高热度", drivers: "上半年 -18.9% 的深度超跌 + 7月8日单日 +5% 回暖；南向资金年内净流入 3,246 亿港元；央行表态增加在港资产配置。", catalysts: "互联网中报盈利；美联储 7/28-29 会议后的美元流动性；AH 溢价收敛交易。", vehicles: "恒生科技ETF (513180)。", risks: "下跌趋势未确认扭转，反弹夭折概率不低；美债利率若再上行，港股估值端首当其冲。", discipline: "分 2-3 批建仓、单批 ≤3%；跌破 7月前低即退出。" },
+      { theme: "黄金超跌波段", heat: "中热度", drivers: "距 1月峰值 -26% 的深度回调 + 6月「百亿出逃」式恐慌赎回已释放；高盛目标价 $4,900；央行购金未停。", catalysts: "7/14 美国 CPI（若通胀回落→实际利率下行利好）；FOMC 表态；中东局势升级。", vehicles: "黄金ETF (518880)。", risks: "本质是「接下跌中的刀」：若美联储真加息，实际利率上行会让金价再下一个台阶；波段做错变长套。", discipline: "总仓位 ≤5% 分 3 批；不加杠杆、不买杠杆金产品；跌破前低止损离场。" },
+      { theme: "油价地缘脉冲", heat: "高热度", drivers: "美伊停火破裂、霍尔木兹航运遇袭，布伦特单日 +5.9% 至 $79；冲突 2月曾把油价打到 $113 上方。", catalysts: "冲突升级或新停火（双向都是大波动）；OPEC 供给回应；美国战略储备操作。", vehicles: "油气类 QDII（南方原油等曾溢价 >20%，务必先查溢价）、油气开采相关ETF。", risks: "事件驱动 = 隔夜跳空双向：停火修复日 -6% 同样常见；高溢价买入雪上加霜。", discipline: "事件仓 ≤3%；只按事先写好的触发价买卖，不盘中临时起意。" },
+      { theme: "加密资产（仅观察，不建议参与）", heat: "深熊观察", drivers: "BTC 较 2025年10月峰值腰斩至 $62,643、约 2 万亿美元市值蒸发；现货 ETF 持续净赎回。", catalysts: "美联储政策若转向、ETF 资金流反转、杠杆清算尾声信号。", vehicles: "境内无合规参与渠道——本条仅作为全球风险偏好的「温度计」观察，不构成任何参与路径。", risks: "与「降息交易」深度绑定，联储转鹰下无宏观催化；波动极端且流动性风险高。", discipline: "不参与；仅用于辅助判断全球流动性与风险偏好。" }
+    ]
+  },
+  sources: [
+    { name: "国家统计局", url: "https://www.stats.gov.cn/sj/sjjd/202607/t20260709_1964082.html" },
+    { name: "中国人民银行", url: "https://www.pbc.gov.cn/zhengcehuobisi/125207/125217/125925/2026070709021779660/index.html" },
+    { name: "美联储 FOMC", url: "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm" },
+    { name: "美国劳工统计局", url: "https://www.bls.gov/news.release/archives/cpi_06102026.htm" },
+    { name: "欧洲央行", url: "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.mp260611~4d41bd5e83.en.html" },
+    { name: "CNBC", url: "https://www.cnbc.com/2026/07/02/jobs-report-june-2026-.html" },
+    { name: "TheStreet 收盘报道", url: "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-july-9-2026" },
+    { name: "TradingEconomics", url: "https://tradingeconomics.com/commodity/gold" },
+    { name: "Slickcharts (标普/纳指YTD)", url: "https://www.slickcharts.com/sp500/returns/ytd" },
+    { name: "世界黄金协会", url: "https://www.gold.org/goldhub/research/gold-mid-year-outlook-2026" },
+    { name: "新浪财经", url: "https://www.sina.cn/news/detail/5318811238797126.html" },
+    { name: "东方财富", url: "https://finance.eastmoney.com/a/202607093800035631.html" },
+    { name: "证券时报", url: "https://www.stcn.com/article/detail/3993997.html" },
+    { name: "中国基金报", url: "https://www.chnfund.com/article/AR0859173d-e6e8-9840-955a-3a222a8fd7d2" },
+    { name: "每日经济新闻", url: "https://www.nbd.com.cn/articles/2026-07-08/4460955.html" },
+    { name: "中国金融信息网 (债券ETF)", url: "https://www.cnfin.com/zs-lb/detail/20260702/4434487_1.html" },
+    { name: "中指研究院", url: "https://www.cih-index.com/news/2026-07-03/54848968.html" },
+    { name: "财新", url: "https://economy.caixin.com/2026-06-30/102459073.html" },
+    { name: "中证报·十大投行", url: "https://jnzstatic.cs.com.cn/zzb/htmlInfo/8ce890179b6e794818992db9f0f63b6a.html" },
+    { name: "21经济网 (QDII额度)", url: "https://www.21jingji.com/article/20260411/herald/0f3c75d5a786d161d479137d1bc354f1.html" },
+    { name: "HaoETF (纳指ETF溢价)", url: "https://www.haoetf.com/qdii/513100" },
+    { name: "界面新闻 (费率改革)", url: "https://www.jiemian.com/article/13835385.html" }
+  ]
+};
+
+let DATA = null;
+
+/* ================= 工具函数 ================= */
+const $ = (s, r) => (r || document).querySelector(s);
+const el = (tag, cls, text) => {
+  const n = document.createElement(tag);
+  if (cls) n.className = cls;
+  if (text != null) n.textContent = text;
+  return n;
+};
+const NS = "http://www.w3.org/2000/svg";
+const svgEl = (tag, attrs) => {
+  const n = document.createElementNS(NS, tag);
+  for (const k in (attrs || {})) n.setAttribute(k, attrs[k]);
+  return n;
+};
+const cssVar = (name) => getComputedStyle(document.documentElement).getPropertyValue(name).trim();
+const fmt = (v, d) => Number(v).toLocaleString("zh-CN", { maximumFractionDigits: d ?? 2 });
+const signed = (v, unit) => (v > 0 ? "+" : v < 0 ? "−" : "") + fmt(Math.abs(v), Math.abs(v) < 10 ? 2 : 1) + (unit || "");
+function niceTicks(min, max, n) {
+  if (min === max) { min -= 1; max += 1; }
+  const span = max - min, step0 = span / (n || 4);
+  const mag = Math.pow(10, Math.floor(Math.log10(step0)));
+  const norm = step0 / mag;
+  const step = (norm >= 5 ? 10 : norm >= 2.2 ? 5 : norm >= 1.2 ? 2 : 1) * mag;
+  const lo = Math.floor(min / step) * step, hi = Math.ceil(max / step) * step;
+  const ticks = [];
+  for (let t = lo; t <= hi + 1e-9; t += step) ticks.push(Math.round(t * 1e6) / 1e6);
+  return { lo, hi, ticks };
+}
+
+/* ================= 提示框 ================= */
+const tooltip = {
+  node: null,
+  show(rows, title, x, y) {
+    const t = this.node; t.textContent = "";
+    if (title) t.appendChild(el("div", "tt-t", title));
+    for (const r of rows) {
+      const row = el("div", "row");
+      const k = el("span", "k"); k.style.background = r.color || "transparent";
+      if (!r.color) k.style.width = "0";
+      row.appendChild(k);
+      row.appendChild(el("span", "n", r.name));
+      row.appendChild(el("span", "v", r.value));
+      t.appendChild(row);
+    }
+    t.style.display = "block";
+    const pad = 14, w = t.offsetWidth, h = t.offsetHeight;
+    let px = x + pad, py = y + pad;
+    if (px + w > innerWidth - 8) px = x - w - pad;
+    if (py + h > innerHeight - 8) py = y - h - pad;
+    t.style.left = px + "px"; t.style.top = py + "px";
+  },
+  hide() { this.node.style.display = "none"; }
+};
+
+/* ================= 图表：容器 + 表格孪生 ================= */
+function makeFigure(container, title, subtitle, tableSpec) {
+  const fig = el("figure", "viz");
+  const hd = el("div", "fig-hd");
+  hd.appendChild(el("span", "t", title));
+  hd.appendChild(el("span", "s", subtitle || ""));
+  const btn = el("button", "tbl-btn", "表格");
+  hd.appendChild(btn);
+  fig.appendChild(hd);
+  const body = el("div", "fig-body");
+  fig.appendChild(body);
+  container.appendChild(fig);
+  let showingTable = false, renderChart = null;
+  btn.addEventListener("click", () => {
+    showingTable = !showingTable;
+    btn.textContent = showingTable ? "图表" : "表格";
+    body.textContent = "";
+    if (showingTable) body.appendChild(buildTable(tableSpec));
+    else renderChart && renderChart();
+  });
+  function buildTable(spec) {
+    const wrap = el("div", "tblwrap");
+    const tb = el("table");
+    const trh = el("tr");
+    spec.head.forEach(h => trh.appendChild(el("th", null, h)));
+    tb.appendChild(trh);
+    spec.rows.forEach(r => {
+      const tr = el("tr");
+      r.forEach(c => tr.appendChild(el("td", null, String(c))));
+      tb.appendChild(tr);
+    });
+    wrap.appendChild(tb);
+    return wrap;
+  }
+  return {
+    body,
+    setRenderer(fn) { renderChart = fn; if (!showingTable) fn(); },
+    isTable: () => showingTable
+  };
+}
+
+function roundedBarPath(x, y, w, h, r, roundEnd) {
+  r = Math.min(r, h / 2, Math.abs(w));
+  if (w <= 0) return "";
+  if (roundEnd === "right")
+    return `M${x},${y} h${w - r} a${r},${r} 0 0 1 ${r},${r} v${h - 2 * r} a${r},${r} 0 0 1 ${-r},${r} h${-(w - r)} z`;
+  return `M${x + w},${y} v${h} h${-(w - r)} a${r},${r} 0 0 1 ${-r},${-r} v${-(h - 2 * r)} a${r},${r} 0 0 1 ${r},${-r} z`;
+}
+
+/* 横向发散条形图（红涨绿跌，值标注于端点） */
+function renderDivergingBars(container, opts) {
+  const rows = opts.rows;
+  const fig = makeFigure(container, opts.title, opts.subtitle, {
+    head: [opts.labelHead || "项目", opts.valueHead || "数值"],
+    rows: rows.map(r => [r.label, signed(r.value, opts.unit)])
+  });
+  fig.setRenderer(draw);
+  addEventListener("resize", debounce(() => { if (!fig.isTable()) draw(); }, 200));
+  function draw() {
+    fig.body.textContent = "";
+    const W = Math.max(320, fig.body.clientWidth || container.clientWidth || 600);
+    const barH = 17, gap = 11, mL = opts.labelWidth || 96, mR = 56, mT = 8, mB = 22;
+    const H = mT + rows.length * (barH + gap) - gap + mB;
+    const svg = svgEl("svg", { viewBox: `0 0 ${W} ${H}`, width: W, height: H, role: "img" });
+    svg.setAttribute("aria-label", opts.title);
+    const vals = rows.map(r => r.value);
+    const { lo, hi, ticks } = niceTicks(Math.min(0, ...vals), Math.max(0, ...vals), 5);
+    const xScale = v => mL + (v - lo) / (hi - lo) * (W - mL - mR);
+    ticks.forEach(t => {
+      svg.appendChild(svgEl("line", { x1: xScale(t), y1: mT - 2, x2: xScale(t), y2: H - mB, stroke: cssVar("--grid"), "stroke-width": 1 }));
+      const tx = svgEl("text", { x: xScale(t), y: H - 6, "text-anchor": "middle", "font-size": 11, fill: cssVar("--muted") });
+      tx.textContent = t + (opts.unit || "");
+      svg.appendChild(tx);
+    });
+    svg.appendChild(svgEl("line", { x1: xScale(0), y1: mT - 2, x2: xScale(0), y2: H - mB, stroke: cssVar("--baseline"), "stroke-width": 1.5 }));
+    rows.forEach((r, i) => {
+      const y = mT + i * (barH + gap);
+      const lb = svgEl("text", { x: mL - 8, y: y + barH / 2 + 4, "text-anchor": "end", "font-size": 12, fill: cssVar("--ink-2") });
+      lb.textContent = r.label;
+      svg.appendChild(lb);
+      const x0 = xScale(0), x1 = xScale(r.value);
+      const up = r.value >= 0;
+      const path = svgEl("path", {
+        d: up ? roundedBarPath(x0, y, x1 - x0, barH, 4, "right")
+              : roundedBarPath(x1, y, x0 - x1, barH, 4, "left"),
+        fill: up ? cssVar("--up-mark") : cssVar("--down-mark"),
+        tabindex: 0
+      });
+      const vt = svgEl("text", {
+        x: up ? x1 + 6 : x1 - 6, y: y + barH / 2 + 4,
+        "text-anchor": up ? "start" : "end",
+        "font-size": 11.5, "font-weight": 600, fill: cssVar("--ink")
+      });
+      vt.textContent = signed(r.value, opts.unit);
+      const hit = svgEl("rect", { x: mL, y: y - gap / 2, width: W - mL - mR, height: barH + gap, fill: "transparent" });
+      const showTip = (e) => {
+        path.setAttribute("opacity", "0.82");
+        const pt = e.touches ? e.touches[0] : e;
+        tooltip.show([{ name: r.label, value: signed(r.value, opts.unit), color: up ? cssVar("--up-mark") : cssVar("--down-mark") }],
+          r.note || opts.tipTitle || "", pt.clientX ?? (innerWidth / 2), pt.clientY ?? 100);
+      };
+      const hideTip = () => { path.removeAttribute("opacity"); tooltip.hide(); };
+      hit.addEventListener("pointermove", showTip);
+      hit.addEventListener("pointerleave", hideTip);
+      path.addEventListener("focus", (e) => { const b = path.getBoundingClientRect(); tooltip.show([{ name: r.label, value: signed(r.value, opts.unit) }], r.note || "", b.right, b.top); });
+      path.addEventListener("blur", hideTip);
+      svg.appendChild(path); svg.appendChild(vt); svg.appendChild(hit);
+    });
+    fig.body.appendChild(svg);
+  }
+}
+
+/* 多序列折线图（十字线 + 全序列提示框 + 端点直标 + 图例） */
+function renderLineChart(container, opts) {
+  const { xLabels, series } = opts;
+  const fig = makeFigure(container, opts.title, opts.subtitle, {
+    head: [opts.xHead || "时间", ...series.map(s => s.name)],
+    rows: xLabels.map((x, i) => [x, ...series.map(s => s.values[i] == null ? "—" : fmt(s.values[i], 2) + (opts.unit || ""))])
+  });
+  if (series.length >= 2) {
+    const lg = el("div", "legend");
+    series.forEach(s => {
+      const it = el("span", "it");
+      const sw = el("span", "sw-line"); sw.style.background = s.color;
+      it.appendChild(sw); it.appendChild(el("span", null, s.name));
+      lg.appendChild(it);
+    });
+    container.querySelector("figure.viz:last-of-type .fig-hd").after(lg);
+  }
+  fig.setRenderer(draw);
+  addEventListener("resize", debounce(() => { if (!fig.isTable()) draw(); }, 200));
+  function draw() {
+    fig.body.textContent = "";
+    const W = Math.max(320, fig.body.clientWidth || container.clientWidth || 600);
+    const H = opts.height || 240, mL = 42, mR = opts.rightMargin || 92, mT = 12, mB = 26;
+    const svg = svgEl("svg", { viewBox: `0 0 ${W} ${H}`, width: W, height: H, role: "img" });
+    svg.setAttribute("aria-label", opts.title);
+    const all = series.flatMap(s => s.values).filter(v => v != null);
+    let base = opts.baseline != null ? [opts.baseline] : [];
+    const { lo, hi, ticks } = niceTicks(Math.min(...all, ...base), Math.max(...all, ...base), 4);
+    const xS = i => mL + i / Math.max(1, xLabels.length - 1) * (W - mL - mR);
+    const yS = v => mT + (1 - (v - lo) / (hi - lo)) * (H - mT - mB);
+    ticks.forEach(t => {
+      svg.appendChild(svgEl("line", { x1: mL, y1: yS(t), x2: W - mR + 30, y2: yS(t), stroke: cssVar("--grid"), "stroke-width": 1 }));
+      const tx = svgEl("text", { x: mL - 6, y: yS(t) + 4, "text-anchor": "end", "font-size": 11, fill: cssVar("--muted") });
+      tx.textContent = t + (opts.unit || "");
+      svg.appendChild(tx);
+    });
+    xLabels.forEach((x, i) => {
+      if (xLabels.length > 8 && i % 2) return;
+      const tx = svgEl("text", { x: xS(i), y: H - 8, "text-anchor": "middle", "font-size": 11, fill: cssVar("--muted") });
+      tx.textContent = x;
+      svg.appendChild(tx);
+    });
+    if (opts.baseline != null) {
+      svg.appendChild(svgEl("line", { x1: mL, y1: yS(opts.baseline), x2: W - mR + 30, y2: yS(opts.baseline), stroke: cssVar("--baseline"), "stroke-width": 1.5 }));
+      const bl = svgEl("text", { x: W - mR + 32, y: yS(opts.baseline) + 4, "font-size": 11, fill: cssVar("--muted") });
+      bl.textContent = opts.baselineLabel || String(opts.baseline);
+      svg.appendChild(bl);
+    }
+    const crossline = svgEl("line", { y1: mT, y2: H - mB, stroke: cssVar("--baseline"), "stroke-width": 1, opacity: 0 });
+    svg.appendChild(crossline);
+    const endLabels = [];
+    series.forEach(s => {
+      const pts = s.values.map((v, i) => v == null ? null : [xS(i), yS(v)]).filter(Boolean);
+      let d = "";
+      let prev = null;
+      s.values.forEach((v, i) => {
+        if (v == null) { prev = null; return; }
+        const X = xS(i), Y = yS(v);
+        if (prev == null) d += `M${X},${Y}`;
+        else if (s.step) d += `L${X},${prev[1]} L${X},${Y}`;
+        else d += ` L${X},${Y}`;
+        prev = [X, Y];
+      });
+      if (s.area) {
+        const first = pts[0], last = pts[pts.length - 1];
+        const ad = d + ` L${last[0]},${H - mB} L${first[0]},${H - mB} Z`;
+        svg.appendChild(svgEl("path", { d: ad, fill: s.color, opacity: 0.1 }));
+      }
+      svg.appendChild(svgEl("path", { d, fill: "none", stroke: s.color, "stroke-width": 2, "stroke-linejoin": "round", "stroke-linecap": "round" }));
+      const last = pts[pts.length - 1];
+      svg.appendChild(svgEl("circle", { cx: last[0], cy: last[1], r: 4.5, fill: s.color, stroke: cssVar("--surface"), "stroke-width": 2 }));
+      const lastVal = s.values.filter(v => v != null).slice(-1)[0];
+      endLabels.push({ y: last[1], x: last[0], name: s.short || s.name, val: lastVal, color: s.color });
+    });
+    endLabels.sort((a, b) => a.y - b.y);
+    for (let i = 1; i < endLabels.length; i++)
+      if (endLabels[i].y - endLabels[i - 1].y < 15) endLabels[i].y = endLabels[i - 1].y + 15;
+    endLabels.forEach(L => {
+      const t = svgEl("text", { x: L.x + 9, y: L.y + 4, "font-size": 11.5, fill: cssVar("--ink-2") });
+      const tv = svgEl("tspan", { "font-weight": 650, fill: cssVar("--ink") });
+      tv.textContent = fmt(L.val, 2) + (opts.unit || "");
+      t.textContent = (series.length > 1 ? L.name + " " : "");
+      t.appendChild(tv);
+      svg.appendChild(t);
+    });
+    const hit = svgEl("rect", { x: mL, y: mT, width: W - mL - mR + 30, height: H - mT - mB, fill: "transparent" });
+    hit.addEventListener("pointermove", (e) => {
+      const rect = svg.getBoundingClientRect();
+      const relX = (e.clientX - rect.left) * (W / rect.width);
+      let idx = Math.round((relX - mL) / ((W - mL - mR) / Math.max(1, xLabels.length - 1)));
+      idx = Math.max(0, Math.min(xLabels.length - 1, idx));
+      crossline.setAttribute("x1", xS(idx)); crossline.setAttribute("x2", xS(idx));
+      crossline.setAttribute("opacity", 1);
+      tooltip.show(series.map(s => ({
+        name: s.name, color: s.color,
+        value: s.values[idx] == null ? "—" : fmt(s.values[idx], 2) + (opts.unit || "")
+      })), xLabels[idx], e.clientX, e.clientY);
+    });
+    hit.addEventListener("pointerleave", () => { crossline.setAttribute("opacity", 0); tooltip.hide(); });
+    svg.appendChild(hit);
+    fig.body.appendChild(svg);
+  }
+}
+
+/* 100% 堆叠横条（配置结构） */
+function renderStackedBar(container, opts) {
+  const segs = opts.segments;
+  const total = segs.reduce((a, s) => a + s.pct, 0);
+  const fig = makeFigure(container, opts.title, opts.subtitle, {
+    head: ["资产类别", "建议占比", "说明"],
+    rows: segs.map(s => [s.label, s.pct + "%", s.note || ""])
+  });
+  fig.setRenderer(draw);
+  addEventListener("resize", debounce(() => { if (!fig.isTable()) draw(); }, 200));
+  function draw() {
+    fig.body.textContent = "";
+    const W = Math.max(320, fig.body.clientWidth || container.clientWidth || 600);
+    const H = 34, barH = 26;
+    const svg = svgEl("svg", { viewBox: `0 0 ${W} ${H}`, width: W, height: H, role: "img" });
+    svg.setAttribute("aria-label", opts.title);
+    const segColor = s => (s.color && s.color.startsWith("--")) ? cssVar(s.color) : s.color;
+    let x = 0;
+    segs.forEach((s, i) => {
+      const w = s.pct / total * W - (i < segs.length - 1 ? 2 : 0);
+      const r = svgEl("rect", { x, y: 4, width: Math.max(0, w), height: barH, rx: 4, fill: segColor(s), tabindex: 0 });
+      const show = (e) => {
+        r.setAttribute("opacity", "0.85");
+        const pt = e.touches ? e.touches[0] : e;
+        tooltip.show([{ name: s.label, value: s.pct + "%", color: segColor(s) }], s.note || "建议配置比例", pt.clientX ?? innerWidth / 2, pt.clientY ?? 100);
+      };
+      const hide = () => { r.removeAttribute("opacity"); tooltip.hide(); };
+      r.addEventListener("pointermove", show);
+      r.addEventListener("pointerleave", hide);
+      r.addEventListener("focus", () => { const b = r.getBoundingClientRect(); tooltip.show([{ name: s.label, value: s.pct + "%" }], s.note || "", b.left + b.width / 2, b.top); });
+      r.addEventListener("blur", hide);
+      svg.appendChild(r);
+      if (w > 58) {
+        const t = svgEl("text", { x: x + w / 2, y: 4 + barH / 2 + 4, "text-anchor": "middle", "font-size": 11.5, "font-weight": 600, fill: "#ffffff" });
+        t.textContent = `${s.label} ${s.pct}%`;
+        svg.appendChild(t);
+      }
+      x += s.pct / total * W;
+    });
+    fig.body.appendChild(svg);
+    const lg = el("div", "legend");
+    segs.forEach(s => {
+      const it = el("span", "it");
+      const sw = el("span", "sw-rect"); sw.style.background = segColor(s);
+      it.appendChild(sw); it.appendChild(el("span", null, `${s.label} ${s.pct}%`));
+      lg.appendChild(it);
+    });
+    fig.body.appendChild(lg);
+  }
+}
+
+function debounce(fn, ms) { let t; return (...a) => { clearTimeout(t); t = setTimeout(() => fn(...a), ms); }; }
+
+/* ================= 页面渲染 ================= */
+function kpiTile(k) {
+  const t = el("div", "tile");
+  t.appendChild(el("div", "lb", k.label));
+  t.appendChild(el("div", "vl", k.value));
+  const dirCls = k.dir === "up" ? "up" : k.dir === "down" ? "down" : "flat";
+  const arrow = k.dir === "up" ? "▲ " : k.dir === "down" ? "▼ " : "· ";
+  const d = el("div", "dt " + dirCls);
+  d.textContent = arrow + k.delta + " ";
+  const per = el("span", "per", k.deltaLabel || "");
+  d.appendChild(per);
+  t.appendChild(d);
+  return t;
+}
+function newsCard(n) {
+  const c = el("article", "news");
+  const top = el("div", "top");
+  top.appendChild(el("span", "tag", n.tag));
+  top.appendChild(el("span", null, n.date));
+  c.appendChild(top);
+  c.appendChild(el("h4", null, n.title));
+  c.appendChild(el("div", "sum", n.summary));
+  const imp = el("div", "imp");
+  const b = el("b", null, "市场含义 · ");
+  imp.appendChild(b);
+  imp.appendChild(document.createTextNode(n.implication));
+  c.appendChild(imp);
+  if (n.source) {
+    const s = el("div", "src");
+    s.appendChild(document.createTextNode("来源："));
+    const a = el("a", null, n.source.name);
+    a.href = n.source.url; a.target = "_blank"; a.rel = "noopener";
+    s.appendChild(a);
+    c.appendChild(s);
+  }
+  return c;
+}
+function riskDots(n) {
+  const w = el("span", "risk-dots");
+  for (let i = 1; i <= 5; i++) w.appendChild(el("i", i <= n ? "on" : ""));
+  return w;
+}
+function fundCard(f) {
+  const c = el("article", "fund");
+  const hd = el("div", "hd");
+  hd.appendChild(el("h4", null, f.category));
+  const role = el("span", "role " + (f.role === "核心" ? "core" : "sat"), f.role + "仓");
+  hd.appendChild(role);
+  c.appendChild(hd);
+  const tks = el("div", "tickers");
+  f.tickers.forEach(t => tks.appendChild(el("span", "tk", t)));
+  c.appendChild(tks);
+  const lg = el("div", "lg");
+  lg.appendChild(el("b", null, "逻辑："));
+  lg.appendChild(document.createTextNode(f.logic));
+  c.appendChild(lg);
+  const rk = el("div", "rk");
+  rk.appendChild(el("b", null, "风险："));
+  rk.appendChild(document.createTextNode(f.risks));
+  c.appendChild(rk);
+  const meta = el("div", "meta");
+  const rd = el("span");
+  rd.appendChild(document.createTextNode("风险等级 "));
+  rd.appendChild(riskDots(f.risk));
+  meta.appendChild(rd);
+  meta.appendChild(el("span", null, "建议持有：" + f.horizon));
+  if (f.weight) meta.appendChild(el("span", null, "参考仓位：" + f.weight));
+  c.appendChild(meta);
+  return c;
+}
+
+function renderAll() {
+  if (!DATA) { document.body.textContent = "数据未注入"; return; }
+  $("#risk-chip").textContent = "";
+  $("#risk-chip").appendChild(document.createTextNode("风险偏好 "));
+  $("#risk-chip").appendChild(el("b", null, DATA.meta.riskProfile));
+  $("#meta-line").textContent = `数据截至 ${DATA.meta.generatedAt} ｜ 覆盖范围：${DATA.meta.scope} ｜ 每日自动更新 ｜ ${window.__dataLive ? "🟢 在线数据" : "📦 内置快照"}`;
+
+  /* ---- 总览 ---- */
+  const ov = $("#panel-overview");
+  const hero = el("div", "card hero-card");
+  hero.appendChild(el("div", "hero-kicker", "今日焦点 TODAY'S FOCUS"));
+  hero.appendChild(el("div", "hero-num", DATA.overview.heroTitle));
+  hero.appendChild(el("div", "hero-desc", DATA.overview.heroDesc));
+  ov.appendChild(hero);
+  const jwrap = el("div", "card");
+  jwrap.appendChild(el("h2", null, "三条核心判断"));
+  const jd = el("div", "judgments");
+  DATA.overview.judgments.forEach((j, i) => {
+    const d = el("div", "jd");
+    d.appendChild(el("div", "no", "判断 " + "一二三四五"[i]));
+    d.appendChild(el("div", "tt", j.title));
+    d.appendChild(el("p", null, j.desc));
+    jd.appendChild(d);
+  });
+  jwrap.appendChild(jd);
+  ov.appendChild(jwrap);
+  const gk = el("div", "card");
+  gk.appendChild(el("h2", null, "🌍 全球关键指标"));
+  gk.appendChild(el("div", "desc", "点位与年内涨跌 · 悬停各模块图表可看明细"));
+  const gkg = el("div", "kpis");
+  DATA.global.kpis.forEach(k => gkg.appendChild(kpiTile(k)));
+  gk.appendChild(gkg);
+  ov.appendChild(gk);
+  const ck = el("div", "card");
+  ck.appendChild(el("h2", null, "🇨🇳 中国关键指标"));
+  const ckg = el("div", "kpis");
+  DATA.china.kpis.forEach(k => ckg.appendChild(kpiTile(k)));
+  ck.appendChild(ckg);
+  ov.appendChild(ck);
+
+  /* ---- 全球 / 全国 热点 ---- */
+  const gp = $("#panel-global");
+  const gt = el("div", "sec-title");
+  gt.appendChild(document.createTextNode("全球财经热点"));
+  gt.appendChild(el("span", "chip", DATA.global.news.length + " 条 · " + DATA.meta.newsWindow));
+  gp.appendChild(gt);
+  const gkpi = el("div", "kpis");
+  DATA.global.kpis.forEach(k => gkpi.appendChild(kpiTile(k)));
+  gp.appendChild(gkpi);
+  const gl = el("div", "news-list");
+  DATA.global.news.forEach(n => gl.appendChild(newsCard(n)));
+  gp.appendChild(gl);
+
+  const cp = $("#panel-china");
+  const ct = el("div", "sec-title");
+  ct.appendChild(document.createTextNode("全国财经热点"));
+  ct.appendChild(el("span", "chip", DATA.china.news.length + " 条 · " + DATA.meta.newsWindow));
+  cp.appendChild(ct);
+  const ckpi = el("div", "kpis");
+  DATA.china.kpis.forEach(k => ckpi.appendChild(kpiTile(k)));
+  cp.appendChild(ckpi);
+  const cl = el("div", "news-list");
+  DATA.china.news.forEach(n => cl.appendChild(newsCard(n)));
+  cp.appendChild(cl);
+
+  /* ---- 走向分析 ---- */
+  const tp = $("#panel-trend");
+  tp.appendChild(el("div", "sec-title", "经济发展走向分析"));
+  const chart1 = el("div", "card");
+  renderDivergingBars(chart1, {
+    title: "主要资产 2026 年内表现（YTD）",
+    subtitle: "涨跌幅 %（红涨绿跌，A股惯例）· 数据见页脚来源",
+    unit: "%", labelWidth: 104,
+    rows: DATA.trend.assetYTD,
+    tipTitle: "年初至今涨跌幅"
+  });
+  tp.appendChild(chart1);
+  const g2 = el("div", "grid2");
+  const cA = el("div", "card");
+  renderLineChart(cA, {
+    title: "中国：CPI 与 PPI 同比",
+    subtitle: "近 6 个月 · %",
+    unit: "%", xLabels: DATA.trend.chinaMacro.months,
+    series: [
+      { name: "CPI同比", short: "CPI", color: cssVar("--s1"), values: DATA.trend.chinaMacro.cpi },
+      { name: "PPI同比", short: "PPI", color: cssVar("--s2"), values: DATA.trend.chinaMacro.ppi }
+    ]
+  });
+  const cB = el("div", "card");
+  renderLineChart(cB, {
+    title: "中国：制造业 PMI",
+    subtitle: "近 6 个月 · 50 为荣枯线",
+    xLabels: DATA.trend.chinaMacro.months,
+    baseline: 50, baselineLabel: "荣枯线",
+    series: [{ name: "制造业PMI", color: cssVar("--s1"), values: DATA.trend.chinaMacro.pmi, area: true }]
+  });
+  g2.appendChild(cA); g2.appendChild(cB);
+  tp.appendChild(g2);
+  const cUS = el("div", "card");
+  renderLineChart(cUS, {
+    title: "美国：CPI 同比 与 联邦基金利率上限",
+    subtitle: "近 6 个月 · %（同为百分比，共用一轴）",
+    unit: "%", xLabels: DATA.trend.usMacro.months,
+    series: [
+      { name: "CPI同比", short: "CPI", color: cssVar("--s1"), values: DATA.trend.usMacro.cpi },
+      { name: "联邦基金利率上限", short: "利率上限", color: cssVar("--s5"), values: DATA.trend.usMacro.ffr, step: true }
+    ]
+  });
+  tp.appendChild(cUS);
+  const anG = el("div", "card prose");
+  anG.appendChild(el("h2", null, "🌍 全球走向研判"));
+  DATA.trend.globalAnalysis.forEach(p => anG.appendChild(el("p", null, p)));
+  tp.appendChild(anG);
+  const anC = el("div", "card prose");
+  anC.appendChild(el("h2", null, "🇨🇳 中国走向研判"));
+  DATA.trend.chinaAnalysis.forEach(p => anC.appendChild(el("p", null, p)));
+  tp.appendChild(anC);
+  const sc = el("div", "card");
+  sc.appendChild(el("h2", null, "未来 6-12 个月情景推演"));
+  sc.appendChild(el("div", "desc", "概率为主观估计，仅供思考框架参考"));
+  const scg = el("div", "scen");
+  DATA.trend.scenarios.forEach(s => {
+    const d = el("div", "sc");
+    const nm = el("div", "nm");
+    nm.appendChild(el("span", null, s.name));
+    nm.appendChild(el("span", "pb", s.prob));
+    d.appendChild(nm);
+    d.appendChild(el("p", null, s.desc));
+    scg.appendChild(d);
+  });
+  sc.appendChild(scg);
+  tp.appendChild(sc);
+
+  /* ---- 基金建议 ---- */
+  const fp = $("#panel-funds");
+  fp.appendChild(el("div", "sec-title", "基金配置建议（平衡型）"));
+  const wb = el("div", "warn-banner");
+  wb.appendChild(el("b", null, "请先阅读："));
+  wb.appendChild(document.createTextNode("以下为基于公开信息的研究梳理，不构成投资建议；具体品种仅为该类别的常见代表示例，非推荐买入。申购前请自行核对基金费率、限购状态、溢价率与自身风险承受能力。"));
+  fp.appendChild(wb);
+  const alloc = el("div", "card");
+  renderStackedBar(alloc, {
+    title: "平衡型参考配置框架",
+    subtitle: "长期视角的核心-卫星结构 · 悬停查看说明",
+    segments: DATA.funds.allocation
+  });
+  fp.appendChild(alloc);
+  const lt = el("div", "card");
+  lt.appendChild(el("h2", null, "🏔️ 长期方向（1 年以上）"));
+  lt.appendChild(el("div", "desc", "着眼于估值、股息与长期产业趋势，适合定投或分批建仓"));
+  const ltg = el("div", "fund-grid");
+  DATA.funds.longTerm.forEach(f => ltg.appendChild(fundCard(f)));
+  lt.appendChild(ltg);
+  fp.appendChild(lt);
+  const st = el("div", "card");
+  st.appendChild(el("h2", null, "🌊 短期方向（1-6 个月）"));
+  st.appendChild(el("div", "desc", "跟随当前政策与资金热点，波动更大，需设定退出纪律"));
+  const stg = el("div", "fund-grid");
+  DATA.funds.shortTerm.forEach(f => stg.appendChild(fundCard(f)));
+  st.appendChild(stg);
+  fp.appendChild(st);
+  const fn = el("div", "card prose");
+  fn.appendChild(el("h2", null, "操作要点"));
+  DATA.funds.notes.forEach(p => {
+    const d = el("div", "callout");
+    d.textContent = p;
+    fn.appendChild(d);
+  });
+  fp.appendChild(fn);
+
+  /* ---- 投机观察 ---- */
+  const sp = $("#panel-spec");
+  sp.appendChild(el("div", "sec-title", "投机观察（高风险）"));
+  const swb = el("div", "warn-banner");
+  const sb = el("b", null, "⚠️ 高风险警示：");
+  swb.appendChild(sb);
+  swb.appendChild(document.createTextNode("以下主题波动剧烈、可能快速亏损，仅为热点观察而非建议。若参与，请务必遵守："));
+  const ul = el("ul");
+  DATA.spec.rules.forEach(r => ul.appendChild(el("li", null, r)));
+  swb.appendChild(ul);
+  sp.appendChild(swb);
+  DATA.spec.items.forEach(it => {
+    const c = el("article", "spec-card");
+    const hd = el("div", "hd");
+    hd.appendChild(el("h4", null, it.theme));
+    hd.appendChild(el("span", "hot", it.heat));
+    c.appendChild(hd);
+    const dl = el("dl");
+    const add = (k, v, cls) => {
+      dl.appendChild(el("dt", null, k));
+      dl.appendChild(el("dd", cls || null, v));
+    };
+    add("驱动因素", it.drivers);
+    add("潜在催化", it.catalysts);
+    add("相关品种", it.vehicles);
+    add("主要风险", it.risks, "risk");
+    add("参与纪律", it.discipline);
+    c.appendChild(dl);
+    sp.appendChild(c);
+  });
+
+  /* ---- 页脚 ---- */
+  const srcList = $("#src-list");
+  DATA.sources.forEach(s => {
+    const a = el("a", null, s.name);
+    a.href = s.url; a.target = "_blank"; a.rel = "noopener";
+    srcList.appendChild(a);
+  });
+  $("#full-disc").textContent = DATA.meta.fullDisclaimer;
+}
+
+/* ================= 标签页与主题 ================= */
+function initTabs() {
+  const tabs = [...document.querySelectorAll(".tab")];
+  function activate(name) {
+    tabs.forEach(t => t.setAttribute("aria-selected", t.dataset.tab === name ? "true" : "false"));
+    document.querySelectorAll("main section[role=tabpanel]").forEach(s => s.classList.toggle("active", s.id === "panel-" + name));
+    dispatchEvent(new Event("resize"));
+  }
+  tabs.forEach(t => t.addEventListener("click", () => activate(t.dataset.tab)));
+  activate("overview");
+}
+function initTheme() {
+  const order = ["auto", "light", "dark"];
+  let mode = "auto";
+  const apply = () => {
+    const sysDark = matchMedia("(prefers-color-scheme: dark)").matches;
+    const dark = mode === "dark" || (mode === "auto" && sysDark);
+    document.documentElement.setAttribute("data-theme", dark ? "dark" : "light");
+    $("#theme-btn").textContent = mode === "auto" ? "🌓 主题·自动" : (mode === "dark" ? "🌙 深色" : "☀️ 浅色");
+    document.querySelectorAll("main section").forEach(() => {});
+    dispatchEvent(new Event("theme"));
+  };
+  $("#theme-btn").addEventListener("click", () => {
+    mode = order[(order.indexOf(mode) + 1) % order.length];
+    apply();
+    rerenderCharts();
+  });
+  matchMedia("(prefers-color-scheme: dark)").addEventListener("change", apply);
+  apply();
+}
+function rerenderCharts() {
+  document.querySelectorAll("main section").forEach(s => s.textContent = "");
+  $("#src-list").textContent = "";
+  renderAll();
+  initTabsKeepActive();
+}
+function initTabsKeepActive() {
+  const cur = [...document.querySelectorAll(".tab")].find(t => t.getAttribute("aria-selected") === "true");
+  const name = cur ? cur.dataset.tab : "overview";
+  document.querySelectorAll("main section[role=tabpanel]").forEach(s => s.classList.toggle("active", s.id === "panel-" + name));
+}
+
+tooltip.node = $("#tooltip");
+(async function boot() {
+  let live = false;
+  try {
+    const r = await fetch("data/data.json?v=" + Date.now(), { cache: "no-store" });
+    if (r.ok) { DATA = await r.json(); live = true; }
+  } catch (e) { /* file:// 或离线时走内置快照 */ }
+  if (!DATA || !DATA.meta) DATA = FALLBACK_DATA;
+  window.__dataLive = live;
+  renderAll();
+  initTabs();
+  initTheme();
+})();
+</script>
+</body>
+</html>
