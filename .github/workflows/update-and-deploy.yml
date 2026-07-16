@@ -33,7 +33,7 @@ jobs:
 
       - name: 安装依赖
         if: github.event_name != 'push'
-        run: pip install requests
+        run: pip install requests yfinance
 
       - name: 抓取行情
         if: github.event_name != 'push'

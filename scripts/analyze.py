@@ -396,7 +396,9 @@ def main():
 
     with open(DATA, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
-    print(f"data.json 已更新（{data['meta']['generatedAt']}，模型: {AI_MODEL if AI_KEY and not DRY else '未启用/干跑'}）")
+    mode = AI_MODEL if AI_KEY and not DRY else "未启用/干跑"
+    print(f"::notice::data.json 已更新（{data['meta']['generatedAt']}，AI: {mode}，行情品种: {len((mk.get('items') or {}))}）")
+    print(f"data.json 已更新（{data['meta']['generatedAt']}，模型: {mode}）")
     return 0
 
 

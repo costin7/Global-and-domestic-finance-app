@@ -33,8 +33,29 @@ SYMBOLS = {
 
 UA = {"User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/126 Safari/537.36"}
 
+try:  # 优先 yfinance：内置处理 Yahoo 的 cookie/crumb 反爬（数据中心 IP 必需）
+    import yfinance as yf
+except ImportError:
+    yf = None
 
-def fetch_chart(symbol: str):
+
+def fetch_chart_yf(symbol: str):
+    t = yf.Ticker(symbol)
+    hist = t.history(period="1y", interval="1d", auto_adjust=False)
+    if hist is None or len(hist) < 5:
+        raise ValueError("yfinance 数据点过少")
+    pts = [(int(idx.timestamp()), float(c)) for idx, c in hist["Close"].items() if c == c]  # 过滤 NaN
+    if len(pts) < 5:
+        raise ValueError("yfinance 有效收盘价过少")
+    cur = ""
+    try:
+        cur = (t.fast_info or {}).get("currency") or ""
+    except Exception:  # noqa: BLE001
+        pass
+    return pts, cur
+
+
+def fetch_chart_raw(symbol: str):
     url = f"https://query1.finance.yahoo.com/v8/finance/chart/{requests.utils.quote(symbol)}"
     r = requests.get(url, params={"range": "1y", "interval": "1d"}, headers=UA, timeout=20)
     r.raise_for_status()
@@ -46,6 +67,15 @@ def fetch_chart(symbol: str):
         raise ValueError("数据点过少")
     meta = res.get("meta", {})
     return pts, meta.get("currency", "")
+
+
+def fetch_chart(symbol: str):
+    if yf is not None:
+        try:
+            return fetch_chart_yf(symbol)
+        except Exception:  # noqa: BLE001
+            pass  # 回退到裸接口
+    return fetch_chart_raw(symbol)
 
 
 def calc(key, pts, currency):
@@ -91,6 +121,7 @@ def main():
     os.makedirs(os.path.dirname(OUT), exist_ok=True)
     with open(OUT, "w", encoding="utf-8") as f:
         json.dump(out, f, ensure_ascii=False, indent=2)
+    print(f"::notice::行情抓取 {len(out['items'])}/{len(SYMBOLS)} 成功（{'yfinance' if yf else '裸接口'}）")
     print(f"行情抓取完成：{len(out['items'])}/{len(SYMBOLS)} 成功；警告 {len(out['warnings'])} 条")
     for w in out["warnings"][:8]:
         print("  -", w)
