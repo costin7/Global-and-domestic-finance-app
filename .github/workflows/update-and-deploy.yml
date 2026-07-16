@@ -66,8 +66,10 @@ jobs:
           cp index.html _site/
           cp data/data.json _site/data/
 
-      - name: 配置 Pages
+      - name: 配置 Pages（首次运行自动启用）
         uses: actions/configure-pages@v5
+        with:
+          enablement: true
 
       - name: 上传站点产物
         uses: actions/upload-pages-artifact@v3
