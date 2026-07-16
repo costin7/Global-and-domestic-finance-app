@@ -26,25 +26,25 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: 安装 Python
-        if: github.event_name != 'push'
+        if: github.event_name != 'push' || contains(github.event.head_commit.message, '[data]')
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
 
       - name: 安装依赖
-        if: github.event_name != 'push'
+        if: github.event_name != 'push' || contains(github.event.head_commit.message, '[data]')
         run: pip install requests yfinance
 
       - name: 抓取行情
-        if: github.event_name != 'push'
+        if: github.event_name != 'push' || contains(github.event.head_commit.message, '[data]')
         run: python scripts/fetch_market.py
 
       - name: 抓取新闻
-        if: github.event_name != 'push'
+        if: github.event_name != 'push' || contains(github.event.head_commit.message, '[data]')
         run: python scripts/fetch_news.py
 
       - name: AI 分析生成 data.json（模型由 AI_BASE_URL / AI_MODEL 变量决定）
-        if: github.event_name != 'push'
+        if: github.event_name != 'push' || contains(github.event.head_commit.message, '[data]')
         env:
           AI_API_KEY: ${{ secrets.AI_API_KEY }}
           AI_BASE_URL: ${{ vars.AI_BASE_URL }}
@@ -52,7 +52,7 @@ jobs:
         run: python scripts/analyze.py
 
       - name: 提交数据更新
-        if: github.event_name != 'push'
+        if: github.event_name != 'push' || contains(github.event.head_commit.message, '[data]')
         run: |
           git config user.name "fincompass-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"

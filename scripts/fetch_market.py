@@ -79,7 +79,8 @@ def fetch_chart(symbol: str):
 
 
 def calc(key, pts, currency):
-    scale = 0.1 if key == "ust10" else 1.0
+    # ^TNX 两种口径自适应：部分源返回收益率×10（如45.5），部分直接返回收益率（如4.55）
+    scale = (0.1 if pts[-1][1] > 20 else 1.0) if key == "ust10" else 1.0
     last_ts, last = pts[-1]
     prev = pts[-2][1]
     year = datetime.fromtimestamp(last_ts, BJT).year
