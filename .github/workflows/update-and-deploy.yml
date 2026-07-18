@@ -3,8 +3,7 @@ name: 每日更新并部署
 on:
   schedule:
     - cron: "23 0 * * *"       # UTC 00:23 = 北京时间 08:23（避开整点拥堵，GitHub 整点定时常被丢弃）
-    - cron: "53 0 * * *"       # UTC 00:53 = 北京时间 08:53（备份触发：若第一次被丢弃则由它兜底；重复运行无副作用）
-    - cron: "37 10 * * *"  
+    - cron: "53 0 * * *"       # UTC 00:53 = 北京时间 08:53（备份触发：若第一次被丢弃则由它兜底；重复运行无副作用  
   workflow_dispatch: {}         # 手动触发（Actions 页面 Run workflow）
   push:
     branches: [main]            # 改代码后自动重新部署（不重新跑 AI）
