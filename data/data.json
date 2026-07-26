@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-07-26 11:59（北京时间）",
+    "generatedAt": "2026-07-26 12:20（北京时间）",
     "riskProfile": "平衡型",
     "scope": "国内 + 海外",
     "newsWindow": "近 30 天焦点",
@@ -42,8 +42,8 @@
       },
       {
         "label": "道琼斯",
-        "value": "51,947.25",
-        "delta": "+7.4%",
+        "value": "51,711.65",
+        "delta": "+6.9%",
         "deltaLabel": "年内",
         "dir": "up"
       },
@@ -63,7 +63,7 @@
       },
       {
         "label": "COMEX黄金",
-        "value": "$4,068",
+        "value": "$4,071",
         "delta": "-5.7%",
         "deltaLabel": "年内",
         "dir": "down"
@@ -77,7 +77,7 @@
       },
       {
         "label": "比特币",
-        "value": "$64,468",
+        "value": "$64,439",
         "delta": "-27.4%",
         "deltaLabel": "年内",
         "dir": "down"
@@ -414,7 +414,7 @@
       },
       {
         "label": "COMEX黄金",
-        "value": -5.72,
+        "value": -5.65,
         "note": "截至2026-07-24"
       },
       {
