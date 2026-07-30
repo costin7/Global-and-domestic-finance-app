@@ -1,26 +1,26 @@
 {
   "meta": {
-    "generatedAt": "2026-07-29 11:57（北京时间）",
+    "generatedAt": "2026-07-30 11:34（北京时间）",
     "riskProfile": "平衡型",
     "scope": "国内 + 海外",
     "newsWindow": "近 30 天焦点",
     "fullDisclaimer": "免责声明：本页面全部内容由 AI 于生成时点自动搜集公开报道与官方数据整理而成，仅用于信息参考与学习交流，不构成任何证券、基金投资建议或收益承诺。AI 并非持牌投资顾问；数据可能存在错漏、口径差异或时滞（各指标截至日期以标注为准），请以官方与基金销售机构披露为准。基金有风险，过往业绩不代表未来表现，杠杆与主题投机可能造成本金快速亏损。请根据自身风险承受能力独立决策，必要时咨询持牌专业人士。"
   },
   "overview": {
-    "heroTitle": "港股科技强势反弹",
-    "heroDesc": "今日全球市场分化显著：港股恒生科技指数涨超3%，领涨全球；A股三大指数翻红但上证仍跌1.69%；日经225重挫6.13%受AI板块拖累；黄金下跌1.22%至4024美元；原油受地缘事件刺激跳涨5%。美联储议息会议在即，市场预期按兵不动。中国央行开展2065亿元逆回购，2.1万亿元操作陆续落地。",
+    "heroTitle": "美联储按兵不动，美股跳水",
+    "heroDesc": "美联储7月会议维持利率不变，但出现3张反对票，加息压力蓄积。美股三大指数集体下跌，道指跌2.19%。地缘冲突推升油价，布伦特原油涨6.12%至89.24美元。A股低开震荡，上证指数跌1.02%，但中证红利ETF逆势涨2.15%。人民币汇率中间价调升7基点至6.7892。",
     "judgments": [
       {
-        "title": "港股科技逆势走强",
-        "desc": "恒生科技指数涨2.55%，恒指涨1.67%，科网股普涨，理想汽车领涨。港股通汽车ETF涨6.57%，显示资金流入。"
+        "title": "美联储内部分歧加剧",
+        "desc": "7月会议维持利率不变，但3名委员投反对票，显示加息呼声渐强。摩根大通将加息预期提前至2026年12月，市场对紧缩担忧升温。"
       },
       {
-        "title": "日韩AI板块重挫",
-        "desc": "日经225跌6.13%，SK海力士等存储芯片龙头连续跌停，AI预期过高导致获利回吐。"
+        "title": "地缘冲突推升能源价格",
+        "desc": "美国对伊朗发动打击，布伦特原油单日飙升6.12%至89.24美元，年内涨幅达46.9%。能源板块或成短期避险焦点。"
       },
       {
-        "title": "地缘风险推升油价",
-        "desc": "伊朗袭击美军基地，布伦特原油跳涨5%至87.71美元，年内涨幅达44.4%。"
+        "title": "A股分化，红利策略受捧",
+        "desc": "A股整体走弱，但中证红利ETF涨2.15%，反映市场防御偏好。多家公司宣布回购增持，政策底信号渐显。"
       }
     ]
   },
@@ -28,170 +28,170 @@
     "kpis": [
       {
         "label": "标普500",
-        "value": "7,428.78",
-        "delta": "+8.3%",
+        "value": "7,316.15",
+        "delta": "+6.7%",
         "deltaLabel": "年内",
         "dir": "up"
       },
       {
         "label": "纳斯达克综合",
-        "value": "24,876.91",
-        "delta": "+7.1%",
+        "value": "24,442.94",
+        "delta": "+5.2%",
         "deltaLabel": "年内",
         "dir": "up"
       },
       {
         "label": "道琼斯",
-        "value": "52,747.32",
-        "delta": "+9.0%",
+        "value": "51,594.14",
+        "delta": "+6.6%",
         "deltaLabel": "年内",
         "dir": "up"
       },
       {
         "label": "10Y美债收益率",
-        "value": "4.60%",
-        "delta": "+42bp",
+        "value": "4.62%",
+        "delta": "+44bp",
         "deltaLabel": "年内",
         "dir": "up"
       },
       {
         "label": "美元指数 DXY",
-        "value": "101.3",
-        "delta": "+2.9%",
+        "value": "101",
+        "delta": "+2.6%",
         "deltaLabel": "年内",
         "dir": "up"
       },
       {
         "label": "COMEX黄金",
-        "value": "$4,025",
-        "delta": "-6.7%",
+        "value": "$4,114",
+        "delta": "-4.6%",
         "deltaLabel": "年内",
         "dir": "down"
       },
       {
         "label": "布伦特原油",
-        "value": "$87.71",
-        "delta": "+44.4%",
+        "value": "$89.24",
+        "delta": "+46.9%",
         "deltaLabel": "年内",
         "dir": "up"
       },
       {
         "label": "比特币",
-        "value": "$63,646",
-        "delta": "-28.3%",
+        "value": "$64,123",
+        "delta": "-27.7%",
         "deltaLabel": "年内",
         "dir": "down"
       }
     ],
     "news": [
       {
-        "date": "07-29",
+        "date": "07-30",
         "tag": "货币政策",
-        "title": "美联储决议前瞻：不确定性空前",
-        "summary": "美联储今晚公布利率决议，市场预期按兵不动，但9月加息可能性上升。华尔街对后续路径分歧巨大，五类情境分析显示最可能维持利率不变，但措辞或偏鹰。",
-        "implication": "若暗示9月加息，美元走强，风险资产承压。",
+        "title": "美联储维持利率不变，三票反对主张加息",
+        "summary": "美联储连续第五次维持利率不变，但有三名委员投票反对，主张加息25个基点。主席沃什拒绝给出加息时间表，市场对加息预期提前。美股跳水，道指跌超1100点。",
+        "implication": "美联储内部分歧加剧，市场加息预期升温，短期压制风险资产。",
         "source": {
-          "name": "凤凰网财经",
-          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBwbF9sYkozVTBoQThuUFlpeklsanBUMTVrQXN0dFNuQzUtZlFDX1JrcW1SOVNLYWF3VFNJU3ZRajlXQVdOQ0oyTUZaSnItQmlo?oc=5"
+          "name": "新京报",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5yM2tkUWh6S3hfU3JuRGcyNUw0YU5WNThIUlN5TFhUa0NFWHR4anlkRm95eHJnZVkwM2I4MnVjVVdWTno4aVdQbTlKRS1pX1JiS0R1THhXdkVfNzVMUWp2UnBfSGQ?oc=5"
         }
       },
       {
-        "date": "07-29",
+        "date": "07-30",
+        "tag": "美股",
+        "title": "微软财报超预期，股价大涨8%",
+        "summary": "微软第四财季业绩超预期，并上调资本支出计划，因AI需求强劲。公司预计新财年自由现金流为正，股价盘后大涨8%。",
+        "implication": "AI投资持续拉动科技巨头业绩，提振市场信心。",
+        "source": {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/07/29/microsoft-msft-q4-earnings-report-2026.html"
+        }
+      },
+      {
+        "date": "07-30",
+        "tag": "科技",
+        "title": "Meta面临AI容量困境，盘后大跌",
+        "summary": "Meta CEO扎克伯格表示公司面临AI容量分配难题，投资者对AI变现前景担忧，Meta盘后股价大跌。同时OpenAI CFO称7月年化收入已超Q2总和。",
+        "implication": "AI投入回报不确定性引发市场波动，行业分化加剧。",
+        "source": {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/07/29/zuckerberg-metas-ai-capacity-dilemma-what-to-sell-vs-what-to-keep.html"
+        }
+      },
+      {
+        "date": "07-30",
+        "tag": "地缘",
+        "title": "美国对伊朗发动空袭，油价一度飙升",
+        "summary": "美国在伊朗导弹袭击后对伊朗发动空袭，中东局势骤然紧张。布伦特原油周三暴涨8%，周四回落至90美元下方。",
+        "implication": "地缘冲突推升油价，短期通胀压力加大，避险情绪升温。",
+        "source": {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/07/30/us-iran-war-hormuz-centcom-trump-.html"
+        }
+      },
+      {
+        "date": "07-30",
         "tag": "大宗商品",
-        "title": "伊朗突袭美军，原油飙升5%",
-        "summary": "伊朗向中东美军发射弹道导弹，油价大幅跳涨5%。沙特寻求新途径出口石油，地缘溢价回升。",
-        "implication": "短期油价偏强，关注霍尔木兹海峡局势。",
+        "title": "原油价格冲高回落，布伦特跌破90美元",
+        "summary": "受美伊冲突影响，周三油价暴涨8%，但周四市场消化地缘风险后，布伦特原油回落至90美元以下。市场关注后续局势发展。",
+        "implication": "地缘溢价短期消退，但供应中断风险仍存，油价波动加大。",
         "source": {
           "name": "The Economic Times",
-          "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxPWlBpcWY3NXkyUzFnYlJ6OEFKc1J5NzFCMmVnY0t2Y3dDc2V0QTVza2lJY1VaUWsxSjFhdENIVHpXdFEwaXhFQ2FLLTNEX1lMbTFoUkRzdEszQS1FelBBTXNEUWI2emNvNWNUYm53SUR1Y01OcnltMVBObUxtODA5SWhQWlZNbE5KVHlQUVlEMlhWYW5pLU8xYTFUaVgxc0RjOHF3dGZ6NXR2eldiTTNJYUlCaS1XUkNoZFZlSDQ4Vm1RbHBfNm9lTTJJYlZqMEtERmpMMG1iMy0ya1NYbXRMWW9oYWtjcGtMcTAxaExBVy1nQ2s3MXRjX1R2dkpWMldDdHFGQW1RYXXSAY4CQVVfeXFMTTB5cndMU2E2Z19JNmt4STBfSkRHZDRnaXJ0WlZFQWZSYzJGMDVFZG1wdmNFdnhvdnY1bERmaVVBOURMMHh0YlFCUFFPSnozTEQzX1F5UTBIbjc2VEFlRUVvT0pfaXI3cnhsR2tNcnJjaXNLdWIyblhXOTNUS19XYk5rWGFiUXN5a0JGZENqVjE4eTJxd19DZWRQWGlaakRndEtCRVpsbzI0X1B4R2lfeVlfSWdXTmVWcDNyY1E4Qlo3aFEtaGk0M1lJdDVrOVRxNzUyZTZOcHFSN3FOVkpiTWVrSlRVbEcwTmw2LTdfanppMjBDRUd5dHh5aU5yTzdqVDdyRzB1R3VIOUhpTGxn?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQSmhRanR1UDVUaGRpZVdGd0VoX0ZxNU9RV25kZFhHRGpzOTNYXzhIUFlkak5xWjhoS1hLVmgxNzZ5MXdIZUtFVkNDbG9FazF4cmo3X2syN2RhbXhsZE1oTU50MkNkdk41NDZoTm40QjZKQTZid0ZnM1VaRHcweDBIS0RJRmUtVkZSeUJjV0lFb3lscWdsWXlrS2VCdWdycWh5eDRnX0lTcGxuQkJuNkh2MnFXRFJVXzF1dW1GdEFMUFZGYWNjQmRHbUpTSm5vUDVkSERhMDc4YS1IN1ZqdlZKWlNuNlFIOGd1N1BLUEFUNTlQeUhoMnfSAfsBQVVfeXFMUGg4d3kyb0JsTW8xY2ZEMVljRVBWWkFYeWc0VXZzTXNPVzlyMW05cTVUeVdwS2JjaTU5cV9Da2VzSjFZekstNDRSRFk2NDFXZ0VBOTZQdGRlQmtEZ244T1B2dzhIRlVKYU5NNDBuRFc4dE1xZDhoaXNKN09HemR0bHg0RUpHM04tcFY5SHdzRlQxdU1EUnF4eGlCSUtNaDI4cTBTQVZDVTllMldWY3ZUd0o4cFdETDdjYWR2OXNYZjFkOWt1WDRDMXE3Z2lWbzZ0WGtDSnR2TzJ0NWFYYjJ6VmNRUExoS0FscVJDWlFPUTM5OVN2Rmxqd3ZtaTg?oc=5"
         }
       },
       {
-        "date": "07-29",
+        "date": "07-30",
         "tag": "科技",
-        "title": "亚洲科技股抛售延续，软银跌7%",
-        "summary": "AI相关股票持续回调，SK海力士盈利增长但不及预期，股价下跌。存储芯片龙头连续两日跌停，成交额A股第一。",
-        "implication": "AI交易过热后获利回吐，短期波动加大。",
+        "title": "三星Q2利润超预期，AI芯片需求强劲",
+        "summary": "三星电子第二季度营业利润超预期，创纪录新高，主要得益于AI芯片需求飙升。",
+        "implication": "AI硬件需求持续旺盛，利好半导体产业链。",
         "source": {
           "name": "CNBC",
-          "url": "https://www.cnbc.com/2026/07/29/chip-selloff-sk-hynix-samsung-softbank.html"
+          "url": "https://www.cnbc.com/2026/07/30/samsung-q2-earnings-ai-chip-.html"
         }
       },
       {
-        "date": "07-29",
+        "date": "07-30",
         "tag": "美股",
-        "title": "美股上半年暴涨股7月大幅回撤",
-        "summary": "2026上半年美股热门股7月遭遇重挫，芯片、原油板块集体下跌。特朗普就市场波动发声。",
-        "implication": "市场风险偏好下降，资金从高估值板块流出。",
-        "source": {
-          "name": "东方财富",
-          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE11WHJ3dDhNRG5DY0NJQXdDTEhJZnh3SlF2VHY5anNXQ0tIU1ZVWFFSXzZKZUVOVmxqNHUwcDU1czF4NFdBNmNLX3lHV2twUHFIek9NMXVWNVRkeDRXMUdEbUpFQ2xGZw?oc=5"
-        }
-      },
-      {
-        "date": "07-29",
-        "tag": "地缘",
-        "title": "美伊冲突升级，油市震动",
-        "summary": "伊朗对美军发动导弹袭击，美国拦截后双方恢复打击。原油价格大涨，市场担忧供应中断。",
-        "implication": "地缘风险主导短期油价，关注后续冲突范围。",
-        "source": {
-          "name": "CNBC",
-          "url": "https://www.cnbc.com/2026/07/29/oil-prices-today-brent-wti-iran-us-hormuz.html"
-        }
-      },
-      {
-        "date": "07-29",
-        "tag": "汇率",
-        "title": "美元指数高位震荡，澳元下跌",
-        "summary": "美联储决议前美元持稳，澳元因通胀数据低于预期走弱。人民币小幅走强。",
-        "implication": "非美货币承压，人民币相对稳定。",
-        "source": {
-          "name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPRnFXZFd5UzNzZ1RRdnZ3aFRNT2N6YU1hdVB6UHNzcU9RdUVMRk5MSkEyUGoxY3FnSnM4OHlpdWoyalJwWEl4bWh3YkcteTNieGF1cm8zVzJHenF4ZERNbGVfSURTaFF4bUVhUC1paUFwMk5XZVFNZzRLOFp2aWQ1aktad1d2WVg0QkNhY215bHpRYlBxVldycg?oc=5"
-        }
-      },
-      {
-        "date": "07-29",
-        "tag": "黄金",
-        "title": "策略师：金价维持区间震荡至9月",
-        "summary": "美联储夏季观望为主，黄金缺乏单边驱动，预计维持区间震荡，9月后才可能突破。",
-        "implication": "黄金短期震荡，等待美联储明确信号。",
-        "source": {
-          "name": "黄金网",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBsMjJVVVRnMmR4VUZxRzdobW5TSTlwQi0xZFA2WkpzM3JLNUtENWdXLUZZUnFQdjJISDUzYzdibnRzbU83MDdDR0JHaFpIaTlnWkZ0cnRQNDAtdFRhb1pmOXZLSUp0OXhP?oc=5"
-        }
-      },
-      {
-        "date": "07-29",
-        "tag": "科技",
-        "title": "Seagate财报超预期，AI交易获提振",
-        "summary": "存储制造商Seagate季度业绩超华尔街预期，为近期受挫的AI板块带来利好。",
-        "implication": "AI硬件需求仍有支撑，但市场情绪脆弱。",
+        "title": "星巴克业绩亮眼，股价盘后上涨",
+        "summary": "星巴克季度业绩超预期，CEO Niccol的转型策略见效，推出更潮流产品、加快服务速度，公司上调销售预测。",
+        "implication": "消费品牌通过创新和运营改善实现复苏，提振行业信心。",
         "source": {
           "name": "MarketWatch",
-          "url": "https://www.marketwatch.com/story/seagates-earnings-are-welcome-news-for-the-battered-ai-trade-92dfc30f?mod=mw_rss_topstories"
+          "url": "https://www.marketwatch.com/story/starbucks-is-becoming-cool-again-heres-how-it-pulled-off-its-turnaround-d2949e64?mod=mw_rss_topstories"
         }
       },
       {
-        "date": "07-29",
-        "tag": "能源",
-        "title": "福特上调业绩指引，股价上涨",
-        "summary": "福特Q2盈利超预期，F系列皮卡复苏，上调全年指引。传统燃油车业务仍具韧性。",
-        "implication": "传统车企盈利改善，但转型压力仍在。",
+        "date": "07-30",
+        "tag": "科技",
+        "title": "高通财报不及预期，股价下跌",
+        "summary": "高通季度盈利不及预期，受存储芯片业务拖累，股价下跌。",
+        "implication": "半导体行业分化，存储芯片需求疲软影响部分公司业绩。",
+        "source": {
+          "name": "MarketWatch",
+          "url": "https://www.marketwatch.com/story/qualcomms-stock-falls-as-memory-woes-weigh-on-earnings-fc2b6317?mod=mw_rss_topstories"
+        }
+      },
+      {
+        "date": "07-30",
+        "tag": "美股",
+        "title": "Robinhood创纪录营收，波动性驱动交易热潮",
+        "summary": "Robinhood第二季度营收创纪录，预测市场收入增长十倍，波动性推动交易量激增。",
+        "implication": "市场波动加剧利好交易平台，散户交易活跃度上升。",
+        "source": {
+          "name": "MarketWatch",
+          "url": "https://www.marketwatch.com/story/robinhood-puts-up-record-revenue-as-volatility-drives-a-trading-bonanza-8e0729c1?mod=mw_rss_topstories"
+        }
+      },
+      {
+        "date": "07-30",
+        "tag": "地缘",
+        "title": "中国威胁报复美国机器人禁令",
+        "summary": "中国商务部表示，美国联邦通信委员会对人形机器人的禁令严重损害两国关系，将采取反制措施。",
+        "implication": "中美科技摩擦升级，影响相关产业链及市场情绪。",
         "source": {
           "name": "CNBC",
-          "url": "https://www.cnbc.com/2026/07/28/ford-motor-f-earnings-q2-2026.html"
-        }
-      },
-      {
-        "date": "07-29",
-        "tag": "货币政策",
-        "title": "沃什：美联储言论过多，市场困惑",
-        "summary": "前美联储理事沃什批评联储沟通过度，导致市场预期混乱。市场关注今晚决议措辞。",
-        "implication": "市场对美联储路径分歧加大，波动性上升。",
-        "source": {
-          "name": "新浪财经",
-          "url": "https://news.google.com/rss/articles/CBMivgJBVV95cUxPZ0paeW90aDR5TW0ta0MtQjZGd3gyeDJ0bXhfeVdWc3ZZSkV0allFV09uQWh6QlZFX0NCSGt0UmwycWpxM2VEeWZ5dzJaSmd2TjdKdlYzdXVWSjJYelpXay1OdnFxVGRyRmxxMHZKQU1iajM3b2llT3ZuOGVPS2htWXExV1lVZzhPX3hma1hZaW9PNFE2R2tYLVJ6RnFJeURYLTNrcy1Qd204dzM2TWYtd0xDeGZPZEdxQTZka3pEUnFBN0o0TklRRWxoczdkLWJwTnVMMnRpM0MzMjVFRWFfRGI0WVc2SjBteXd0WXVIelN2Y3lGNnRQM0tzQ3gzaXVKYVhsOGRxdXVKQjZhejl6OG9TZkhqbFRMUVVRRGRma2djaWhtMlpLel9jSHc4SENwREliTC1tZXJaOHE3emc?oc=5"
+          "url": "https://www.cnbc.com/2026/07/30/china-us-robot-humanoid-ban-trump-visit.html"
         }
       }
     ]
@@ -200,15 +200,15 @@
     "kpis": [
       {
         "label": "上证指数",
-        "value": "3,793.18",
-        "delta": "-5.7%",
+        "value": "3,789.57",
+        "delta": "-5.8%",
         "deltaLabel": "年内",
         "dir": "down"
       },
       {
         "label": "沪深300",
-        "value": "4,558.37",
-        "delta": "-3.4%",
+        "value": "4,507.16",
+        "delta": "-4.5%",
         "deltaLabel": "年内",
         "dir": "down"
       },
@@ -228,15 +228,15 @@
       },
       {
         "label": "恒生指数",
-        "value": "25,627.29",
-        "delta": "-2.7%",
+        "value": "25,750.7",
+        "delta": "-2.2%",
         "deltaLabel": "年内",
         "dir": "down"
       },
       {
         "label": "恒生科技",
-        "value": "4.82",
-        "delta": "-15.7%",
+        "value": "4.79",
+        "delta": "-16.3%",
         "deltaLabel": "年内",
         "dir": "down"
       },
@@ -256,121 +256,121 @@
       },
       {
         "label": "美元兑人民币",
-        "value": "6.771",
-        "delta": "-3.2%",
+        "value": "6.7595",
+        "delta": "-3.4%",
         "deltaLabel": "人民币年内升值",
         "dir": "down"
       }
     ],
     "news": [
       {
-        "date": "07-29",
-        "tag": "货币政策",
-        "title": "央行今起陆续操作2.1万亿元",
-        "summary": "央行宣布今日起陆续开展2.1万亿元操作，同时开展2065亿元7天期逆回购，维护流动性合理充裕。",
-        "implication": "货币政策保持宽松，稳定市场预期。",
-        "source": {
-          "name": "凤凰网财经",
-          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5iRUFmT3NQaG53dUZpVHdJUVU2Vk1SaUVEVTUybGFER0xoY3JtSkI0eWxwUmFtZWx5b3psR1JpeXlCbHF0bFpaWTZmc2tNWjB3?oc=5"
-        }
-      },
-      {
-        "date": "07-29",
-        "tag": "宏观数据",
-        "title": "中国经济半年报：新旧动能加快转换",
-        "summary": "国家统计局表示新动能日益成为经济稳定运行的关键支撑，新旧动能转换是当前经济运行最鲜明特征。发改委将三方面发力促进投资止跌回稳。",
-        "implication": "经济结构优化，新经济贡献提升。",
-        "source": {
-          "name": "新华网",
-          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOOWgweHpWTnpia0NUbVdNM1gzRVlHVnktU3h0bWtoNFFWcTFLazJsLWxuTE5oOS04Y3Utcm5sb1Rla2xPWFYtRmdnQlItV3hCNV9FREdWY3BlSHlmazM2ZTdweVNGc2hrbjFzdDBGT213cFhlYlo3b1p6WGJqd3Z4UllleTl5UFl2?oc=5"
-        }
-      },
-      {
-        "date": "07-29",
+        "date": "07-30",
         "tag": "A股",
-        "title": "A股三大指数翻红，科技赛道重挫",
-        "summary": "A股早盘涨跌不一，午后三大指数全部翻红。但科技赛道大幅回调，存储芯片龙头连续两日跌停，半导体设备ETF领跌7.62%。",
-        "implication": "市场分化，科技股调整压力大，权重股护盘。",
+        "title": "A股三大指数收涨，超4200股飘红",
+        "summary": "A股三大指数集体收涨，创业板指涨1.55%，超4200只个股上涨。此前开盘超3700只个股飘绿，市场情绪逆转。",
+        "implication": "市场在连续调整后出现企稳反弹，短期信心有所修复。",
         "source": {
-          "name": "21财经",
-          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNSVRHRGhtUURfazd4c25mX1A1enM3VXVEZ0h0bVNuTzFJdThVSDFGRzZXMzh4dlhvUE1ZSHhBTF9fX1ZxUlg1aE90bTJPa0RCSjZ2aDg3N3NIcFM3aGRISHJBeXFVZEpQWlN4b0lueVpQT0NGMWlRcHdwa1FhS1JkbFV1LXpIQmVuSV9hXw?oc=5"
+          "name": "东方财富",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1UTWIxa1pLSnRVa3k5RUhIQTFaZjBpa1EtV2t2UjFwNE95c2VubVFHQ2thVlZlV0NuSG5WcU12VTEzdjJOanlMQ0JGQkZwM0xoakxNRENENm5PbGtJRDM5ZA?oc=5"
         }
       },
       {
-        "date": "07-29",
+        "date": "07-30",
         "tag": "港股",
-        "title": "港股恒生科技指数涨超3%",
-        "summary": "港股高开高走，恒生科技指数涨幅扩大至3%，科网股普涨，理想汽车领涨。港股7月逆势反弹，但趋势性上涨尚待多重因素落地。",
-        "implication": "港股短期反弹，但持续性需基本面配合。",
+        "title": "中际旭创港股上市首日破发",
+        "summary": "光模块龙头中际旭创在港股上市首日破发，跌幅超8%。此前公司董事长提议最高80亿元回购A股股份，并澄清降价谣言。",
+        "implication": "港股IPO市场承压，高估值科技股面临回调风险。",
         "source": {
-          "name": "东方财富",
-          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1NWTU3TFNCaEtJVlJINmd2cEtkV1gta0xEYnJjOUdtc0V3eHBSd21OMWYxQUtYaFdaZFc5R2YxUkVWOGMwakZtWGh6c0Q0bkJoMGNJM0F4TkZ5azdXaHYwUw?oc=5"
+          "name": "新京报",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBYVnZEcG13WWcxRHhneU1naEhwUkgwWUlEWGxSQzloYkNsM3RFbmpELUlIeEZGVmZvOEFDbUlfbFNqbEdNMTBjZzk1TWRDX1dYSUc1bFFhM20wX3FhNmY3UzBCOHg?oc=5"
         }
       },
       {
-        "date": "07-29",
-        "tag": "ETF",
-        "title": "7月ETF净流入4360亿创年内新高",
-        "summary": "7月ETF净流入4360亿元创年内新高，273亿资金借道股票ETF进场，双创与半导体获逆势加仓，红利遭抛售。两大宽基ETF单日成交破百亿。",
-        "implication": "资金借ETF抄底，偏好成长风格。",
-        "source": {
-          "name": "东方财富",
-          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFAwQXNmRVR3THFSVld0Y2F6LTAtREhfWGplM3dDckZCaGtUX29oa0NPaGd1UWFVc2E2ajRsdENMMnhhQ3hCZU1CNEhoUmFueVBFT3o0TE1FLXJTdlQzbUxzXw?oc=5"
-        }
-      },
-      {
-        "date": "07-29",
+        "date": "07-30",
         "tag": "汇率",
-        "title": "人民币汇率继续小幅走强",
-        "summary": "美元指数高位震荡，人民币汇率小幅走强。经济学人认为把全球失衡归咎于人民币被低估没有意义。",
-        "implication": "人民币汇率韧性较强，贬值压力可控。",
+        "title": "人民币中间价调升7基点报6.7892",
+        "summary": "人民币兑美元中间价调升7个基点，报6.7892。欧元兑美元突破1.1447，澳元兑美元跌破0.6938。",
+        "implication": "人民币汇率保持稳定，美元走弱背景下人民币有支撑。",
         "source": {
-          "name": "新浪财经",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxORm5iQUtOaFdJV2RPa0JyNVo0eXhHd2Z3dGtGdzdGYVlvLTF3b2xJWjhQZnVEYk81RU5zeVRhV2VPMEFVLTVCOXNfZUNpTjNOOEV5NnAtc082Vkh3Z2lTQWtpVHlpWVh3RW16dVAwckhmQkppYlRUSWpEcDZtUGFUOW04SjVhb0lLZ0NYOUxRd25HTWo4bnlkSA?oc=5"
+          "name": "新浪网",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBnRUprbUhTUHRaUGRGdFpXXzJpYy1lNzNWOW1NYXBCOUNKU1EtZzZaTU9jUFJ0ZUJ3cnE0U1Fwb2hXTWJ2bFo3NjBwa0N0SG1EeUswLWNkc2F6eW9vdzN4OHJYRi1HV0FMYzRCLVJ0SkhPaFR4VmotdQ?oc=5"
         }
       },
       {
-        "date": "07-29",
+        "date": "07-30",
+        "tag": "宏观数据",
+        "title": "上半年社会物流总额同比增长5.1%",
+        "summary": "中国物流与采购联合会发布数据，上半年全国社会物流总额同比增长5.1%，显示物流运行稳中有进。",
+        "implication": "物流数据印证经济复苏势头，供应链韧性增强。",
+        "source": {
+          "name": "chinanews.com.cn",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1zYzd6Z3BDUFJpQ1pHMlpBX19JMFVYdWhWOThEVWJmMXlqRktlRnVacW8xMU1LOXVYcGtoTTBiUnBoMzJ3Z0J6V1dBaUlsTks3U0xQQjlRb25vU1VMMUQ5LUNyMkVMakpfcGI4Zzd1MWdJWXRzU1E?oc=5"
+        }
+      },
+      {
+        "date": "07-30",
         "tag": "产业政策",
-        "title": "多地划定政府投资基金投向路线图",
-        "summary": "多地明确政府投资基金投向，聚焦科技创新、产业升级等领域。人工智能大模型IPv6能力提升专项行动启动。",
-        "implication": "政策引导资金流向新质生产力。",
+        "title": "国电投清洁能源基金31亿元ABS获受理",
+        "summary": "国家电投清洁能源基金31亿元ABS项目状态更新为“已受理”，支持清洁能源发展。",
+        "implication": "清洁能源融资渠道拓宽，利好新能源产业。",
         "source": {
-          "name": "证券时报",
-          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5CWjN0elRRdUg2bUxKZURLc3pZeGtReGJRQWVITkVJd051T2hfT0ZMUGU1RUVwTHkyZFgxYW8tV21OUUxuZVdBTVBydGQxc0VpQmNkenhqN3JrM19o?oc=5"
+          "name": "观点网",
+          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBDNm1DUGQ4bXlMVElpVkRvRmFOeTdEMWRTRlpYeUtLX3UzV3lwWDMxMzhrenFfTUdneFA5VEVFX2dMYVdqTUExM2FEdUVkVk1ZTUk3UHJWRmZGdzhIdGNhZVp3?oc=5"
         }
       },
       {
-        "date": "07-29",
-        "tag": "基金",
-        "title": "上半年理财产品年化收益率重回2%以上",
-        "summary": "上半年理财产品年化收益率回升至2%以上，并增配公募基金。富达基金推出内地首只互认基金，8月10日开售。",
-        "implication": "理财收益回暖，资管行业竞争加剧。",
-        "source": {
-          "name": "财新",
-          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5MdXZ2YVFXaF81aVMzdXB3amRnamFuM2xzNWpITHlldnFvaU9NV0Z0VGtiM1dRaHNJTmFSdWEwcFdOUmdMX1hVNWNxdWVZWjBZQVRnQ01sTERCemhrWG5kS21n?oc=5"
-        }
-      },
-      {
-        "date": "07-29",
+        "date": "07-30",
         "tag": "A股",
-        "title": "中际旭创港股募资614亿，A股跌15%",
-        "summary": "光模块龙头中际旭创港股上市募资614亿港元，但A股股价暴跌15%。董事长提议最多80亿元回购。",
-        "implication": "AH股估值差异，回购显示公司信心。",
+        "title": "多家A股公司宣布回购增持",
+        "summary": "今晚又一批A股公司宣布回购和增持计划，此前已有多家公司发布类似公告，提振市场信心。",
+        "implication": "上市公司积极回购增持，释放股价低估信号，有助于稳定市场。",
         "source": {
-          "name": "新浪财经",
-          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9Penp6QlVLT1ZaOHlOWTh3aTZReGhMdTVrektjdlpEU3J5Zm9CWjVlTDJ6ZW5zb0pNams3Wmx0Y3dNY0R3czByQW1NZVdsZkdSM1pTQ1ptemY5Wm9idl9lZ1R0aFUwUXV1ZE9aRjRLbw?oc=5"
+          "name": "新浪网",
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5LV18yeE0yeVF1ZENrOXd6TXZVYVRhaER3VkVRSlVnS1M3aGRIMmpZbEZRSVdKbEM5TFNkZVRPTWFGckM2Vzk4aUd0NC1FVXBKb2FXN0FMUDl6NjZQUUp4eTdZb1lrNW1ZN0VsMXBuRTVMdw?oc=5"
         }
       },
       {
-        "date": "07-29",
-        "tag": "港股",
-        "title": "港股通汽车ETF领涨6.57%",
-        "summary": "ETF午评显示港股通汽车ETF领涨6.57%，半导体设备ETF领跌7.62%。港股汽车股受理想汽车等带动走强。",
-        "implication": "汽车板块受政策及销量提振，半导体持续调整。",
+        "date": "07-30",
+        "tag": "ETF",
+        "title": "酒ETF领涨3.90%，通信ETF领跌9.89%",
+        "summary": "ETF午评显示，酒ETF领涨3.90%，而通信ETF领跌9.89%，板块分化明显。",
+        "implication": "消费板块受资金青睐，科技通信板块回调压力较大。",
         "source": {
-          "name": "同花顺",
-          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE4zd3RDVW5hZFhCZmI4YXhSY3NINU1zdS1QYld5QnZ4TkFlMFNKdFdkeVRnZzFQb3dUT09YQ0VuMHJ3OGtEQ0pPNU5wRVJOMTJuXzV2M3NtaDdOSHpJaWZyeg?oc=5"
+          "name": "同花顺财经",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1tT0xfS191VHBVeU9kX2tsZ2xHQTB0SDVLUzBrd3NjWTBHN3BsdFRlRHN4cTZjeEpqVFlSb1dvY2RCazlmQXZ6dmYxb3NCWkswOE5VbldidHpiMlpvdmVGRA?oc=5"
+        }
+      },
+      {
+        "date": "07-30",
+        "tag": "货币政策",
+        "title": "央行开展2705亿元7天期逆回购操作",
+        "summary": "央行今日开展2705亿元7天期逆回购操作，同时进行6000亿元隔夜逆回购操作，维护流动性合理充裕。",
+        "implication": "央行继续通过逆回购操作调节流动性，保持资金面平稳。",
+        "source": {
+          "name": "chinanews.com.cn",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9tR3dxUWtjcHRadzVNT2tqbXpIa1VvRTh3UkpEOW5DNURoWXdZLWdlSVloQUgtOTlMWkNLRXZHQTVJSWpycnhrNkpNZXlZSW14MmNpbTd2eGxTZjZUVV9XR0poSVZ4Wl9F?oc=5"
+        }
+      },
+      {
+        "date": "07-30",
+        "tag": "A股",
+        "title": "公募基金二季度大赚近2万亿",
+        "summary": "公募基金二季度重仓股迎来“史诗级”重构，单季大赚近2万亿元，显示市场赚钱效应显著。",
+        "implication": "基金业绩改善，市场信心增强，但需关注持仓集中风险。",
+        "source": {
+          "name": "新浪网",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9XQm9fbmN0VHR0V2Z4WHZhTGJURUZ3V3NGMjlkUTdKN1dDYXYteVVxcWJ5TzJSWmhvM2ZCSlIzTGpENzZQU0VwRGYwMmozalF5OU1rV1hVOFRaaXl1RWR1ZlQ2ZVVwaXVadGdjSkRkdw?oc=5"
+        }
+      },
+      {
+        "date": "07-30",
+        "tag": "A股",
+        "title": "存储芯片板块开盘普跌",
+        "summary": "A股存储芯片板块开盘普跌，全志科技跌12.5%，通富微电触及跌停，受美股芯片股拖累。",
+        "implication": "全球芯片股调整波及A股，存储芯片短期承压。",
+        "source": {
+          "name": "观点网",
+          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5DRE0zdEp5RmZRUkY4bWNOVl9FUzRfbmlBOFFneFlkRC00THc5QW9pR25XaTdIM3JfX2ZhWDlLLXR3OFc3c1BSem9DbHZHM3JlUkdKd09hb0s0cEx6WHVkZE5n?oc=5"
         }
       }
     ]
@@ -379,48 +379,48 @@
     "assetYTD": [
       {
         "label": "日经225",
-        "value": 17.6,
-        "note": "截至2026-07-28"
+        "value": 20.04,
+        "note": "截至2026-07-29"
       },
       {
         "label": "标普500",
-        "value": 8.32,
-        "note": "截至2026-07-28"
+        "value": 6.67,
+        "note": "截至2026-07-29"
       },
       {
         "label": "纳斯达克综合",
-        "value": 7.06,
-        "note": "截至2026-07-28"
+        "value": 5.2,
+        "note": "截至2026-07-29"
       },
       {
         "label": "红利类(515080代理)",
-        "value": 0.39,
-        "note": "截至2026-07-29"
+        "value": 1.22,
+        "note": "截至2026-07-30"
       },
       {
         "label": "恒生指数",
-        "value": -2.7,
-        "note": "截至2026-07-29"
+        "value": -2.23,
+        "note": "截至2026-07-30"
       },
       {
         "label": "沪深300",
-        "value": -3.38,
+        "value": -4.46,
+        "note": "截至2026-07-30"
+      },
+      {
+        "label": "COMEX黄金",
+        "value": -4.64,
         "note": "截至2026-07-29"
       },
       {
         "label": "上证指数",
-        "value": -5.72,
-        "note": "截至2026-07-29"
-      },
-      {
-        "label": "COMEX黄金",
-        "value": -6.72,
-        "note": "截至2026-07-28"
+        "value": -5.81,
+        "note": "截至2026-07-30"
       },
       {
         "label": "恒生科技",
-        "value": -15.73,
-        "note": "截至2026-07-29"
+        "value": -16.33,
+        "note": "截至2026-07-30"
       }
     ],
     "chinaMacro": {
@@ -493,32 +493,32 @@
       ]
     },
     "globalAnalysis": [
-      "【货币政策】美联储今晚议息，市场普遍预期维持利率不变。沃什批评美联储沟通过多，策略师认为夏季观望为主，9月后可能明确方向。美元指数小幅走弱至101.296，10Y美债收益率降至4.604%。",
-      "【增长与通胀】美国CPI连续三个月回升至4.2%，核心通胀压力未消。日本通胀数据待公布，但日股大跌反映对AI盈利可持续性的担忧。",
-      "【资产分化】美股三大指数涨跌互现，道指涨1.03%而纳指跌0.22%。黄金震荡下跌至4024美元，策略师预计单边行情需等9月后。比特币继续低迷，年内跌28.3%。",
-      "【地缘与机构观点】伊朗导弹袭击美军基地，中东局势骤然紧张，油价飙升。CNBC报道沙特寻找更昂贵替代路线出口石油。机构认为地缘风险短期支撑油价，但需关注美联储政策。"
+      "美联储7月会议维持联邦基金利率在3.75%不变，为连续第五次暂停加息，但本次会议出现3张反对票，显示内部对通胀顽固的不满。主席沃什拒绝给出加息时间表，但强调通胀仍是首要风险。摩根大通将加息预期从2027年下半年提前至2026年12月。市场对紧缩预期升温，美股三大指数全线下跌，道指跌2.19%，标普500跌1.52%，纳斯达克跌1.74%。",
+      "美国通胀持续走高，5月CPI同比升至4.2%，核心CPI仍高于目标。就业市场保持韧性，但经济增速放缓迹象显现。美联储面临滞胀风险，政策空间受限。10年期美债收益率升至4.622%，年内累计上升44个基点。",
+      "资产价格分化显著：地缘冲突推动原油大涨6.12%，黄金涨1.93%至4114美元，避险属性凸显。美元指数微跌0.42%至100.953，但仍处于年内高位。比特币小幅反弹0.39%至64123美元，但年内仍跌27.7%。科技股承压，Meta盘后大跌，微软因资本开支计划上涨8%。",
+      "地缘政治风险升级：美国对伊朗发动打击，霍尔木兹海峡局势紧张，油价飙升。中美关系方面，中国威胁对美国的人形机器人禁令进行报复，贸易摩擦担忧再起。此外，德国评估中国经济弱点，中方回应。市场不确定性增加，避险情绪浓厚。"
     ],
     "chinaAnalysis": [
-      "【物价与景气】中国6月CPI同比1%，PPI同比4.1%，PPI持续回升但CPI温和。PMI 50.3，经济景气度平稳。新动能成为稳定运行关键支撑。",
-      "【政策取向】央行今起陆续操作2.1万亿元，今日开展2065亿元逆回购。国家发改委表示三方面发力促进投资止跌回稳。多地划定政府投资基金投向路线图。",
-      "【市场结构】A股三大指数翻红但上证仍跌1.69%，沪深300涨0.65%。半导体设备ETF领跌7.62%，存储芯片龙头连续跌停。红利ETF涨1.30%，但资金流向显示双创和半导体获加仓，红利遭抛售。",
-      "【汇率与机构共识】美元兑人民币6.771，人民币小幅走强。经济学人认为将全球失衡归咎于人民币低估无意义。港股募资614亿港元创新高，中际旭创A股暴跌15%而港股受捧。"
+      "中国上半年经济数据平稳，6月CPI同比1%，PPI同比4.1%，显示工业品价格回升但消费需求温和。6月官方制造业PMI为50.3，连续两个月处于扩张区间。物流总额同比增长5.1%，文化企业营收平稳增长。",
+      "央行7月30日开展2705亿元7天期和6000亿元隔夜逆回购操作，维护流动性合理充裕。LPR连续多月未变，1年期3.0%，5年期以上3.5%。10年期国债收益率约1.73%，低位震荡。政策面强调稳增长，增持回购潮涌现。",
+      "A股市场低开震荡，上证指数跌1.02%，沪深300跌0.48%，但中证红利ETF涨2.15%，显示资金向红利板块迁移。存储芯片板块大跌，全志科技跌12.5%。港股恒生指数微跌0.22%，恒生科技涨1.31%。中际旭创港股上市首日破发，跌超8%。",
+      "人民币兑美元中间价报6.7892，调升7基点，在岸汇率6.7595，年内升值3.4%。证券时报发文称产业链韧性是A股护城河，机构看好长期价值。但短期受外部冲击和内部结构调整影响，市场情绪谨慎。"
     ],
     "scenarios": [
       {
-        "name": "基准：美联储按兵不动，市场震荡",
+        "name": "基准：美联储维持利率，市场震荡",
         "prob": "55%",
-        "desc": "美联储维持利率不变，声明偏鸽。美股小幅反弹，港股延续修复，A股结构性行情。黄金区间震荡，原油高位回落。"
+        "desc": "美联储继续按兵不动，但通胀数据若持续高企，加息预期将升温。美股维持震荡，A股在政策支撑下逐步企稳，红利策略占优。"
       },
       {
-        "name": "乐观：美联储暗示降息，风险资产大涨",
+        "name": "乐观：地缘缓和，风险偏好回升",
         "prob": "20%",
-        "desc": "美联储释放9月降息信号，美元大跌，美债收益率下行。全球股市普涨，黄金突破4100美元，新兴市场受益。"
+        "desc": "若美伊冲突快速降温，油价回落，通胀压力缓解。美联储可能维持鸽派，全球股市反弹，科技股领涨。"
       },
       {
-        "name": "悲观：地缘冲突升级，避险情绪升温",
+        "name": "悲观：加息提前，经济衰退风险",
         "prob": "25%",
-        "desc": "伊朗局势恶化，油价飙升至100美元以上，全球通胀预期再起。股市大跌，黄金和美元避险需求激增。"
+        "desc": "若美联储被迫提前加息，将压制估值。叠加地缘冲突持续，油价高企，全球经济面临衰退风险，A股承压。"
       }
     ]
   },
@@ -571,7 +571,7 @@
         ],
         "role": "核心",
         "risk": 3,
-        "logic": "再通胀确认 + 机构预计2026年A股盈利增速6%-11% + 人民币升值引外资回流（大摩/瑞银观点）；科技虹吸后传统宽基估值不贵、持续净流出反而是「高切低」再平衡的承接方向。当前沪深300年内-3.4%（截至7/29），上证指数年内-5.7%（截至7/29），估值处于历史中低位。",
+        "logic": "再通胀确认 + 机构预计2026年A股盈利增速6%-11% + 人民币升值引外资回流（大摩/瑞银观点）；科技虹吸后传统宽基估值不贵、持续净流出反而是「高切低」再平衡的承接方向。当前沪深300年内-4.5%（截至7/30），上证指数年内-5.8%（截至7/30），估值处于历史中低位。",
         "risks": "若二季度GDP与6月社融不及预期，指数中枢下移；结构牛下宽基弹性显著弱于主题，需接受「跑输热点」。",
         "horizon": "3年以上 · 定投/分批",
         "weight": "20-30%"
@@ -584,7 +584,7 @@
         ],
         "role": "核心",
         "risk": 2,
-        "logic": "红利相对全A收益差处约-14%的历史极值、股息率约5.2%、PB约0.8倍；5、6月每月90亿+的逆势净流入表明配置资金在低位吸筹；货基收益跌破1%时代的「类固收+」替代。中证红利ETF年内+0.4%（截至7/29），回调后性价比提升。",
+        "logic": "红利相对全A收益差处约-14%的历史极值、股息率约5.2%、PB约0.8倍；5、6月每月90亿+的逆势净流入表明配置资金在低位吸筹；货基收益跌破1%时代的「类固收+」替代。中证红利ETF年内+1.2%（截至7/30），回调后性价比提升。",
         "risks": "科技行情延续期将继续跑输；银行、煤炭等权重行业盈利下修会侵蚀股息基础。",
         "horizon": "3年以上",
         "weight": "10-15%"
@@ -598,7 +598,7 @@
         ],
         "role": "核心",
         "risk": 1,
-        "logic": "10Y美债收益率4.604%（年内+42bp），国内10Y国债约1.7%，票息空间薄+PPI回升制约利率下行，短久期吃票息更稳；债券ETF规模半年+8%至近9000亿元、机构持续增配；可转债攻守兼备。",
+        "logic": "10Y美债收益率4.622%（年内+44bp），国内10Y国债约1.7%，票息空间薄+PPI回升制约利率下行，短久期吃票息更稳；债券ETF规模半年+8%至近9000亿元、机构持续增配；可转债攻守兼备。",
         "risks": "再通胀超预期→收益率上行、长久期品种净值回撤；可转债跟随权益波动。",
         "horizon": "1年以上",
         "weight": "20-25%"
@@ -610,7 +610,7 @@
         ],
         "role": "核心",
         "risk": 3,
-        "logic": "高盛看2026年末$4,900；央行购金+滞胀与地缘环境下的对冲价值不可替代；较1月峰值已回调约26%（COMEX黄金年内-6.7%），6月「百亿资金出逃」式恐慌赎回释放较充分。",
+        "logic": "高盛看2026年末$4,900；央行购金+滞胀与地缘环境下的对冲价值不可替代；较1月峰值已回调约26%（COMEX黄金年内-4.6%），6月「百亿资金出逃」式恐慌赎回释放较充分。",
         "risks": "美联储若真加息、实际利率上行，金价可能再下台阶；短期趋势仍向下——必须分批，严禁一次性抄底。",
         "horizon": "2年以上 · 分3批以上",
         "weight": "5-10%"
@@ -623,8 +623,8 @@
         ],
         "role": "卫星",
         "risk": 4,
-        "logic": "AI盈利兑现支撑美股（标普500年内+8.3%，纳指年内+7.1%）、全球科技景气是长期主线；QDII是境内参与的主要合规通道。",
-        "risks": "「溢价陷阱」：6月12只纳指ETF因高溢价史上首次集体停牌，513100溢价近日仍约7.9%——高溢价买入等于先亏一笔情绪税；叠加美国通胀4.2%、可能加息，以及人民币年内升值3.2%的汇兑损耗。仅在溢价<2%时分批。",
+        "logic": "AI盈利兑现支撑美股（标普500年内+6.7%，纳指年内+5.2%）、全球科技景气是长期主线；QDII是境内参与的主要合规通道。",
+        "risks": "「溢价陷阱」：6月12只纳指ETF因高溢价史上首次集体停牌，513100溢价近日仍约7.9%——高溢价买入等于先亏一笔情绪税；叠加美国通胀4.2%、可能加息，以及人民币年内升值3.4%的汇兑损耗。仅在溢价<2%时分批。",
         "horizon": "3年以上",
         "weight": "5-10%"
       },
@@ -636,7 +636,7 @@
         ],
         "role": "卫星",
         "risk": 4,
-        "logic": "上半年-18.9%后7月回暖（恒生科技日内+2.55%，恒生指数年内-2.7%）；瑞银预计恒生科技2026年盈利+37%；南向资金年内净流入3246亿港元+央行表态增加在港资产配置；与A股科技存在明显估值差。",
+        "logic": "上半年-18.9%后7月回暖（恒生科技日内+1.31%，恒生指数年内-2.2%）；瑞银预计恒生科技2026年盈利+37%；南向资金年内净流入3246亿港元+央行表态增加在港资产配置；与A股科技存在明显估值差。",
         "risks": "左侧特征明显：下跌趋势未完全扭转、IPO抽血、美元利率若再升港股首当其冲。",
         "horizon": "1-3年 · 分批",
         "weight": "5-10%"
@@ -691,7 +691,7 @@
         ],
         "role": "卫星",
         "risk": 4,
-        "logic": "PPI结构中煤炭+20.6%、有色矿采选+25.5%直接映射上游盈利弹性；美伊冲突反复给油价提供事件溢价（布伦特原油年内+44.4%）。",
+        "logic": "PPI结构中煤炭+20.6%、有色矿采选+25.5%直接映射上游盈利弹性；美伊冲突反复给油价提供事件溢价（布伦特原油年内+46.9%）。",
         "risks": "地缘随时反转：停火修复日油气单日-6%同样常见；南方原油等QDII溢价曾超20%。",
         "horizon": "1-3个月 · 事件驱动",
         "weight": "≤8%"
@@ -699,7 +699,7 @@
     ],
     "notes": [
       "关键日历：7/28-29 美联储FOMC。事件密集期分批操作，避免满仓押注单一结果。",
-      "QDII 三查再下单：查溢价率（>2%不买，6月曾有12只纳指ETF因高溢价集体停牌）、查限购状态（额度荒下「放宽一周即收紧」）、查汇率（人民币年内升值3.2%已直接侵蚀美元资产收益）。",
+      "QDII 三查再下单：查溢价率（>2%不买，6月曾有12只纳指ETF因高溢价集体停牌）、查限购状态（额度荒下「放宽一周即收紧」）、查汇率（人民币年内升值3.4%已直接侵蚀美元资产收益）。",
       "哑铃结构是当前公募中期策略共识：一端科技成长（卫星、控制总量），一端红利低波+短债（核心、提供现金流）。单边押注科技的组合波动远超「平衡型」承受范围。",
       "再平衡纪律：每季度或单一资产偏离目标±5个百分点时，机械地「涨多的卖一点、跌多的买一点」——科创50年内+62%之后，这条纪律恰恰最值钱。",
       "费率红利：2026年起公募销售新规实施（主动权益认申购费上限0.8%、持有超1年免销售服务费，行业年让利超500亿元）——优先场内ETF与A类份额长持，成本就是确定的超额收益。"
@@ -743,7 +743,7 @@
       {
         "theme": "油价地缘脉冲",
         "heat": "高热度",
-        "drivers": "美伊停火破裂、霍尔木兹航运遇袭，布伦特单日+7.07%至$100.72；冲突2月曾把油价打到$113上方。",
+        "drivers": "美伊停火破裂、霍尔木兹航运遇袭，布伦特单日+6.12%至$89.24；冲突2月曾把油价打到$113上方。",
         "catalysts": "冲突升级或新停火（双向都是大波动）；OPEC供给回应；美国战略储备操作。",
         "vehicles": "油气类QDII（南方原油等曾溢价>20%，务必先查溢价）、油气开采相关ETF。",
         "risks": "事件驱动=隔夜跳空双向：停火修复日-6%同样常见；高溢价买入雪上加霜。",
@@ -752,7 +752,7 @@
       {
         "theme": "加密资产（仅观察，不建议参与）",
         "heat": "深熊观察",
-        "drivers": "BTC较2025年10月峰值腰斩至$63,645.99、约2万亿美元市值蒸发；现货ETF持续净赎回。",
+        "drivers": "BTC较2025年10月峰值腰斩至$64,123.14、约2万亿美元市值蒸发；现货ETF持续净赎回。",
         "catalysts": "美联储政策若转向、ETF资金流反转、杠杆清算尾声信号。",
         "vehicles": "境内无合规参与渠道——本条仅作为全球风险偏好的「温度计」观察，不构成任何参与路径。",
         "risks": "与「降息交易」深度绑定，联储转鹰下无宏观催化；波动极端且流动性风险高。",
@@ -802,60 +802,60 @@
       "url": "https://www.gold.org/goldhub/research/gold-mid-year-outlook-2026"
     },
     {
-      "name": "凤凰网财经",
-      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBwbF9sYkozVTBoQThuUFlpeklsanBUMTVrQXN0dFNuQzUtZlFDX1JrcW1SOVNLYWF3VFNJU3ZRajlXQVdOQ0oyTUZaSnItQmlo?oc=5"
+      "name": "新京报",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5yM2tkUWh6S3hfU3JuRGcyNUw0YU5WNThIUlN5TFhUa0NFWHR4anlkRm95eHJnZVkwM2I4MnVjVVdWTno4aVdQbTlKRS1pX1JiS0R1THhXdkVfNzVMUWp2UnBfSGQ?oc=5"
+    },
+    {
+      "name": "CNBC",
+      "url": "https://www.cnbc.com/2026/07/29/microsoft-msft-q4-earnings-report-2026.html"
+    },
+    {
+      "name": "CNBC",
+      "url": "https://www.cnbc.com/2026/07/29/zuckerberg-metas-ai-capacity-dilemma-what-to-sell-vs-what-to-keep.html"
+    },
+    {
+      "name": "CNBC",
+      "url": "https://www.cnbc.com/2026/07/30/us-iran-war-hormuz-centcom-trump-.html"
     },
     {
       "name": "The Economic Times",
-      "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxPWlBpcWY3NXkyUzFnYlJ6OEFKc1J5NzFCMmVnY0t2Y3dDc2V0QTVza2lJY1VaUWsxSjFhdENIVHpXdFEwaXhFQ2FLLTNEX1lMbTFoUkRzdEszQS1FelBBTXNEUWI2emNvNWNUYm53SUR1Y01OcnltMVBObUxtODA5SWhQWlZNbE5KVHlQUVlEMlhWYW5pLU8xYTFUaVgxc0RjOHF3dGZ6NXR2eldiTTNJYUlCaS1XUkNoZFZlSDQ4Vm1RbHBfNm9lTTJJYlZqMEtERmpMMG1iMy0ya1NYbXRMWW9oYWtjcGtMcTAxaExBVy1nQ2s3MXRjX1R2dkpWMldDdHFGQW1RYXXSAY4CQVVfeXFMTTB5cndMU2E2Z19JNmt4STBfSkRHZDRnaXJ0WlZFQWZSYzJGMDVFZG1wdmNFdnhvdnY1bERmaVVBOURMMHh0YlFCUFFPSnozTEQzX1F5UTBIbjc2VEFlRUVvT0pfaXI3cnhsR2tNcnJjaXNLdWIyblhXOTNUS19XYk5rWGFiUXN5a0JGZENqVjE4eTJxd19DZWRQWGlaakRndEtCRVpsbzI0X1B4R2lfeVlfSWdXTmVWcDNyY1E4Qlo3aFEtaGk0M1lJdDVrOVRxNzUyZTZOcHFSN3FOVkpiTWVrSlRVbEcwTmw2LTdfanppMjBDRUd5dHh5aU5yTzdqVDdyRzB1R3VIOUhpTGxn?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQSmhRanR1UDVUaGRpZVdGd0VoX0ZxNU9RV25kZFhHRGpzOTNYXzhIUFlkak5xWjhoS1hLVmgxNzZ5MXdIZUtFVkNDbG9FazF4cmo3X2syN2RhbXhsZE1oTU50MkNkdk41NDZoTm40QjZKQTZid0ZnM1VaRHcweDBIS0RJRmUtVkZSeUJjV0lFb3lscWdsWXlrS2VCdWdycWh5eDRnX0lTcGxuQkJuNkh2MnFXRFJVXzF1dW1GdEFMUFZGYWNjQmRHbUpTSm5vUDVkSERhMDc4YS1IN1ZqdlZKWlNuNlFIOGd1N1BLUEFUNTlQeUhoMnfSAfsBQVVfeXFMUGg4d3kyb0JsTW8xY2ZEMVljRVBWWkFYeWc0VXZzTXNPVzlyMW05cTVUeVdwS2JjaTU5cV9Da2VzSjFZekstNDRSRFk2NDFXZ0VBOTZQdGRlQmtEZ244T1B2dzhIRlVKYU5NNDBuRFc4dE1xZDhoaXNKN09HemR0bHg0RUpHM04tcFY5SHdzRlQxdU1EUnF4eGlCSUtNaDI4cTBTQVZDVTllMldWY3ZUd0o4cFdETDdjYWR2OXNYZjFkOWt1WDRDMXE3Z2lWbzZ0WGtDSnR2TzJ0NWFYYjJ6VmNRUExoS0FscVJDWlFPUTM5OVN2Rmxqd3ZtaTg?oc=5"
     },
     {
       "name": "CNBC",
-      "url": "https://www.cnbc.com/2026/07/29/chip-selloff-sk-hynix-samsung-softbank.html"
-    },
-    {
-      "name": "东方财富",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE11WHJ3dDhNRG5DY0NJQXdDTEhJZnh3SlF2VHY5anNXQ0tIU1ZVWFFSXzZKZUVOVmxqNHUwcDU1czF4NFdBNmNLX3lHV2twUHFIek9NMXVWNVRkeDRXMUdEbUpFQ2xGZw?oc=5"
-    },
-    {
-      "name": "CNBC",
-      "url": "https://www.cnbc.com/2026/07/29/oil-prices-today-brent-wti-iran-us-hormuz.html"
-    },
-    {
-      "name": "Reuters",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPRnFXZFd5UzNzZ1RRdnZ3aFRNT2N6YU1hdVB6UHNzcU9RdUVMRk5MSkEyUGoxY3FnSnM4OHlpdWoyalJwWEl4bWh3YkcteTNieGF1cm8zVzJHenF4ZERNbGVfSURTaFF4bUVhUC1paUFwMk5XZVFNZzRLOFp2aWQ1aktad1d2WVg0QkNhY215bHpRYlBxVldycg?oc=5"
-    },
-    {
-      "name": "黄金网",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBsMjJVVVRnMmR4VUZxRzdobW5TSTlwQi0xZFA2WkpzM3JLNUtENWdXLUZZUnFQdjJISDUzYzdibnRzbU83MDdDR0JHaFpIaTlnWkZ0cnRQNDAtdFRhb1pmOXZLSUp0OXhP?oc=5"
+      "url": "https://www.cnbc.com/2026/07/30/samsung-q2-earnings-ai-chip-.html"
     },
     {
       "name": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/seagates-earnings-are-welcome-news-for-the-battered-ai-trade-92dfc30f?mod=mw_rss_topstories"
+      "url": "https://www.marketwatch.com/story/starbucks-is-becoming-cool-again-heres-how-it-pulled-off-its-turnaround-d2949e64?mod=mw_rss_topstories"
+    },
+    {
+      "name": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/qualcomms-stock-falls-as-memory-woes-weigh-on-earnings-fc2b6317?mod=mw_rss_topstories"
+    },
+    {
+      "name": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/robinhood-puts-up-record-revenue-as-volatility-drives-a-trading-bonanza-8e0729c1?mod=mw_rss_topstories"
     },
     {
       "name": "CNBC",
-      "url": "https://www.cnbc.com/2026/07/28/ford-motor-f-earnings-q2-2026.html"
-    },
-    {
-      "name": "新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMivgJBVV95cUxPZ0paeW90aDR5TW0ta0MtQjZGd3gyeDJ0bXhfeVdWc3ZZSkV0allFV09uQWh6QlZFX0NCSGt0UmwycWpxM2VEeWZ5dzJaSmd2TjdKdlYzdXVWSjJYelpXay1OdnFxVGRyRmxxMHZKQU1iajM3b2llT3ZuOGVPS2htWXExV1lVZzhPX3hma1hZaW9PNFE2R2tYLVJ6RnFJeURYLTNrcy1Qd204dzM2TWYtd0xDeGZPZEdxQTZka3pEUnFBN0o0TklRRWxoczdkLWJwTnVMMnRpM0MzMjVFRWFfRGI0WVc2SjBteXd0WXVIelN2Y3lGNnRQM0tzQ3gzaXVKYVhsOGRxdXVKQjZhejl6OG9TZkhqbFRMUVVRRGRma2djaWhtMlpLel9jSHc4SENwREliTC1tZXJaOHE3emc?oc=5"
-    },
-    {
-      "name": "凤凰网财经",
-      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5iRUFmT3NQaG53dUZpVHdJUVU2Vk1SaUVEVTUybGFER0xoY3JtSkI0eWxwUmFtZWx5b3psR1JpeXlCbHF0bFpaWTZmc2tNWjB3?oc=5"
-    },
-    {
-      "name": "新华网",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOOWgweHpWTnpia0NUbVdNM1gzRVlHVnktU3h0bWtoNFFWcTFLazJsLWxuTE5oOS04Y3Utcm5sb1Rla2xPWFYtRmdnQlItV3hCNV9FREdWY3BlSHlmazM2ZTdweVNGc2hrbjFzdDBGT213cFhlYlo3b1p6WGJqd3Z4UllleTl5UFl2?oc=5"
-    },
-    {
-      "name": "21财经",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNSVRHRGhtUURfazd4c25mX1A1enM3VXVEZ0h0bVNuTzFJdThVSDFGRzZXMzh4dlhvUE1ZSHhBTF9fX1ZxUlg1aE90bTJPa0RCSjZ2aDg3N3NIcFM3aGRISHJBeXFVZEpQWlN4b0lueVpQT0NGMWlRcHdwa1FhS1JkbFV1LXpIQmVuSV9hXw?oc=5"
+      "url": "https://www.cnbc.com/2026/07/30/china-us-robot-humanoid-ban-trump-visit.html"
     },
     {
       "name": "东方财富",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1NWTU3TFNCaEtJVlJINmd2cEtkV1gta0xEYnJjOUdtc0V3eHBSd21OMWYxQUtYaFdaZFc5R2YxUkVWOGMwakZtWGh6c0Q0bkJoMGNJM0F4TkZ5azdXaHYwUw?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1UTWIxa1pLSnRVa3k5RUhIQTFaZjBpa1EtV2t2UjFwNE95c2VubVFHQ2thVlZlV0NuSG5WcU12VTEzdjJOanlMQ0JGQkZwM0xoakxNRENENm5PbGtJRDM5ZA?oc=5"
+    },
+    {
+      "name": "新京报",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBYVnZEcG13WWcxRHhneU1naEhwUkgwWUlEWGxSQzloYkNsM3RFbmpELUlIeEZGVmZvOEFDbUlfbFNqbEdNMTBjZzk1TWRDX1dYSUc1bFFhM20wX3FhNmY3UzBCOHg?oc=5"
+    },
+    {
+      "name": "新浪网",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBnRUprbUhTUHRaUGRGdFpXXzJpYy1lNzNWOW1NYXBCOUNKU1EtZzZaTU9jUFJ0ZUJ3cnE0U1Fwb2hXTWJ2bFo3NjBwa0N0SG1EeUswLWNkc2F6eW9vdzN4OHJYRi1HV0FMYzRCLVJ0SkhPaFR4VmotdQ?oc=5"
+    },
+    {
+      "name": "chinanews.com.cn",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1zYzd6Z3BDUFJpQ1pHMlpBX19JMFVYdWhWOThEVWJmMXlqRktlRnVacW8xMU1LOXVYcGtoTTBiUnBoMzJ3Z0J6V1dBaUlsTks3U0xQQjlRb25vU1VMMUQ5LUNyMkVMakpfcGI4Zzd1MWdJWXRzU1E?oc=5"
     }
   ]
 }
