@@ -1,26 +1,26 @@
 {
   "meta": {
-    "generatedAt": "2026-08-22 09:53（北京时间）",
+    "generatedAt": "2026-08-22 10:07（北京时间）",
     "riskProfile": "平衡型",
     "scope": "国内 + 海外",
     "newsWindow": "近 30 天焦点",
     "fullDisclaimer": "免责声明：本页面全部内容由 AI 于生成时点自动搜集公开报道与官方数据整理而成，仅用于信息参考与学习交流，不构成任何证券、基金投资建议或收益承诺。AI 并非持牌投资顾问；数据可能存在错漏、口径差异或时滞（各指标截至日期以标注为准），请以官方与基金销售机构披露为准。基金有风险，过往业绩不代表未来表现，杠杆与主题投机可能造成本金快速亏损。请根据自身风险承受能力独立决策，必要时咨询持牌专业人士。"
   },
   "overview": {
-    "heroTitle": "金价飙升破4600美元",
-    "heroDesc": "今日全球市场焦点为黄金大涨3.22%至4661美元，升破4600关口，同时比特币涨6.58%至77835美元，数字货币与贵金属联袂走强。美股三大指数收高，道指涨近1%，但周线齐跌。美债收益率升至4.738%，美联储官员称美债抛售源于AI争夺资金，通胀仍高。A股成交额跌破2万亿创4个月新低，市场观望情绪浓厚。",
+    "heroTitle": "黄金飙升破4600美元",
+    "heroDesc": "今日全球市场风险偏好回升，美股三大指数集体收高，道指涨近1%；比特币大涨6.7%逼近8万美元，COMEX黄金升破4600美元创阶段新高。美联储官员称美债抛售源于AI争夺资金，高盛警告沟通模糊化或加剧波动。A股成交额跌破2万亿创4个月新低，市场观望情绪浓厚。",
     "judgments": [
       {
         "title": "黄金强势突破",
-        "desc": "COMEX黄金单日大涨3.22%至4661.6美元，升破4600美元关口，年内涨幅达8.1%。避险需求与全球央行购金共同推动，短期趋势强劲，但需警惕高位波动。"
+        "desc": "COMEX黄金单日大涨3.22%至4661.6美元，年内涨幅达8.1%。市场对美联储降息预期升温及地缘不确定性推升避险需求，短期金价或维持高位震荡。"
       },
       {
-        "title": "数字货币反弹",
-        "desc": "比特币单日大涨6.58%至77835美元，但年内仍下跌12.3%。市场风险偏好回升，但波动剧烈，投资者需谨慎对待。"
+        "title": "美股反弹但周线收跌",
+        "desc": "美股周五反弹，道指涨0.98%，但标普500周线仍录得下跌。10年期美债收益率升至4.738%，高盛警告美联储沟通模糊化可能加剧市场波动。"
       },
       {
         "title": "A股缩量观望",
-        "desc": "A股成交额跌破2万亿，创4个月新低，融资余额回落。上证指数微涨0.04%，市场缺乏方向，等待政策与外部信号。"
+        "desc": "A股成交额跌破2万亿创4个月新低，融资余额同步回落，上证指数微涨0.04%。市场等待政策明朗，板块轮动加快，红利类资产相对抗跌。"
       }
     ]
   },
@@ -77,8 +77,8 @@
       },
       {
         "label": "比特币",
-        "value": "$77,835",
-        "delta": "-12.3%",
+        "value": "$77,955",
+        "delta": "-12.2%",
         "deltaLabel": "年内",
         "dir": "down"
       }
@@ -87,20 +87,20 @@
       {
         "date": "08-22",
         "tag": "货币政策",
-        "title": "美联储穆萨勒姆：美债抛售源于AI争夺资金，通胀仍过高",
-        "summary": "美联储官员穆萨勒姆表示，近期美债抛售主要源于AI领域对资金的争夺，同时指出当前通胀水平依然过高。此番言论暗示美联储可能维持紧缩政策，市场对降息预期有所降温。",
-        "implication": "美债收益率或维持高位，对全球风险资产估值形成压力。",
+        "title": "美联储暂停加息对A股影响几何",
+        "summary": "美联储暂停加息引发市场关注。分析认为，此举或缓解新兴市场资金流出压力，但高盛警告美联储沟通转向“模糊化”，市场波动或加剧。同时，美联储官员穆萨勒姆表示美债抛售源于AI争夺资金，当前通胀仍过高。",
+        "implication": "美联储政策路径不明，全球资产波动或加大。",
         "source": {
-          "name": "新浪财经",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNWGhXRlpQRkwtNUlOWkJ2aEt0QmdiTUNqMVQ2c2F1eVExNl9Mc3JtdG9KbjRiYXdDdEhJS3l1NzhJOENjUDJaUlZUZTRhRWV0eVhOLVR4NGtfZnB2LVdRSnZabWxhdTgxRGozYml4TGxybVVraDJnN1RXUU5XUjlfVlNiUDRMTkNIQ2QtLTlnM0c4NEMyeTlTcg?oc=5"
+          "name": "手机新浪网",
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5CdTRLWW5lZE5CbWM5MkhhTDQ3MmRfdVNGYndsNlBOaHFrc1FlYW9ZdkNETXdCaVlxd1BWQjd2YjNTajg2X2U3b1RBV0ViVDJZeWFDeUJVMkdldlZaZVdZNDR4M2RLc2d1VGwxRElwaDFQUQ?oc=5"
         }
       },
       {
         "date": "08-22",
         "tag": "美股",
-        "title": "美股止跌反弹，道指涨近1%，黄金升破4600美元",
-        "summary": "周五美股三大指数集体收高，道指涨近1%，但周线仍录得下跌。市场风险偏好回暖，黄金价格重回4600美元上方，数字货币概念股大涨，比特币突破77000美元。",
-        "implication": "短期市场情绪修复，但周线下跌显示中期调整压力犹存。",
+        "title": "美股止跌反弹，道指涨近1%",
+        "summary": "美股三大指数集体收高，道指涨近1%，但全周仍录得下跌。数字货币概念股普涨，比特币逼近8万美元。特朗普就经济政策发声，市场情绪有所修复。",
+        "implication": "美股短期反弹，但周线下跌显示市场仍存谨慎。",
         "source": {
           "name": "华尔街见闻",
           "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBYWTNsWEZ4TUJzWkQ2X3lyMVhkTGEyZ3pOV2VEUVVlamZkcWVFY3oxNHFuM1FIUDFzWENyMG4yWEI3M3BRZndmSnByczR6WkJhSTBF?oc=5"
@@ -108,32 +108,21 @@
       },
       {
         "date": "08-22",
-        "tag": "通胀",
-        "title": "瑞士央行官员：必要时将重启负利率，AI短期或推高通胀",
-        "summary": "瑞士央行官员表示，若经济需要，可能重新引入负利率政策。同时指出，人工智能的快速发展短期内可能推高通胀，对货币政策构成挑战。",
-        "implication": "全球央行政策分化加剧，负利率回归预期或影响瑞郎汇率。",
+        "tag": "大宗商品",
+        "title": "黄金升破4600美元，油价触及高位",
+        "summary": "国际金价重回4600美元上方，受避险需求及美元走弱支撑。布伦特原油触及7月高点93美元，花旗警告70天库存缓冲线临近，地缘风险推升油价。",
+        "implication": "贵金属与能源价格走强，通胀预期或升温。",
         "source": {
           "name": "华尔街见闻",
-          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE53Q3dVUzNmUkFIc1BIMlZ3NEdIVG1mTzJJbEVpemxtZXd4eHVmVFlTc3E4YWRXY0g5azF3R19sQlhSWFdlN0loZ2VydFNjZ2gxeVFF?oc=5"
-        }
-      },
-      {
-        "date": "08-22",
-        "tag": "大宗商品",
-        "title": "布伦特原油触及7月高点93美元，库存缓冲线逼近",
-        "summary": "布伦特原油价格升至每桶93美元，创7月以来新高。花旗警告称，全球原油库存缓冲线正接近70天警戒水平，供应担忧加剧，地缘风险持续支撑油价。",
-        "implication": "油价上行可能加剧通胀压力，影响全球央行政策路径。",
-        "source": {
-          "name": "TradingKey",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNd3hYYlNNVkZxaFI2NjVaSEZ3RXl1Rk4wcEEyU0RuXzA0c1dsMHlRbTgwMGdJbVUxNFl5NUJyZ2lGRnczVEptWV9WTk00Q01xQVREbmItWkxha1U0LTRzcnlndzBhTlc5ajUteFJnTjNoZ0tZRVY0cGJqTkcycXd2VEhHWGhQcVdSdkV4UDBwUmI5dExETl9XQ0tuYXlrRDdBTHU3Mm1kbUVXLWxWZ2dkMWVyOU5iQm5vd0JNd1dwVDNvQzR4Y0p2TQ?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBYWTNsWEZ4TUJzWkQ2X3lyMVhkTGEyZ3pOV2VEUVVlamZkcWVFY3oxNHFuM1FIUDFzWENyMG4yWEI3M3BRZndmSnByczR6WkJhSTBF?oc=5"
         }
       },
       {
         "date": "08-22",
         "tag": "地缘",
-        "title": "美国军方：5月以来协助660亿桶石油通过霍尔木兹海峡",
-        "summary": "美国中央司令部表示，自5月以来，美军已协助约660亿桶石油通过霍尔木兹海峡，该地区安全局势依然紧张，但美国正确保石油运输通道畅通。",
-        "implication": "地缘风险溢价持续，油价短期或维持高位震荡。",
+        "title": "美国军事护航霍尔木兹海峡石油运输",
+        "summary": "美国军方表示自5月以来协助660亿桶石油通过霍尔木兹海峡，该海峡安全局势仍存争议。伊朗局势持续紧张，影响全球原油供应预期。",
+        "implication": "地缘风险支撑油价，关注供应中断可能。",
         "source": {
           "name": "CNBC",
           "url": "https://www.cnbc.com/2026/08/21/strait-hormuz-central-command-centcom-oil-iran-war.html"
@@ -141,32 +130,21 @@
       },
       {
         "date": "08-22",
-        "tag": "债券",
-        "title": "特朗普、万斯和贝森特试图用“另类事实”安抚债市",
-        "summary": "面对美债市场波动，特朗普政府高层试图通过言论稳定投资者情绪，但市场分析认为，这些“另类事实”在华尔街难以奏效，债市压力或持续。",
-        "implication": "美债市场波动性可能加剧，影响全球资产定价。",
-        "source": {
-          "name": "MarketWatch",
-          "url": "https://www.marketwatch.com/story/trump-vance-and-bessent-try-to-calm-the-bond-market-with-alternative-facts-8e424378?mod=mw_rss_topstories"
-        }
-      },
-      {
-        "date": "08-22",
-        "tag": "科技",
-        "title": "Anthropic IPO文件将AI反弹列为风险因素",
-        "summary": "据消息人士透露，AI公司Anthropic在IPO文件中将公众对AI的反弹情绪列为风险因素。该公司计划在公众对AI担忧加剧的背景下上市，市场关注其估值与前景。",
-        "implication": "AI行业估值或面临重新评估，科技股波动加大。",
+        "tag": "通胀",
+        "title": "美国通胀预期升至两月高位",
+        "summary": "贝森特的债券操作旨在安抚市场，却引发通胀担忧，盈亏平衡通胀率升至两个月来最高。特朗普、万斯和贝森特试图用“另类事实”安抚债市，但华尔街并不买账。",
+        "implication": "通胀预期升温，或制约美联储降息空间。",
         "source": {
           "name": "CNBC",
-          "url": "https://www.cnbc.com/2026/08/21/-anthropic-ipo-filing-will-show-ai-backlash-as-risk-sources-say.html"
+          "url": "https://www.cnbc.com/2026/08/21/bessents-bond-gambit-aimed-at-calming-markets-is-instead-stirring-inflation-worries-.html"
         }
       },
       {
         "date": "08-22",
         "tag": "欧洲",
-        "title": "欧元区工资增长放缓，通胀预期下调，经济明显增长",
-        "summary": "最新数据显示，欧元区工资增长放缓，通胀预期有所下调，同时经济呈现明显增长。这为欧洲央行提供了更多政策空间，市场对加息担忧缓解。",
-        "implication": "欧元区经济软着陆预期增强，欧元汇率或获支撑。",
+        "title": "欧元区工资增长放缓，通胀预期下调",
+        "summary": "欧元区工资增长放缓，通胀预期下调，经济出现明显增长。瑞士央行官员表示必要时将重启负利率，AI短期或推高通胀。",
+        "implication": "欧央行政策或趋于宽松，欧元区经济复苏仍存不确定性。",
         "source": {
           "name": "RFI",
           "url": "https://news.google.com/rss/articles/CBMi8wJBVV95cUxQV0VKNmJhbS1udEdVYjN3YkRQVVdsNnNlY3gtY29BMFhmWE4xdm4wRjkwV2JmN2NQMFcxQ01PODdWWFpGaWRsaWo3a280dkRfWVRHT1JDLW5qdWR2eWlsRkFGTUVzdlppUEF0TlRIbVZabU9NLUFmTGkwZll2LTRwRkctenp4SDB6alJpTFZMeXVYVnhfYWRDTmd0b3lVZ3JGSGVjQ2l5VGdvTEhRZkMxc2hIcVJYT1lGSllDMmhORlZfNWFLaHIycDN3bm95a0VGdFBJdi0zck9zQ3ctS0tEWFZOeU1KOXBoTlVDQzRUZ2dQODBLSzJtSlA5UWpHX3Q3NG5TMnRNMEN5M1hRMXVJS083VTBkYmRMcE94M0NkVEE3Wnc3RzFSZ1Z3ajVYZFZ0U2tKcnRNT3FJalV2aEIyTmtDalRQZGlzQnVrbGJ6VDVqOV92blloR1hUXzhJR2tCYVlFMXpuZDFUeWw3N1RaM21JVQ?oc=5"
@@ -174,24 +152,46 @@
       },
       {
         "date": "08-22",
-        "tag": "大宗商品",
-        "title": "特朗普允许免关税进口30万吨碎牛肉，应对肉价飙升",
-        "summary": "由于美国牛肉价格因牛群减少而大幅上涨，特朗普政府宣布将允许免关税进口30万吨碎牛肉，以平抑国内价格。此举或影响美国农业政策与贸易关系。",
-        "implication": "食品通胀压力或缓解，但贸易保护主义政策面临调整。",
+        "tag": "数字货币",
+        "title": "比特币逼近8万美元，瑞·达利欧推荐黄金和比特币",
+        "summary": "比特币价格飙升，逼近8万美元。桥水基金创始人瑞·达利欧表示，贝森特的债务回购举措表明债务危机正在临近，建议配置黄金和比特币。",
+        "implication": "债务担忧推动避险资产和加密货币走强。",
         "source": {
-          "name": "CNBC",
-          "url": "https://www.cnbc.com/2026/08/21/trump-ground-beef-import-tariff.html"
+          "name": "华尔街日报中文网",
+          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNMk5hNmJ4QnRwaUdIa1EzWVJ6cXRPNEpaT3NKN2xqMENMdUxYZGhDYVVzSy15cElJOHFXazdWb1F1c1NGZmVFdWZQZm1nWjJ0bVR6VXJMejdaS081cWQ3TGE4dnZxUV9tTWR1VVpBdWpYSXdIM1VFbU4wdXBQYlM3OTR5RFBGVTdLcFhwSUN5MTNyLU1VaWVYcVZacE9ydXBGOWJtbkhmLWd0TEhzZ1BvTDV4a2g2UUZldlVNWXM1U1N3Nll6LWtPdlRDTjVIV1lzN0RnRVFXOUdMYi01LTIxbA?oc=5"
         }
       },
       {
         "date": "08-22",
-        "tag": "加密货币",
-        "title": "比特币突破77000美元，数字货币概念股普涨",
-        "summary": "比特币价格突破77000美元，创历史新高，带动数字货币概念股普遍上涨。市场风险偏好回升，投资者对加密货币的接受度提高。",
-        "implication": "加密货币市场热度上升，或分流部分传统避险资产资金。",
+        "tag": "科技",
+        "title": "Anthropic IPO或面临AI反弹风险",
+        "summary": "Anthropic即将上市，知情人士称其IPO文件将把AI反弹列为风险因素。当前公众对AI的担忧日益增加，可能影响公司估值和市场表现。",
+        "implication": "AI行业监管与公众情绪或成科技股估值变量。",
         "source": {
-          "name": "Eurasia Business News",
-          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPLWNGczZfcDNQdS1fZ2x1ekRTbnZTR1JqUDVqWjFvUnhqSUxPSy11MTRsaFc4a0R4a19rRHg4S1RPYVlGMWZRQ1c0QVVHX1Nhc25IMmxaeEZMbWFPVUFXeXEya0cyUmc1SmY5SDlpN2Y3WDQyVjJROXZrdndlY2hla3NwdElzam5XeGlrMTVGbUtyTDRqMk9keFRuOUNUZHUwQzV3bDFWck9mZEJGVHBNVmF2Wi1rNjNKWHBDVVlacnVSZTNkdEpRbHNB?oc=5"
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/08/21/-anthropic-ipo-filing-will-show-ai-backlash-as-risk-sources-say.html"
+        }
+      },
+      {
+        "date": "08-22",
+        "tag": "债市",
+        "title": "高盛警告美联储沟通模糊化加剧波动",
+        "summary": "高盛警告，美联储沟通转向“模糊化”，市场波动或进一步加剧。此前美联储官员穆萨勒姆表示美债抛售源于AI争夺资金，当前通胀仍过高。",
+        "implication": "美联储政策不确定性或加大债市波动。",
+        "source": {
+          "name": "凤凰网",
+          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5tQ0kyVjJGaEF2b3NHcmlqTDdyWFp0WGZpWG5QempSSW4wXy1PMzR0QUg3R1hqc2JGRy1BZFF3LW15MllNbUxpS1NVanZVQ1RD?oc=5"
+        }
+      },
+      {
+        "date": "08-22",
+        "tag": "大宗商品",
+        "title": "美国允许免税进口30万吨牛肉",
+        "summary": "特朗普政府宣布允许免税进口30万吨碎牛肉，以缓解国内牛肉价格飙升。2026年美国牛群减少导致牛肉价格大涨。",
+        "implication": "进口增加或平抑美国食品通胀。",
+        "source": {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/08/21/trump-ground-beef-import-tariff.html"
         }
       }
     ]
@@ -265,21 +265,10 @@
     "news": [
       {
         "date": "08-22",
-        "tag": "政策",
-        "title": "央行等部门发布重磅新规，划定人民币买卖红线",
-        "summary": "央行联合多部门发布新规，明确人民币买卖的合规边界，旨在规范外汇市场秩序，防范金融风险。新规对个人和企业外汇交易行为提出更严格要求。",
-        "implication": "人民币汇率波动或受政策约束，跨境资本流动监管加强。",
-        "source": {
-          "name": "京报网",
-          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE84bnU0TmZ5akZsNTdPMTBZYmZIY3NrUVZDbU9mRU9lQVhHZXp4cVY4UlRmYVd1bU9hTkhOc1hYZ0czZ1hQVVVXMDR0WWpHclhxZjhLOXdRVndHRFB4V2c?oc=5"
-        }
-      },
-      {
-        "date": "08-22",
         "tag": "A股",
-        "title": "A股成交额跌破2万亿，创4个月新低，融资余额回落",
-        "summary": "A股市场成交额跌破2万亿元，创4个月新低，融资余额同步回落。市场交投清淡，投资者情绪谨慎，部分板块仍获资金加仓，结构性机会犹存。",
-        "implication": "市场短期或延续震荡，关注资金流向与政策催化。",
+        "title": "A股成交额跌破2万亿，创4个月新低",
+        "summary": "A股成交额跌破2万亿元，创4个月新低，融资余额同步回落。市场观望情绪浓厚，但部分板块仍获加仓，结构性机会犹存。",
+        "implication": "市场缩量调整，资金或聚焦确定性板块。",
         "source": {
           "name": "东方财富",
           "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBabC16ck9TZUVfMkVWdmJqMVVOT0RXSUpYaDdiRUtlYktjN1dfRG9yRHUyUHA4WjJqNUlXNjBQWmZHdzZfMk0zbkFlR3NMMWx6VThReDc1a0UwSy1ZeFRWaQ?oc=5"
@@ -288,31 +277,31 @@
       {
         "date": "08-22",
         "tag": "港股",
-        "title": "港股恒指、恒科齐大涨，大模型概念股飙升，MINIMAX涨超11%",
-        "summary": "港股周五大幅上涨，恒生指数和恒生科技指数均录得显著涨幅。大模型概念股表现强势，MINIMAX涨超11%，黄金股、房地产、半导体板块上涨，医药生物下跌。",
-        "implication": "港股风险偏好回升，科技板块或延续活跃。",
+        "title": "港股大涨，恒指恒科齐升，大模型概念股飙升",
+        "summary": "港股今日大涨，恒指、恒生科技指数齐升。大模型概念股飙升，MINIMAX涨超11%；黄金股、房地产、半导体上涨，医药生物下跌，科网股普涨。",
+        "implication": "港股风险偏好回升，科技与黄金板块领涨。",
         "source": {
           "name": "东方财富",
-          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5lVnUtSi1sMXpyNjI3RVU2RXZfTG1PRE1kMGlFRm1KS1hYNmpzeGRBYldMT09fRFNCX2lWNVdWZnd0VmYxMFlUZmg4eVlyYkZtUXdjRWk1djVvVW5Qb3YxUw?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5lVnUtSi1sMXpyNjI3RVU2RXZfTG1PRE1kMGlFRm1KS1hYNmpzeGRBYldMT09fRFNCX2lWNVZnd0ZmYxMFlUZmg4eVlyYkZtUXdjRWk1djVvVW5Qb3YxUw?oc=5"
         }
       },
       {
         "date": "08-22",
-        "tag": "汇率",
-        "title": "澳元兑美元突破0.7179，100澳元兑482.6255人民币",
-        "summary": "外汇市场数据显示，澳元兑美元汇率突破0.7179，同时100澳元可兑换482.6255人民币。澳元走强或受大宗商品价格及中国经济数据影响。",
-        "implication": "人民币兑澳元贬值，或影响相关贸易与投资成本。",
+        "tag": "政策",
+        "title": "央行等发布新规，划定人民币买卖红线",
+        "summary": "央行等部门发布重磅新规，划定人民币买卖红线，规范人民币交易行为，旨在维护金融市场秩序，防范跨境资金流动风险。",
+        "implication": "人民币交易监管趋严，跨境资本流动或受约束。",
         "source": {
-          "name": "新浪财经",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQMjJaUUJxb2ctUW5aZ3pXSG9GNmtoV2FIdVFvc21OWUpQNDV0cDE4NTJMOUtnbS0tY1o2aTFpLV9RNmJBNzVYS2l0MnRDLTJ4Vk55TkNVQUFWUU9MSThySkxiTC1tMXd2S2dfZ2tiN0JhdjlOSVFORVQyZy1JR2t6M3pEMFduN1E?oc=5"
+          "name": "京报网",
+          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE84bnU0TmZ5akZsNTdPMTBZYmZIY3NrUVZDbU9mRU9lQVhHZXp4cVY4UlRmYVd1bU9hTkhOc1hYZ0czZ1hQVVVXMDR0WWpHclhxZjhLOXdRVndHRFB4V2c?oc=5"
         }
       },
       {
         "date": "08-22",
-        "tag": "房地产",
-        "title": "事关房贷！央行最新公布",
-        "summary": "央行公布最新房贷相关数据或政策，涉及贷款利率、首付比例等。市场关注其对房地产市场的支持力度，以及能否提振购房需求。",
-        "implication": "房贷政策调整或影响房地产市场销售与投资。",
+        "tag": "楼市",
+        "title": "央行最新公布房贷数据，事关房贷",
+        "summary": "央行最新公布房贷相关数据，涉及房贷利率、贷款余额等。数据显示房地产市场信贷环境或出现新变化，购房者需关注。",
+        "implication": "房贷数据或反映房地产政策微调方向。",
         "source": {
           "name": "手机新浪网",
           "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNTGVvME8tYzg3RjVpeE1rblhwd0xzZlJHU3JyRTB1dmx4YmlOZmhLYzF0RklEcWNzM0xsZEdMcHFRcV9RalJnaWk0NkNfclhfT0ZfTGtVVnFScHpsR2FzSEdSbmFEV2VLYkw2dWZfbklWd3l0MURxcnpGcllIc21GOWp4bw?oc=5"
@@ -320,43 +309,10 @@
       },
       {
         "date": "08-22",
-        "tag": "产业政策",
-        "title": "刘健钧：国企及政府投资基金需厘清职能边界",
-        "summary": "专家刘健钧指出，国企及政府投资基金需明确职能边界，平衡政策目标与市场化运作。多地国资基金负责人也强调，需完善考核与容错机制，提升投资效率。",
-        "implication": "国资基金改革深化，或影响创投市场资金流向。",
-        "source": {
-          "name": "东方财富",
-          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9sY2hCNTVYZ2llRTZZbnRkbExCY1FaNHhZMndyVGxtSnFGZ3dKQ2txZ0FxckFGZHNHampGclJGa2Q0TV9KQjhQcF80ay1IeXZjMzZub3dsVU5IdlplUkVRWnRtdlZTUQ?oc=5"
-        }
-      },
-      {
-        "date": "08-22",
-        "tag": "宏观数据",
-        "title": "湖南早稻总产量全国第一！国家统计局发布2026年早稻产量数据",
-        "summary": "国家统计局发布2026年早稻产量数据，湖南早稻总产量居全国第一。粮食生产保持稳定，为经济韧性提供支撑，但全球粮食安全仍面临多重冲击。",
-        "implication": "粮食安全概念受关注，农业板块或迎政策利好。",
-        "source": {
-          "name": "搜狐网",
-          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNVE52NFpNYlpiMmNBZmtOUkdEQllOYWVHM0x3b3VVYm1PaUNsekNsQWVSR25BcER6VGRXV3JCMl9CM19JRjhGSVd1eldVNFJZcjFtS3M2UnpYY1cwVkdTU3BsLW5rYm5CSGFLNFpYejBia3ozNFhaUG1aQkcwN29RMFRRMTVjd1NB?oc=5"
-        }
-      },
-      {
-        "date": "08-22",
-        "tag": "科技",
-        "title": "宇树科技今日上市，机器人概念受关注",
-        "summary": "宇树科技今日在A股上市，引发市场对机器人概念的关注。2026世界机器人大会也展示了产需共融趋势，机器人产业或成为投资热点。",
-        "implication": "机器人板块或受事件催化，关注产业链投资机会。",
-        "source": {
-          "name": "财联社",
-          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFA0YTlkTjkzdnVYNURIVUVCajg5QUlYX0Y0TjR2ajdPQWVuMVhfNVR3QTRIelI0T3VIZlljY2NUbE82WlpWc3ZoSg?oc=5"
-        }
-      },
-      {
-        "date": "08-22",
         "tag": "基金",
-        "title": "科创芯片ETF份额增加，重仓股寒武纪、澜起科技等",
-        "summary": "8月21日，多只科创芯片ETF份额增加，如科创芯片ETF华宝基金增加600万份，科创芯片设计ETF广发基金增加1600万份。重仓股包括寒武纪、澜起科技等，显示资金布局半导体。",
-        "implication": "半导体板块获资金青睐，科创芯片相关ETF或持续活跃。",
+        "title": "科创芯片ETF份额增加，重仓半导体",
+        "summary": "8月21日，科创芯片ETF华宝基金份额增加600万份，科创芯片设计ETF广发基金增加1600万份，科创人工智能ETF华宝增加300万份。重仓股包括寒武纪、海光信息、澜起科技等。",
+        "implication": "资金借道ETF布局半导体与AI芯片。",
         "source": {
           "name": "证券之星",
           "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5JaVVSMXk4U1pMeWl1TGNSdVZWenQyRS0tY2tJc3UxZ1NsRkV4WmJlYVdsZW9BZVpIeTdMUGVwTWV3M1BlYXlVMmxtVnNnX1RCUWhFYnlubzhMSVFlQzZGTkl3?oc=5"
@@ -364,13 +320,57 @@
       },
       {
         "date": "08-22",
-        "tag": "创新药",
-        "title": "创新药板块早盘强势，港股通创新药ETF易方达标的指数半日涨近8%",
-        "summary": "创新药板块今日早盘表现强势，港股通创新药ETF易方达（159316）标的指数半日涨近8%。市场对创新药政策及研发进展持乐观态度，资金流入明显。",
-        "implication": "创新药板块或迎来估值修复，关注相关ETF及个股。",
+        "tag": "产业",
+        "title": "2026世界机器人大会：产需共融",
+        "summary": "2026世界机器人大会举行，主题为“产需共融”，展示机器人产业最新成果，推动产业与需求对接，助力制造业升级。",
+        "implication": "机器人产业政策支持明确，关注产业链机会。",
         "source": {
-          "name": "财联社",
-          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBDTTAzZEVKMFpfb0tIWm1uMXhlOE56bGhFSy1va0dGN0dYR2RNMnhMdDdZcHVuNEpJYmdrbmdGVWZtMmREQzBfTg?oc=5"
+          "name": "中国经济网",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5NRlhWUGdfSWlIdk1GVUtnWk5yWE5reGExMTlZMEYwSzhYbmNZUkNhNGcxd3ozUTh2T3pVcmVPTkpkTjdVRmVUYi04UWdBRi1NWmJwVlpqOWdDNUN0ZzNjbjJBNThYeDRFWDBnbVpqaw?oc=5"
+        }
+      },
+      {
+        "date": "08-22",
+        "tag": "宏观",
+        "title": "湖南早稻产量全国第一，统计局发布数据",
+        "summary": "国家统计局发布2026年早稻产量数据，湖南早稻总产量居全国第一。粮食生产保持稳定，为经济提供基础支撑。",
+        "implication": "粮食安全基础稳固，农业板块或受关注。",
+        "source": {
+          "name": "搜狐网",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNVE52NFpNYlpiMmNBZmtOUkdEQllOYWVHM0x3b3VVYm1PaUNsekNsQWVSR25BcER6VGRXV3JCMl9CM19JRjhGSVd1eldVNFJZcjFtS3M2UnpYY1cwVkdTU3BsLW5rYm5CSGFLNFpYejBia3ozNFhaUG1aQkcwN29RMFRRMTVjd1NB?oc=5"
+        }
+      },
+      {
+        "date": "08-22",
+        "tag": "汇率",
+        "title": "澳元兑美元突破0.7179，人民币中间价调整",
+        "summary": "8月22日，澳元兑美元突破0.7179，折算100澳元兑482.6255人民币。美元兑俄罗斯卢布跌破82.6955，折算100卢布兑8.1280人民币。",
+        "implication": "非美货币走强，人民币汇率或受联动影响。",
+        "source": {
+          "name": "新浪财经_金融信息服务商",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQMjJaUUJxb2ctUW5aZ3pXSG9GNmtoV2FIdVFvc21OWUpQNDV0cDE4NTJMOUtnbS0tY1o2aTFpLV9RNmJBNzVYS2l0MnRDLTJ4Vk55TkNVQUFWUU9MSThySkxiTC1tMXd2S2dfZ2tiN0JhdjlOSVFORVQyZy1JR2t6M3pEMFduN1E?oc=5"
+        }
+      },
+      {
+        "date": "08-22",
+        "tag": "基金",
+        "title": "中加聚享增盈债券A增聘基金经理",
+        "summary": "中加聚享增盈债券A基金经理变动，增聘于跃为基金经理。基金公司调整管理团队，或为优化投资策略。",
+        "implication": "基金经理变动或影响基金风格，关注后续表现。",
+        "source": {
+          "name": "证券之星",
+          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE4wallWWWowa1MwSTVPVFBBZ0lSZ0F2NlJqQzBPMkM4VGtCT0g4ZVNBWmtaeWM1ekFneHBOZkJUNi1zTFRTUXlzUW1PQ3otVUlPcGJMZlQ5RzIySEQ3ZFlDYVBR?oc=5"
+        }
+      },
+      {
+        "date": "08-22",
+        "tag": "产业",
+        "title": "国资基金热议考核与容错机制",
+        "summary": "多位国资基金负责人表示，需完善考核体系，兼顾保值增值与投早投小，落实容错机制需完善制度细则，打通实操堵点。",
+        "implication": "国资基金改革深化，创投生态或优化。",
+        "source": {
+          "name": "21财经",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNSk93ZlRxWVpGVDdCMlJCUnZMMjJRemZnQnl3V29la0JaZmRBR3Zsdl81YWJ6LU15a3ZqZzd6VDRUX3JlSjk5SjM1cWxuNERyNXBkUEFjdzdIV3I5ODRPOENZd0xzZzdOWlN4ZjFFVWVUeG4yWl9zY3FmeHdQMU8xY0llWQ?oc=5"
         }
       }
     ]
@@ -492,32 +492,32 @@
       ]
     },
     "globalAnalysis": [
-      "货币政策方面，美联储官员穆萨勒姆表示，美债抛售源于AI争夺资金，当前通胀仍过高。市场对美联储降息预期降温，10年期美债收益率升至4.738%，年内累计上行55个基点。高盛警告，美联储沟通转向“模糊化”，市场波动或进一步加剧。",
-      "增长与通胀方面，美国通胀数据持续走高，CPI同比从1月的2.4%升至5月的4.2%，显示通胀压力回升。美联储暂停加息，但高利率环境对经济的影响仍需观察。美股周线齐跌，但单日反弹，市场对增长前景存在分歧。",
-      "资产分化方面，黄金与比特币大涨，反映避险与投机需求并存。原油价格维持高位，布伦特原油报93.87美元，年内涨幅达54.5%。有色金属板块普涨，稀土、加密货币概念股走强。",
-      "地缘与机构观点方面，特朗普就贸易协议发表言论，市场关注美加谈判进展。Anthropic IPO文件将AI反弹列为风险因素，显示AI领域不确定性。机构如Oppenheimer上调Marvell目标价，但整体市场情绪谨慎。"
+      "货币政策方面，美联储官员穆萨勒姆表示美债抛售源于AI争夺资金，当前通胀仍过高，暗示政策可能维持紧缩。高盛警告美联储沟通转向模糊化，市场对9月会议预期分歧加大，波动率或进一步上升。",
+      "增长与通胀方面，美国CPI同比已升至4.2%（5月），通胀压力持续。但美股估值模型显示市场可能已消化部分利空，经济韧性仍存。油价年内大涨54.5%，布伦特原油报93.87美元，对通胀形成支撑。",
+      "资产分化明显：黄金、比特币等避险及另类资产大涨，而美债收益率上行压制成长股估值。标普500年内涨11.9%，但近期波动加大。美元指数微跌至98.8，年内基本持平。",
+      "地缘与机构观点方面，特朗普就贸易协议发表乐观言论，但伊朗等地缘风险仍受关注。机构如Oppenheimer上调Marvell目标价至300美元，显示对AI产业链的乐观。Anthropic IPO将AI反弹列为风险因素，反映市场对AI泡沫的担忧。"
     ],
     "chinaAnalysis": [
-      "物价与景气方面，7月CPI同比0.5%，较6月回落，PPI同比3.5%，仍处高位。制造业PMI为49.2，重回荣枯线下方，显示经济复苏基础尚不稳固。早稻产量数据公布，湖南总产量全国第一，粮食安全受关注。",
-      "政策取向方面，央行等部门发布人民币买卖新规，划定红线，规范市场。房贷相关政策最新公布，显示稳楼市意图。国资基金考核体系讨论增多，强调保值增值与投早投小平衡。",
-      "市场结构方面，A股成交额跌破2万亿，创4个月新低，融资余额回落。科创芯片ETF份额增加，显示资金布局科技板块。港股恒指、恒科齐涨，大模型概念股飙升，但医药生物下跌。",
-      "汇率与机构共识方面，美元兑人民币报6.7118，年内升值4.1%，人民币表现稳健。中国经济韧性与活力受到关注，但外部不确定性仍存。机构普遍认为需关注9月央行会议。"
+      "物价与景气方面，7月CPI同比0.5%，PPI同比3.5%，显示通胀温和，但PPI高位可能挤压中下游利润。PMI为49.2，重回荣枯线下方，经济复苏基础仍需巩固。",
+      "政策取向方面，央行等部门发布人民币买卖新规，划定红线，旨在稳定汇率预期。房贷利率政策维持不变，LPR连续多月未调整，货币政策保持稳健。",
+      "市场结构方面，A股成交额萎缩至2万亿以下，融资余额回落，显示市场情绪谨慎。科创板相关ETF份额增减不一，资金在科技板块内部分化。黄金股大涨，房地产、半导体上涨，医药生物下跌。",
+      "汇率与机构共识方面，美元兑人民币报6.7118，年内升值4.1%，人民币汇率稳定。机构普遍认为中国经济具有韧性，但需关注PPI高企对企业的压力，以及政策对平台经济和科技创新的支持。"
     ],
     "scenarios": [
       {
-        "name": "基准：震荡分化",
+        "name": "基准：震荡修复",
         "prob": "55%",
-        "desc": "全球市场在通胀与增长之间博弈，黄金维持高位，股市波动加大。A股成交低迷，等待政策催化。"
+        "desc": "美联储维持利率不变，但通胀担忧持续，美债收益率高位震荡。美股盈利支撑下逐步企稳，A股在政策托底和低估值下缓慢修复，黄金维持强势。"
       },
       {
         "name": "乐观：风险偏好回升",
         "prob": "25%",
-        "desc": "若美联储释放鸽派信号，或贸易谈判取得进展，市场风险偏好回升，股市与数字货币有望继续反弹。"
+        "desc": "若美联储释放鸽派信号或通胀见顶回落，全球股市有望反弹。AI产业持续超预期，科技股领涨，A股放量突破，人民币升值吸引外资流入。"
       },
       {
-        "name": "悲观：调整压力加大",
+        "name": "悲观：波动加剧",
         "prob": "20%",
-        "desc": "若通胀超预期，美债收益率进一步上行，可能引发资产价格调整，黄金回调，股市承压。"
+        "desc": "若地缘冲突升级或通胀超预期，美联储被迫加息，美债收益率飙升，股市承压。A股可能受外盘拖累，但国内政策空间或提供缓冲。"
       }
     ]
   },
@@ -801,48 +801,40 @@
       "url": "https://www.gold.org/goldhub/research/gold-mid-year-outlook-2026"
     },
     {
-      "name": "新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNWGhXRlpQRkwtNUlOWkJ2aEt0QmdiTUNqMVQ2c2F1eVExNl9Mc3JtdG9KbjRiYXdDdEhJS3l1NzhJOENjUDJaUlZUZTRhRWV0eVhOLVR4NGtfZnB2LVdRSnZabWxhdTgxRGozYml4TGxybVVraDJnN1RXUU5XUjlfVlNiUDRMTkNIQ2QtLTlnM0c4NEMyeTlTcg?oc=5"
+      "name": "手机新浪网",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5CdTRLWW5lZE5CbWM5MkhhTDQ3MmRfdVNGYndsNlBOaHFrc1FlYW9ZdkNETXdCaVlxd1BWQjd2YjNTajg2X2U3b1RBV0ViVDJZeWFDeUJVMkdldlZaZVdZNDR4M2RLc2d1VGwxRElwaDFQUQ?oc=5"
     },
     {
       "name": "华尔街见闻",
       "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBYWTNsWEZ4TUJzWkQ2X3lyMVhkTGEyZ3pOV2VEUVVlamZkcWVFY3oxNHFuM1FIUDFzWENyMG4yWEI3M3BRZndmSnByczR6WkJhSTBF?oc=5"
     },
     {
-      "name": "华尔街见闻",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE53Q3dVUzNmUkFIc1BIMlZ3NEdIVG1mTzJJbEVpemxtZXd4eHVmVFlTc3E4YWRXY0g5azF3R19sQlhSWFdlN0loZ2VydFNjZ2gxeVFF?oc=5"
-    },
-    {
-      "name": "TradingKey",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNd3hYYlNNVkZxaFI2NjVaSEZ3RXl1Rk4wcEEyU0RuXzA0c1dsMHlRbTgwMGdJbVUxNFl5NUJyZ2lGRnczVEptWV9WTk00Q01xQVREbmItWkxha1U0LTRzcnlndzBhTlc5ajUteFJnTjNoZ0tZRVY0cGJqTkcycXd2VEhHWGhQcVdSdkV4UDBwUmI5dExETl9XQ0tuYXlrRDdBTHU3Mm1kbUVXLWxWZ2dkMWVyOU5iQm5vd0JNd1dwVDNvQzR4Y0p2TQ?oc=5"
-    },
-    {
       "name": "CNBC",
       "url": "https://www.cnbc.com/2026/08/21/strait-hormuz-central-command-centcom-oil-iran-war.html"
     },
     {
-      "name": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/trump-vance-and-bessent-try-to-calm-the-bond-market-with-alternative-facts-8e424378?mod=mw_rss_topstories"
-    },
-    {
       "name": "CNBC",
-      "url": "https://www.cnbc.com/2026/08/21/-anthropic-ipo-filing-will-show-ai-backlash-as-risk-sources-say.html"
+      "url": "https://www.cnbc.com/2026/08/21/bessents-bond-gambit-aimed-at-calming-markets-is-instead-stirring-inflation-worries-.html"
     },
     {
       "name": "RFI",
       "url": "https://news.google.com/rss/articles/CBMi8wJBVV95cUxQV0VKNmJhbS1udEdVYjN3YkRQVVdsNnNlY3gtY29BMFhmWE4xdm4wRjkwV2JmN2NQMFcxQ01PODdWWFpGaWRsaWo3a280dkRfWVRHT1JDLW5qdWR2eWlsRkFGTUVzdlppUEF0TlRIbVZabU9NLUFmTGkwZll2LTRwRkctenp4SDB6alJpTFZMeXVYVnhfYWRDTmd0b3lVZ3JGSGVjQ2l5VGdvTEhRZkMxc2hIcVJYT1lGSllDMmhORlZfNWFLaHIycDN3bm95a0VGdFBJdi0zck9zQ3ctS0tEWFZOeU1KOXBoTlVDQzRUZ2dQODBLSzJtSlA5UWpHX3Q3NG5TMnRNMEN5M1hRMXVJS083VTBkYmRMcE94M0NkVEE3Wnc3RzFSZ1Z3ajVYZFZ0U2tKcnRNT3FJalV2aEIyTmtDalRQZGlzQnVrbGJ6VDVqOV92blloR1hUXzhJR2tCYVlFMXpuZDFUeWw3N1RaM21JVQ?oc=5"
     },
     {
+      "name": "华尔街日报中文网",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNMk5hNmJ4QnRwaUdIa1EzWVJ6cXRPNEpaT3NKN2xqMENMdUxYZGhDYVVzSy15cElJOHFXazdWb1F1c1NGZmVFdWZQZm1nWjJ0bVR6VXJMejdaS081cWQ3TGE4dnZxUV9tTWR1VVpBdWpYSXdIM1VFbU4wdXBQYlM3OTR5RFBGVTdLcFhwSUN5MTNyLU1VaWVYcVZacE9ydXBGOWJtbkhmLWd0TEhzZ1BvTDV4a2g2UUZldlVNWXM1U1N3Nll6LWtPdlRDTjVIV1lzN0RnRVFXOUdMYi01LTIxbA?oc=5"
+    },
+    {
+      "name": "CNBC",
+      "url": "https://www.cnbc.com/2026/08/21/-anthropic-ipo-filing-will-show-ai-backlash-as-risk-sources-say.html"
+    },
+    {
+      "name": "凤凰网",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5tQ0kyVjJGaEF2b3NHcmlqTDdyWFp0WGZpWG5QempSSW4wXy1PMzR0QUg3R1hqc2JGRy1BZFF3LW15MllNbUxpS1NVanZVQ1RD?oc=5"
+    },
+    {
       "name": "CNBC",
       "url": "https://www.cnbc.com/2026/08/21/trump-ground-beef-import-tariff.html"
-    },
-    {
-      "name": "Eurasia Business News",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPLWNGczZfcDNQdS1fZ2x1ekRTbnZTR1JqUDVqWjFvUnhqSUxPSy11MTRsaFc4a0R4a19rRHg4S1RPYVlGMWZRQ1c0QVVHX1Nhc25IMmxaeEZMbWFPVUFXeXEya0cyUmc1SmY5SDlpN2Y3WDQyVjJROXZrdndlY2hla3NwdElzam5XeGlrMTVGbUtyTDRqMk9keFRuOUNUZHUwQzV3bDFWck9mZEJGVHBNVmF2Wi1rNjNKWHBDVVlacnVSZTNkdEpRbHNB?oc=5"
-    },
-    {
-      "name": "京报网",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE84bnU0TmZ5akZsNTdPMTBZYmZIY3NrUVZDbU9mRU9lQVhHZXp4cVY4UlRmYVd1bU9hTkhOc1hYZ0czZ1hQVVVXMDR0WWpHclhxZjhLOXdRVndHRFB4V2c?oc=5"
     },
     {
       "name": "东方财富",
@@ -850,11 +842,19 @@
     },
     {
       "name": "东方财富",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5lVnUtSi1sMXpyNjI3RVU2RXZfTG1PRE1kMGlFRm1KS1hYNmpzeGRBYldMT09fRFNCX2lWNVdWZnd0VmYxMFlUZmg4eVlyYkZtUXdjRWk1djVvVW5Qb3YxUw?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5lVnUtSi1sMXpyNjI3RVU2RXZfTG1PRE1kMGlFRm1KS1hYNmpzeGRBYldMT09fRFNCX2lWNVZnd0ZmYxMFlUZmg4eVlyYkZtUXdjRWk1djVvVW5Qb3YxUw?oc=5"
     },
     {
-      "name": "新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQMjJaUUJxb2ctUW5aZ3pXSG9GNmtoV2FIdVFvc21OWUpQNDV0cDE4NTJMOUtnbS0tY1o2aTFpLV9RNmJBNzVYS2l0MnRDLTJ4Vk55TkNVQUFWUU9MSThySkxiTC1tMXd2S2dfZ2tiN0JhdjlOSVFORVQyZy1JR2t6M3pEMFduN1E?oc=5"
+      "name": "京报网",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE84bnU0TmZ5akZsNTdPMTBZYmZIY3NrUVZDbU9mRU9lQVhHZXp4cVY4UlRmYVd1bU9hTkhOc1hYZ0czZ1hQVVVXMDR0WWpHclhxZjhLOXdRVndHRFB4V2c?oc=5"
+    },
+    {
+      "name": "手机新浪网",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNTGVvME8tYzg3RjVpeE1rblhwd0xzZlJHU3JyRTB1dmx4YmlOZmhLYzF0RklEcWNzM0xsZEdMcHFRcV9RalJnaWk0NkNfclhfT0ZfTGtVVnFScHpsR2FzSEdSbmFEV2VLYkw2dWZfbklWd3l0MURxcnpGcllIc21GOWp4bw?oc=5"
+    },
+    {
+      "name": "证券之星",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5JaVVSMXk4U1pMeWl1TGNSdVZWenQyRS0tY2tJc3UxZ1NsRkV4WmJlYVdsZW9BZVpIeTdMUGVwTWV3M1BlYXlVMmxtVnNnX1RCUWhFYnlubzhMSVFlQzZGTkl3?oc=5"
     }
   ]
 }
