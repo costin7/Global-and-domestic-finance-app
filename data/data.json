@@ -1,26 +1,26 @@
 {
   "meta": {
-    "generatedAt": "2026-08-23 10:02（北京时间）",
+    "generatedAt": "2026-08-23 10:16（北京时间）",
     "riskProfile": "平衡型",
     "scope": "国内 + 海外",
     "newsWindow": "近 30 天焦点",
     "fullDisclaimer": "免责声明：本页面全部内容由 AI 于生成时点自动搜集公开报道与官方数据整理而成，仅用于信息参考与学习交流，不构成任何证券、基金投资建议或收益承诺。AI 并非持牌投资顾问；数据可能存在错漏、口径差异或时滞（各指标截至日期以标注为准），请以官方与基金销售机构披露为准。基金有风险，过往业绩不代表未来表现，杠杆与主题投机可能造成本金快速亏损。请根据自身风险承受能力独立决策，必要时咨询持牌专业人士。"
   },
   "overview": {
-    "heroTitle": "黄金飙升油价大涨",
-    "heroDesc": "今日全球市场波动加剧：COMEX黄金单日大涨2.39%至4624美元，布伦特原油年内涨幅达55.4%，而美股三大指数周线齐跌。美元指数小幅回落，10Y美债收益率升至4.738%。A股成交额创4个月新低，市场观望情绪浓厚。日本央行放出加息风声，美联储政策路径成焦点。",
+    "heroTitle": "美联储转鹰，油价飙升",
+    "heroDesc": "今日全球市场聚焦美联储鹰派信号，年内降息预期转为加息，美债收益率上行，美元指数微跌。美股周线齐跌，但有色板块普涨，黄金大涨2.39%，布伦特原油年内涨幅达55.4%。日本央行放出加息风声，加拿大宣布对美报复性关税。A股成交额创4个月新低，市场观望情绪浓厚，恒生科技年内跌16.8%。",
     "judgments": [
       {
-        "title": "黄金避险需求激增",
-        "desc": "COMEX黄金单日大涨2.39%至4624.1美元，年内涨幅达7.2%。在美债收益率高企和地缘不确定性下，黄金的避险属性凸显，资金加速流入贵金属板块。"
+        "title": "美联储转鹰，加息预期升温",
+        "desc": "美联储按兵不动但释放鹰派信号，部分官员支持6月加息，市场预期由降息转为加息。高盛发出警告，美债收益率上行至4.738%，对全球风险资产构成压力。"
       },
       {
-        "title": "原油供应担忧加剧",
-        "desc": "布伦特原油报94.39美元，年内涨幅高达55.4%。近期油价连续5日上涨6.4%，市场对供应端收紧的担忧持续升温，能源板块表现强势。"
+        "title": "油价大涨，通胀压力加剧",
+        "desc": "布伦特原油年内涨幅达55.4%，5日涨6.4%，受地缘政治和供给担忧推动。油价上涨加剧通胀压力，可能迫使央行维持紧缩政策，对全球增长构成挑战。"
       },
       {
-        "title": "A股缩量等待方向",
-        "desc": "上证指数微涨0.04%，但成交额跌破2万亿创4个月新低，融资余额同步回落。市场观望情绪浓厚，等待政策面或外部因素催化。"
+        "title": "A股缩量，等待方向选择",
+        "desc": "A股成交额跌破2万亿，创4个月新低，融资余额回落。市场观望情绪浓厚，上证指数年内跌2.9%，下周或迎来关键节点，关注政策面和资金面变化。"
       }
     ]
   },
@@ -77,8 +77,8 @@
       },
       {
         "label": "比特币",
-        "value": "$77,183",
-        "delta": "-13.0%",
+        "value": "$77,110",
+        "delta": "-13.1%",
         "deltaLabel": "年内",
         "dir": "down"
       }
@@ -87,20 +87,20 @@
       {
         "date": "08-23",
         "tag": "货币政策",
-        "title": "美联储加息预期升温 高盛发出警告",
-        "summary": "市场对美联储加息的担忧再度升温，高盛发布最新警告。与此同时，美国财政部出手稳定债市，美元大幅跳水，黄金飙升。市场关注下周杰克逊霍尔全球央行年会，以寻求利率路径的进一步指引。",
-        "implication": "加息预期可能加剧全球资产波动，黄金等避险资产或受益。",
+        "title": "美联储按兵不动但释放鹰派信号 年内利率预期由降息变加息",
+        "summary": "美联储最新会议纪要显示，部分官员支持6月加息，分歧实质为“等数据”。市场对年内利率变化的预期已从降息转为加息。高盛警告美股急跌风险仍存，下周杰克逊霍尔会议成焦点。",
+        "implication": "全球流动性预期收紧，风险资产估值承压，需关注后续通胀数据与央行表态。",
         "source": {
-          "name": "新浪财经",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQQkR4eE5hU2hBaFQwZGpKR0Vhc1ZMU1BjOERKMUlodFlLN1UtbS1IZEdsSC1sNlhsLW9aV3Q0WUtJTXp6UjAwUUtkelBBdjR0a25Md2JnRzNuSlNqSkRoYUdncjZDQWNQeWpPMl9NQ1BxcU5JVmlFN0pjUWpHNEpCSHJPLTk0amljY0pFekhVZy1HN2tlSElpTQ?oc=5"
+          "name": "财联社",
+          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1Xck1rVVBQNVpBcWxUbVNWREstX1NDSEpEMkpXTkJ1R0wtdEJjR0tYRW5IUEc1a0hrZnpmSnZwbHdNZ2tIcUpUUQ?oc=5"
         }
       },
       {
         "date": "08-23",
         "tag": "美股",
         "title": "美股三大指数周线齐跌 有色板块普涨",
-        "summary": "美股三大指数本周均录得下跌，但有色板块表现强势，上演普涨浪潮。市场关注下周英伟达财报及杰克逊霍尔会议，科技股能否在利率上升环境中维持涨势成为焦点。",
-        "implication": "美股短期承压，但结构性机会仍在，关注科技股业绩指引。",
+        "summary": "美股上周收盘三大指数周线齐跌，但有色板块上演普涨浪潮。高盛、巴克莱齐警告美股急跌风险仍存，称“黑色星期五”可能只是前奏。市场关注下周英伟达财报及杰克逊霍尔央行年会。",
+        "implication": "美股短期波动加大，资金或转向防御性板块及大宗商品相关标的。",
         "source": {
           "name": "手机新浪网",
           "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQbkJ4ZklzNC1ZczJrR0MzQ0xPV2Y1VEdYeUtRMnVnNEo5YUJEcE9PX1FLYi1idV9rUWRJNzFQNnM3M2IyWjZJWnpFTmJaQUIxdkdhWHNDRjVfLTBUdld0X2ZsUWtuYnhBOXdEWnh3WGdGTUFPeEQzWW9iZDlrM2xFUm5n?oc=5"
@@ -109,9 +109,9 @@
       {
         "date": "08-23",
         "tag": "大宗商品",
-        "title": "原油大涨布油5日涨6.4% 黄金飙升",
-        "summary": "国际油价持续反弹，布伦特原油5日涨幅达6.4%。同时，美国财政部宣布稳定债市措施后，美元走弱，黄金价格飙升。市场对通胀和地缘风险的担忧推动避险资产走强。",
-        "implication": "大宗商品价格波动加剧，关注通胀预期对全球央行政策的影响。",
+        "title": "布伦特原油5日涨6.4% 油市反弹",
+        "summary": "国际油价近期持续反弹，布伦特原油价格在5天内上涨6.4%。市场关注美国与加拿大贸易谈判破裂后对能源市场的影响，以及清洁能源支出有望创纪录达1800亿美元。",
+        "implication": "油价反弹或加剧通胀压力，影响全球货币政策路径，利好能源板块。",
         "source": {
           "name": "MarketForces Africa",
           "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNZFE5M2hrUFBnbHNiNTI5eU02VnVyZzFobjl3YTQtYkJvN2ZHM2NzMWZMQXhHa2F0MVRDWkJUV0IxdUFTVEI0d1RIY2ZHWXE4ODVpQjlMMWlDdkRpcWs5RzhZWHJ2NUVoTHg3QW9fTm5mQ243YTJMbzBJdGpCODJyQTdicTR3YUZwUFVyYQ?oc=5"
@@ -121,8 +121,8 @@
         "date": "08-23",
         "tag": "地缘",
         "title": "美加贸易谈判破裂 加拿大宣布报复性关税",
-        "summary": "美国与加拿大贸易谈判破裂，加拿大总理卡尼宣布将对美国商品征收报复性关税，自9月8日起生效。此前美国已对部分加拿大出口商品加征50%关税，贸易紧张局势升级。",
-        "implication": "北美贸易摩擦升级，或影响全球供应链及市场风险偏好。",
+        "summary": "美国与加拿大贸易谈判破裂，加拿大总理卡尼宣布将于9月8日起对美国商品征收报复性关税。此前美国已对部分加拿大出口商品征收50%关税，贸易紧张局势升级。",
+        "implication": "贸易摩擦加剧或扰动全球供应链，影响相关国家货币及大宗商品价格。",
         "source": {
           "name": "MarketWatch",
           "url": "https://www.marketwatch.com/story/canada-announces-retaliatory-tariffs-on-u-s-goods-after-trade-talks-break-down-45081c2f?mod=mw_rss_topstories"
@@ -130,10 +130,10 @@
       },
       {
         "date": "08-23",
-        "tag": "日本央行",
-        "title": "日本央行放出下周加息风声",
-        "summary": "日本央行相关人士透露，下周可能加息，并称“再拖下去就太晚了”。市场对日本央行政策正常化的预期升温，日元汇率及日债收益率或面临波动。",
-        "implication": "日本央行转向紧缩，或影响全球资金流向及套息交易。",
+        "tag": "日本",
+        "title": "日本央行放出下周加息风声 相关人士称再拖就太晚",
+        "summary": "日本央行官员暗示下周可能加息，相关人士表示“再拖下去就太晚了”。市场对日本央行政策转向的预期升温，日元汇率及日债收益率或面临波动。",
+        "implication": "日本若加息，可能引发全球套息交易逆转，影响风险资产及日元走势。",
         "source": {
           "name": "财联社",
           "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE55a2VUd1VieHgyN0ZwaHpHTDVWLWVMb1gzNkQzcmRPU0FPc25VeHdBSHhXYk0yMkFBa29kMXAzT2JMeE1wSXFjUg?oc=5"
@@ -142,9 +142,9 @@
       {
         "date": "08-23",
         "tag": "科技",
-        "title": "英伟达警告AI服务器涨价 客户面临成本压力",
-        "summary": "据报道，英伟达已通知部分大客户，包含其芯片的服务器价格将上涨。市场担忧AI成本上升可能影响科技公司资本开支，英伟达股价及AI板块走势备受关注。",
-        "implication": "AI产业链成本上升，或影响相关公司盈利预期。",
+        "title": "英伟达警告AI服务器涨价 下周财报受瞩目",
+        "summary": "据报道，英伟达已告知部分大客户，包含其芯片的服务器价格将上涨。下周英伟达将公布财报，市场关注AI需求能否抵消利率上升的影响，以及股价能否维持高位。",
+        "implication": "AI硬件涨价或传导至下游，影响科技股估值，关注英伟达财报指引。",
         "source": {
           "name": "CNBC",
           "url": "https://www.cnbc.com/2026/08/22/nvidia-customers-reportedly-warned-about-ai-related-price-hikes-.html"
@@ -152,10 +152,32 @@
       },
       {
         "date": "08-23",
+        "tag": "黄金",
+        "title": "美国财政部声明引发黄金比特币上涨",
+        "summary": "本周美国财政部的一项声明引发黄金和比特币价格大幅上涨，美元走弱。市场解读为流动性宽松信号，贵金属及加密货币获得支撑。",
+        "implication": "美元走弱利好黄金及比特币等资产，但需警惕政策反复带来的波动。",
+        "source": {
+          "name": "MarketWatch",
+          "url": "https://www.marketwatch.com/story/why-an-announcement-from-the-treasury-sparked-a-rally-in-gold-and-bitcoin-this-week-d9d5972b?mod=mw_rss_topstories"
+        }
+      },
+      {
+        "date": "08-23",
+        "tag": "美股",
+        "title": "特朗普6月调仓：卖出Meta 买入伯克希尔",
+        "summary": "美国总统特朗普披露6月金融交易记录，显示其卖出Meta等股票，买入伯克希尔哈撒韦。市场关注政治人物投资动向对相关个股的影响。",
+        "implication": "政治人物持仓变动或引发市场关注，但影响有限，需理性看待。",
+        "source": {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/08/22/trump-reshuffled-his-portfolio-in-june-selling-names-like-meta-and-buying-berkshire-hathaway.html"
+        }
+      },
+      {
+        "date": "08-23",
         "tag": "能源",
-        "title": "清洁能源支出有望创纪录 2026年达1800亿美元",
-        "summary": "最新报告显示，2026年全球清洁能源支出有望达到创纪录的1800亿美元。尽管油价波动，但能源转型趋势持续，太阳能、风能等领域投资强劲。",
-        "implication": "清洁能源投资高增，相关产业链或迎长期机遇。",
+        "title": "清洁能源支出有望创纪录达1800亿美元",
+        "summary": "2026年清洁能源支出预计将达到创纪录的1800亿美元，显示全球能源转型加速。尽管油价波动，但清洁能源投资持续增长，相关产业链受益。",
+        "implication": "清洁能源长期趋势向好，相关板块及基金或迎来配置机会。",
         "source": {
           "name": "OilPrice.com",
           "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQU2VzR21RdlVuMVNmRnZwQmhieGUtRndhR2s2X2dmalMzSGM2ZW9MYVRjU01GOU9IWmlqT3M2Zl82RkhweDVaWjdRQ0hId1RWSkNZWVJFelVnYm1SMUJXZFpkbUFVRUNTNUJZR0ZzNTZKQ05zdXFRQm84RWM0c2JIazRYMERic1MwYzRpQVBab3kzTFNPVjV5Wm9aQ01zd1BqemxoRlFld29QQnVJUTdRcUV30gG3AUFVX3lxTE9SQm1FWkFXMV9WcXBEMDNjOFFQZG5nOE4tZW5wVTU5ZXU3eXRsRlRESk1BbU5NOHUwaTR2WlBBQnJIRVBXN0p4VDlLbDMtOUVOS0hPdkk2d28xZkJiQzd2Tm5BWEhPWlY2U05NZDVXYVpvVmU1SXNwNEdhQUFoMHlrbDM0VTUxVk1JWnhmSjZMaUoydHRwdC1JWWh1OXpTb1p2RFlMdWVxRmY0N05hcWlCWnlUZ2RSTQ?oc=5"
@@ -164,34 +186,12 @@
       {
         "date": "08-23",
         "tag": "美股",
-        "title": "特朗普6月调仓：卖出Meta 买入伯克希尔",
-        "summary": "美国总统特朗普披露6月金融交易记录，卖出Meta等股票，买入伯克希尔哈撒韦。这一操作引发市场关注，或反映其对科技股估值及市场前景的看法。",
-        "implication": "政治人物持仓变动或影响市场情绪，但需理性看待。",
+        "title": "巴菲特仍主导伯克希尔股票决策",
+        "summary": "最新观察显示，尽管格雷格·阿贝尔已接任CEO，但沃伦·巴菲特似乎仍在股票投资决策中发挥主导作用。伯克希尔的投资动向持续受市场关注。",
+        "implication": "巴菲特的影响力延续，其调仓行为或影响市场情绪，但需关注公司治理过渡。",
         "source": {
           "name": "CNBC",
-          "url": "https://www.cnbc.com/2026/08/22/trump-reshuffled-his-portfolio-in-june-selling-names-like-meta-and-buying-berkshire-hathaway.html"
-        }
-      },
-      {
-        "date": "08-23",
-        "tag": "地缘",
-        "title": "伊朗批评美国制裁 称其侵犯主权",
-        "summary": "美国财政部长贝森特宣布将对伊朗实施更严厉制裁，伊朗方面批评美国“域外主权”主张。地缘政治风险上升，原油市场或受扰动。",
-        "implication": "地缘冲突升级可能推升油价，加剧通胀压力。",
-        "source": {
-          "name": "CNBC",
-          "url": "https://www.cnbc.com/2026/08/22/iran-criticizes-us-sanctions-extraterritorial-sovereignty.html"
-        }
-      },
-      {
-        "date": "08-23",
-        "tag": "市场",
-        "title": "美股存储光通信走强 莫德纳暴跌23%",
-        "summary": "美股存储、光通信板块走强，但医药牛股莫德纳暴跌23%，拖累生物科技板块。市场分化明显，资金聚焦科技硬件，医药板块承压。",
-        "implication": "板块轮动加速，关注科技硬件与生物科技的分化走势。",
-        "source": {
-          "name": "财联社",
-          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5qbkxqc0czMXBMMUIwNXh3eGJlZi1oTTJINTJSTV8wMVlXZmFNSzJieVdhVXVVMzUyYllPLWx1Q0w0MUFmUVhObw?oc=5"
+          "url": "https://www.cnbc.com/2026/08/22/warren-buffett-not-greg-abel-appears-to-still-be-calling-the-shots-on-stocks.html"
         }
       }
     ]
@@ -265,10 +265,10 @@
     "news": [
       {
         "date": "08-23",
-        "tag": "产业政策",
-        "title": "四川千亿级基金舰队亮相 打造耐心资本",
-        "summary": "2026四川省政府产业投资引导基金生态大会在成都举行，基金规模从200亿增至1200亿，形成千亿级基金舰队。大会聚焦“耐心资本”落地，引导长期资金支持科技创新和产业升级。",
-        "implication": "地方引导基金扩容，或为新兴产业提供长期资金支持。",
+        "tag": "基金",
+        "title": "四川千亿级基金舰队集结 耐心资本如何落地",
+        "summary": "2026四川省政府产业投资引导基金生态大会在成都举行，四川基金规模从200亿增至1200亿，形成千亿级基金舰队。会议探讨如何发挥“耐心资本”作用，支持产业升级。",
+        "implication": "地方引导基金扩容，利好区域产业投资，关注相关基建及新兴产业机会。",
         "source": {
           "name": "新华网",
           "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5ydFNhQmF4RklRS2YzZ2ZmcFN0VlF2SF9LTm1lTkFCNHRkYktjZEtUS09BYkZBY1Y0RXZLRnBOd1ZUNFJaQ3QzeElPSGhXRlBwQ2RxamwzMzVMVEpBREF6ekVFc08wTUF0bTRNNDVYcXNpY0Q4cUE?oc=5"
@@ -277,20 +277,9 @@
       {
         "date": "08-23",
         "tag": "基金",
-        "title": "广发基金固收一姐增聘7只产品 引发关注",
-        "summary": "广发基金固收“一姐”一天内增聘7只产品，市场解读为“下场救火”。此前中邮基金人均月薪10.59万引发热议，基金行业人才流动和薪酬问题持续受到关注。",
-        "implication": "基金公司人事变动频繁，或影响产品业绩稳定性。",
-        "source": {
-          "name": "新浪财经",
-          "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxNNDBhSzlTQmVxR3psY3cwTjhsMmhEQTMtc0VoaVNvTjNQbDY2b3NvN2l4ZVVXX1FvWkYxUVFIZWhScGRBVWw2WEJBSFBFN3hvWUd4UmJDLXZiRl8ybDdEN1RRbGlGQThieGVDRGhlRUswLS1JdDlsaHJDWkdZRmRaM3NUeXdGUW9jd084N1plRFdSR1J2NXJPeURIRVlMc3dkajZvU0lDZzVCU1RCTUNyLXcyZjh4X08tbEJsaG5VTThNOUJRZmNFM3hLeUI2X1ktRXJ4eG1Hcl9UWWx2LTdCQjdGU0JIOUJSN3dUMEY5cDFRWnA0ZGhSVDNvcEp0LVNMakhDSzZSN1R1Zw?oc=5"
-        }
-      },
-      {
-        "date": "08-23",
-        "tag": "基金",
-        "title": "李辉新任宏利基金总经理 法定代表人变更",
-        "summary": "宏利基金宣布李辉新任总经理、法定代表人。此前已有明星基金经理加盟高瓴，公募基金行业高管变动频繁，或反映行业竞争加剧和业务转型压力。",
-        "implication": "高管更迭或带来战略调整，关注基金公司后续动向。",
+        "title": "李辉新任宏利基金总经理、法定代表人",
+        "summary": "宏利基金宣布李辉新任总经理及法定代表人。此次高管变动或与公司战略调整有关，市场关注其后续产品布局及管理风格变化。",
+        "implication": "基金公司高管变更可能影响公司治理及产品策略，投资者可关注后续动态。",
         "source": {
           "name": "chnfund.com",
           "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBDXzF3UUxFVUdGYU50UmV1QnFLY2Q0THZubWdKODczRG1vLWZXZmNmWWgxVE5RSngxeW1WY1FSbkotTnA3QUZRTDlnQ1RjUXJYTkpEdmFGSlJpZlc0S2RTa05UZmhrNDR3YUQyNW01cGpmOUxEY0VOTnpB?oc=5"
@@ -298,10 +287,21 @@
       },
       {
         "date": "08-23",
+        "tag": "基金",
+        "title": "广发基金固收“一姐”下场救火 一天增聘7只产品",
+        "summary": "广发基金固收投资负责人一天内增聘7只产品，引发市场关注。此举或为稳定产品业绩，应对固收市场波动，体现公司对固收业务的重视。",
+        "implication": "固收团队调整或影响相关基金业绩，投资者需关注产品稳定性。",
+        "source": {
+          "name": "新浪财经",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPYXlLUEFlVUR1MVlWRm1SZXlxOGI4WGtIU0lUWHkwZlhNM3FZUlJVNGM4QXIzVUFYS01iMVY4YWU5QzBIcW8tQTJkR1ZaeHFIMFZiTzEwMjh4Vkg4a2g3WjBsOTRMdFJHS1R2aUZJbjRpd3lfRFYyQ2FYZWFxOTh0bw?oc=5"
+        }
+      },
+      {
+        "date": "08-23",
         "tag": "监管",
         "title": "资管业监管变革：信披新规统一百万亿赛道",
-        "summary": "资管行业迎来监管变革，信息披露新规将统一覆盖百万亿级市场，适当性管理实现全覆盖。新规旨在提升行业透明度，保护投资者权益，或重塑资管行业竞争格局。",
-        "implication": "监管趋严，资管机构合规成本上升，行业集中度或提升。",
+        "summary": "资管行业迎来监管变革，信息披露新规将统一覆盖百万亿规模赛道，适当性管理实现全覆盖。新规旨在提升行业透明度，保护投资者权益。",
+        "implication": "监管趋严利好行业长期健康发展，但短期或增加机构合规成本。",
         "source": {
           "name": "新浪财经",
           "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNY2RDZmItOHJJc0FtV1RLMkE5djRrSFNQZVVHcVp5LXZncG9JTGg4MUFveFJ1Ny1SSVp2b3d2ZXlKNk9QdmlOSXlsMVM4eWFzakdpcDhDVUhLSlpNakZrQzNUYXVqYkc5bnJ0QU5zX3NzVmFEZmMwRWlxWDVCbFpQNGtSOFEzWUF0RmtUdTgxWEs1aWJqcG1RRg?oc=5"
@@ -309,32 +309,32 @@
       },
       {
         "date": "08-23",
-        "tag": "A股",
-        "title": "A股下周迎来关键时刻 成交额创4个月新低",
-        "summary": "A股成交额跌破2万亿，创4个月新低，融资余额同步回落。市场观望情绪浓厚，下周或迎来方向选择。机构调研精智达等个股，显示资金在寻找结构性机会。",
-        "implication": "地量或现地价，关注市场情绪修复及政策催化。",
+        "tag": "基金",
+        "title": "中邮基金人均月薪10.59万 行业薪酬引关注",
+        "summary": "中邮基金披露人均月薪达10.59万元，引发市场对基金行业高薪酬的讨论。在行业降费背景下，薪酬水平与业绩匹配度成为焦点。",
+        "implication": "高薪酬或反映公司盈利能力，但也可能面临监管关注，影响行业形象。",
         "source": {
-          "name": "凤凰网",
-          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE14dnRMdHJJd29JWFhqX0NDdXFFTnJrbEV5YjBueFI5V0tCMlpzZlNXY1NUZmxJcDU0MEZlR2taZFFpVjhfdzdwcGpMMldTbnNf?oc=5"
-        }
-      },
-      {
-        "date": "08-23",
-        "tag": "港股",
-        "title": "百利天恒第四次递表港股 定价引关注",
-        "summary": "百利天恒第四次递表港交所，实控人朱义面临H股发行定价权衡。此前公司A股大涨逾500%，一签浮盈超55万，市场关注其港股上市表现。",
-        "implication": "创新药企赴港上市热潮持续，关注定价及市场情绪。",
-        "source": {
-          "name": "搜狐网",
-          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPR01OZlNaODJrb2hLNHk4cm9pNVZCaVduMDN4TUoxZ1FTbi1HQXBCVlM3bjBfYmI0T19RVzJXTDhFS3l5dW9rYVhENFplSk9NNUFwTjZERGJuSEVaUkNjQlhzZjVvZC1ibk4yUEJUQkxVVVFGMjJEbU41MEFsYldvWHA5dHJ2UFdNcUxEQg?oc=5"
+          "name": "新浪财经",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQZ2plemhMZXFFdUdRYlRFYThWVE9BcXJNZlJvcmxDMUJka2ltemJqMDZUVlhJQjVVY1UzeC00MFA3QWhKLUdnWVduMEpQbTNfd3V2Xy15QVNDYkJYOHhVckozMGR5elh1WUMwdlp1Rm8tZFk3S2ZKbGdxaTAxM3hLOQ?oc=5"
         }
       },
       {
         "date": "08-23",
         "tag": "A股",
-        "title": "A股大肉签浮盈超55万 新股赚钱效应回归",
-        "summary": "近期A股新股表现强劲，某大肉签上市后大涨逾500%，一签浮盈超55万元。新股赚钱效应回归，或吸引打新资金入场，但需注意市场波动风险。",
-        "implication": "新股赚钱效应提升市场活跃度，但需警惕炒作风险。",
+        "title": "A股成交额跌破2万亿 创4个月新低",
+        "summary": "A股成交额跌破2万亿元，创4个月新低，融资余额同步回落。市场观望情绪浓厚，但部分板块仍获加仓，下周A股迎来关键时刻。",
+        "implication": "成交萎缩显示市场信心不足，短期或维持震荡，关注政策面催化。",
+        "source": {
+          "name": "东方财富",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBabC16ck9TZUVfMkVWdmJqMVVOT0RXSUpYaDdiRUtlYktjN1dfRG9yRHUyUHA4WjJqNUlXNjBQWmZHdzZfMk0zbkFlR3NMMWx6VThReDc1a0UwSy1ZeFRWaQ?oc=5"
+        }
+      },
+      {
+        "date": "08-23",
+        "tag": "A股",
+        "title": "A股大肉签一签浮盈超55万 大涨逾500%",
+        "summary": "近期A股出现一只“大肉签”，中一签浮盈超过55万元，上市后大涨逾500%。打新收益显著，市场赚钱效应吸引资金关注。",
+        "implication": "打新收益提升或吸引增量资金，但需注意新股炒作风险。",
         "source": {
           "name": "证券时报",
           "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9iQmY4ai0tUUxKOVBVWmtKbDh6eC1vV1B1QlpMX1dvRGE0YThsYTZ0LWk5a2ZjRHpqSnd5UGNZM0xJSlBFQXZzWTJxNDhHWW81UHV1YkZCZ1Y0b01J?oc=5"
@@ -342,10 +342,21 @@
       },
       {
         "date": "08-23",
-        "tag": "产业",
-        "title": "首批9家公募上报创业板电池ETF 主题基金迎新",
-        "summary": "首批9家公募基金同日上报创业板电池ETF，主题ETF迎来扩容。电池产业链受新能源车和储能需求带动，机构布局热情高涨，或为相关板块带来增量资金。",
-        "implication": "主题ETF发行或提升电池板块流动性，关注产业链投资机会。",
+        "tag": "社保基金",
+        "title": "社保基金长期持有消费化工 华鲁恒升近14年",
+        "summary": "社保基金长期布局消费和化工板块，持有华鲁恒升近14年，持仓超2年的消费股达6只。社保基金作为“压舱石”，其长线投资风格值得关注。",
+        "implication": "社保基金持仓动向具有风向标意义，长线布局消费化工或反映其价值判断。",
+        "source": {
+          "name": "天天基金",
+          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBpcVJqUW1iQm9XMHJyWjRwODc4Y21acHF6eFo4NFcwOEluQjczTDA1Z0d1OGo4ZFdLRTJXUTVFVk9aT0VlUUd0amFXX0g1eEVUendCV3d0ZjNEQmpPckZHVkNB?oc=5"
+        }
+      },
+      {
+        "date": "08-23",
+        "tag": "ETF",
+        "title": "首批9家公募同日上报创业板电池ETF",
+        "summary": "主题ETF迎新，首批9家公募同日上报创业板电池ETF，聚焦新能源电池产业链。基金公司积极布局细分赛道，为投资者提供工具化产品。",
+        "implication": "电池ETF获批将丰富投资工具，利好新能源板块流动性和关注度。",
         "source": {
           "name": "21财经",
           "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOSWlyQkhWcms0LVlqTkZ4bkdDMWJ3UW56N3l6V1dJVXI4NG04UUtiMS1mMDJvLUdRTkNuck1sc3NHNjhnNUFzU1M5LUJQS19JUnBJN0g4SXZ1ZlFNVjRWTk42TktkOXk0aVhkd09jWHJLSkJhREhheERQdFdVT0JFVkpiUlRnNWlDNE5ENA?oc=5"
@@ -354,23 +365,12 @@
       {
         "date": "08-23",
         "tag": "A股",
-        "title": "近一月重要股东增减持：湖南海利增持上限5.18%",
-        "summary": "近一月A股重要股东增减持图谱显示，湖南海利增持上限金额占市值5.18%，华资实业两股东减持明显。产业资本动向反映对个股估值和行业前景的判断。",
-        "implication": "股东增减持行为或影响个股短期走势，关注信号意义。",
+        "title": "近一月重要股东增减持：湖南海利增持上限占市值5.18%",
+        "summary": "近一月A股重要股东增减持图谱显示，湖南海利增持上限金额占市值5.18%，华资实业两股东减持明显。产业资本动向反映对个股前景的判断。",
+        "implication": "股东增减持行为影响市场情绪，高比例增持或传递积极信号。",
         "source": {
           "name": "新浪财经",
-          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE12ZlRnOGZzNlpsTm1IeGpZTXZkb3BocWh0RWJDbEY3MDk1LWF1cUtXTk1Pb2ZKUEhGN08tWVN3V09ObjQ1eEh3LVdic3prdUx4UFExbDdlT0RUTE11aF9WcDNLbS1DZFNqVUpqOG9weVJuZnZnbUZPaQ?oc=5"
-        }
-      },
-      {
-        "date": "08-23",
-        "tag": "市场",
-        "title": "A股观望港股持有 黄金持有策略受关注",
-        "summary": "最新策略建议显示，A股观望、港股持有、美股观望、黄金持有。市场在等待政策明朗和外部风险落地，黄金作为避险资产仍受青睐。",
-        "implication": "市场缺乏方向，防御性配置或占优。",
-        "source": {
-          "name": "手机新浪网",
-          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE00ZnR2M1gyTldjbW9xSVVPSTdieWJPaFdZUFlJbE9FNUluc25QVGtBdVJWOVVPTm1HRFhqcUc3a29GdlU1VXp2Q2FhQ20yZDFqZW9DMW5xT2Vhd1lxQ3dwSUpZSFBOVmxmU3lOcG9ETk1iN1U?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE12ZlRnOGZzNlpsTm1IeGpZTXZkb3BocWh0RWJDbEY3MDk1LWF1cUtXTk1Pb2ZKUEhGN08tWVN3V09ObjQ1eEh3LVdic3prdUx4UFExbDdlT0RUTE11aF9WcDNLbS1DZFNqVUpqOG9weVJuTnZnbUZPaQ?oc=5"
         }
       }
     ]
@@ -492,32 +492,32 @@
       ]
     },
     "globalAnalysis": [
-      "货币政策方面，美联储政策路径成为市场焦点。10Y美债收益率升至4.738%，年内累计上行55个基点。高盛发出最新警告，市场对加息预期有所升温。日本央行放出下周加息风声，相关人士表示'再拖下去就太晚了'，全球主要央行政策分化加剧。",
-      "增长与通胀方面，美国CPI同比从3月的3.3%升至5月的4.2%，通胀压力持续。但美股年内仍录得上涨，标普500年内+11.9%，纳斯达克+12.7%。市场在通胀与增长之间博弈，Jackson Hole会议即将召开，投资者关注美联储对通胀的表态。",
-      "资产分化明显：黄金单日大涨2.39%，原油年内涨幅超55%，而有色板块上演普涨浪潮。美股存储、光通信板块下挫，但莫德纳暴跌23%。美元指数小幅回落至98.8，比特币年内下跌13%，风险资产表现不一。",
-      "地缘与机构观点方面，美加贸易谈判破裂，加拿大宣布自9月8日起实施报复性关税。特朗普披露6月投资组合变动，卖出Meta等科技股，买入伯克希尔。英伟达警告客户AI相关服务器价格将上涨，市场关注AI股能否在高利率下存活。"
+      "货币政策方面，美联储7月会议纪要显示部分官员支持加息，市场对年内利率路径的预期由降息转为加息，10年期美债收益率升至4.738%，创年内新高。日本央行放出下周加息风声，称再拖下去就太晚了，全球主要央行政策分化加剧。",
+      "增长与通胀方面，美国CPI同比从2.4%升至4.2%，通胀压力显著回升，而油价持续大涨进一步推升通胀预期。高盛警告加息风险，市场担忧紧缩政策可能抑制经济增长，美股三大指数周线齐跌。",
+      "资产分化明显：黄金受避险和通胀预期推动大涨2.39%，COMEX黄金报4624美元/盎司；原油受供给担忧和地缘政治影响，布伦特原油报94.39美元/桶，年内涨幅超55%；比特币则下跌1.56%，年内跌13.1%，风险偏好分化。",
+      "地缘政治方面，加拿大宣布对美国商品实施报复性关税，贸易紧张升级。此外，英伟达警告AI服务器涨价，市场关注下周杰克逊霍尔会议及英伟达财报，可能影响AI股走势。"
     ],
     "chinaAnalysis": [
-      "物价与景气方面，7月CPI同比0.5%，较6月回落，PPI同比3.5%仍处于高位，但环比有所放缓。PMI为49.2，重回荣枯线下方，显示制造业景气度有所回落。",
-      "政策取向方面，四川千亿级产业投资引导基金生态大会举行，政府引导基金成为支持产业发展的重要抓手。资管业监管变革图谱显示信披新规统一百万亿赛道，适当性管理全覆盖，监管环境持续完善。",
-      "市场结构方面，A股成交额跌破2万亿创4个月新低，融资余额同步回落，市场情绪谨慎。但新股表现亮眼，有'大肉签'一签浮盈超55万。下周A股迎来关键时刻，市场等待方向选择。",
-      "汇率与机构共识方面，美元兑人民币报6.7118，年内人民币升值4.1%。在美元走弱和国内经济基本面支撑下，人民币汇率保持稳定。机构普遍关注下周A股走势及政策面变化。"
+      "物价与景气方面，7月CPI同比0.5%，PPI同比3.5%，PPI高位回落但仍处于正增长，PMI为49.2，重回荣枯线下方，显示经济复苏动能偏弱，内需不足问题仍存。",
+      "政策取向方面，央行维持LPR不变，10年期国债收益率低位震荡，货币政策保持宽松。财政政策持续发力，四川千亿级产业引导基金落地，支持新质生产力发展。",
+      "市场结构方面，A股成交额创4个月新低，融资余额回落，市场情绪谨慎。社保基金长期持有消费化工股，显示对价值股的偏好。中证红利ETF年内涨1.9%，防御属性受青睐。",
+      "汇率方面，美元兑人民币报6.7118，年内升值4.1%，人民币走强。外资流入中国资产，但港股表现分化，恒生科技年内跌16.8%，AI概念或成香港经济新引擎。"
     ],
     "scenarios": [
       {
-        "name": "基准：震荡分化延续",
+        "name": "基准：震荡筑底，等待催化",
         "prob": "55%",
-        "desc": "全球市场在通胀与增长之间拉锯，黄金和原油维持强势，美股高位震荡。A股缩量整理，等待政策催化。美联储按兵不动，日本央行小幅加息。"
+        "desc": "美联储加息预期升温，但经济数据尚可，市场维持震荡。A股在政策托底下区间波动，关注下周关键节点。油价高位运行，通胀压力可控。"
       },
       {
-        "name": "乐观：风险偏好回升",
+        "name": "乐观：政策宽松，风险偏好回升",
         "prob": "25%",
-        "desc": "若美国通胀见顶回落，美联储释放鸽派信号，全球股市有望反弹。A股成交回暖，科技板块领涨。黄金和原油回调，但整体风险资产受益。"
+        "desc": "若美联储实际按兵不动，且国内政策加码，A股可能放量上行。人民币升值吸引外资，港股科技股反弹，黄金和原油继续走强。"
       },
       {
-        "name": "悲观：滞胀风险升温",
+        "name": "悲观：加息落地，市场承压",
         "prob": "20%",
-        "desc": "若油价持续大涨推升通胀，美联储被迫加息，全球股市承压。A股可能跟随调整，黄金继续上涨，债券收益率上行。"
+        "desc": "若美联储意外加息，全球流动性收紧，美股回调拖累A股。油价飙升引发滞胀担忧，债券收益率上行，风险资产普遍下跌。"
       }
     ]
   },
@@ -801,8 +801,8 @@
       "url": "https://www.gold.org/goldhub/research/gold-mid-year-outlook-2026"
     },
     {
-      "name": "新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQQkR4eE5hU2hBaFQwZGpKR0Vhc1ZMU1BjOERKMUlodFlLN1UtbS1IZEdsSC1sNlhsLW9aV3Q0WUtJTXp6UjAwUUtkelBBdjR0a25Md2JnRzNuSlNqSkRoYUdncjZDQWNQeWpPMl9NQ1BxcU5JVmlFN0pjUWpHNEpCSHJPLTk0amljY0pFekhVZy1HN2tlSElpTQ?oc=5"
+      "name": "财联社",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1Xck1rVVBQNVpBcWxUbVNWREstX1NDSEpEMkpXTkJ1R0wtdEJjR0tYRW5IUEc1a0hrZnpmSnZwbHdNZ2tIcUpUUQ?oc=5"
     },
     {
       "name": "手机新浪网",
@@ -825,32 +825,32 @@
       "url": "https://www.cnbc.com/2026/08/22/nvidia-customers-reportedly-warned-about-ai-related-price-hikes-.html"
     },
     {
-      "name": "OilPrice.com",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQU2VzR21RdlVuMVNmRnZwQmhieGUtRndhR2s2X2dmalMzSGM2ZW9MYVRjU01GOU9IWmlqT3M2Zl82RkhweDVaWjdRQ0hId1RWSkNZWVJFelVnYm1SMUJXZFpkbUFVRUNTNUJZR0ZzNTZKQ05zdXFRQm84RWM0c2JIazRYMERic1MwYzRpQVBab3kzTFNPVjV5Wm9aQ01zd1BqemxoRlFld29QQnVJUTdRcUV30gG3AUFVX3lxTE9SQm1FWkFXMV9WcXBEMDNjOFFQZG5nOE4tZW5wVTU5ZXU3eXRsRlRESk1BbU5NOHUwaTR2WlBBQnJIRVBXN0p4VDlLbDMtOUVOS0hPdkk2d28xZkJiQzd2Tm5BWEhPWlY2U05NZDVXYVpvVmU1SXNwNEdhQUFoMHlrbDM0VTUxVk1JWnhmSjZMaUoydHRwdC1JWWh1OXpTb1p2RFlMdWVxRmY0N05hcWlCWnlUZ2RSTQ?oc=5"
+      "name": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/why-an-announcement-from-the-treasury-sparked-a-rally-in-gold-and-bitcoin-this-week-d9d5972b?mod=mw_rss_topstories"
     },
     {
       "name": "CNBC",
       "url": "https://www.cnbc.com/2026/08/22/trump-reshuffled-his-portfolio-in-june-selling-names-like-meta-and-buying-berkshire-hathaway.html"
     },
     {
-      "name": "CNBC",
-      "url": "https://www.cnbc.com/2026/08/22/iran-criticizes-us-sanctions-extraterritorial-sovereignty.html"
+      "name": "OilPrice.com",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQU2VzR21RdlVuMVNmRnZwQmhieGUtRndhR2s2X2dmalMzSGM2ZW9MYVRjU01GOU9IWmlqT3M2Zl82RkhweDVaWjdRQ0hId1RWSkNZWVJFelVnYm1SMUJXZFpkbUFVRUNTNUJZR0ZzNTZKQ05zdXFRQm84RWM0c2JIazRYMERic1MwYzRpQVBab3kzTFNPVjV5Wm9aQ01zd1BqemxoRlFld29QQnVJUTdRcUV30gG3AUFVX3lxTE9SQm1FWkFXMV9WcXBEMDNjOFFQZG5nOE4tZW5wVTU5ZXU3eXRsRlRESk1BbU5NOHUwaTR2WlBBQnJIRVBXN0p4VDlLbDMtOUVOS0hPdkk2d28xZkJiQzd2Tm5BWEhPWlY2U05NZDVXYVpvVmU1SXNwNEdhQUFoMHlrbDM0VTUxVk1JWnhmSjZMaUoydHRwdC1JWWh1OXpTb1p2RFlMdWVxRmY0N05hcWlCWnlUZ2RSTQ?oc=5"
     },
     {
-      "name": "财联社",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5qbkxqc0czMXBMMUIwNXh3eGJlZi1oTTJINTJSTV8wMVlXZmFNSzJieVdhVXVVMzUyYllPLWx1Q0w0MUFmUVhObw?oc=5"
+      "name": "CNBC",
+      "url": "https://www.cnbc.com/2026/08/22/warren-buffett-not-greg-abel-appears-to-still-be-calling-the-shots-on-stocks.html"
     },
     {
       "name": "新华网",
       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5ydFNhQmF4RklRS2YzZ2ZmcFN0VlF2SF9LTm1lTkFCNHRkYktjZEtUS09BYkZBY1Y0RXZLRnBOd1ZUNFJaQ3QzeElPSGhXRlBwQ2RxamwzMzVMVEpBREF6ekVFc08wTUF0bTRNNDVYcXNpY0Q4cUE?oc=5"
     },
     {
-      "name": "新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxNNDBhSzlTQmVxR3psY3cwTjhsMmhEQTMtc0VoaVNvTjNQbDY2b3NvN2l4ZVVXX1FvWkYxUVFIZWhScGRBVWw2WEJBSFBFN3hvWUd4UmJDLXZiRl8ybDdEN1RRbGlGQThieGVDRGhlRUswLS1JdDlsaHJDWkdZRmRaM3NUeXdGUW9jd084N1plRFdSR1J2NXJPeURIRVlMc3dkajZvU0lDZzVCU1RCTUNyLXcyZjh4X08tbEJsaG5VTThNOUJRZmNFM3hLeUI2X1ktRXJ4eG1Hcl9UWWx2LTdCQjdGU0JIOUJSN3dUMEY5cDFRWnA0ZGhSVDNvcEp0LVNMakhDSzZSN1R1Zw?oc=5"
-    },
-    {
       "name": "chnfund.com",
       "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBDXzF3UUxFVUdGYU50UmV1QnFLY2Q0THZubWdKODczRG1vLWZXZmNmWWgxVE5RSngxeW1WY1FSbkotTnA3QUZRTDlnQ1RjUXJYTkpEdmFGSlJpZlc0S2RTa05UZmhrNDR3YUQyNW01cGpmOUxEY0VOTnpB?oc=5"
+    },
+    {
+      "name": "新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPYXlLUEFlVUR1MVlWRm1SZXlxOGI4WGtIU0lUWHkwZlhNM3FZUlJVNGM4QXIzVUFYS01iMVY4YWU5QzBIcW8tQTJkR1ZaeHFIMFZiTzEwMjh4Vkg4a2g3WjBsOTRMdFJHS1R2aUZJbjRpd3lfRFYyQ2FYZWFxOTh0bw?oc=5"
     },
     {
       "name": "新浪财经",
