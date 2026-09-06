@@ -1,26 +1,26 @@
 {
   "meta": {
-    "generatedAt": "2026-09-06 12:46（北京时间）",
+    "generatedAt": "2026-09-06 13:13（北京时间）",
     "riskProfile": "平衡型",
     "scope": "国内 + 海外",
     "newsWindow": "近 30 天焦点",
     "fullDisclaimer": "免责声明：本页面全部内容由 AI 于生成时点自动搜集公开报道与官方数据整理而成，仅用于信息参考与学习交流，不构成任何证券、基金投资建议或收益承诺。AI 并非持牌投资顾问；数据可能存在错漏、口径差异或时滞（各指标截至日期以标注为准），请以官方与基金销售机构披露为准。基金有风险，过往业绩不代表未来表现，杠杆与主题投机可能造成本金快速亏损。请根据自身风险承受能力独立决策，必要时咨询持牌专业人士。"
   },
   "overview": {
-    "heroTitle": "非农重燃加息恐慌",
-    "heroDesc": "美国8月非农强劲，市场对美联储9月加息预期升温，美债收益率飙升，美股三大指数收跌，黄金白银跳水。全球市场波动加剧，A股受外围拖累及国内政策预期影响震荡。原油因地缘风险年内大涨58.5%，G7准备应对。国内央行开展5000亿逆回购，个人养老金基金名录扩容，创新药与科技板块活跃。",
+    "heroTitle": "油价飙升逼近百元",
+    "heroDesc": "今日全球市场聚焦原油大涨，布伦特原油年内涨幅达58.5%，逼近100美元大关，地缘风险推升能源价格。美股三大指数集体收跌，美债收益率上行，加息恐慌重燃。A股震荡，港股表现强劲。国内央行开展5000亿元买断式逆回购，流动性稳字当头。市场关注下周美国CPI及美联储议息会议。",
     "judgments": [
       {
-        "title": "美联储加息预期升温",
-        "desc": "强劲非农数据推升加息概率，美债收益率升至4.784%，美股基金连续净流出。市场担忧美联储9月加息，全球风险资产承压，需关注下周CPI数据。"
+        "title": "油价冲击通胀预期",
+        "desc": "布伦特原油年内上涨58.5%，逼近100美元，地缘风险推动能源价格上行。油价上涨将推升通胀，强化美联储加息预期，对全球风险资产构成压力。"
       },
       {
-        "title": "A股震荡格局未改",
-        "desc": "A股整体处于震荡上行格局，中报季落幕，金秋行情布局开启。央行开展5000亿逆回购呵护流动性，个人养老金基金扩容带来增量资金预期。"
+        "title": "美股短期承压",
+        "desc": "强劲非农推升加息概率，美股基金连续净流出。美债收益率上行，美股估值受压，短期或维持震荡。但科技板块如存储、光通信仍有结构性机会。"
       },
       {
-        "title": "原油地缘风险溢价高",
-        "desc": "布伦特原油年内涨58.5%，伊朗战争迫使全球石油贸易路线重写，G7准备支持能源供应。高油价加剧通胀压力，影响全球货币政策走向。"
+        "title": "A股重估进行时",
+        "desc": "“大缓和”时代终结，全球范式重构，A股迎来重估时刻。中报季落幕，企业利润创新高，科创债指数基金扩容，增量资金入场，市场情绪有望修复。"
       }
     ]
   },
@@ -77,8 +77,8 @@
       },
       {
         "label": "比特币",
-        "value": "$79,936",
-        "delta": "-9.9%",
+        "value": "$79,810",
+        "delta": "-10.1%",
         "deltaLabel": "年内",
         "dir": "down"
       }
@@ -86,10 +86,32 @@
     "news": [
       {
         "date": "09-06",
+        "tag": "地缘",
+        "title": "伊朗战争改写全球石油贸易路线",
+        "summary": "美国袭击三艘伊朗油轮，伊朗战争迫使全球石油贸易路线重写，油价逼近100美元。G7表示准备采取措施支持全球能源供应，市场关注地缘风险对油价及通胀的进一步影响。",
+        "implication": "地缘冲突升级可能推高油价，加剧全球通胀压力。",
+        "source": {
+          "name": "OilPrice.com",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQUFZYektfT3k4cmYtRXhmVHN0SEp3ZXBvVXZ1eUNIbEhkc1JhbWh3UG1LR3hqUGlpRHI3LTQ5QU1PV3pTMktGOGxmcS1TVkYxaTN5VXEyRHVaeDBOclVFeG5pWXNSV2lyUjItYjllMmotclNhaHhFNXplUGhuMjFsc0JYaExidk9tZ3g5RHNQWmI1ZlJ3MkV3VVoxb9IBoAFBVV95cUxPcWdwSDA4dmQ4NTRGYTFYX3F2MzhNalNHaHVEemtTSTZiZzZGUjBJcWd4TFVqamp5aFBDMV9FaTh3OXB2UU5kaGxvdHNnanpjWS02ZC1oZmhFeXV6SV9jelBYUkhFX0ZReVlnTWFiZjIzazV3OWowMVpXZnlQRjJ1UFNhQXZpaW9xNG9SV05UeDNxRkEtUFEzcUhMS01YUGpG"
+        }
+      },
+      {
+        "date": "09-06",
+        "tag": "大宗商品",
+        "title": "油价飙升逼近100美元，G7准备干预",
+        "summary": "原油价格持续上涨逼近每桶100美元，地缘政治风险成为主要推手。G7国家表示已准备好采取措施支持全球能源供应，以应对油价飙升带来的经济冲击。",
+        "implication": "油价上涨可能传导至通胀，影响全球货币政策走向。",
+        "source": {
+          "name": "The Economic Times",
+          "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQUExHS2o2R3c1TVJsQTNEZFlZOTI5Z2s5QmFaTjFRM0NBaXJJUURPTnUzWGk1VXhTOHVyY2ZZNFk4alIzQU4zQlA5cjNGVVBKbVpWT2M2bzdwX1pybFN3QTRpV1NpeFRGWFJEdHc0LVRlNEtTa2oxZFNUMkVuQTNZY2pfZUJ1LS0yRWdmZDNtcnpUWFpCRTkxeUYtdzk4eldHbk40SHVTV3g4bmw3eUxSWXNyZFhzOXhpaXg3Mm5QeDh4WVFHNDBpZ1lIcURtNzF6UmFnN1U2a3pzdXpVU1BYTWRHam5odmN3SHhYc9IB5gFBVV95cUxNdmxTd1VQSjNlNUlsYnBfa0NQUFEzLWowT0hDZXNoSTRuc1o5VmJhQnp1OVpMZkJCQXU5cWQwc1Z1ZEk4a2Eta0VaUHIyNElxREEwT1l5MjhqNy1tTTFfTFhJaHk4NEwyZEIzZnNadXFOSGgwd3dFRWpidWtPNVEzMExKOEVvT2trWHZZcmFmZUdCUVViTU9mNEgzNUNVNFpzeVhrcktSYnNrRlFrUkNsdzVEQ0lIcGVUOW4tdkszb3VCb2VGQ2JZeTNlVjN5bkcxTnpKcWxSdURqVXVoZFdrRmZOemFkUQ?oc=5"
+        }
+      },
+      {
+        "date": "09-06",
         "tag": "货币政策",
-        "title": "非农强劲推升加息概率，美联储9月议息悬念待解",
-        "summary": "强劲非农数据重燃美联储加息恐慌，市场对9月加息预期升温。特朗普再次呼吁降低利率，但下周美国CPI数据将成关键。美股基金连续净流出，资金避险情绪浓厚。",
-        "implication": "加息预期升温或加剧全球资产波动，关注CPI数据落地后的市场反应。",
+        "title": "非农强劲重燃美联储加息恐慌",
+        "summary": "强劲非农数据推升美联储加息概率，美股基金连续净流出。特朗普再次呼吁降低利率，但市场对9月加息预期升温，资金连续出逃，市场平衡面临考验。",
+        "implication": "加息预期升温可能压制美股估值，美元走强。",
         "source": {
           "name": "Sohu",
           "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQdnA3bi1mR2hyMmRmcXJXQmwxQ2JIYXZoUVUwQk9NeThMOWZ3cWdkQjZkUjBXMHQ5MmVzWVM0bGFIdGhTTE1uSHFJSzZoVnVjdHItWDR4dVg0MnliQU1NN1hsTmhaMTh0Nmc5azhnekNHVFhWSGU2ZWthUU5XRHNaaTVPZ0pNV2xqdW5uaQ?oc=5"
@@ -98,9 +120,9 @@
       {
         "date": "09-06",
         "tag": "美股",
-        "title": "美股三大指数集体收跌，存储光通信逆势大涨",
-        "summary": "美股三大指数集体收跌，但存储、光通信板块大涨，闪迪涨近12%，特斯拉重挫近6%。美债收益率拉升，黄金白银齐跳水。标普500指数前一交易日创近一个月最大涨幅后回落。",
-        "implication": "科技板块分化，资金聚焦硬科技，但整体市场受加息预期压制。",
+        "title": "美股三大指数收跌，科技板块分化",
+        "summary": "美股三大指数集体收跌，但存储、光通信板块大涨，闪迪涨近12%，特斯拉重挫近6%。美债收益率拉升，黄金白银齐跳水，市场避险情绪升温。",
+        "implication": "市场波动加剧，科技股内部分化，关注利率走向。",
         "source": {
           "name": "中金在线",
           "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBFOFRNWnhKZnF6LXRRcTV4V2NYeDZzQTFZRnNoZERjbFYyRHBwZEdLYjRPT1IxZ1Z6amFSZWFRa09UalU0bmd4NVpEUUtnSDg2S2JnSTV0UHJwbjhFN3JzeTU5Zkc2UHgwNlIwcXB3?oc=5"
@@ -109,9 +131,9 @@
       {
         "date": "09-06",
         "tag": "日本央行",
-        "title": "日本央行放出下周加息风声，再拖就太晚了",
-        "summary": "日本央行相关人士表示，下周可能加息，再拖下去就太晚了。市场对日本央行政策转向的预期升温，日元汇率及日本股市或受影响。",
-        "implication": "日本央行若加息，可能引发全球套息交易逆转，加剧市场波动。",
+        "title": "日本央行放出下周加息风声",
+        "summary": "日本央行相关人士表示再拖下去就太晚了，市场预期下周可能加息。此举或影响全球资金流向，日元汇率及日股走势备受关注。",
+        "implication": "日本央行加息可能引发套息交易平仓，冲击全球市场。",
         "source": {
           "name": "财联社",
           "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE55a2VUd1VieHgyN0ZwaHpHTDVWLWVMb1gzNkQzcmRPU0FPc25VeHdBSHhXYk0yMkFBa29kMXAzT2JMeE1wSXFjUg?oc=5"
@@ -119,10 +141,43 @@
       },
       {
         "date": "09-06",
-        "tag": "大宗商品",
-        "title": "油价飙升引发全球能源担忧，G7准备采取行动",
-        "summary": "中东冲突升级，美国袭击伊朗油轮，油价飙升。G7表示准备采取措施支持全球能源供应。国际金价陷入震荡拉锯，全球黄金大搬家，荷兰86吨黄金转至伦敦。",
-        "implication": "地缘冲突推升油价，加剧通胀压力，黄金作为避险资产受关注。",
+        "tag": "黄金",
+        "title": "全球黄金大搬家，国际金价震荡",
+        "summary": "荷兰86吨黄金从美国转至伦敦，引发市场对黄金存储安全的关注。国际金价陷入震荡拉锯，美元走强与避险需求相互博弈，黄金ETF资金流向波动。",
+        "implication": "黄金作为避险资产，其价格波动反映市场对地缘和货币政策的担忧。",
+        "source": {
+          "name": "新浪财经",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQMDd1c0N0c1FEQXJFM28yalpYa3F6T1BrSnBEa0lhQkxlRjhJaFBQXzhCb1NadFRnYWRUeGZFZnV1UmZBdHQxRDRIWTZOa3IyYlBjV1o3QmhYT05OS2FhYmxjRHNobjBKbm5Cb0FhWVZxRno2aWdJZlFMY3hQTWs5NDdGMXRVZUliMThjaGdTWFU2NG43bGl4QQ?oc=5"
+        }
+      },
+      {
+        "date": "09-06",
+        "tag": "地缘",
+        "title": "美国袭击伊朗油轮，油价应声上涨",
+        "summary": "美国袭击三艘伊朗油轮，伊朗导弹瞄准美海军舰艇，中东局势急剧升级。油价应声上涨，全球市场避险情绪浓厚，能源股表现强势。",
+        "implication": "地缘冲突可能持续推升油价，加剧通胀压力。",
+        "source": {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/05/us-iran-oil-tankers-navy-missile-attack.html"
+        }
+      },
+      {
+        "date": "09-06",
+        "tag": "债券",
+        "title": "强劲非农或利好债券市场",
+        "summary": "尽管非农数据强劲，但分析认为对债券市场可能反而是好消息。市场对经济衰退的担忧与加息预期交织，美债收益率走势复杂。",
+        "implication": "债券市场可能迎来配置机会，需关注经济数据。",
+        "source": {
+          "name": "MarketWatch",
+          "url": "https://www.marketwatch.com/story/why-the-jobs-report-will-actually-be-good-for-bonds-eb062fda?mod=mw_rss_topstories"
+        }
+      },
+      {
+        "date": "09-06",
+        "tag": "能源",
+        "title": "G7准备干预能源市场，油价高位震荡",
+        "summary": "G7表示准备采取措施支持全球能源供应，以应对油价飙升。市场关注G7具体行动，油价在100美元关口附近震荡，能源股波动加大。",
+        "implication": "政策干预可能短期压制油价，但地缘风险仍存。",
         "source": {
           "name": "News On AIR",
           "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxORXl4c0pSbUJxakRTYUdaLW9DN1ZCMkpFcE52LU5rcWFJcGlzU3NYWXZ1TlpJOUJNdTlNQ0gzb2JCdWZrNk1YQ3JDaURIOHdRb2x0UUhmRTBPdW1ZLWlic2NpaUhjMVhvazJObVRTOVFRRVFVQWZkc3phRGo0bHBkcG4zZW5SaDMtUnNmYUFFa0NLTWpqYTJnZGtMSFVqWFdFV0xWS0pQUTBJVFB4SUE?oc=5"
@@ -130,68 +185,13 @@
       },
       {
         "date": "09-06",
-        "tag": "地缘",
-        "title": "美国袭击伊朗油轮，全球油运路线被迫改写",
-        "summary": "美国袭击三艘伊朗油轮，伊朗战争迫使全球石油贸易路线改写。地缘风险升级，市场担忧供应中断，油价剧烈波动，美股下跌，能源股承压。",
-        "implication": "地缘冲突持续，能源供应风险溢价上升，关注后续局势演变。",
-        "source": {
-          "name": "WSJ",
-          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOSFU4SHdnZDYyX3lJNzFVWXpkZlRFQkM4MlBOX21NY3BCM3g5QXVOZ0RfNFNzVFlZLThoYTVtWW83bXNuVWk3NnYxS3JGZjBISVBtZF9kVE5SSk5KRWtFYXF3SldSXy1SU2RyM0xNdnFQcFAtYVJha3Ruc1JWN0VwT0ZjRzN1R0xLY0pSdXZOX2o?oc=5"
-        }
-      },
-      {
-        "date": "09-06",
         "tag": "美股",
-        "title": "美股收盘：标普500创近一个月最大涨幅后回落",
-        "summary": "美股收盘涨跌不一，标普500指数前一交易日创近一个月最大涨幅，但随后因非农数据及地缘风险回落。资金缓慢流入，硬科技与红利板块相对较优。",
-        "implication": "市场情绪反复，关注加息预期与地缘风险对美股后续走势的影响。",
+        "title": "标普500创近一个月最大涨幅",
+        "summary": "美股收盘标普500指数创近一个月最大涨幅，尽管加息恐慌仍存，但科技股反弹带动市场。苹果秋季发布会临近，市场情绪有所回暖。",
+        "implication": "短期反弹但加息阴影未散，市场波动或持续。",
         "source": {
           "name": "财联社",
           "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE56TW5NRk95b0lDbWNKejE5ekE2SUk4enIzS2EyNnR6OE5LblROYnNBN1ktOXdLU2xqZEtNQ1VBRnFFZE9hZTJ3dA?oc=5"
-        }
-      },
-      {
-        "date": "09-06",
-        "tag": "经济",
-        "title": "美国7%房贷利率已现，购房者承压",
-        "summary": "美国房贷利率升至今年新高，部分购房者和专家称7%利率已现。高利率抑制购房需求，房地产市场降温，对经济构成压力。",
-        "implication": "房贷利率高企或拖累美国房地产及消费，影响经济前景。",
-        "source": {
-          "name": "MarketWatch",
-          "url": "https://www.marketwatch.com/story/7-mortgage-rates-are-already-here-some-buyers-mortgage-experts-say-c51a7e04?mod=mw_rss_topstories"
-        }
-      },
-      {
-        "date": "09-06",
-        "tag": "就业",
-        "title": "强劲非农推升加息概率，美股基金连续净流出",
-        "summary": "强劲非农数据推升美联储加息概率，美股基金连续净流出。市场担忧加息抑制经济，资金转向防御。同时，特朗普施压美联储降息，但市场预期相反。",
-        "implication": "就业数据强劲支撑加息，但资金流出显示市场对流动性收紧的担忧。",
-        "source": {
-          "name": "Sohu",
-          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQdnA3bi1mR2hyMmRmcXJXQmwxQ2JIYXZoUVUwQk9NeThMOWZ3cWdkQjZkUjBXMHQ5MmVzWVM0bGFIdGhTTE1uSHFJSzZoVnVjdHItWDR4dVg0MnliQU1NN1hsTmhaMTh0Nmc5azhnekNHVFhWSGU2ZWthUU5XRHNaaTVPZ0pNV2xqdW5uaQ?oc=5"
-        }
-      },
-      {
-        "date": "09-06",
-        "tag": "大宗商品",
-        "title": "国际金价震荡拉锯，全球黄金大搬家",
-        "summary": "国际金价陷入震荡拉锯，背后原因复杂。全球黄金大搬家，荷兰86吨黄金转至伦敦，市场对美元信用产生疑虑，黄金作为避险资产配置价值凸显。",
-        "implication": "金价震荡，但央行购金及避险需求支撑长期金价。",
-        "source": {
-          "name": "中国经济网",
-          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1pakRncGxndWNZZHdvaExMUlFia0trM29hTUNBQ3ZFYTRENzN1czFGd0hwQWQxRHFsUDFZVnh2eVVBS1hKX2ZxVHVFQW1hWHVuUTVKalozV0o0em4tWmV3Tg?oc=5"
-        }
-      },
-      {
-        "date": "09-06",
-        "tag": "科技",
-        "title": "苹果折叠屏亮相在即，下周外盘看点聚焦",
-        "summary": "下周外盘看点：美国CPI数据影响美联储决策，苹果秋季发布会将亮相折叠屏产品。科技股或受新品提振，但加息预期压制整体市场。",
-        "implication": "苹果新品发布或带动产业链，但宏观因素仍主导市场。",
-        "source": {
-          "name": "东方财富",
-          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5fZnMtUzFBdXpTb0VYUlRyQktISGRBcHlHdEsxaDFMbW1mY19reFpRUG9oVFJ1TUNrcFN5dWJtMGFEYkNvTGhEQ2RIVHViNVRzRXhpdGxmNEU1X25sUk56WFh5NlV4UQ?oc=5"
         }
       }
     ]
@@ -265,32 +265,21 @@
     "news": [
       {
         "date": "09-06",
-        "tag": "宏观",
-        "title": "央行开展5000亿买断式逆回购，流动性稳字当头",
-        "summary": "央行将于9月7日开展5000亿元买断式逆回购操作，维护银行体系流动性合理充裕。市场解读为稳增长信号，流动性环境保持宽松。",
-        "implication": "央行呵护流动性，有助于稳定市场预期，利好债市及股市。",
-        "source": {
-          "name": "新浪财经",
-          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9wd01ERlRZb3NqRkJYUmFEMkxWbURldDBiXzRhWW5fenVKUHpRcHlwS3RnTjViVkR0azIwYUM0bHI4TG52NUR1MkFiTVpmWGJGcF9wdkNYM3NpNTFBNXJ2eGl5eHZYNXBiU0s5ZjRXMElMRTRSMWJocw?oc=5"
-        }
-      },
-      {
-        "date": "09-06",
         "tag": "A股",
-        "title": "A股中报季落幕，金秋行情布局正当时",
-        "summary": "A股中报季落幕，公募中报创利润新高。市场震荡上行，机构认为AI硬件是周期成长股，A股整体处于震荡上行格局。资金涌入ETF，科技主题基金密集扩容。",
-        "implication": "中报落地，业绩驱动行情，科技与创新药等景气赛道受关注。",
+        "title": "A股中报季落幕，金秋行情如何布局",
+        "summary": "A股中报季落幕，市场关注金秋行情。分析认为A股整体处于震荡上行格局，AI硬件等科技板块受关注，但需警惕外部风险。",
+        "implication": "中报落地后市场或聚焦业绩与政策，结构性机会为主。",
         "source": {
           "name": "新浪财经",
-          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBGR0huY3FSWFRkVWtQOTNpNmlTYUhxUWEzdnRaVnRpYWFMbkMwMnBWeENZVExPdEEyNXl0ajRlY0JuUXF0dHdWV1A0TTE5VlhLbjhSdGVRcWhicmdLNURZMUNGUEkyRlpreWlXeU5nWmUtWmxfbGc?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBGR0huY3FSWFRkVWtQOTNpNmlTYUhxQWEzdnRaVnRpYWFMbkMwMnBWeENZVExPdEEyNXl0ajRlY0JuUXF0dHdWV1A0TTE5VlhLbjhSdGVRcWhicmdLNURZMUNGUEkyRlpreWlXeU5nWmUtWmxfbGc?oc=5"
         }
       },
       {
         "date": "09-06",
         "tag": "港股",
-        "title": "港股收评：恒指涨1.74%，科技指数涨2.27%",
-        "summary": "港股收评：恒生指数涨1.74%，恒生科技指数涨2.27%。创新药三大指数上涨，ETF吸金，CXO及科研服务高景气。内外资在港股创新药分歧加大。",
-        "implication": "港股反弹，科技及创新药板块领涨，关注资金流向。",
+        "title": "恒指涨1.74%，科技指数涨2.27%",
+        "summary": "港股收评：恒生指数涨1.74%，恒生科技指数涨2.27%。市场情绪回暖，科技股领涨，内地资金通过港股通持续流入。",
+        "implication": "港股短期反弹，关注科技股及南向资金动向。",
         "source": {
           "name": "新浪网",
           "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOLWFuVlgwYmcyT05rUXBmN0JKckpuRGZVQTNyWWhuQkFHRGxVanlkaE5OYmhwSlpsNXlKU3BmbF9LLURDTTRNd1ByV2J6a0lfNXN4SV83Um9mVEdGVHJkRVJYc09Gc1E2UmFzQWt4aTdjVFNLam5NeU5LaXpNR3hKc2kxZw?oc=5"
@@ -299,20 +288,31 @@
       {
         "date": "09-06",
         "tag": "基金",
-        "title": "基金发行爆发，一日结募再现，资金押注什么？",
-        "summary": "基金发行市场火爆，一日结募再现。公募科技类产品矩阵持续完善，科创债指数基金扩容。个人养老金基金名录扩容，利好长期资金入市。",
-        "implication": "基金发行回暖，居民资金加速入市，科技与养老主题受青睐。",
+        "title": "公募中报创利润新高，科创债指数基金扩容",
+        "summary": "公募基金中报显示利润创新高，科创债指数基金持续扩容。增量资金入场，一周新发基金超80只，科技主题基金密集发行。",
+        "implication": "基金发行回暖，科技与科创主题受青睐。",
         "source": {
-          "name": "新浪财经",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNUGtaS21oU1dPSkpuYlB1ZGFhY3d1UmxXTm9NRVZmLUxHU2NmaGtuM3Q5allQeGptZ0xRVy1Gcmh6a3NfbHV3SHk5aVRSNGRHODBTYXd3NDJqZzBTcW1PbW8zVjVyRllYUDJOc1lhajhNMXU5VlZYck1fblVZdTdOUjVjOXpXVmMwWTduMDhRbkNINXE2UWM2bQ?oc=5"
+          "name": "Sohu",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOSmp6cE4wb3p4dHE3M1dJb3NjcUp4NzNMUnRBNnZuZkFNYUFnbmt1ZlVCTXdvSTQ4b29MbXN1NGoxRExCMXM0QUhfa3Z0bnlIN0JPeWJCSllRUkpsVkhwb191alNDckZNclhFZnpNdHZ5VlU4bkdUUEszeldtMkcwNlVweEJNMUM4QnUxWA?oc=5"
         }
       },
       {
         "date": "09-06",
-        "tag": "政策",
-        "title": "个人养老金基金名录扩容，利好长期资金入市",
-        "summary": "个人养老金基金名录扩容，纳入更多基金产品。此举有助于引导居民长期储蓄资金入市，优化投资者结构，利好资本市场稳定发展。",
-        "implication": "养老金入市提速，为市场带来增量长期资金。",
+        "tag": "央行",
+        "title": "央行开展5000亿元买断式逆回购",
+        "summary": "央行将于9月7日开展5000亿元买断式逆回购操作，维护流动性合理充裕。市场流动性稳字当头，资金面保持平稳。",
+        "implication": "央行呵护流动性，短期资金面无忧。",
+        "source": {
+          "name": "新浪财经",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9wd01ERlRZb3NqRkJYUmFEMkxWbURldDBiXzRhWW5fenVKUHpRcHlwS3RnTjViVkR0azIwYUM0bHI4TG52NUR1MkFiTVpmWGJGcF9wdkNYM3NpNTFBNXJ2eGl5eHZYNXBiU0s5ZjRXMElMRTRSMWJocw?oc=5"
+        }
+      },
+      {
+        "date": "09-06",
+        "tag": "养老金",
+        "title": "个人养老金基金名录扩容",
+        "summary": "利好来袭，个人养老金基金名录扩容，有望为市场带来长期增量资金。此举有助于完善养老第三支柱，引导长期资金入市。",
+        "implication": "养老金入市利好资本市场长期稳定。",
         "source": {
           "name": "新浪财经",
           "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNZGdMbmRMZ1FaS1pDUFJaMFh4Mnc4TDZDb1VXbURYMEU4ZlVRZGdYZVVoV2ZDUDBSQklEd3RnTkFBQ2xfNllBZ2F0ektsME5Tdk9VUmxaSmFPanZhbGtWV1VyYWdXelQ5akpYRC1qRTJHWG5EN3BhWDZnQUZNUXdyaHNwSWd5NjR0VGpFejl4c2ZYYmRWc3I3Sg?oc=5"
@@ -321,9 +321,9 @@
       {
         "date": "09-06",
         "tag": "ETF",
-        "title": "股票指数ETF净流入118亿，宽基ETF吸金显著",
-        "summary": "9月4日股票指数ETF净流入118.71亿元，宽基指数ETF净流入112.02亿元，跨境ETF净流出7.1亿元。资金借道ETF布局A股，科技主题基金密集扩容。",
-        "implication": "ETF资金流向显示机构资金加仓A股，宽基指数受青睐。",
+        "title": "股票指数ETF净流入118.71亿元",
+        "summary": "9月4日股票指数ETF净流入118.71亿元，其中宽基指数ETF净流入112.02亿元。资金持续涌入ETF，科技主题基金密集扩容。",
+        "implication": "ETF资金流入显示市场情绪回暖，宽基指数受青睐。",
         "source": {
           "name": "新浪网",
           "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNVzBXQVZZQkhBWkJQN291X2tnV3VJU3ZvdWxwTGV3cC1lOHZwdjBoNWtQaHUza29oR1RFcXdOVzRuX08zcC1kUDJIZlJxakF0YTU3SkJPdURiWWduVXV4SEw0aEhzYWNDX09tei1NOUd2ZnN1d0RWVUx1WC02SUdnYWVB?oc=5"
@@ -332,9 +332,9 @@
       {
         "date": "09-06",
         "tag": "创新药",
-        "title": "创新药三大指数上涨，CXO高景气，A+H热潮涌动",
-        "summary": "创新药三大指数上涨，ETF吸金，CXO及科研服务呈高景气度。信立泰杀向港股，康诺亚冲回A，创新药企掀起“A+H”市值争夺战。",
-        "implication": "创新药板块景气度高，A+H上市热潮或提升行业估值。",
+        "title": "创新药指数上涨，CXO高景气",
+        "summary": "创新药三大指数上涨，ETF吸金，CXO及科研服务呈高景气度。信立泰拟赴港上市，康诺亚回归A股，创新药企掀起A+H市值争夺战。",
+        "implication": "创新药板块景气度提升，关注相关ETF及个股。",
         "source": {
           "name": "新浪财经",
           "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNVnJwczB5Ym43cEdWcEp4dEU1M3U1TllWZVNjVS1CNUZ3ajAtcnBWZ09JR2ZLSGRXSGFUSndCaWRRTUlWZ21ab3JmcVY3UVFaOHNScXF4WUNUYlhRcG41Mm4ySFJnaUthb3FTV3YtZnU2SGVJT3RtZUZ4aUVPTV9TZEpJMnhkalYxOHQyTWJBc21VVWczSXV6Qg?oc=5"
@@ -342,21 +342,10 @@
       },
       {
         "date": "09-06",
-        "tag": "楼市",
-        "title": "房贷新政出台，怎样借款划算？",
-        "summary": "房贷新政出台，引发市场关注。购房者如何选择贷款方式更划算？新政或降低购房门槛，刺激需求，但需关注居民杠杆及银行风险。",
-        "implication": "房贷新政利好房地产市场，但需理性评估个人财务。",
-        "source": {
-          "name": "中国经济网",
-          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1SaC1fQ2tubjNyTGQ0Z0VPUFFVMzVsVURjOW1lMmNUV3RlMFhKNEpKemhUQlRnSjZHM1o4UWFmSFRwcE9ob2daVXo4NU9uU0piZmp6S2xmTjRVVXI5YXdwYWltUVJkQjU5YUxvWkV1MA?oc=5"
-        }
-      },
-      {
-        "date": "09-06",
         "tag": "A股",
-        "title": "A股三大指数冲高回落，猪肉概念逆市大涨",
-        "summary": "A股三大指数冲高回落，猪肉概念股逆市大涨。市场情绪谨慎，但结构性机会犹存。中欧瑞博黄松杰认为A股整体处于震荡上行格局。",
-        "implication": "市场震荡，关注结构性行情，如猪肉、科技等板块。",
+        "title": "A股冲高回落，猪肉概念逆市大涨",
+        "summary": "A股三大指数冲高回落，猪肉概念股逆市大涨。市场观望情绪浓厚，昨夜股债双杀冲击后，今日走势震荡，资金博弈加剧。",
+        "implication": "短期市场缺乏方向，关注结构性机会。",
         "source": {
           "name": "东方财富",
           "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE52MHNDdlByUDlzU3lfMlFwdFFIb1phVml2aU1EZkZSMG1EcmdIZkZ4ZTlWYTRRT1Y1aTVYZV9rWmQyUmhOYnMxbUlVZ2RjcnU4NW5wbk9YMXJON2FYUmRZZw?oc=5"
@@ -365,12 +354,23 @@
       {
         "date": "09-06",
         "tag": "科技",
-        "title": "公募科技类产品矩阵持续完善，资金涌入ETF",
-        "summary": "公募科技类产品矩阵持续完善，科技主题基金密集扩容。资金涌入ETF，股票指数ETF净流入超百亿，科技板块或成市场主线。",
-        "implication": "科技主题基金扩容，反映市场对科技成长风格的偏好。",
+        "title": "公募科技类产品矩阵持续完善",
+        "summary": "公募基金持续完善科技类产品矩阵，科技主题基金密集扩容。资金涌入ETF，AI硬件等科技板块受关注，中欧瑞博认为AI硬件是周期成长股。",
+        "implication": "科技赛道长期向好，但短期需注意估值。",
         "source": {
           "name": "新浪财经",
-          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1OWGpJakRSeVlLV2dPcU5DY0VtdG90dC03Q2I3RzJ2RGFLTFdGcm4yZTQwRHNZbmpLenJGS0s5Q3ZldHV4d0VZTm9FTUM1ZG5ScjNQQUtWcV9aVEYycENJeTN6TVNibWNLYU9ncmhjenFIbUpMcFIxSQ?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5IMnlvY2FaVExkZ1JoSzVXRE1RcUtuUWRiTDRhNXpmSXVINlM5YTdCMHFSNkFWX2FuUmg1bkszYzZkSnlQNm1nZDlFaU51ZmlseGxtcDhtNmtpb2loSjQ2Ym5fdktZbE9Ld1luQWw3dzVBZnJDQnU3bA?oc=5"
+        }
+      },
+      {
+        "date": "09-06",
+        "tag": "宏观",
+        "title": "朱民：中国经济转型为亚太提供新机遇",
+        "summary": "中国人民银行原副行长朱民表示，中国经济转型为亚太提供新机遇。国内经济处于转型期，政策支持新质生产力发展，关注结构性改革。",
+        "implication": "经济转型期，政策导向行业或受益。",
+        "source": {
+          "name": "新浪财经",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNV01ZSDJzOXd5ZDFfNHJoZnZsSGgyOTRXSU1fOVhyRGhIRW8wWEQxcDJRRFJUWS0xQnFwQWs1cXdQVDV6ZnBjdVBqeXdPR2Y2OVdQSHBVNUZxUDd3OXhBdS1Lc1BJQnBxdlFPZm82ZzUzR2VVMnJtZTVKNnlreE5uNA?oc=5"
         }
       }
     ]
@@ -501,32 +501,32 @@
       ]
     },
     "globalAnalysis": [
-      "货币政策方面，强劲非农数据重燃美联储加息恐慌，市场预期9月加息概率上升，美债收益率升至4.784%附近。特朗普呼吁降息，但通胀数据回升至4.2%，美联储面临两难。下周CPI数据将成关键。",
-      "增长与通胀方面，美国经济数据强劲，但通胀反弹风险加大。油价飙升（布油96.28美元）进一步推升通胀压力。全球“大缓和”时代终结，范式重构，经济面临滞胀风险。",
-      "资产分化明显：美股三大指数收跌，但存储、光通信板块大涨；黄金高位震荡，COMEX黄金4476美元；美元指数走强至99.16。资金从美股基金流出，转向其他资产。",
-      "地缘方面，伊朗战争导致石油贸易路线重写，G7表态支持能源供应。机构观点认为，地缘风险持续，市场波动加大，需关注下周苹果发布会及美联储会议。"
+      "货币政策方面，强劲非农数据重燃美联储加息恐慌，市场对9月加息预期升温，美债收益率上行至4.784%。特朗普呼吁降息，但通胀压力制约美联储行动。下周CPI数据将成为关键指引。",
+      "增长与通胀方面，油价飙升加剧通胀担忧，布伦特原油年内涨幅达58.5%，逼近100美元。G7表示准备采取措施支持全球能源供应，但地缘风险仍存。通胀预期上行可能抑制经济增长。",
+      "资产分化方面，美股三大指数集体收跌，但存储、光通信板块大涨，闪迪涨近12%，特斯拉重挫近6%。黄金白银齐跳水，COMEX黄金年内仅涨3.8%。美元指数微涨，市场避险情绪升温。",
+      "地缘与机构观点方面，伊朗战争迫使全球石油贸易路线重写，地缘风险推升油价。机构认为AI硬件是周期成长股，美股基金连续净流出，市场平衡或将被打破。"
     ],
     "chinaAnalysis": [
-      "物价与景气方面，8月CPI同比0.5%，PPI同比3.5%，显示通胀温和，但PPI高位对中下游利润形成挤压。PMI为49.8，仍处收缩区间，经济复苏基础需巩固。",
-      "政策取向稳字当头，央行9月7日开展5000亿元买断式逆回购，维护流动性合理充裕。个人养老金基金名录扩容，引导长期资金入市。房贷新政出台，支持合理住房需求。",
-      "市场结构上，A股中报季落幕，创新药、科技类产品矩阵完善，科创债指数基金扩容。港股通纳入华沿机器人，内地资金配置港股渠道拓宽。ETF资金流向显示股票指数ETF净流入118.71亿元，跨境ETF净流出7.1亿元。",
-      "汇率方面，美元兑人民币6.7108，年内升值4.1%，人民币资产吸引力增强。机构共识认为A股整体震荡上行，AI硬件是周期成长股，关注结构性机会。"
+      "物价与景气方面，8月CPI同比0.5%，PPI同比3.5%，物价温和，PPI高位。PMI为49.8，仍低于荣枯线，经济修复基础需巩固。中报季落幕，公募利润创新高，企业盈利改善。",
+      "政策取向方面，央行将于9月7日开展5000亿元买断式逆回购操作，流动性保持合理充裕。个人养老金基金名录扩容，利好长期资金入市。房贷新政出台，支持居民信贷需求。",
+      "市场结构方面，A股整体处于震荡上行格局，中欧瑞博认为AI硬件是周期成长股。港股表现强劲，恒指涨1.74%，恒生科技涨2.27%。创新药企掀起“A+H”市值争夺战，CXO高景气。",
+      "汇率与机构共识方面，美元兑人民币年内贬值4.1%，人民币资产吸引力增强。机构共识认为全球范式重构，A股迎来重估时刻，但短期仍需关注海外加息和油价风险。"
     ],
     "scenarios": [
       {
-        "name": "基准：震荡上行",
-        "prob": "55%",
-        "desc": "美联储9月加息但符合预期，A股在政策托底下震荡上行，结构性机会活跃。原油高位但可控，通胀温和。"
+        "name": "基准：震荡修复",
+        "prob": "50%",
+        "desc": "油价高位但未失控，美联储9月加息25bp，A股在政策托底下震荡上行，港股受益于南向资金，黄金维持震荡。"
       },
       {
-        "name": "乐观：突破上行",
+        "name": "乐观：风险偏好回升",
         "prob": "25%",
-        "desc": "若美国CPI低于预期，美联储不加息，全球风险偏好回升。A股放量突破，科技与创新药领涨。"
+        "desc": "地缘缓和，油价回落，美联储释放鸽派信号，全球股市反弹，A股放量突破，人民币升值，黄金走强。"
       },
       {
-        "name": "悲观：回调风险",
-        "prob": "20%",
-        "desc": "若美联储超预期加息或地缘冲突升级，油价飙升，全球市场大跌。A股受拖累回调，需防范风险。"
+        "name": "悲观：滞胀风险",
+        "prob": "25%",
+        "desc": "油价突破100美元，通胀超预期，美联储激进加息，全球衰退担忧加剧，股债双杀，A股承压，黄金避险属性凸显。"
       }
     ]
   },
@@ -810,6 +810,14 @@
       "url": "https://www.gold.org/goldhub/research/gold-mid-year-outlook-2026"
     },
     {
+      "name": "OilPrice.com",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQUFZYektfT3k4cmYtRXhmVHN0SEp3ZXBvVXZ1eUNIbEhkc1JhbWh3UG1LR3hqUGlpRHI3LTQ5QU1PV3pTMktGOGxmcS1TVkYxaTN5VXEyRHVaeDBOclVFeG5pWXNSV2lyUjItYjllMmotclNhaHhFNXplUGhuMjFsc0JYaExidk9tZ3g5RHNQWmI1ZlJ3MkV3VVoxb9IBoAFBVV95cUxPcWdwSDA4dmQ4NTRGYTFYX3F2MzhNalNHaHVEemtTSTZiZzZGUjBJcWd4TFVqamp5aFBDMV9FaTh3OXB2UU5kaGxvdHNnanpjWS02ZC1oZmhFeXV6SV9jelBYUkhFX0ZReVlnTWFiZjIzazV3OWowMVpXZnlQRjJ1UFNhQXZpaW9xNG9SV05UeDNxRkEtUFEzcUhMS01YUGpG"
+    },
+    {
+      "name": "The Economic Times",
+      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQUExHS2o2R3c1TVJsQTNEZFlZOTI5Z2s5QmFaTjFRM0NBaXJJUURPTnUzWGk1VXhTOHVyY2ZZNFk4alIzQU4zQlA5cjNGVVBKbVpWT2M2bzdwX1pybFN3QTRpV1NpeFRGWFJEdHc0LVRlNEtTa2oxZFNUMkVuQTNZY2pfZUJ1LS0yRWdmZDNtcnpUWFpCRTkxeUYtdzk4eldHbk40SHVTV3g4bmw3eUxSWXNyZFhzOXhpaXg3Mm5QeDh4WVFHNDBpZ1lIcURtNzF6UmFnN1U2a3pzdXpVU1BYTWRHam5odmN3SHhYc9IB5gFBVV95cUxNdmxTd1VQSjNlNUlsYnBfa0NQUFEzLWowT0hDZXNoSTRuc1o5VmJhQnp1OVpMZkJCQXU5cWQwc1Z1ZEk4a2Eta0VaUHIyNElxREEwT1l5MjhqNy1tTTFfTFhJaHk4NEwyZEIzZnNadXFOSGgwd3dFRWpidWtPNVEzMExKOEVvT2trWHZZcmFmZUdCUVViTU9mNEgzNUNVNFpzeVhrcktSYnNrRlFrUkNsdzVEQ0lIcGVUOW4tdkszb3VCb2VGQ2JZeTNlVjN5bkcxTnpKcWxSdURqVXVoZFdrRmZOemFkUQ?oc=5"
+    },
+    {
       "name": "Sohu",
       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQdnA3bi1mR2hyMmRmcXJXQmwxQ2JIYXZoUVUwQk9NeThMOWZ3cWdkQjZkUjBXMHQ5MmVzWVM0bGFIdGhTTE1uSHFJSzZoVnVjdHItWDR4dVg0MnliQU1NN1hsTmhaMTh0Nmc5azhnekNHVFhWSGU2ZWthUU5XRHNaaTVPZ0pNV2xqdW5uaQ?oc=5"
     },
@@ -822,48 +830,40 @@
       "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE55a2VUd1VieHgyN0ZwaHpHTDVWLWVMb1gzNkQzcmRPU0FPc25VeHdBSHhXYk0yMkFBa29kMXAzT2JMeE1wSXFjUg?oc=5"
     },
     {
-      "name": "News On AIR",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxORXl4c0pSbUJxakRTYUdaLW9DN1ZCMkpFcE52LU5rcWFJcGlzU3NYWXZ1TlpJOUJNdTlNQ0gzb2JCdWZrNk1YQ3JDaURIOHdRb2x0UUhmRTBPdW1ZLWlic2NpaUhjMVhvazJObVRTOVFRRVFVQWZkc3phRGo0bHBkcG4zZW5SaDMtUnNmYUFFa0NLTWpqYTJnZGtMSFVqWFdFV0xWS0pQUTBJVFB4SUE?oc=5"
+      "name": "新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQMDd1c0N0c1FEQXJFM28yalpYa3F6T1BrSnBEa0lhQkxlRjhJaFBQXzhCb1NadFRnYWRUeGZFZnV1UmZBdHQxRDRIWTZOa3IyYlBjV1o3QmhYT05OS2FhYmxjRHNobjBKbm5Cb0FhWVZxRno2aWdJZlFMY3hQTWs5NDdGMXRVZUliMThjaGdTWFU2NG43bGl4QQ?oc=5"
     },
     {
-      "name": "WSJ",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOSFU4SHdnZDYyX3lJNzFVWXpkZlRFQkM4MlBOX21NY3BCM3g5QXVOZ0RfNFNzVFlZLThoYTVtWW83bXNuVWk3NnYxS3JGZjBISVBtZF9kVE5SSk5KRWtFYXF3SldSXy1SU2RyM0xNdnFQcFAtYVJha3Ruc1JWN0VwT0ZjRzN1R0xLY0pSdXZOX2o?oc=5"
+      "name": "CNBC",
+      "url": "https://www.cnbc.com/2026/09/05/us-iran-oil-tankers-navy-missile-attack.html"
+    },
+    {
+      "name": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/why-the-jobs-report-will-actually-be-good-for-bonds-eb062fda?mod=mw_rss_topstories"
+    },
+    {
+      "name": "News On AIR",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxORXl4c0pSbUJxakRTYUdaLW9DN1ZCMkpFcE52LU5rcWFJcGlzU3NYWXZ1TlpJOUJNdTlNQ0gzb2JCdWZrNk1YQ3JDaURIOHdRb2x0UUhmRTBPdW1ZLWlic2NpaUhjMVhvazJObVRTOVFRRVFVQWZkc3phRGo0bHBkcG4zZW5SaDMtUnNmYUFFa0NLTWpqYTJnZGtMSFVqWFdFV0xWS0pQUTBJVFB4SUE?oc=5"
     },
     {
       "name": "财联社",
       "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE56TW5NRk95b0lDbWNKejE5ekE2SUk4enIzS2EyNnR6OE5LblROYnNBN1ktOXdLU2xqZEtNQ1VBRnFFZE9hZTJ3dA?oc=5"
     },
     {
-      "name": "MarketWatch",
-      "url": "https://www.marketwatch.com/story/7-mortgage-rates-are-already-here-some-buyers-mortgage-experts-say-c51a7e04?mod=mw_rss_topstories"
-    },
-    {
-      "name": "中国经济网",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1pakRncGxndWNZZHdvaExMUlFia0trM29hTUNBQ3ZFYTRENzN1czFGd0hwQWQxRHFsUDFZVnh2eVVBS1hKX2ZxVHVFQW1hWHVuUTVKalozV0o0em4tWmV3Tg?oc=5"
-    },
-    {
-      "name": "东方财富",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5fZnMtUzFBdXpTb0VYUlRyQktISGRBcHlHdEsxaDFMbW1mY19reFpRUG9oVFJ1TUNrcFN5dWJtMGFEYkNvTGhEQ2RIVHViNVRzRXhpdGxmNEU1X25sUk56WFh5NlV4UQ?oc=5"
-    },
-    {
       "name": "新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9wd01ERlRZb3NqRkJYUmFEMkxWbURldDBiXzRhWW5fenVKUHpRcHlwS3RnTjViVkR0azIwYUM0bHI4TG52NUR1MkFiTVpmWGJGcF9wdkNYM3NpNTFBNXJ2eGl5eHZYNXBiU0s5ZjRXMElMRTRSMWJocw?oc=5"
-    },
-    {
-      "name": "新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBGR0huY3FSWFRkVWtQOTNpNmlTYUhxUWEzdnRaVnRpYWFMbkMwMnBWeENZVExPdEEyNXl0ajRlY0JuUXF0dHdWV1A0TTE5VlhLbjhSdGVRcWhicmdLNURZMUNGUEkyRlpreWlXeU5nWmUtWmxfbGc?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBGR0huY3FSWFRkVWtQOTNpNmlTYUhxQWEzdnRaVnRpYWFMbkMwMnBWeENZVExPdEEyNXl0ajRlY0JuUXF0dHdWV1A0TTE5VlhLbjhSdGVRcWhicmdLNURZMUNGUEkyRlpreWlXeU5nWmUtWmxfbGc?oc=5"
     },
     {
       "name": "新浪网",
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOLWFuVlgwYmcyT05rUXBmN0JKckpuRGZVQTNyWWhuQkFHRGxVanlkaE5OYmhwSlpsNXlKU3BmbF9LLURDTTRNd1ByV2J6a0lfNXN4SV83Um9mVEdGVHJkRVJYc09Gc1E2UmFzQWt4aTdjVFNLam5NeU5LaXpNR3hKc2kxZw?oc=5"
     },
     {
-      "name": "新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNUGtaS21oU1dPSkpuYlB1ZGFhY3d1UmxXTm9NRVZmLUxHU2NmaGtuM3Q5allQeGptZ0xRVy1Gcmh6a3NfbHV3SHk5aVRSNGRHODBTYXd3NDJqZzBTcW1PbW8zVjVyRllYUDJOc1lhajhNMXU5VlZYck1fblVZdTdOUjVjOXpXVmMwWTduMDhRbkNINXE2UWM2bQ?oc=5"
+      "name": "Sohu",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOSmp6cE4wb3p4dHE3M1dJb3NjcUp4NzNMUnRBNnZuZkFNYUFnbmt1ZlVCTXdvSTQ4b29MbXN1NGoxRExCMXM0QUhfa3Z0bnlIN0JPeWJCSllRUkpsVkhwb191alNDckZNclhFZnpNdHZ5VlU4bkdUUEszeldtMkcwNlVweEJNMUM4QnUxWA?oc=5"
     },
     {
       "name": "新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNZGdMbmRMZ1FaS1pDUFJaMFh4Mnc4TDZDb1VXbURYMEU4ZlVRZGdYZVVoV2ZDUDBSQklEd3RnTkFBQ2xfNllBZ2F0ektsME5Tdk9VUmxaSmFPanZhbGtWV1VyYWdXelQ5akpYRC1qRTJHWG5EN3BhWDZnQUZNUXdyaHNwSWd5NjR0VGpFejl4c2ZYYmRWc3I3Sg?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9wd01ERlRZb3NqRkJYUmFEMkxWbURldDBiXzRhWW5fenVKUHpRcHlwS3RnTjViVkR0azIwYUM0bHI4TG52NUR1MkFiTVpmWGJGcF9wdkNYM3NpNTFBNXJ2eGl5eHZYNXBiU0s5ZjRXMElMRTRSMWJocw?oc=5"
     }
   ]
 }
