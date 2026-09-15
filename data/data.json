@@ -1,26 +1,26 @@
 {
   "meta": {
-    "generatedAt": "2026-09-14 13:32（北京时间）",
+    "generatedAt": "2026-09-15 12:59（北京时间）",
     "riskProfile": "平衡型",
     "scope": "国内 + 海外",
     "newsWindow": "近 30 天焦点",
     "fullDisclaimer": "免责声明：本页面全部内容由 AI 于生成时点自动搜集公开报道与官方数据整理而成，仅用于信息参考与学习交流，不构成任何证券、基金投资建议或收益承诺。AI 并非持牌投资顾问；数据可能存在错漏、口径差异或时滞（各指标截至日期以标注为准），请以官方与基金销售机构披露为准。基金有风险，过往业绩不代表未来表现，杠杆与主题投机可能造成本金快速亏损。请根据自身风险承受能力独立决策，必要时咨询持牌专业人士。"
   },
   "overview": {
-    "heroTitle": "超级央行周遇上油价破百",
-    "heroDesc": "本周美联储议息会议开启，市场对加息定价明显升温，10年期美债收益率升至4.975%的年内高位，美元指数站稳99上方。中东局势推升布伦特原油至107.26美元、年内涨幅达76.6%，能源通胀担忧再起。美股三大指数上周五仍全线走高，纳指年内涨13.3%，风险偏好与紧缩预期并存。中国方面，8月CPI同比0.8%、PPI同比3.8%，物价温和修复；上证指数年内跌3.4%，恒生科技年内跌24.5%，港股与A股相对承压，人民币汇率保持稳中偏强。",
+    "heroTitle": "美联储加息预期升温，油价续涨",
+    "heroDesc": "隔夜美股三大指数小幅回落，纳指年内仍涨12.7%；10年期美债收益率升至4.961%，与油价七年罕见同步走高，市场关注通胀压力。逾八成经济学家预计美联储本周加息，概率升至90%。国内8月经济数据出炉，工业增速受电子、电力、汽车带动回升，但社零与投资偏弱，统计局称运行平稳、向新向优。A股沪深300跌1.10%，港股恒指微跌、恒科涨0.60%，半导体与创新药板块活跃，央行开展5000亿元买断式逆回购。",
     "judgments": [
       {
-        "title": "加息定价主导全球资产",
-        "desc": "美联储本周议息，市场加息概率被推升至约90%，10年期美债收益率升至4.975%、年内累计上行79bp。美元指数年内转正至+0.9%，黄金年内仅涨1.3%，说明实际利率上行正在压制无息资产估值，全球资金定价锚重新偏向美元现金与短端。"
+        "title": "美联储加息预期升温",
+        "desc": "调查显示逾八成经济学家预计美联储本周加息，市场隐含概率升至90%，明年3月底前或再出手。10年期美债收益率升至4.961%，年内累计上行77bp，美元指数小幅走强至99.6附近，全球流动性收紧预期对高估值资产形成扰动。"
       },
       {
-        "title": "油价成为通胀新变量",
-        "desc": "布伦特原油升至107.26美元，单日涨2.53%、年内涨76.6%，中东袭击与霍尔木兹谈判停滞是主要推手。能源价格上行叠加美国核心通胀升温，使英国央行内部加息辩论升温，也令美联储降息路径进一步收窄，通胀黏性风险重新回到台面。"
+        "title": "油价与美债罕见同步",
+        "desc": "布伦特原油升至107.46美元，日内涨1.68%，年内涨幅达76.9%，受也门胡塞武装袭击沙特等消息影响。CNBC指出油价与10年期美债收益率近七年最紧密同步，二者同涨对股市构成压力，能源与利率风险成为当前市场核心变量。"
       },
       {
-        "title": "中国资产结构性分化",
-        "desc": "上证指数年内跌3.4%、沪深300跌4.8%，恒生科技年内跌24.5%，但中证红利ETF年内涨1.9%，红利低波类产品成交活跃。南向资金对港股创新药逆势加仓约792亿港元，显示资金在总量偏弱背景下向高股息与细分景气赛道集中。"
+        "title": "中国8月数据分化",
+        "desc": "统计局数据显示8月工业增速受电子、电力、汽车带动回升，服务业生产指数同比增4.1%，但社零与投资偏弱，失业率因毕业生集中入市季节性上升。房地产交易总量改善、各线城市房价同比降幅收窄，经济呈“三稳两快”特征。"
       }
     ]
   },
@@ -28,170 +28,170 @@
     "kpis": [
       {
         "label": "标普500",
-        "value": "7,656.98",
-        "delta": "+11.6%",
+        "value": "7,619.98",
+        "delta": "+11.1%",
         "deltaLabel": "年内",
         "dir": "up"
       },
       {
         "label": "纳斯达克综合",
-        "value": "26,333.04",
-        "delta": "+13.3%",
+        "value": "26,186.41",
+        "delta": "+12.7%",
         "deltaLabel": "年内",
         "dir": "up"
       },
       {
         "label": "道琼斯",
-        "value": "52,573.29",
-        "delta": "+8.7%",
+        "value": "52,421.2",
+        "delta": "+8.3%",
         "deltaLabel": "年内",
         "dir": "up"
       },
       {
         "label": "10Y美债收益率",
-        "value": "4.97%",
-        "delta": "+79bp",
+        "value": "4.96%",
+        "delta": "+77bp",
         "deltaLabel": "年内",
         "dir": "up"
       },
       {
         "label": "美元指数 DXY",
-        "value": "99.3",
-        "delta": "+0.9%",
+        "value": "99.6",
+        "delta": "+1.2%",
         "deltaLabel": "年内",
         "dir": "up"
       },
       {
         "label": "COMEX黄金",
-        "value": "$4,370",
-        "delta": "+1.3%",
+        "value": "$4,347",
+        "delta": "+0.8%",
         "deltaLabel": "年内",
         "dir": "up"
       },
       {
         "label": "布伦特原油",
-        "value": "$107.26",
-        "delta": "+76.6%",
+        "value": "$107.46",
+        "delta": "+76.9%",
         "deltaLabel": "年内",
         "dir": "up"
       },
       {
         "label": "比特币",
-        "value": "$77,496",
-        "delta": "-12.7%",
+        "value": "$77,555",
+        "delta": "-12.6%",
         "deltaLabel": "年内",
         "dir": "down"
       }
     ],
     "news": [
       {
-        "date": "09-14",
+        "date": "09-15",
         "tag": "货币政策",
-        "title": "美联储议息周开启，市场押注加息概率升至90%",
-        "summary": "本周美联储议息会议正式开启，多家媒体报道称市场对本次加息的定价概率已升至约90%，被视为沃什任内首次加息，对其政策信誉构成考验。财新专栏亦以“9月沃什必须加息”为题讨论联储内部话语权归属。与此同时，华尔街开始辩论加息周期是否会终结美股牛市。",
-        "implication": "加息落地前全球风险资产波动或放大，利率路径指引比单次决议更关键。",
+        "title": "调查显示逾八成经济学家预计美联储本周加息",
+        "summary": "多项调查与报道显示，市场对美联储本周加息的预期显著升温，有调查称逾八成经济学家预计本周加息，明年3月底前可能再度出手；财联社早报提到加息概率飙至90%。与此同时，美联储连续第二个月暂停RMP购债，银行准备金仍处充裕区间。华尔街开始讨论加息后美股是重演2022年还是复制1997年。",
+        "implication": "利率路径重新成为全球风险资产定价的核心变量。",
         "source": {
-          "name": "finance.biggo.com",
-          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBFM01KSGtVcGZNYlZMaDJQUEN0VWxRYzYwdkRqNEdPeWl0ZndsRmUtZkxLWTlFSDNPc3lyQ1JWZ3ZSV0ZVSkZPXzBVSmpFT1dTTjhrZERFVUVUaHgwSzdaeWJQdlEwREphLVZjdVg4R2liWkJVTFE?oc=5"
+          "name": "新浪网",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQUGxDMXhGb1EtSUJUdTFOSEMzZTRqWnFrM3hEUXBtX3lMQzdveTVNSG8xOHZ5cFRtc2JVSFpmUGJ6UW5OQk5iRUVBM0JhUXFBN09Id2lmMy1JdGJFcWIxYndwbkNGWUxKenBDV0NIVzdfZTNZNDhqYjZEQ2ZNb0F0bTBKdjFBRkM3SmF4QlJWTnRYb3ZqUjVhOA?oc=5"
         }
       },
       {
-        "date": "09-14",
-        "tag": "通胀",
-        "title": "美国核心通胀升温，强化美联储加息预期",
-        "summary": "美国核心通胀数据升温，进一步强化市场对美联储本周加息的预期。受此影响，现货黄金承压回落，投资者等待利率决议落地。同期国际油价大涨亦被解读为推升通胀压力的因素之一，油价驱动的通胀担忧与加息预期形成叠加效应。",
-        "implication": "通胀与油价共振上行，压制无息资产估值，黄金短期承压但政策落地后或重新定价。",
+        "date": "09-15",
+        "tag": "货币政策",
+        "title": "沃什加息被称“没有退路” 特朗普信任面临考验",
+        "summary": "有“新美联储通讯社”之称的报道指出，沃什在加息问题上面临“没有退路”的处境，特朗普对其信任正受到考验。与此同时，市场关注美联储政策独立性与政治压力之间的张力，加息预期升温也令多国货币紧缩可能延续至明年中。日本央行亦放出下周加息风声，相关人士称再拖下去就太晚了。",
+        "implication": "主要央行同步收紧预期上升，全球流动性环境边际趋紧。",
         "source": {
-          "name": "新浪财经",
-          "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPM21oLU5HMTl4MGJJMHFIRGk4VHE3VVM2Y3FzZkpjeWVrcC0yNXBOb0txYWwtQ005ZDhLRUVXUng4WFJXRzJvemZTc2RUcUFVc1RPc0Y4X3YyNkcxOXdIYm1hU1B0SVhScVplSE9xZXZzTXp0dXBmVk93UEZUS1hEOUI4VHlKSEU1Q3RoTWVoR2g5eVlaREdPNl94SDlFcnlGUE9DWU5TNUtVU3RELUIyS2xSUEdBX2pBOXNJN2JaTFVPR09wb0tUNFpmWDNDbTFmeEV4VVdWQUlYaUVIWDJnS25R?oc=5"
+          "name": "华尔街见闻",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBZRWlNV0ZsQk1ndlI2ZFlCN1RoclEtTXNXdzJMcFUxOWFWb3BGeHRBRU1sX0ZrSFVuREV6VUZWRkdRZVNxcDF5a2FRazhMWlN0SFdz?oc=5"
         }
       },
       {
-        "date": "09-14",
+        "date": "09-15",
         "tag": "美股",
-        "title": "美股三大指数全线走高，纳指涨逾2%",
-        "summary": "美股收盘三大指数全线走高，纳指涨幅超过2%，美伊局势缓和提振了市场风险偏好。不过上周美股整体仍录得累计下跌，市场对本周美联储加息悬念保持谨慎。另有报道称加息周期尚未对股市构成警报，但油价上行正成为日益突出的风险因素。",
-        "implication": "地缘缓和带来的风险偏好修复与加息不确定性并存，美股短期或维持高波动。",
+        "title": "美股齐跌 费城半导体指数重挫近6%",
+        "summary": "美股主要指数集体下跌，费城半导体指数重挫近6%，英特尔、美光科技、SK海力士等跌超5%，美国银行突发利空。10年期美债收益率一度突破5%后回落，交易员等待美联储会议。高盛对冲基金主管认为“零日期权”压制了美股波动，科技和能源仍是最佳选择，但AI交易的裂缝正出现在对投资者不利的时点。",
+        "implication": "半导体与AI主线波动放大，利率高企压制高估值资产。",
+        "source": {
+          "name": "东方财富",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5FWExHV2NuS2xlUWllOEFMWERsdkZTYUg3QjZRVGE5U2hwMWUwM1hCQkRxN0MyZmFQRk1fTzA1ZnNtWTd2WXZVNWFFSk5aUm1OWXRtc3dkaGU0bWNaa01GT08ya0FHZw?oc=5"
+        }
+      },
+      {
+        "date": "09-15",
+        "tag": "科技",
+        "title": "三星参投2.3亿美元 支持英伟达AI芯片竞争对手",
+        "summary": "荷兰初创公司Euclyd完成2.3亿美元融资，由三星与Somerset Capital等联合领投，被视为GPU替代方案需求升温的信号。博通CEO表示，尽管Anthropic放缓推进节奏，AI基础设施需求依然强劲，AI营收目标未变。MUFG研究则提示AI发展节奏可能放缓，成为亚洲外汇市场关注点之一。",
+        "implication": "AI算力投资仍强，但替代路线与节奏变化带来结构性分化。",
+        "source": {
+          "name": "CNBC·市场",
+          "url": "https://www.cnbc.com/2026/09/14/samsung-euclyd-ai-chip-funding.html"
+        }
+      },
+      {
+        "date": "09-15",
+        "tag": "大宗商品",
+        "title": "胡塞武装袭击沙特后油价延续涨势",
+        "summary": "在有关胡塞武装再次袭击沙特以及伊朗相关袭击的报道后，油价延续上涨。与此同时，油价与10年期美债收益率的相关性达到七年来的紧密水平，两者近乎同步波动，被市场解读为对股市不利的信号。能源价格与利率的联动，正成为影响通胀预期与资产配置的重要线索。",
+        "implication": "地缘扰动推升油价，并通过利率渠道向全球市场传导压力。",
+        "source": {
+          "name": "CNBC·市场",
+          "url": "https://www.cnbc.com/2026/09/15/oil-extends-gains-following-houthi-strikes-on-saudi-arabia.html"
+        }
+      },
+      {
+        "date": "09-15",
+        "tag": "地缘",
+        "title": "美方披露伊朗战争成本 累计支出334亿美元",
+        "summary": "美国国防部门披露，截至6月2日伊朗战争估计已耗资334亿美元，出现弹药短缺，数百栋建筑和飞机受损。相关报道还提及霍尔木兹海峡相关风险。地缘冲突的成本与持续性，正在影响能源供应预期、军费开支与全球风险偏好。",
+        "implication": "地缘冲突成本显性化，能源与国防相关资产波动或加大。",
+        "source": {
+          "name": "CNBC·市场",
+          "url": "https://www.cnbc.com/2026/09/15/us-iran-war-trump-hormuz-munitions-dod-costs-aircraft.html"
+        }
+      },
+      {
+        "date": "09-15",
+        "tag": "货币政策",
+        "title": "日本央行放出下周加息风声 称再拖就太晚",
+        "summary": "日本央行释放下周可能加息的信号，相关人士表示再拖下去就太晚了。与此同时，美联储加息呼声高企，多国货币紧缩可能延续至明年中。全球主要央行政策节奏的再同步，正在改变套息交易与跨境资金流向的既有格局。",
+        "implication": "日元政策转向预期升温，套息交易与亚洲资金流向或受扰动。",
         "source": {
           "name": "财联社",
-          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5UZVJsQ0x1ZGNuZmVLUWNDd00wdjVIcUE0VVFRcFdzUEZBc0owOXFoZWplazRUYS02UHZkLVBvU0JIN2pIZk1ZaA?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE55a2VUd1VieHgyN0ZwaHpHTDVWLWVMb1gzNkQzcmRPU0FPc25VeHdBSHhXYk0yMkFBa29kMXAzT2JMeE1wSXFjUg?oc=5"
         }
       },
       {
-        "date": "09-14",
-        "tag": "货币政策",
-        "title": "日本央行鹰派信誉受拷问，市场押注10月加息",
-        "summary": "日元此前暴涨3.3%后，日本央行决议迎来变数，市场关注干预之后是否会再度加息。多家媒体指出日本央行的鹰派信誉正受到拷问，市场押注10月成为下一轮加息窗口。日本央行政策路径的不确定性成为本周“超级央行周”的重要看点之一。",
-        "implication": "日元套息交易平仓风险仍存，日本政策转向节奏将影响全球资金流向。",
+        "date": "09-15",
+        "tag": "汇率",
+        "title": "亚洲外汇观察：AI发展节奏放缓成关注点",
+        "summary": "MUFG研究在亚洲外汇观察中指出，AI发展节奏放缓成为市场关注点之一。结合美联储加息预期升温、日本央行可能加息以及油价与美债收益率联动增强，亚洲货币面临的外部环境更趋复杂，跨境资金与出口竞争力之间的平衡受到关注。",
+        "implication": "外部利率与科技周期变化叠加，亚洲汇率波动来源增多。",
         "source": {
-          "name": "金十数据",
-          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBtTHlPU2NOMG9wcVNyZXFQWHlxbHpsSVlsODNYQklKNFkxQzZNWHpoTTVvUGUzWkZEV0tqOURlNXF4SXBOZDJWZzhTb0lmWWM?oc=5"
+          "name": "MUFG Research",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQQ1k3V3AxZnVVd0F0LWUxbDNVamtESHdKYVlvTE5GaXpEa0xpV280eHFyQ011SlhQS3EwajB3UGV3NGIyQTZoUG53M3poeVNpOG9iQV9vWjZjQ3R4dmRPb0FUUXM2Zm9QalROMVRTT0wwYndSeS1MY01RWWJ6ZVBwV3VyR1B0NGJQODdQSGxxU1YwSG5IUGZxekRwajRhc28?oc=5"
         }
       },
       {
-        "date": "09-14",
-        "tag": "货币政策",
-        "title": "中东战事推高能源价格，英国央行加息辩论升温",
-        "summary": "中东战事持续推高能源价格，英国央行内部关于加息的辩论随之升温。油价上行带来的输入型通胀压力，使英国货币政策路径更趋复杂。同期市场关注“超级央行周”内多家央行的政策决议，全球紧缩预期与能源成本上升形成相互强化的格局。",
-        "implication": "能源价格向通胀传导，欧洲央行政策空间收窄，欧股与英镑波动或加剧。",
-        "source": {
-          "name": "新浪财经",
-          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBfd1Z5MU5USWZGRmJ5d1pGRUZtWUhoNUxVN0Z6WUtDVklrWW8wbkc3VmZUc1VZRG5hNkgzckRpSEpRS3ZKRk9ic2JLRXFGLXMtd0VUbWxvdE5sOTdUQzZ3TDN1Z1ZZdmNHbTdTWGI5SE1tNmRHS2s0OA?oc=5"
-        }
-      },
-      {
-        "date": "09-14",
-        "tag": "大宗商品",
-        "title": "中东局势升级，国际油价跳涨3%逼近108美元",
-        "summary": "受中东袭击持续与外交斡旋受挫影响，国际油价跳涨约3%，逼近每桶108美元。霍尔木兹海峡船只遇袭事件进一步加剧中东紧张局势，市场对油价波动加剧的担忧升温。另有报道显示，伊朗战争消息公布前存在规模约70亿美元的疑似原油价格押注交易。",
-        "implication": "地缘风险溢价抬升油价，能源板块受益而下游成本与全球通胀压力上升。",
-        "source": {
-          "name": "The Economic Times",
-          "url": "https://news.google.com/rss/articles/CBMilANBVV95cUxNM0t4VTZoNFdVLTVYeUtfVzFoRGRMVnFCLXhHWTkzWWlkQW1ZRlZmVG1pdDM3NnpSejdkTlpNTC1BU2JNMFZGWElmcHFGSW11TXlWb2hWa1I3V2VwRDFCQ2dXVWxWc09obU92RHBzVkE2bUlBV19xRmpjcjJKaENLVGFTak5aXzUxaG9oaHY0RVhwUkdNS1RkRHBNUHNoRTQ3a3ZVZXpzU2p4VjVKaXVYMjV2cWJWOUc2eFkwUDlEaU43ZkxVQVZFcExrb2l0YUtndXpScGdrQzFaWG9qdUprSUlQNmR2Y3UxTkxkNDdCcXhpM1I3al9TRm1CV190OHJabElPcDk3MkJ6WVI5a3U5VGp6WHVaeEpKeGlTQ0NkaUNYNlBpeDAzeTZjRE5OZ3ZGaWEyLVYzbnhPRHBxMGxnS0pnbzN0cEc0WDRxR1hIOHpURUZtZlMxcWxLOXBrWGRZa0lOLWItZFdfTWswVFJCQVYtaG1pa1kxTDhFVjQ1UEFacmFYRmtjTUxtbHB2SGFmMEZJd9IBsAJBVV95cUxOZS1UVm9BdmJSd0YtLU4yd3hBQkxzTnJpS0Q3UE1RVEhyQk02NjRhQktESDd4WVpHZmRYRHkwbnpkTGNrNjg4cXdDV09IcG9HWUFTdW1IYW1CNlJrcVVXYnI5ZWlOWXJJRUhsMXZHNDNWRTdkNXFoZ1JUcXhqZ000b21PeTZoenR2bGg1MzBPbjFhUVNaeG0wRjJ3Mks5Q3lROUlSOWdRZDYtd21QQUhGN1JFNFNMd2ZSaGFzN2tIMm94UVhJNkl1QndLblh2ZlVtTklvWEFUd0FpZmZjb1hOX1d2RnhaaTlYc1JOdGd6U2RzWUllMkYtdlFiQktNYVJtNDA3ZmFwalJ0STl6dVR6aHd3Nk1SSGFGbHNNaTZiX282TFhta0JZVzZuYy1WQ2Zu?oc=5"
-        }
-      },
-      {
-        "date": "09-14",
-        "tag": "地缘",
-        "title": "霍尔木兹海峡船只遇袭，中东紧张局势升级",
-        "summary": "霍尔木兹海峡发生船只遇袭事件，加剧中东紧张局势并引发油价波动担忧。特朗普表示美国可能像处理委内瑞拉那样保留伊朗石油，海湾与伊朗的霍尔木兹谈判陷入停滞。地缘风险与能源供应不确定性成为当前全球市场的重要变量。",
-        "implication": "海峡通行风险推升能源与航运溢价，避险资产与油价波动率同步走高。",
-        "source": {
-          "name": "VT Markets",
-          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPOUNCbG9jcG9Kaks1cldhbGllc0hZcnJuaVBjcnJKZzZyVnpZckh2NGVxR1JXdzF5NXhWRDZ5Mnd0WjlRNDhidEhXclZYaGEyOEhlOWRudks5b2FJZkFfUzh0WjB0UmRZRF9WRnZaTEdNOTY1RXdFS3VFeUlJdjlIQ0JnTExid0xDWWo5Q1pPTnJYMVBYZnBYQjV3eWNnWDR1amhfWDB0WlZMQjAtOS1uOGNxNFhVLUgzaWdrdGhFajdsVTZDOFBlX0wtZTMxX2I2VHA3dFZRdWdnLU9NdXc?oc=5"
-        }
-      },
-      {
-        "date": "09-14",
-        "tag": "大宗商品",
-        "title": "美债10年期收益率逼近5%，黄金承压回落",
-        "summary": "美国10年期国债收益率正逼近5%关口，为2023年10月以来首次接近该水平，市场关注其上行路径与节奏。受核心通胀升温与加息预期强化影响，现货黄金承压回落，油价上行亦加剧通胀担忧。黄金投资者被指已开始着眼于美联储后续政策动向。",
-        "implication": "长端利率上行压制贵金属与成长股估值，利率见顶信号将成资产再定价关键。",
+        "date": "09-15",
+        "tag": "美股",
+        "title": "10年期美债收益率触及5%后回落",
+        "summary": "10年期美国国债收益率一度触及5%，创多年高位，随后在交易员等待美联储会议之际回落。收益率上行与油价走强形成共振，市场担忧融资成本上升对股票估值与企业盈利形成压力。周度市场更新亦显示利率整体走高。",
+        "implication": "长端利率高位运行，全球风险资产的估值锚面临再校准。",
         "source": {
           "name": "CNBC·市场",
           "url": "https://www.cnbc.com/2026/09/14/10-year-us-treasury-is-closing-in-on-5percent.html"
         }
       },
       {
-        "date": "09-14",
-        "tag": "科技",
-        "title": "AI巨头集体呼吁放缓模型迭代，Anthropic推进上市",
-        "summary": "报道称三大AI公司集体呼吁放缓模型开发节奏，与此同时Anthropic在潜在历史性上市前与投资者会面，在推动放缓与追求约2万亿美元估值之间寻求平衡。另有消息显示Z.ai在两个月内完成第二轮50亿美元融资后股价大跌逾10%，AI赛道融资与估值分歧显现。",
-        "implication": "AI资本开支与监管节奏的博弈加剧，相关标的估值波动或进一步放大。",
+        "date": "09-15",
+        "tag": "货币政策",
+        "title": "美联储连续第二个月暂停RMP购债",
+        "summary": "美联储连续第二个月暂停RMP购债，银行准备金仍处于充裕区间。这一操作与市场对本周加息的强烈预期形成对照，显示缩表与利率工具之间的节奏安排仍在权衡之中。投资者关注准备金水平变化对货币市场利率与流动性传导的影响。",
+        "implication": "流动性工具节奏微调，短端资金面与政策预期需分开观察。",
         "source": {
-          "name": "CNBC·市场",
-          "url": "https://www.cnbc.com/2026/09/14/anthropic-walks-tightrope-to-nasdaq-pushing-slowdown-and-pursuing-ipo.html"
-        }
-      },
-      {
-        "date": "09-14",
-        "tag": "产业",
-        "title": "贝克休斯：高利率未拖慢能源项目，AI推升LNG需求",
-        "summary": "贝克休斯首席执行官表示，尽管借贷成本上升，尚未看到利率上升放缓大型能源项目投资。AI数据中心建设带来的电力需求正推升LNG需求，成为能源资本开支的新支撑。这一表态与油价上行、能源通胀压力形成呼应，显示能源产业链景气度仍具韧性。",
-        "implication": "AI用电需求与能源资本开支形成正反馈，天然气与电力设备链景气度受关注。",
-        "source": {
-          "name": "CNBC·市场",
-          "url": "https://www.cnbc.com/2026/09/14/baker-hughes-ceo-no-slowdown-in-energy-projects-despite-higher-rates-.html"
+          "name": "华尔街见闻",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE8xbk5mb1Jxai1IbFAtVk0tb01nQWpJN3JlZ1VqTUdrV1pFMUc1R0c2dHgyamFkaGpOZFdVVVQ3d2VJU1FVeDVVUUZ2Mm9nRC1DZVVv?oc=5"
         }
       }
     ]
@@ -200,15 +200,15 @@
     "kpis": [
       {
         "label": "上证指数",
-        "value": "3,888.21",
-        "delta": "-3.4%",
+        "value": "3,881.41",
+        "delta": "-3.5%",
         "deltaLabel": "年内",
         "dir": "down"
       },
       {
         "label": "沪深300",
-        "value": "4,489.87",
-        "delta": "-4.8%",
+        "value": "4,479.47",
+        "delta": "-5.0%",
         "deltaLabel": "年内",
         "dir": "down"
       },
@@ -228,15 +228,15 @@
       },
       {
         "label": "恒生指数",
-        "value": "24,881.37",
-        "delta": "-5.5%",
+        "value": "24,859.45",
+        "delta": "-5.6%",
         "deltaLabel": "年内",
         "dir": "down"
       },
       {
         "label": "恒生科技",
-        "value": "4.32",
-        "delta": "-24.5%",
+        "value": "4.35",
+        "delta": "-24.0%",
         "deltaLabel": "年内",
         "dir": "down"
       },
@@ -256,7 +256,7 @@
       },
       {
         "label": "美元兑人民币",
-        "value": "6.7064",
+        "value": "6.709",
         "delta": "-4.1%",
         "deltaLabel": "人民币年内升值",
         "dir": "down"
@@ -264,113 +264,124 @@
     ],
     "news": [
       {
-        "date": "09-14",
-        "tag": "A股",
-        "title": "A股三大指数集体低开高走，超3500只个股上涨",
-        "summary": "A股早盘三大指数集体低开，开盘超3600只个股飘绿，随后震荡回升，午间沪指低开高走涨0.16%，三大指数集体翻红，超3500只个股上涨。MLCC概念、创新药、培育钻石板块表现活跃，粮食概念走低，敦煌种业、新农开发跌停。市场同时关注今日生效的A股、港股重要调整。",
-        "implication": "指数低开高走显示承接力尚可，结构性热点轮动快于指数趋势。",
+        "date": "09-15",
+        "tag": "宏观数据",
+        "title": "8月国民经济运行平稳 呈现“三稳两快”特点",
+        "summary": "国家统计局表示，8月份国民经济运行平稳、发展向新向优，呈现“三稳两快”特点。8月全国服务业生产指数同比增长4.1%，电子、电力、汽车等行业带动工业增速回升。统计局同时回应内外需情况，指出智能绿色商品消费日益成为消费市场新亮点。",
+        "implication": "结构性亮点支撑经济，但内需修复的持续性仍需数据验证。",
         "source": {
-          "name": "同花顺财经",
-          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBqS3ZkeDdOZHBGSW1kUzRHZVNZYmVINE5QcUJDRGFpUG01NDZQNHM1bEJiTlRLekVjYnJEMkh2ZXU3UW5TT1JnYUVzMDVpb0c1aE5TUExrdjVqQ2pScFE?oc=5"
+          "name": "21财经",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOMXl2OGtxTjBIVXJPZXRZeXJnWHpzbHpYUk9mR1J4MWFwNHBHSG9kOFZ2TThpVk11YlBHck1FRzdBZUZEaG1SVWxXV3pvZTR1SXV4NGQxRXBqMlNNdks5aVgxM2wyLUJ0Y1ZnN2ZCMXBvRE9XN1ZIbl8weGk0WHhmdmptUEhZVllHbDR5eQ?oc=5"
         }
       },
       {
-        "date": "09-14",
-        "tag": "港股",
-        "title": "港股午盘恒指涨0.35%，药明生物领涨成分股",
-        "summary": "港股午盘恒生指数上涨0.35%，药明生物领涨成分股；恒生中国企业指数上涨0.4%，CXO概念涨幅居前。港股早盘涨幅榜中聚利宝控股涨37.50%。市场同时关注加息定价升温带来的回调，以及南向资金对创新药等板块的逆势加仓动向。",
-        "implication": "港股结构性行情延续，CXO与创新药成为南向资金主要承接方向。",
+        "date": "09-15",
+        "tag": "宏观数据",
+        "title": "8月社零不及预期 投资下滑压力加大",
+        "summary": "CNBC报道称，中国8月社会消费品零售总额增速低于预期，投资下滑进一步加深，工业增加值表现相对分化，给政策端带来更大压力。统计局数据显示8月失业率上升，主要受新毕业学生集中进入劳动力市场带来的季节性影响。内外需修复的不均衡仍是市场关注焦点。",
+        "implication": "消费与投资偏弱强化政策加码预期，顺周期板块分歧加大。",
+        "source": {
+          "name": "CNBC·市场",
+          "url": "https://www.cnbc.com/2026/09/15/china-august-retail-sales-industrial-output-investment-exports-.html"
+        }
+      },
+      {
+        "date": "09-15",
+        "tag": "房地产",
+        "title": "统计局：各线城市商品住宅售价同比降幅继续收窄",
+        "summary": "国家统计局公布2026年8月份70个大中城市商品住宅销售价格变动情况，指出各线城市商品住宅销售价格同比降幅继续收窄。统计局同时表示，房地产交易总量有所改善、趋于稳定。价格与成交两端的变化，为观察楼市企稳节奏提供了最新依据。",
+        "implication": "房价同比降幅收窄，地产链预期修复仍需成交持续配合。",
+        "source": {
+          "name": "thepaper.cn",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE44RHBhSmE5V1k1cUZVUnJCYjRqNngtajJmYWk3THpJUzFOMF90bThONlpxWXRvcjdvMTlPWGk0bkRXYnBVZjVfTG9fT2ptRUxOVlFwc3B4Y19KRWVEQ3FhTg?oc=5"
+        }
+      },
+      {
+        "date": "09-15",
+        "tag": "货币政策",
+        "title": "央行9月15日开展5000亿元买断式逆回购",
+        "summary": "央行公告称，9月15日将开展5000亿元买断式逆回购操作。在8月经济数据分化、政府债发行与信贷投放节奏受到关注的背景下，此次操作被视为维护银行体系流动性合理充裕的举措。市场关注后续资金面价格与中长期流动性投放的配合方式。",
+        "implication": "流动性投放延续，短端资金面稳定有助于债市与银行板块预期。",
         "source": {
           "name": "东方财富",
-          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE8zN2NyNjJNRVBiUmxqNDlucldiWXdEQmJpNkdJQWJTbFFFbjBhQkcxODBFdmFpT3M5UG1IZ19oeTdpNkVYN0RYOXVESm15R2dGNmZvQWhmWmllYVkxTTdZampiZW90dw?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBzdWpKMHhYRVBMdmVvTmhHS2lEcy1JMjBnblZFZWV5MDJra2ZQNy0xdFF5SkJBWmJ3ejk3ZzBIb2RxUW5FWWxPejE0ZnMxN3Fna09HYVcwRkZzcGdSa2dVZw?oc=5"
         }
       },
       {
-        "date": "09-14",
-        "tag": "汇率",
-        "title": "人民币中间价上调45基点报6.7698，汇率指数走弱",
-        "summary": "人民币对美元中间价报6.7698，上调45个基点。与此同时，三大人民币汇率指数下跌，机构观点认为短期或维持双向波动。地方外汇局窗口指导加码，银行被要求提高企业汇率套保比例。管涛撰文指出应慎言人民币汇率新周期，美元本周可能获得支撑。",
-        "implication": "中间价偏强与指数走弱并存，企业套保需求上升，双向波动仍是主基调。",
+        "date": "09-15",
+        "tag": "A股",
+        "title": "A股三大指数低开 科创50低开高走涨1.79%",
+        "summary": "A股开盘三大指数集体低开，超2900只个股飘绿，网络安全、大数据板块表现活跃。午间科创50指数低开高走涨1.79%，算力硬件股涨幅居前。ETF方面，半导体ETF领涨3.32%，粮食ETF领跌3.57%。机构对A股不振的原因给出解读，市场结构性行情特征明显。",
+        "implication": "指数弱势与科技主题活跃并存，资金聚焦算力与半导体方向。",
         "source": {
-          "name": "中金在线",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1FRlZCN25DOUZtUmVIblJaYlZEQkdVd1RWaGpvZVZPZThJeG0ySEJOanRyTWdqTm5qdDVtWjdGZWJRaUVSRkQwcldVMHNwNXMwY0lXbjlDcXAyczBybV8zNjNseFhYT0VSUDBOb1hR?oc=5"
+          "name": "同花顺",
+          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFA2dEFQOUlMZm5BYkhzVkRKcmxyNjdwTzdrRUdmOTVvaTdBQmpmbGY2R3N0S29WRzNzOUJVUTE5WXhsUjZlWU5qOFpuYXhHWUpDTDZjblZmYWpwZkhxWkE?oc=5"
         }
       },
       {
-        "date": "09-14",
-        "tag": "货币政策",
-        "title": "央行本周逆回购到期85亿，另5000亿买断式到期",
-        "summary": "央行本周7天逆回购到期85亿元，另有5000亿元买断式逆回购到期。央行本周开展隔夜逆回购，每日操作量不超过6000亿元，以平滑短期流动性。在“超级央行周”背景下，国内流动性投放节奏与到期规模成为市场关注焦点。",
-        "implication": "大额买断式到期与隔夜工具并用，短端资金面有望保持平稳。",
+        "date": "09-15",
+        "tag": "港股",
+        "title": "港股午评：恒指跌0.23% 恒生科技涨0.76%",
+        "summary": "港股午间收盘，恒生指数跌0.23%，恒生科技指数涨0.76%。半导体、软件走强，科网股活跃，芯片股表现突出；银行、医药生物板块下挫。开盘时恒指高开0.07%，恒生科技指数高开0.47%，广汽集团涨超8%。港股内部结构分化明显。",
+        "implication": "港股科技与金融分化，资金在成长与防御之间快速切换。",
+        "source": {
+          "name": "东方财富",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1tSF9rcGFHQXhlWndQal9hZzViUFl2aWF2ekNldG82eTJrOUhCMG9Nc2RUZjhVU3hQOGd0NVpqN3k5aTgzZFBvRjlWSXY2YzhDdkNJRzV1RVhwbklFUVU3ZVRYUFo5dw?oc=5"
+        }
+      },
+      {
+        "date": "09-15",
+        "tag": "产业政策",
+        "title": "国常会部署进一步完善算力基础设施",
+        "summary": "财联社早报提到，国常会最新部署进一步完善算力基础设施。与此同时，词元经济加速崛起，A股多家上市公司积极布局。算力与数据要素相关的基础设施建设，正成为产业政策与资本市场共同关注的方向，相关主题交易活跃度提升。",
+        "implication": "算力基础设施政策加码，产业链主题热度有望延续。",
+        "source": {
+          "name": "财联社",
+          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5qTkRGbWpIakVneEEzalBKYTN0T0s4WXVyMVZaQ19HTXdjNEZjYzlCdWQtZGdtMDlHNjZMOFNxLS1NMmtSTl9tUQ?oc=5"
+        }
+      },
+      {
+        "date": "09-15",
+        "tag": "汇率",
+        "title": "人民币汇率有望破6 8月出口仍强劲",
+        "summary": "有报道指出，人民币汇率有望破6，美加贸易战再度升级，而8月中国出口仍表现强劲。管涛撰文讨论人民币汇率与中国经济再平衡。在美联储加息预期升温、美元与美债利率波动的外部环境下，人民币走势与出口竞争力之间的关系受到更多讨论。",
+        "implication": "出口韧性叠加汇率预期变化，外贸与汇兑敏感行业受关注。",
+        "source": {
+          "name": "cj.sina.cn",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5UOC1zRThFYWl1Skk4eXFYVnZrV2dDS2NrbVV3M3NJbW9Wb0R2VHZOUEt1QUp5WWp6U1FNdmhGaWlaR0kydkxweHprUFV3SnQ0Q2VTV3F2X0pBd2I5V2ZQR2ZmejlNX01XRmpNdTVR?oc=5"
+        }
+      },
+      {
+        "date": "09-15",
+        "tag": "A股",
+        "title": "A股定增市场热度攀升 长线资金积极入场",
+        "summary": "A股定增市场热度攀升，长线资金积极入场。与此同时，9月15日A股有9家公司限售股解禁，合计市值90.42亿元。再融资活跃与解禁节奏叠加，反映市场融资功能与资金供给结构正在发生变化，机构参与定增的意愿受到关注。",
+        "implication": "再融资回暖与解禁压力并存，个股流动性需区别看待。",
+        "source": {
+          "name": "新浪财经",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5rU3cwLU5ha2NWXzRQRWNGMkY5ZllKZUc2YmtMSkFXdFh6eEc2ekJBTXBHZzFuX2lubTNxcVc1aV9saHBaZVJoQTFCYy01bl8wVGt5YWdBTTJUQzBDNVRzMnhsZUxQcEFJZVJkOVZDNFJUa1VCNVd1bA?oc=5"
+        }
+      },
+      {
+        "date": "09-15",
+        "tag": "产业",
+        "title": "创新药板块领涨 对外授权突破1200亿美元",
+        "summary": "创新药板块强势领涨，BD出海持续兑现，今年我国创新药对外授权已突破1200亿美元。有观点认为，板块驱动力或由估值向“业绩+全球化兑现”切换。港股创新药ETF博时（520690）跟踪指数早盘冲高回落，显示主题交易情绪波动较大。",
+        "implication": "创新药逻辑从估值驱动转向兑现驱动，波动中关注业绩验证。",
+        "source": {
+          "name": "东方财富",
+          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5uSjdVT3B3YWVHaTFoQVBIeUtPc0JIdGNTcU9oT2lXS25SdGhUc3l2UGtfS1h3WGxPUUhRNC1KX2FwalpZMVlScWs4REZKcUNqWWhndXF3bER5RUVkTVRQNzVn?oc=5"
+        }
+      },
+      {
+        "date": "09-15",
+        "tag": "基金",
+        "title": "基金销售百强出炉 蚂蚁非货保有首超2万亿",
+        "summary": "基金销售机构百强出炉，首现非货保有规模2万亿级巨头。中基协数据显示，蚂蚁基金非货基金保有规模达2.21万亿元，首次超过2万亿元。与此同时，牛市下基金代销呈现两极分化，“三巨头”大幅增长，中小机构逐步退场。新批QDII额度仍然紧俏，多只基金刚放开又断供。",
+        "implication": "代销格局向头部集中，渠道能力对产品发行影响上升。",
         "source": {
           "name": "观点网",
-          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9pelBFZWZYNkhoRnlpNFdWWEc0OXRDWGJaREJHaGxqSllLaTVaZ2tmM1Job1RTNUlzYjJEMEpYQWJ4aVN4a3dRNkhvb3NhSUMySC14M1o4RGFOeVQwdzVJcjFn?oc=5"
-        }
-      },
-      {
-        "date": "09-14",
-        "tag": "产业政策",
-        "title": "基金网络营销迎强监管，风险等级校准潮起",
-        "summary": "跳转引流迎来强监管，基金网络营销整改进入倒计时。与此同时，基金产品风险等级评定从“分类定级”转向“多维加权”，行业迎来风险等级“校准潮”。基金公司抢人战提前打响，“专业+AI”成为复合型人才新门槛，行业合规与人才结构同步调整。",
-        "implication": "营销与评级规则趋严，短期或影响渠道流量，长期利于投资者适当性管理。",
-        "source": {
-          "name": "中证网",
-          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBrNS1HSzk0d1J5RnIxTEFBc3JQdlZGcDQyRUFDOGh3U0JibDVXUXFzQVdRTkFGajRvVlhGOU5ZNEoxZGhidFc3Uk50Ukt2X2ROdzk5TVkxcU5ac2NKaE5OTnJRa0R0TkFiUEhHbjYtanpqMjVNb3V2QQ?oc=5"
-        }
-      },
-      {
-        "date": "09-14",
-        "tag": "A股",
-        "title": "广汽集团A股紧急停牌，港股大涨待公告",
-        "summary": "广汽集团A股紧急停牌、港股大涨，公司回应称今日收市后将披露相关公告。市场对公告内容保持关注，相关产业链个股同步受到资金关注。该事件成为当日A股与港股市场关注度较高的公司层面变量之一。",
-        "implication": "停牌与公告预期带来事件性波动，复牌后定价取决于披露内容。",
-        "source": {
-          "name": "新京报",
-          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5SVFZoS2ZwQ2hGUF9xMldyU3pMOXZObnp1N2t6YTE5SExfTHJ0cUVtQlJHeFJhM3dlOUM3U3NmclRtZTB6Rk44MGV4akduajZsdkFfb05ONGZ4UVItSjNDRGNwTHQ?oc=5"
-        }
-      },
-      {
-        "date": "09-14",
-        "tag": "宏观数据",
-        "title": "统计局：9月上旬生猪（外三元）价格环比涨0.9%",
-        "summary": "国家统计局数据显示，9月上旬生猪（外三元）价格环比上涨0.9%。猪价作为CPI重要分项，其环比回升引发市场对食品价格与通胀走势的关注。同期A股粮食概念走低，敦煌种业、新农开发跌停，农业板块内部表现分化。",
-        "implication": "猪价环比回升对CPI形成温和支撑，农业板块情绪仍受供给预期主导。",
-        "source": {
-          "name": "新浪财经",
-          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBtYUtKaEZjbVhBRDd5UWVZRkhOVmhaZnk4VF9ibERscE9ycHZreXpjdk4wbC11Yzd1TWhzUVZnY0tXeTZTdTJ6RGZLekF5TWJOWHd0dU5aU0pVbklyWlVDUE5BazJCWDdDclhBNzRTU1VmUzhEQkE5Tg?oc=5"
-        }
-      },
-      {
-        "date": "09-14",
-        "tag": "港股",
-        "title": "南向资金逆势加仓创新药，年内累计792亿港元",
-        "summary": "港股创新药板块年内调整但趋势未改，南向资金逆势加仓，累计规模达792亿港元。相关港股通创新药ETF被提及配置价值。与此同时，加息定价升温带来港股科技板块回调，恒生科技相关ETF被讨论逢低配置价值，显示资金在成长与防御之间再平衡。",
-        "implication": "南向资金持续流入为港股创新药提供支撑，但需关注利率上行对估值的压制。",
-        "source": {
-          "name": "东方财富",
-          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1qUXdhcEFsTVJGUUJzTW9JUFphTUNSdmlCZm91TU8zRU9ZSTFpMXpkR0ZkQ0VnbVBNcE5zeDI3T1Nld2hEdV82ODJvVEcyRGpRQVVkUlREbUZYbVEwTTFVWGh3?oc=5"
-        }
-      },
-      {
-        "date": "09-14",
-        "tag": "产业",
-        "title": "阳光电源涨价，新能源电池指数阶段底部反弹",
-        "summary": "“全球逆变器大王”阳光电源宣布涨价，相关新能源电池ETF标的指数自阶段底部涨超1%。与此同时，科技类ETF密集申报，公募逆势布局细分赛道。ETF开盘涨跌不一，绿色电力ETF领涨5.00%，显示资金对新能源与电力主题的关注度回升。",
-        "implication": "涨价信号与资金布局共振，新能源细分赛道情绪出现边际修复。",
-        "source": {
-          "name": "新浪财经",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOT2dJSDlqT1ZDT19WeklsOFVZSTNvazBTR2t5ektNNExpeDdweENXOXRNSUVfMmUxdlZiSGpPVDFXajdvYnVqTG5tVUJsUmFyOEU4czdfRGRYNUV2VHJWdVE0UkowWGhKVkEtNnlXWGxPdER4RjR1QTFUSkN6dzJzSXIwMDd6dXBDUTF1NmpVQm1SZ0I0WUFYUUttbkF3Wk9lOEwyWQ?oc=5"
-        }
-      },
-      {
-        "date": "09-14",
-        "tag": "监管",
-        "title": "央行连开罚单，阳光人寿、国投证券等被罚",
-        "summary": "央行连续开出罚单，阳光人寿被罚款314.4万元，国投证券被罚款81.8万元，东方财富证券被罚款74万元。处罚涉及金融机构合规经营问题，反映监管对金融业务规范性的持续关注。相关机构合规成本与业务整改节奏受到市场留意。",
-        "implication": "金融合规监管常态化，机构业务规范性与声誉风险管理重要性上升。",
-        "source": {
-          "name": "中华网财经",
-          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5QOFJDVWFKdmFtMHM2ckYzNGI2Ulc3T1J1R1pPREZfRWtrb1l6MzlPc1RFZlE0NzlaRDQ4cXdxQi15aTVmbGJIZ1FyY3NvMzlvczZLdExrOV9BZ1JPOWJXVGRlX04tcU9laUtfVlZLNEs1UFk?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE44dTlqdlZFb1ZlVXQxNzJ3bDRFUnVFdXhxVUdxYlhwN3dkWlk1cUZlTGxRQXY2SFZBTEExM2Y0cnp4RXMxdUNxY01yY1htUQ?oc=5"
         }
       }
     ]
@@ -379,48 +390,48 @@
     "assetYTD": [
       {
         "label": "日经225",
-        "value": 22.21,
-        "note": "截至2026-09-13"
+        "value": 22.46,
+        "note": "截至2026-09-14"
       },
       {
         "label": "纳斯达克综合",
-        "value": 13.33,
-        "note": "截至2026-09-11"
+        "value": 12.7,
+        "note": "截至2026-09-14"
       },
       {
         "label": "标普500",
-        "value": 11.64,
-        "note": "截至2026-09-11"
+        "value": 11.1,
+        "note": "截至2026-09-14"
       },
       {
         "label": "红利类(515080代理)",
-        "value": 1.93,
-        "note": "截至2026-09-14"
+        "value": 1.55,
+        "note": "截至2026-09-15"
       },
       {
         "label": "COMEX黄金",
-        "value": 1.29,
-        "note": "截至2026-09-14"
+        "value": 0.76,
+        "note": "截至2026-09-15"
       },
       {
         "label": "上证指数",
-        "value": -3.36,
-        "note": "截至2026-09-14"
+        "value": -3.53,
+        "note": "截至2026-09-15"
       },
       {
         "label": "沪深300",
-        "value": -4.83,
-        "note": "截至2026-09-14"
+        "value": -5.05,
+        "note": "截至2026-09-15"
       },
       {
         "label": "恒生指数",
-        "value": -5.53,
-        "note": "截至2026-09-14"
+        "value": -5.62,
+        "note": "截至2026-09-15"
       },
       {
         "label": "恒生科技",
-        "value": -24.48,
-        "note": "截至2026-09-14"
+        "value": -23.99,
+        "note": "截至2026-09-15"
       }
     ],
     "chinaMacro": {
@@ -501,32 +512,32 @@
       ]
     },
     "globalAnalysis": [
-      "货币政策方面，本周美联储议息会议成为全球焦点，市场对加息定价升温，有报道称加息概率升至约90%，10年期美债收益率升至4.975%、年内上行79bp。日本央行鹰派信誉受到拷问，市场押注10月为下一轮加息窗口；英国央行内部因能源价格上行而加息辩论升温。多家机构讨论本轮紧缩是否终结美股牛市，政策不确定性成为短期定价核心。",
-      "增长与通胀方面，美国核心通胀升温强化了加息预期，能源价格成为新的上行风险。布伦特原油升至107.26美元、年内涨76.6%，中东战事推高能源成本。贝克休斯表示尽管利率更高，能源项目投资未见放缓，AI数据中心建设还推升LNG需求。油价高企与利率上行并存，使全球增长与通胀的权衡更加复杂。",
-      "资产分化方面，美股三大指数上周五全线走高，纳指涨0.96%、年内涨13.3%，标普500年内涨11.6%，道指年内涨8.7%，风险偏好仍强。但比特币年内跌12.7%，黄金年内仅涨1.3%，显示资金更偏向权益与美元资产。日经225年内涨22.2%但当日跌1.04%，港股恒生指数年内跌5.5%，全球股市呈现明显的区域与风格分化。",
-      "地缘与机构观点方面，中东袭击持续、霍尔木兹相关谈判停滞，特朗普称美国可能像处理委内瑞拉石油一样处置伊朗石油，油价因此跳涨。瑞银指出黄金投资者或已着眼于美联储后续动向。Anthropic推进纳斯达克上市并寻求高估值，Z.ai完成50亿美元融资后股价大跌超10%，显示一级市场AI热度与二级市场定价之间存在张力。"
+      "货币政策方面，美联储加息预期显著升温。调查显示逾八成经济学家预计本周加息，市场隐含概率升至90%，并预期明年3月底前可能再度出手。有“新美联储通讯社”之称的记者称沃什加息“没有退路”，特朗普的信任面临考验。10年期美债收益率升至4.961%，年内累计上行77bp，反映市场对紧缩路径与通胀韧性的重新定价。",
+      "增长与通胀方面，油价成为关键变量。布伦特原油升至107.46美元，年内涨幅达76.9%，受也门胡塞武装袭击沙特及伊朗相关攻击报道推动。CNBC指出油价与10年期美债收益率近七年最紧密同步，二者同涨对市场构成压力。高盛对冲基金主管认为“零日期权”压制美股波动，科技和能源仍是最佳选择，显示机构对通胀与增长前景存在分歧。",
+      "资产分化方面，隔夜美股三大指数小幅回落，标普500跌0.48%，纳指跌0.56%，但年内仍分别涨11.1%和12.7%；道指年内涨8.3%。黄金微跌0.11%，年内仅涨0.8%，与油价强势形成对比。比特币跌至77555美元，年内跌12.6%，风险资产内部表现分化。日经225年内涨22.5%，继续领先主要股指。",
+      "地缘与机构观点方面，中东局势持续紧张，胡塞武装袭击沙特及伊朗相关攻击推升油价，美国与伊朗冲突成本高企。边境控制与资本流动监管趋严引发关注。多国货币紧缩或延至明年中，全球流动性环境偏紧。机构对加息与股市关系存在反直觉押注，华尔街部分观点认为加息反而可能救股市，但整体风险偏好受到抑制。"
     ],
     "chinaAnalysis": [
-      "物价与景气方面，最新序列显示8月CPI同比0.8%、较7月0.5%小幅回升，PPI同比3.8%、仍处正区间但较6月4.1%回落，工业品价格修复动能边际放缓。8月制造业PMI为49.8，较7月49.2回升但仍低于荣枯线，景气度处于弱修复状态，需求端仍需政策与外部环境配合。",
-      "政策取向方面，LPR 1年期3.0%、5年期以上3.5%自7月20日更新后年内未变，10年期国债收益率在1.70%-1.90%区间低位震荡。地方外汇局窗口指导加码，银行被要求提高企业汇率套保比例，反映监管在汇率双向波动背景下更重视企业风险管理，货币政策整体保持稳健取向。",
-      "市场结构方面，上证指数收于3888.21、年内跌3.4%，沪深300年内跌4.8%，但盘中三大指数曾集体翻红、超3500只个股上涨，MLCC、创新药、培育钻石等概念活跃。红利低波ETF华泰柏瑞半日成交4.16亿元领跑同类，中证红利ETF年内涨1.9%，资金在总量偏弱中向红利与细分主题集中。",
-      "汇率与机构共识方面，美元兑人民币报6.7064、年内人民币升值约4.1%，人民币对美元中间价报6.7698、上调45个基点，但三大人民币汇率指数下跌，短期或维持双向波动。机构观点多聚焦港股创新药与恒生科技的逢低配置价值，南向资金年内对港股创新药逆势加仓约792亿港元，显示对细分成长赛道的结构性看好。"
+      "物价与景气方面，上一版序列显示8月CPI同比0.8%，PPI同比3.8%，PMI为49.8，仍处收缩区间。最新新闻中统计局公布8月工业增速受电子、电力、汽车等行业带动回升，服务业生产指数同比增4.1%，经济运行呈“三稳两快”特点，智能绿色商品消费成为新亮点，但社零与投资数据偏弱，显示内需修复仍不均衡。",
+      "政策取向方面，央行9月15日开展5000亿元买断式逆回购操作，维护流动性合理充裕。国常会最新部署进一步完善算力基础设施，政策继续向科技创新与产业升级倾斜。A股定增市场热度攀升，长线资金积极入场，显示直接融资功能受到重视。房地产交易总量有所改善、趋于稳定，各线城市商品住宅销售价格同比降幅继续收窄。",
+      "市场结构方面，A股三大指数集体低开，沪深300跌1.10%，年内跌5.0%，上证指数跌0.10%，年内跌3.5%。科创50指数低开高走涨1.79%，算力硬件股涨幅居前；半导体ETF领涨3.32%，粮食ETF领跌3.57%。港股恒指跌0.23%，恒生科技涨0.60%，半导体、软件走强，银行、医药生物下挫。创新药板块强势领涨，BD出海持续兑现，今年对外授权突破1200亿美元。",
+      "汇率与机构共识方面，美元兑人民币报6.709，年内人民币升值4.1%，有观点认为人民币汇率有望破6。管涛撰文讨论人民币汇率与中国经济再平衡。8月中国出口仍强劲，但美加贸易战升级带来不确定性。8家公募集中上报首批沪深港智能驾驶主题ETF，首批中证新能源金属50ETF材料获接收，ETF资金延续净流入，显示机构对主题投资保持关注。"
     ],
     "scenarios": [
       {
-        "name": "基准：加息落地后震荡",
+        "name": "基准：加息落地，震荡分化",
         "prob": "55%",
-        "desc": "美联储本周加息落地，市场消化紧缩预期，10年期美债收益率在4.9%附近高位震荡，美元指数维持99上方。美股高位波动但年内涨幅仍在，油价受中东局势支撑维持100美元上方，A股与港股延续结构性行情，红利与创新药等细分方向相对活跃。"
+        "desc": "美联储本周加息25bp落地，市场消化紧缩预期，美债收益率高位震荡，油价维持强势但涨幅放缓。美股科技与能源板块相对占优，A股维持结构性行情，半导体、创新药、算力等主题活跃，人民币汇率保持稳中偏强，恒生科技延续反弹。"
       },
       {
-        "name": "乐观：紧缩预期缓和",
+        "name": "乐观：通胀缓和，风险偏好回升",
         "prob": "25%",
-        "desc": "若美联储表态偏温和或中东局势出现缓和迹象，油价回落、美债收益率下行，美元走弱，全球风险偏好回升。港股恒生科技与A股成长板块有望迎来修复，人民币汇率保持偏强，外资与南向资金流入提速，权益市场估值压力阶段性缓解。"
+        "desc": "油价回落带动通胀预期降温，美联储加息后释放偏鸽信号，美债收益率下行，全球风险资产反弹。A股在政策与长线资金入场支撑下企稳回升，港股科技板块领涨，人民币升值预期增强，创新药与新能源等成长方向表现突出。"
       },
       {
-        "name": "悲观：油价与利率双高",
+        "name": "悲观：油价失控，紧缩超预期",
         "prob": "20%",
-        "desc": "若中东冲突升级推动油价进一步冲高，叠加美国核心通胀继续升温，加息预期强化，美债收益率与美元同步上行。高估值科技股与无息资产承压，比特币与黄金延续弱势，A股与港股风险偏好受抑，市场波动加大，防御型红利资产相对占优。"
+        "desc": "中东局势进一步升级推动油价突破前高，美债收益率与油价同步飙升，美联储加息幅度或节奏超预期，全球股市承压。A股受外部流动性收紧与风险偏好下降拖累，高估值成长板块回调，人民币汇率波动加大，避险资产如黄金可能重新获得支撑。"
       }
     ]
   },
@@ -536,31 +547,31 @@
         "label": "A股核心",
         "pct": 30,
         "color": "--s1",
-        "note": "上证指数报3888.21（日+0.00%，年内-3.4%，截至2026-09-14），沪深300报4489.87（日-0.87%，年内-4.8%），大盘蓝筹小幅走弱、指数整体仍在年内负收益区间，估值处于中低位。宽基+红利打底，分批布局，不因单日波动改变节奏。"
+        "note": "上证指数报3881.41（日-0.10%，年内-3.5%，截至2026-09-15），沪深300报4479.47（日-1.10%，年内-5.0%），大盘蓝筹当日走弱、指数整体仍在年内负收益区间，估值处于中低位。宽基+红利打底，分批布局，不因单日波动改变节奏。"
       },
       {
         "label": "债券",
         "pct": 25,
         "color": "--s2",
-        "note": "短久期利率债/存单为主，票息策略占优，少量可转债增强；10Y美债收益率4.975%（日+0.63%，年内+79bp）显示海外利率中枢继续上移，国内再通胀预期对长端利率的扰动需持续跟踪。"
+        "note": "短久期利率债/存单为主，票息策略占优，少量可转债增强；10Y美债收益率4.961%（日-0.28%，年内+77bp）显示海外利率中枢仍处高位，国内再通胀预期对长端利率的扰动需持续跟踪。"
       },
       {
         "label": "行业卫星",
         "pct": 15,
         "color": "--s6",
-        "note": "科技/顺周期主题作为短期方向仓位，恒生科技报4.32（日-0.05%，年内-24.5%，截至2026-09-14），高β品种年内回撤幅度可观，严控单一主题上限，轮动加速时注意止盈止损。"
+        "note": "科技/顺周期主题作为短期方向仓位，恒生科技报4.348（日+0.60%，年内-24.0%，截至2026-09-15），高β品种年内回撤幅度可观，严控单一主题上限，轮动加速时注意止盈止损。"
       },
       {
         "label": "黄金",
         "pct": 10,
         "color": "--s5",
-        "note": "COMEX黄金报4369.90美元/盎司（日+0.08%，年内+1.3%，截至2026-09-14），滞胀与地缘对冲价值仍在，但年内涨幅温和、短期波动加大，逢低分批，不追高。"
+        "note": "COMEX黄金报4347.10美元/盎司（日-0.11%，年内+0.8%，截至2026-09-15），滞胀与地缘对冲价值仍在，但年内涨幅温和、短期波动加大，逢低分批，不追高。"
       },
       {
         "label": "海外权益",
         "pct": 10,
         "color": "--s3",
-        "note": "QDII注意溢价与限购，美股高位震荡（标普500年内+11.6%、纳指年内+13.3%、道指年内+8.7%，截至2026-09-11），叠加美元兑人民币6.7064（年内-4.1%）的汇兑损耗，溢价<2%再考虑。"
+        "note": "QDII注意溢价与限购，美股高位震荡（标普500年内+11.1%、纳指年内+12.7%、道指年内+8.3%，截至2026-09-14），叠加美元兑人民币6.709（年内-4.1%）的汇兑损耗，溢价<2%再考虑。"
       },
       {
         "label": "现金",
@@ -579,7 +590,7 @@
         ],
         "role": "核心",
         "risk": 3,
-        "logic": "上证指数报3888.21（日+0.00%，年内-3.4%，截至2026-09-14），沪深300报4489.87（日-0.87%，年内-4.8%），估值处于历史中低位，蓝筹短期承压但未破位。再通胀确认与机构对2026年A股盈利增速的偏乐观预期构成中期支撑，人民币年内升值4.1%亦有利于外资回流。科技虹吸之后传统宽基估值不贵，是高切低再平衡的承接方向，适合定投或分批建仓。",
+        "logic": "上证指数报3881.41（日-0.10%，年内-3.5%，截至2026-09-15），沪深300报4479.47（日-1.10%，年内-5.0%），估值处于历史中低位，蓝筹短期承压但未破位。再通胀确认与机构对2026年A股盈利增速的偏乐观预期构成中期支撑，人民币年内升值4.1%亦有利于外资回流。科技虹吸之后传统宽基估值不贵，是高切低再平衡的承接方向，适合定投或分批建仓。",
         "risks": "若经济数据不及预期，指数中枢可能下移；结构牛环境下宽基弹性弱于主题，需接受阶段性跑输热点。",
         "horizon": "3年以上 · 定投/分批",
         "weight": "20-30%"
@@ -592,7 +603,7 @@
         ],
         "role": "核心",
         "risk": 2,
-        "logic": "红利相对全A收益差处历史极值区域，股息率与PB组合仍具吸引力；中证红利ETF最新报1.582（日-0.25%，年内+1.9%，截至2026-09-14），仍是当前少数年内正收益的A股类资产。在货基收益偏低的环境下，红利低波可作为类固收+的替代，提供现金流与组合稳定器功能，适合长期持有。",
+        "logic": "红利相对全A收益差处历史极值区域，股息率与PB组合仍具吸引力；中证红利ETF最新报1.576（日-0.63%，年内+1.6%，截至2026-09-15），仍是当前少数年内正收益的A股类资产。在货基收益偏低的环境下，红利低波可作为类固收+的替代，提供现金流与组合稳定器功能，适合长期持有。",
         "risks": "科技行情延续期将继续跑输；银行、煤炭等权重行业盈利下修会侵蚀股息基础。",
         "horizon": "3年以上",
         "weight": "10-15%"
@@ -606,7 +617,7 @@
         ],
         "role": "核心",
         "risk": 1,
-        "logic": "10Y美债收益率4.975（日+0.63%，年内+79bp），海外利率中枢继续上移；国内票息空间偏薄叠加PPI回升制约利率下行，短久期吃票息相对更稳。债券ETF与存单类产品机构持续增配，可转债攻守兼备但需控制比例。整体定位是组合的压舱石与再平衡资金来源。",
+        "logic": "10Y美债收益率4.961（日-0.28%，年内+77bp），海外利率中枢仍处高位；国内票息空间偏薄叠加PPI回升制约利率下行，短久期吃票息相对更稳。债券ETF与存单类产品机构持续增配，可转债攻守兼备但需控制比例。整体定位是组合的压舱石与再平衡资金来源。",
         "risks": "再通胀超预期导致收益率上行，长久期品种净值回撤；可转债跟随权益波动，比例过高会放大组合波动。",
         "horizon": "1年以上",
         "weight": "20-25%"
@@ -618,7 +629,7 @@
         ],
         "role": "核心",
         "risk": 3,
-        "logic": "COMEX黄金报4369.90美元/盎司（日+0.08%，年内+1.3%，截至2026-09-14），央行购金与滞胀、地缘环境下的对冲价值仍不可替代。年内涨幅温和，较前期峰值已有明显回调，恐慌性赎回释放相对充分。短期波动加大、趋势尚未明朗，适合作为组合的非权益对冲仓位，分3批以上逢低介入。",
+        "logic": "COMEX黄金报4347.10美元/盎司（日-0.11%，年内+0.8%，截至2026-09-15），央行购金与滞胀、地缘环境下的对冲价值仍不可替代。年内涨幅温和，较前期峰值已有明显回调，恐慌性赎回释放相对充分。短期波动加大、趋势尚未明朗，适合作为组合的非权益对冲仓位，分3批以上逢低介入。",
         "risks": "若美联储政策转鹰、实际利率上行，金价可能再下台阶；短期趋势仍偏震荡，必须分批，严禁一次性抄底。",
         "horizon": "2年以上 · 分3批以上",
         "weight": "5-10%"
@@ -631,7 +642,7 @@
         ],
         "role": "卫星",
         "risk": 4,
-        "logic": "标普500报7656.98（日+0.86%，年内+11.6%），纳指报26333.04（日+0.96%，年内+13.3%），道指报52573.29（日+0.98%，年内+8.7%，截至2026-09-11），AI盈利兑现仍是美股中期主线，QDII是境内参与的主要合规通道。但美股处于高位震荡，且美元兑人民币6.7064（年内-4.1%）带来汇兑损耗，需以溢价与汇率为双重约束条件分批参与。",
+        "logic": "标普500报7619.98（日-0.48%，年内+11.1%），纳指报26186.41（日-0.56%，年内+12.7%），道指报52421.20（日-0.29%，年内+8.3%，截至2026-09-14），AI盈利兑现仍是美股中期主线，QDII是境内参与的主要合规通道。但美股处于高位震荡，且美元兑人民币6.709（年内-4.1%）带来汇兑损耗，需以溢价与汇率为双重约束条件分批参与。",
         "risks": "溢价陷阱：高溢价买入等于先亏一笔情绪税；叠加美国通胀与利率高企，以及人民币升值对美元资产收益的侵蚀。仅在溢价<2%时分批。",
         "horizon": "3年以上",
         "weight": "5-10%"
@@ -644,7 +655,7 @@
         ],
         "role": "卫星",
         "risk": 4,
-        "logic": "恒生科技报4.32（日-0.05%，年内-24.5%，截至2026-09-14），恒生指数报24881.37（日+0.31%，年内-5.5%），深度超跌叠加南向资金持续净流入，与A股科技存在明显估值差。机构对恒生科技2026年盈利增速预期偏乐观，若美元流动性改善，估值修复空间值得跟踪，但需以左侧分批方式参与。",
+        "logic": "恒生科技报4.348（日+0.60%，年内-24.0%，截至2026-09-15），恒生指数报24859.45（日-0.23%，年内-5.6%），深度超跌叠加南向资金持续净流入，与A股科技存在明显估值差。机构对恒生科技2026年盈利增速预期偏乐观，若美元流动性改善，估值修复空间值得跟踪，但需以左侧分批方式参与。",
         "risks": "左侧特征明显：下跌趋势未完全扭转、IPO抽血、美元利率若再上行港股首当其冲。",
         "horizon": "1-3年 · 分批",
         "weight": "5-10%"
@@ -659,7 +670,7 @@
         ],
         "role": "卫星",
         "risk": 5,
-        "logic": "存储周期触底、国产替代推进与全球链情绪共振，半导体仍是市场关注度最高的方向之一。但最新行情显示科技板块波动加剧，恒生科技日-0.05%、年内-24.5%（截至2026-09-14），提示高β品种的回撤幅度。当前更适合等待回调后的分批机会，而非在情绪高点追加。",
+        "logic": "存储周期触底、国产替代推进与全球链情绪共振，半导体仍是市场关注度最高的方向之一。但最新行情显示科技板块波动加剧，恒生科技日+0.60%、年内-24.0%（截至2026-09-15），提示高β品种的回撤幅度。当前更适合等待回调后的分批机会，而非在情绪高点追加。",
         "risks": "拥挤度极高，景气证伪或情绪退潮时回撤幅度可能达20%级别，隔日追高历史胜率很差。",
         "horizon": "1-3个月 · 严设止损",
         "weight": "≤10%"
@@ -672,7 +683,7 @@
         ],
         "role": "卫星",
         "risk": 5,
-        "logic": "创新药与机器人是前期资金快速轮动的接力主线，单周涨幅曾达19%~22%，港股生物科技亦出现单日大幅波动。最新行情未直接给出相关指数，但科技板块整体波动加大（恒生科技日-0.05%、年内-24.5%，截至2026-09-14），轮动可能加速。该方向适合小仓位参与，跟随资金节奏而非提前埋伏。",
+        "logic": "创新药与机器人是前期资金快速轮动的接力主线，单周涨幅曾达19%~22%，港股生物科技亦出现单日大幅波动。最新行情未直接给出相关指数，但科技板块整体波动加大（恒生科技日+0.60%、年内-24.0%，截至2026-09-15），轮动可能加速。该方向适合小仓位参与，跟随资金节奏而非提前埋伏。",
         "risks": "单周20%级波动的高β品种，轮动退潮极快，接最后一棒代价高昂。",
         "horizon": "1-3个月",
         "weight": "≤5-8%"
@@ -686,7 +697,7 @@
         ],
         "role": "卫星",
         "risk": 4,
-        "logic": "价格秩序修复与PPI回升是顺周期方向的中期线索，机构对储能电网、周期反转及供需紧俏环节的关注度提升。最新行情中上证指数日+0.00%、沪深300日-0.87%，显示顺周期与成长板块同步调整，主题尚未形成持续赚钱效应，需要耐心等待政策与产能出清的进一步验证。",
+        "logic": "价格秩序修复与PPI回升是顺周期方向的中期线索，机构对储能电网、周期反转及供需紧俏环节的关注度提升。最新行情中上证指数日-0.10%、沪深300日-1.10%，显示顺周期与成长板块同步调整，主题尚未形成持续赚钱效应，需要耐心等待政策与产能出清的进一步验证。",
         "risks": "政策落地与产能出清慢于预期；主题尚未形成持续赚钱效应，需要耐心。",
         "horizon": "3-6个月",
         "weight": "≤10%"
@@ -699,17 +710,17 @@
         ],
         "role": "卫星",
         "risk": 4,
-        "logic": "布伦特原油报107.26美元/桶（日+2.53%，年内+76.6%，截至2026-09-14），年内涨幅显著，PPI结构中有色与煤炭价格上行直接映射上游盈利弹性。地缘冲突反复为油价提供事件溢价，但当前油价已处相对高位且单日波动明显，追涨性价比下降，更适合作为组合的通胀对冲小仓位配置。",
+        "logic": "布伦特原油报107.46美元/桶（日+1.68%，年内+76.9%，截至2026-09-15），年内涨幅显著，PPI结构中有色与煤炭价格上行直接映射上游盈利弹性。地缘冲突反复为油价提供事件溢价，但当前油价已处相对高位且单日波动明显，追涨性价比下降，更适合作为组合的通胀对冲小仓位配置。",
         "risks": "地缘随时反转：停火修复日油气单日-6%同样常见；油气类QDII溢价曾超20%，高溢价买入风险加倍。",
         "horizon": "1-3个月 · 事件驱动",
         "weight": "≤8%"
       }
     ],
     "notes": [
-      "关键日历：未来两周（9/14-9/26）重点关注美联储FOMC会议（9/16-17）及官员讲话、美国8月CPI后续消化，国内关注8月社融、LPR报价及8月经济数据。事件密集期分批操作，避免满仓押注单一结果。",
-      "QDII 三查再下单：查溢价率（>2%不买）、查限购状态（额度荒下放宽一周即收紧）、查汇率（美元兑人民币6.7064，年内-4.1%，人民币升值已直接侵蚀美元资产收益）。",
+      "关键日历：未来两周（9/15-9/26）重点关注美联储FOMC会议（9/16-17）及官员讲话、美国8月CPI后续消化，国内关注8月社融、LPR报价及8月经济数据。事件密集期分批操作，避免满仓押注单一结果。",
+      "QDII 三查再下单：查溢价率（>2%不买）、查限购状态（额度荒下放宽一周即收紧）、查汇率（美元兑人民币6.709，年内-4.1%，人民币升值已直接侵蚀美元资产收益）。",
       "哑铃结构仍是当前较稳妥的中期思路：一端科技成长（卫星、控制总量），一端红利低波+短债（核心、提供现金流）。单边押注科技的组合波动远超平衡型承受范围。",
-      "再平衡纪律：每季度或单一资产偏离目标±5个百分点时，机械地涨多的卖一点、跌多的买一点——恒生科技年内-24.5%与红利年内+1.9%的对比，恰恰说明这条纪律的价值。",
+      "再平衡纪律：每季度或单一资产偏离目标±5个百分点时，机械地涨多的卖一点、跌多的买一点——恒生科技年内-24.0%与红利年内+1.6%的对比，恰恰说明这条纪律的价值。",
       "费率红利：2026年起公募销售新规实施，主动权益认申购费上限0.8%、持有超1年免销售服务费，优先场内ETF与A类份额长持，成本就是确定的超额收益。"
     ]
   },
@@ -724,7 +735,7 @@
       {
         "theme": "存储 / 先进封装「主升浪追击」",
         "heat": "极高热度",
-        "drivers": "全球存储链情绪共振，SK海力士上市与三星利润指引改善构成催化，A股半导体设备与存储环节关注度居高不下。最新行情未直接给出半导体指数，但恒生科技日-0.05%、年内-24.5%（截至2026-09-14）提示高β科技品种波动剧烈。",
+        "drivers": "全球存储链情绪共振，SK海力士上市与三星利润指引改善构成催化，A股半导体设备与存储环节关注度居高不下。最新行情未直接给出半导体指数，但恒生科技日+0.60%、年内-24.0%（截至2026-09-15）提示高β科技品种波动剧烈。",
         "catalysts": "A股中报预告；HBM供需与涨价数据；海外存储龙头上市后表现。",
         "vehicles": "科创半导体ETF (588170)、半导体设备类ETF；美股链为QDII覆盖（注意溢价）。",
         "risks": "全市场最拥挤的交易之一，景气证伪或情绪退潮时20%级回撤起步，隔日追高历史胜率很差。",
@@ -733,7 +744,7 @@
       {
         "theme": "恒生科技「困境反转」博弈",
         "heat": "中高热度",
-        "drivers": "恒生科技报4.32（日-0.05%，年内-24.5%，截至2026-09-14），恒指报24881.37（日+0.31%，年内-5.5%），深度超跌叠加南向资金持续净流入，与A股科技存在明显估值差。",
+        "drivers": "恒生科技报4.348（日+0.60%，年内-24.0%，截至2026-09-15），恒指报24859.45（日-0.23%，年内-5.6%），深度超跌叠加南向资金持续净流入，与A股科技存在明显估值差。",
         "catalysts": "互联网中报盈利；美联储9月会议后的美元流动性；AH溢价收敛交易。",
         "vehicles": "恒生科技ETF (513180)。",
         "risks": "下跌趋势未确认扭转，反弹夭折概率不低；美债利率若再上行，港股估值端首当其冲。",
@@ -742,7 +753,7 @@
       {
         "theme": "黄金超跌波段",
         "heat": "中热度",
-        "drivers": "COMEX黄金报4369.90美元/盎司（日+0.08%，年内+1.3%，截至2026-09-14），央行购金持续，滞胀与地缘对冲逻辑仍在；年内涨幅温和，短期波动加大。",
+        "drivers": "COMEX黄金报4347.10美元/盎司（日-0.11%，年内+0.8%，截至2026-09-15），央行购金持续，滞胀与地缘对冲逻辑仍在；年内涨幅温和，短期波动加大。",
         "catalysts": "美国CPI后续消化（若通胀回落→实际利率下行利好）；FOMC表态；中东局势升级。",
         "vehicles": "黄金ETF (518880)。",
         "risks": "本质是接下跌中的刀：若美联储转鹰、实际利率上行，金价可能再下一个台阶；波段做错变长套。",
@@ -751,7 +762,7 @@
       {
         "theme": "油价地缘脉冲",
         "heat": "高热度",
-        "drivers": "布伦特原油报107.26美元/桶（日+2.53%，年内+76.6%，截至2026-09-14），年内涨幅显著，地缘冲突反复为油价提供事件溢价，上游资源盈利弹性受到关注。",
+        "drivers": "布伦特原油报107.46美元/桶（日+1.68%，年内+76.9%，截至2026-09-15），年内涨幅显著，地缘冲突反复为油价提供事件溢价，上游资源盈利弹性受到关注。",
         "catalysts": "冲突升级或新停火（双向都是大波动）；OPEC供给回应；美国战略储备操作。",
         "vehicles": "油气类QDII（务必先查溢价）、油气开采相关ETF。",
         "risks": "事件驱动=隔夜跳空双向：停火修复日-6%同样常见；高溢价买入雪上加霜。",
@@ -760,11 +771,11 @@
       {
         "theme": "加密资产（仅观察，不建议参与）",
         "heat": "深熊观察",
-        "drivers": "比特币报77496.43（日+0.29%，年内-12.7%，截至2026-09-14），较前期峰值明显回落，现货ETF资金流与全球风险偏好联动紧密。",
+        "drivers": "比特币报77555.11（日+0.93%，年内-12.6%，截至2026-09-15），较前期峰值明显回落，现货ETF资金流与全球风险偏好联动紧密。",
         "catalysts": "美联储政策若转向、ETF资金流反转、杠杆清算尾声信号。",
         "vehicles": "境内无合规参与渠道——本条仅作为全球风险偏好的温度计观察，不构成任何参与路径。",
-        "risks": "波动极端、监管环境不确定，境内无合规参与渠道，仅作观察。",
-        "discipline": "不参与、不加杠杆、不通过非合规渠道配置；仅记录为风险偏好指标。"
+        "risks": "波动极端、监管环境不确定，境内无合规参与渠道，任何变相参与均面临法律与流动性双重风险。",
+        "discipline": "仅观察记录，不设仓位；不通过境外平台或场外渠道变相参与。"
       }
     ]
   },
@@ -810,60 +821,60 @@
       "url": "https://www.gold.org/goldhub/research/gold-mid-year-outlook-2026"
     },
     {
-      "name": "finance.biggo.com",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBFM01KSGtVcGZNYlZMaDJQUEN0VWxRYzYwdkRqNEdPeWl0ZndsRmUtZkxLWTlFSDNPc3lyQ1JWZ3ZSV0ZVSkZPXzBVSmpFT1dTTjhrZERFVUVUaHgwSzdaeWJQdlEwREphLVZjdVg4R2liWkJVTFE?oc=5"
+      "name": "新浪网",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQUGxDMXhGb1EtSUJUdTFOSEMzZTRqWnFrM3hEUXBtX3lMQzdveTVNSG8xOHZ5cFRtc2JVSFpmUGJ6UW5OQk5iRUVBM0JhUXFBN09Id2lmMy1JdGJFcWIxYndwbkNGWUxKenBDV0NIVzdfZTNZNDhqYjZEQ2ZNb0F0bTBKdjFBRkM3SmF4QlJWTnRYb3ZqUjVhOA?oc=5"
     },
     {
-      "name": "新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPM21oLU5HMTl4MGJJMHFIRGk4VHE3VVM2Y3FzZkpjeWVrcC0yNXBOb0txYWwtQ005ZDhLRUVXUng4WFJXRzJvemZTc2RUcUFVc1RPc0Y4X3YyNkcxOXdIYm1hU1B0SVhScVplSE9xZXZzTXp0dXBmVk93UEZUS1hEOUI4VHlKSEU1Q3RoTWVoR2g5eVlaREdPNl94SDlFcnlGUE9DWU5TNUtVU3RELUIyS2xSUEdBX2pBOXNJN2JaTFVPR09wb0tUNFpmWDNDbTFmeEV4VVdWQUlYaUVIWDJnS25R?oc=5"
+      "name": "华尔街见闻",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBZRWlNV0ZsQk1ndlI2ZFlCN1RoclEtTXNXdzJMcFUxOWFWb3BGeHRBRU1sX0ZrSFVuREV6VUZWRkdRZVNxcDF5a2FRazhMWlN0SFdz?oc=5"
+    },
+    {
+      "name": "东方财富",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5FWExHV2NuS2xlUWllOEFMWERsdkZTYUg3QjZRVGE5U2hwMWUwM1hCQkRxN0MyZmFQRk1fTzA1ZnNtWTd2WXZVNWFFSk5aUm1OWXRtc3dkaGU0bWNaa01GT08ya0FHZw?oc=5"
+    },
+    {
+      "name": "CNBC·市场",
+      "url": "https://www.cnbc.com/2026/09/14/samsung-euclyd-ai-chip-funding.html"
+    },
+    {
+      "name": "CNBC·市场",
+      "url": "https://www.cnbc.com/2026/09/15/oil-extends-gains-following-houthi-strikes-on-saudi-arabia.html"
+    },
+    {
+      "name": "CNBC·市场",
+      "url": "https://www.cnbc.com/2026/09/15/us-iran-war-trump-hormuz-munitions-dod-costs-aircraft.html"
     },
     {
       "name": "财联社",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5UZVJsQ0x1ZGNuZmVLUWNDd00wdjVIcUE0VVFRcFdzUEZBc0owOXFoZWplazRUYS02UHZkLVBvU0JIN2pIZk1ZaA?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE55a2VUd1VieHgyN0ZwaHpHTDVWLWVMb1gzNkQzcmRPU0FPc25VeHdBSHhXYk0yMkFBa29kMXAzT2JMeE1wSXFjUg?oc=5"
     },
     {
-      "name": "金十数据",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBtTHlPU2NOMG9wcVNyZXFQWHlxbHpsSVlsODNYQklKNFkxQzZNWHpoTTVvUGUzWkZEV0tqOURlNXF4SXBOZDJWZzhTb0lmWWM?oc=5"
-    },
-    {
-      "name": "新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBfd1Z5MU5USWZGRmJ5d1pGRUZtWUhoNUxVN0Z6WUtDVklrWW8wbkc3VmZUc1VZRG5hNkgzckRpSEpRS3ZKRk9ic2JLRXFGLXMtd0VUbWxvdE5sOTdUQzZ3TDN1Z1ZZdmNHbTdTWGI5SE1tNmRHS2s0OA?oc=5"
-    },
-    {
-      "name": "The Economic Times",
-      "url": "https://news.google.com/rss/articles/CBMilANBVV95cUxNM0t4VTZoNFdVLTVYeUtfVzFoRGRMVnFCLXhHWTkzWWlkQW1ZRlZmVG1pdDM3NnpSejdkTlpNTC1BU2JNMFZGWElmcHFGSW11TXlWb2hWa1I3V2VwRDFCQ2dXVWxWc09obU92RHBzVkE2bUlBV19xRmpjcjJKaENLVGFTak5aXzUxaG9oaHY0RVhwUkdNS1RkRHBNUHNoRTQ3a3ZVZXpzU2p4VjVKaXVYMjV2cWJWOUc2eFkwUDlEaU43ZkxVQVZFcExrb2l0YUtndXpScGdrQzFaWG9qdUprSUlQNmR2Y3UxTkxkNDdCcXhpM1I3al9TRm1CV190OHJabElPcDk3MkJ6WVI5a3U5VGp6WHVaeEpKeGlTQ0NkaUNYNlBpeDAzeTZjRE5OZ3ZGaWEyLVYzbnhPRHBxMGxnS0pnbzN0cEc0WDRxR1hIOHpURUZtZlMxcWxLOXBrWGRZa0lOLWItZFdfTWswVFJCQVYtaG1pa1kxTDhFVjQ1UEFacmFYRmtjTUxtbHB2SGFmMEZJd9IBsAJBVV95cUxOZS1UVm9BdmJSd0YtLU4yd3hBQkxzTnJpS0Q3UE1RVEhyQk02NjRhQktESDd4WVpHZmRYRHkwbnpkTGNrNjg4cXdDV09IcG9HWUFTdW1IYW1CNlJrcVVXYnI5ZWlOWXJJRUhsMXZHNDNWRTdkNXFoZ1JUcXhqZ000b21PeTZoenR2bGg1MzBPbjFhUVNaeG0wRjJ3Mks5Q3lROUlSOWdRZDYtd21QQUhGN1JFNFNMd2ZSaGFzN2tIMm94UVhJNkl1QndLblh2ZlVtTklvWEFUd0FpZmZjb1hOX1d2RnhaaTlYc1JOdGd6U2RzWUllMkYtdlFiQktNYVJtNDA3ZmFwalJ0STl6dVR6aHd3Nk1SSGFGbHNNaTZiX282TFhta0JZVzZuYy1WQ2Zu?oc=5"
-    },
-    {
-      "name": "VT Markets",
-      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPOUNCbG9jcG9Kaks1cldhbGllc0hZcnJuaVBjcnJKZzZyVnpZckh2NGVxR1JXdzF5NXhWRDZ5Mnd0WjlRNDhidEhXclZYaGEyOEhlOWRudks5b2FJZkFfUzh0WjB0UmRZRF9WRnZaTEdNOTY1RXdFS3VFeUlJdjlIQ0JnTExid0xDWWo5Q1pPTnJYMVBYZnBYQjV3eWNnWDR1amhfWDB0WlZMQjAtOS1uOGNxNFhVLUgzaWdrdGhFajdsVTZDOFBlX0wtZTMxX2I2VHA3dFZRdWdnLU9NdXc?oc=5"
+      "name": "MUFG Research",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQQ1k3V3AxZnVVd0F0LWUxbDNVamtESHdKYVlvTE5GaXpEa0xpV280eHFyQ011SlhQS3EwajB3UGV3NGIyQTZoUG53M3poeVNpOG9iQV9vWjZjQ3R4dmRPb0FUUXM2Zm9QalROMVRTT0wwYndSeS1MY01RWWJ6ZVBwV3VyR1B0NGJQODdQSGxxU1YwSG5IUGZxekRwajRhc28?oc=5"
     },
     {
       "name": "CNBC·市场",
       "url": "https://www.cnbc.com/2026/09/14/10-year-us-treasury-is-closing-in-on-5percent.html"
     },
     {
-      "name": "CNBC·市场",
-      "url": "https://www.cnbc.com/2026/09/14/anthropic-walks-tightrope-to-nasdaq-pushing-slowdown-and-pursuing-ipo.html"
+      "name": "华尔街见闻",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE8xbk5mb1Jxai1IbFAtVk0tb01nQWpJN3JlZ1VqTUdrV1pFMUc1R0c2dHgyamFkaGpOZFdVVVQ3d2VJU1FVeDVVUUZ2Mm9nRC1DZVVv?oc=5"
+    },
+    {
+      "name": "21财经",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOMXl2OGtxTjBIVXJPZXRZeXJnWHpzbHpYUk9mR1J4MWFwNHBHSG9kOFZ2TThpVk11YlBHck1FRzdBZUZEaG1SVWxXV3pvZTR1SXV4NGQxRXBqMlNNdks5aVgxM2wyLUJ0Y1ZnN2ZCMXBvRE9XN1ZIbl8weGk0WHhmdmptUEhZVllHbDR5eQ?oc=5"
     },
     {
       "name": "CNBC·市场",
-      "url": "https://www.cnbc.com/2026/09/14/baker-hughes-ceo-no-slowdown-in-energy-projects-despite-higher-rates-.html"
+      "url": "https://www.cnbc.com/2026/09/15/china-august-retail-sales-industrial-output-investment-exports-.html"
     },
     {
-      "name": "同花顺财经",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBqS3ZkeDdOZHBGSW1kUzRHZVNZYmVINE5QcUJDRGFpUG01NDZQNHM1bEJiTlRLekVjYnJEMkh2ZXU3UW5TT1JnYUVzMDVpb0c1aE5TUExrdjVqQ2pScFE?oc=5"
+      "name": "thepaper.cn",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE44RHBhSmE5V1k1cUZVUnJCYjRqNngtajJmYWk3THpJUzFOMF90bThONlpxWXRvcjdvMTlPWGk0bkRXYnBVZjVfTG9fT2ptRUxOVlFwc3B4Y19KRWVEQ3FhTg?oc=5"
     },
     {
       "name": "东方财富",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE8zN2NyNjJNRVBiUmxqNDlucldiWXdEQmJpNkdJQWJTbFFFbjBhQkcxODBFdmFpT3M5UG1IZ19oeTdpNkVYN0RYOXVESm15R2dGNmZvQWhmWmllYVkxTTdZampiZW90dw?oc=5"
-    },
-    {
-      "name": "中金在线",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1FRlZCN25DOUZtUmVIblJaYlZEQkdVd1RWaGpvZVZPZThJeG0ySEJOanRyTWdqTm5qdDVtWjdGZWJRaUVSRkQwcldVMHNwNXMwY0lXbjlDcXAyczBybV8zNjNseFhYT0VSUDBOb1hR?oc=5"
-    },
-    {
-      "name": "观点网",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9pelBFZWZYNkhoRnlpNFdWWEc0OXRDWGJaREJHaGxqSllLaTVaZ2tmM1Job1RTNUlzYjJEMEpYQWJ4aVN4a3dRNkhvb3NhSUMySC14M1o4RGFOeVQwdzVJcjFn?oc=5"
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBzdWpKMHhYRVBMdmVvTmhHS2lEcy1JMjBnblZFZWV5MDJra2ZQNy0xdFF5SkJBWmJ3ejk3ZzBIb2RxUW5FWWxPejE0ZnMxN3Fna09HYVcwRkZzcGdSa2dVZw?oc=5"
     }
   ]
 }
