@@ -1,26 +1,26 @@
 {
   "meta": {
-    "generatedAt": "2026-10-04 14:00（北京时间）",
+    "generatedAt": "2026-10-04 14:28（北京时间）",
     "riskProfile": "平衡型",
     "scope": "国内 + 海外",
     "newsWindow": "近 30 天焦点",
     "fullDisclaimer": "免责声明：本页面全部内容由 AI 于生成时点自动搜集公开报道与官方数据整理而成，仅用于信息参考与学习交流，不构成任何证券、基金投资建议或收益承诺。AI 并非持牌投资顾问；数据可能存在错漏、口径差异或时滞（各指标截至日期以标注为准），请以官方与基金销售机构披露为准。基金有风险，过往业绩不代表未来表现，杠杆与主题投机可能造成本金快速亏损。请根据自身风险承受能力独立决策，必要时咨询持牌专业人士。"
   },
   "overview": {
-    "heroTitle": "油价高企与美债破5.2%",
-    "heroDesc": "国庆假期期间，全球市场呈现明显分化：美股三大指数继续走高，纳指年内涨17%，但10年期美债收益率升至5.277%，年内累计上行109个基点，对估值形成压制。布伦特原油年内大涨68.3%至102美元上方，G7拟释放1亿桶战略储备以平抑价格。黄金年内下跌3.9%，比特币年内跌4.3%，与股市走势背离。国内方面，恒生科技年内跌27.6%表现最弱，上证指数年内跌4.5%，机构普遍研判节后A股回暖概率较高，同时央行加码结构性工具宽松，新基金发行重回千亿规模。",
+    "heroTitle": "美股新高与油价高企并存",
+    "heroDesc": "国庆假期期间，海外市场呈现明显分化：标普500与纳斯达克续创新高，年内分别上涨12.6%和17.0%，而恒生科技年内下跌27.6%，恒指单日回落2.6%。10年期美债收益率升至5.277%，年内累计上行109个基点，美元指数年内上涨3.6%。布伦特原油报102.25美元，年内大涨68.3%，能源价格成为通胀与政策路径的关键变量。国内方面，上证指数节前收于3842.20点，年内下跌4.5%，中证红利ETF年内基本走平，机构普遍关注节后A股能否迎来开门红。",
     "judgments": [
       {
         "title": "美债利率高企压制估值",
-        "desc": "10年期美债收益率升至5.277%，年内累计上行109bp，为年内高位。美联储会议纪要即将公布，市场对加息预期重新定价，Warsh出任主席后政策路径不确定性上升，高利率环境对成长股估值构成持续压力。"
+        "desc": "10年期美债收益率升至5.277%，年内上行109个基点，处于本轮周期高位。高利率环境对成长股估值形成持续约束，但纳斯达克年内仍上涨17.0%，显示盈利预期与AI叙事暂时压过贴现率压力，两者背离值得跟踪。"
       },
       {
-        "title": "油价强势成通胀隐忧",
-        "desc": "布伦特原油年内上涨68.3%至102.25美元，美伊与也门局势牵动供给预期，G7拟释放1亿桶战略石油储备。能源价格高企叠加美国就业增长逊于预期，市场开始讨论类1970年代式滞胀风险。"
+        "title": "油价年内大涨成通胀变量",
+        "desc": "布伦特原油报102.25美元，年内上涨68.3%，叠加G7将释放1亿桶战略石油储备的消息，能源供给与地缘扰动成为通胀路径的核心变量。若油价维持高位，美联储加息预期与美债利率或继续承压。"
       },
       {
-        "title": "A股节后情绪偏暖",
-        "desc": "多家机构研判A股节后大概率回暖，历史节后上涨胜率超60%。央行四箭齐发释放利好，新基金发行重回千亿、九月成立数量创近5年新高，个人投资者大举涌入新上市ETF，占比超八成。"
+        "title": "港股与A股相对承压",
+        "desc": "恒生科技年内下跌27.6%，恒指下跌9.0%，与美股新高形成鲜明反差；上证指数年内下跌4.5%。机构观点偏向节后A股回暖，历史胜率超60%，但解禁规模超3100亿元与新股供给节奏构成短期扰动。"
       }
     ]
   },
@@ -77,7 +77,7 @@
       },
       {
         "label": "比特币",
-        "value": "$84,897",
+        "value": "$84,888",
         "delta": "-4.3%",
         "deltaLabel": "年内",
         "dir": "down"
@@ -87,9 +87,9 @@
       {
         "date": "10-04",
         "tag": "货币政策",
-        "title": "美联储10月加息概率回落 会议纪要即将公布",
-        "summary": "综合多家媒体报道，美联储官员鹰派立场出现软化，市场对10月加息的定价大幅回落，有机构判断10月或暂停加息。美联储最新会议纪要即将公布，市场关注其对通胀前景与利率路径的表述。与此同时，欧洲央行会议纪要同样受到关注，市场对加息的押注整体降温。",
-        "implication": "加息预期降温有助于缓解全球风险资产的估值压力，但政策路径仍取决于通胀数据。",
+        "title": "美联储10月加息概率大幅回落，官员鹰派立场软化",
+        "summary": "美国9月非农数据意外爆冷，市场对美联储10月加息的定价明显回落，有机构判断10月或暂停加息。美联储官员近期鹰派立场出现软化，部分大行调整此前预测。与此同时，美联储最新会议纪要即将公布，市场关注其对通胀与利率路径的表述，加息预期变化成为全球资产定价的核心变量。",
+        "implication": "加息预期降温短期利好风险资产估值，但政策路径仍取决于后续通胀与就业数据。",
         "source": {
           "name": "新浪财经",
           "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOR2lON2JxQXVhWkNzVXNzcElNdnBkY0FpRzR5MHdZNURteUFPaWN2NEV0a1MteWVJQ2hfcmNSN2ctVWh3MEhiM1NtZkp6d1ZuaG1UaERFSnN4Q1N6eVRPTnprRWM1NnpsNUhwOFVOd2hwODU4VTVNWUZYTWU0Uk5mR2huRXB3dw?oc=5"
@@ -97,10 +97,32 @@
       },
       {
         "date": "10-04",
-        "tag": "通胀",
-        "title": "美联储与欧洲央行纪要料显示通胀担忧 加息押注降温",
-        "summary": "有报道称，美联储与欧洲央行的会议纪要预计将显示决策者对通胀的担忧，但市场对进一步加息的押注正在减弱。另有分析将当前环境与上世纪70年代类比，提及工资下滑、能源价格高企与通胀并存的讨论。通胀与就业数据的组合仍是判断政策转向的关键变量。",
-        "implication": "通胀黏性与政策预期的分歧，可能加大利率与汇率市场的波动。",
+        "tag": "就业",
+        "title": "美国9月非农意外爆冷，全球市场严阵以待",
+        "summary": "美国9月非农就业数据意外低于预期，成为影响美联储决策与全球市场情绪的关键变量。数据公布前全球市场严阵以待，公布后加息预期受挫，美股延续涨势，英伟达盘中创出新高，美债收益率走出V型，G7释放战略石油储备重创原油，金银全周大幅下跌。",
+        "implication": "就业走弱强化政策转松预期，但数据波动也放大了跨资产价格的短期波动。",
+        "source": {
+          "name": "新浪财经",
+          "url": "https://news.google.com/rss/articles/CBMiogJBVV95cUxNcmNaczV0SjlVY1VZXzBuS2JoZ1Z4eEZiOFNuODZoUjZmakF1T1BPRWRUVVJkOHpLRm1ic241OEhFTEJvV2FEWG12WkV2ZFQ5emxOMjFGNnBmTmtqc0o2RExUMGhfT3ZIZHVvbjh4VEgtUlBiQzlZM0FtUmhXQ2UxSU5NUFdTbzI3TnI0d1FBQjVDQlB0MFJ6RklrcUJIZmtpVmlPRU1SUkRRaXpweFF2VjZRTlhzbjNoNmRna0gyMmMyakVBcGx2bVNvTm5IdDFvNHZ5NHhXd0djWUlxVmNVZW5OenVsWjlHeTVybk5iMjE0dzYtSTVKZnkzRkNnUW5aUVJ5M04wcE9xU1ZJZDlteFphTmdJOTZuenN0U3M3ZUl1dw?oc=5"
+        }
+      },
+      {
+        "date": "10-04",
+        "tag": "美股",
+        "title": "纳指走强与美股整体分化，通宵交易议题升温",
+        "summary": "有报道关注纳指上涨而美股其他板块走弱的背离现象，同时市场讨论美股通宵交易的可能性，A股是否跟进亦成为话题。机构提示美股进入传统强势季节，美联储纪要与财报季预热构成下周看点。另有回测研究显示，多数所谓明显技术形态接近随机，仅少数形态具备统计意义。",
+        "implication": "指数分化与交易机制变化并行，市场结构性机会与波动风险同时上升。",
+        "source": {
+          "name": "CryptoRank",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOX2hNM0ZiNFRDWUVmRjlpV3VacUw2dXNEa1F0TU5rcDZheXV1SUVaU2pKR1BSMWktdXFIX2lNbmNfTmJualU3bUxsVkh0V3ZTdS1jNmoyTXMya2ctaWlTZHBZREMwYlJuNUhTd1N2X0NtbjR6Q0tTcHA2b191d3ppQXZoVlY1Nzg0QVVSaTgzMHBRZnU0OUpBc3JDRklUSVAz?oc=5"
+        }
+      },
+      {
+        "date": "10-04",
+        "tag": "货币政策",
+        "title": "美联储与欧洲央行纪要料显示通胀担忧，加息押注降温",
+        "summary": "有报道称，美联储与欧洲央行即将公布的会议纪要预计将显示对通胀的担忧，但市场加息押注正在降温。与此同时，美联储推动银行压力测试更加透明和稳定。欧洲方面，欧元区企业难以筹集人工智能相关资金，欧洲债市的下一个潜在引爆点被指向法国。",
+        "implication": "主要央行在通胀与增长之间权衡，欧洲信用与财政风险仍是潜在扰动项。",
         "source": {
           "name": "Bloomberg.com",
           "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNOFpSQnpjU1hLeUJYN1dqN2VnbWhJV2FvMW03eFA4ZGk3TUE2ZlZnZFBoVVJTcVUySlZDeUM3dWViTDV5dlliNTAzRkw4SGhYOEwxZDBOcVNzdFlHRklvZGlaV1hUQmZHU3NzTGw3LXdSY1JFbm94czZfak43N2VDU1ZSTjYwd0h5MGVNYl9wdVN5MEltWGxWRlJTZm53SDMyS29ibXRXbTJzbVZU?oc=5"
@@ -108,32 +130,10 @@
       },
       {
         "date": "10-04",
-        "tag": "美股",
-        "title": "美股收涨 美光科技Q4营收利润双超预期",
-        "summary": "隔夜要闻显示，美股收涨，燃料价格大跌，金价走低，美国就业增长逊于预期。美光科技第四季度营收与利润双双超出预期，成为科技板块的关注焦点。市场同时关注美股进入传统强势季节、财报季预热以及美联储纪要登场等下周看点。",
-        "implication": "就业数据走弱与科技股业绩超预期，共同影响美股风险偏好的方向。",
-        "source": {
-          "name": "新浪财经",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxORHVyRGg2R0hYNUY0NjQybENtNWxCYy1WcjhidTI2ZmdWZWNBN05qcVV4NmsxaWJGeUFmX1JhN1I5U0REclVYMjhSeTByRkZNMVVqOG9neG11S2xnelVDZkIwOWpxLURTQW1XcVJlelE4UW1LWk1VZFZZeUlOQ0d5azRyREpCdDk3QjZGSnM0TXZudGxyT3R0UW45c2RSbmRaemtRYi1BaGt1Z1BHczNwcDFyak5ETVpRam02a01IYmtPaTRoMkE?oc=5"
-        }
-      },
-      {
-        "date": "10-04",
-        "tag": "货币政策",
-        "title": "美联储主席人选与投票分歧受关注 银行压力测试调整",
-        "summary": "有报道回顾美联储主席人选在历史上最具分歧的确认投票，并提及其上任后的利率决策背景。另有消息称，美联储正使银行压力测试更加透明和稳定。美国司法部长表示不会重启对鲍威尔的刑事调查，但翻修项目问责仍将继续。",
-        "implication": "美联储人事与监管框架的变化，可能影响市场对政策独立性与金融监管的预期。",
-        "source": {
-          "name": "The Motley Fool",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOVjhEQ3pmSHJTOE5UWTlVUlNPendEZDIzcmdGWWNEcnY4TkFCODBudVByaThtVF9URjlrbW5oMi1zUVRaV2lFQmZ1U09pVXJFV3NRNnVPR3hUOEU2OWF3RWRjUXBiVXRTTWtRUV9aTUk0S3ZXS2NGQkhFSGM1STJQT1VCZHdoUUZFQk5CdjlHb0RSSHBEaHNSWg?oc=5"
-        }
-      },
-      {
-        "date": "10-04",
-        "tag": "货币政策",
-        "title": "日本央行释放下周加息风声 相关人士称不宜再拖",
-        "summary": "据报道，日本央行放出下周加息的风声，相关人士表示再拖下去就太晚了。这一表态出现在全球主要央行政策预期分化的背景下，市场关注日本利率正常化对日元与日本债券的影响。",
-        "implication": "日本若加息，可能影响日元汇率与全球套息交易的资金流向。",
+        "tag": "日本",
+        "title": "日本央行释放下周加息风声，官员称再拖就太晚",
+        "summary": "日本央行放出下周可能加息的风声，相关人士表示再拖延下去可能太晚。日本央行副行长表示将密切关注中东局势，同时须警惕通胀风险，加息大门仍然敞开。市场关注日本货币政策正常化节奏及其对日元、日债和全球资金流动的潜在影响。",
+        "implication": "日本若收紧政策，可能影响日元套息交易与全球债市资金流向。",
         "source": {
           "name": "财联社",
           "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE55a2VUd1VieHgyN0ZwaHpHTDVWLWVMb1gzNkQzcmRPU0FPc25VeHdBSHhXYk0yMkFBa29kMXAzT2JMeE1wSXFjUg?oc=5"
@@ -141,10 +141,21 @@
       },
       {
         "date": "10-04",
+        "tag": "大宗商品",
+        "title": "G7拟释放1亿桶战略石油储备，原油与金银波动加剧",
+        "summary": "Mysteel宏观周报显示，G7将释放1亿桶战略石油储备，消息重创原油价格。市场同时关注美伊与也门局势对油价的牵动，以及特朗普能否遏制油价上涨的讨论。摩根士丹利维持油价预测并预计供应缓慢恢复。贵金属方面，金银全周大幅下跌，原油与黄金在早报中出现双双上涨的短线波动。",
+        "implication": "供给端政策干预与地缘风险交织，能源价格波动仍将主导通胀预期。",
+        "source": {
+          "name": "我的钢铁",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5iMFVDTGUxQlF2OUpxcE1DcDVEZDAtSEpfYk44UC05WHpEM3dIcmVsWHhuVHBtVWw2cWhyWUpQR0x6Qko2OEcySFhrb2JWT0h1UU5qRU9ObC1ac0ZhM19JX05rUXFPYmky?oc=5"
+        }
+      },
+      {
+        "date": "10-04",
         "tag": "地缘",
-        "title": "乌克兰机器人攻势与中东局势牵动油价",
-        "summary": "有报道称，乌克兰的机器人攻势暴露了俄罗斯战争机器的脆弱环节，专家认为这并非决定性突破。与此同时，美伊与也门局势牵动油价，市场关注G7将释放1亿桶战略石油储备的消息，以及特朗普能否抑制油价上涨的讨论。",
-        "implication": "地缘冲突与战略储备释放的博弈，是短期油价波动的核心变量。",
+        "title": "乌克兰机器人攻势暴露俄军弱点，中东局势牵动油价",
+        "summary": "CNBC报道称，乌克兰出人意料的机器人攻势暴露了俄罗斯战争机器的脆弱环节，专家认为这并非决定性突破，但显示出乌方作战方式的变化。与此同时，美伊与也门局势牵动油价，市场关注地缘冲突对能源供应和风险偏好的影响，下周重磅日程亦将相关局势列为关注点。",
+        "implication": "地缘冲突持续为能源与避险资产提供事件驱动型波动来源。",
         "source": {
           "name": "CNBC·市场",
           "url": "https://www.cnbc.com/2026/10/04/russia-ukraine-war-putin-zelenskyy-donbas-lyman.html"
@@ -152,21 +163,21 @@
       },
       {
         "date": "10-04",
-        "tag": "大宗商品",
-        "title": "油价定价机制与汽油价格传导受关注",
-        "summary": "有分析解释全球市场如何决定石油价格，并指出汽油价格并不总是与原油价格同步变动。摩根士丹利维持油价预测，并预计供应将缓慢恢复。另有讨论关注石油公司是否从伊朗相关局势中获益。",
-        "implication": "原油与成品油价格传导的差异，影响能源板块与通胀预期的判断。",
+        "tag": "通胀",
+        "title": "工资下降与能源涨价并存，市场讨论类1970年代情景",
+        "summary": "MarketWatch刊文指出，工资下降、能源价格飙升与通胀并存，使当前环境开始让人联想到1970年代。文章讨论是否应重新启用那个黯淡十年的财务策略。这一讨论与美联储、欧洲央行纪要所显示的通胀担忧相互呼应，反映市场对滞胀风险的关注度上升。",
+        "implication": "若滞胀叙事强化，股债估值与资产配置逻辑可能面临再平衡。",
         "source": {
-          "name": "EnergyNow",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOeHVDVE55bjVBU0U1NWVtRlRFT1FpVVV3bmo5ZGRrRFczR2ZWM25SNEFiS2ZkT3RXbFBqUjJJaUlvUC03TG9vTzY5R0VycXdDV2dLZUlibl9ZLW5DMklXRVl1NzFwaHFOSVAyaWhKTEhTZjZaUG5LSFdUazk4MUVIdVM0dmpNR1VZM1lqWEphT2tZdzJKOHdDVlYwOXF2U3hINGNSbWt3ZXNGRkVm?oc=5"
+          "name": "MarketWatch·头条",
+          "url": "https://www.marketwatch.com/story/falling-wages-soaring-energy-prices-and-inflation-its-beginning-to-look-a-lot-like-the-1970s-d645cbca?mod=mw_rss_topstories"
         }
       },
       {
         "date": "10-04",
         "tag": "科技",
-        "title": "特朗普任命AI事务负责人 欧洲AI融资难题受关注",
-        "summary": "有报道称，特朗普任命国家情报总监Jay Clayton担任AI事务负责人，牵头政府的人工智能政策。与此同时，欧洲央行指出欧元区企业在筹集人工智能资金方面面临困难。特斯拉Cybercab在奥斯汀首月表现起伏，市场关注其扩张进展。",
-        "implication": "AI政策与融资环境的分化，可能影响全球科技产业竞争格局。",
+        "title": "特朗普任命Jay Clayton为AI事务负责人",
+        "summary": "据WSJ报道，特朗普任命国家情报总监Jay Clayton担任AI事务负责人，牵头政府的人工智能政策。与此同时，欧洲央行指出欧元区企业难以筹集人工智能资金，显示欧美在AI产业政策与融资环境上存在差异。AI政策与资本供给正成为影响科技产业格局的重要变量。",
+        "implication": "AI政策主导权与融资能力差异，可能影响相关科技产业链的区域竞争力。",
         "source": {
           "name": "CNBC·市场",
           "url": "https://www.cnbc.com/2026/10/03/trump-jay-clayton-ai-czar.html"
@@ -174,24 +185,13 @@
       },
       {
         "date": "10-04",
-        "tag": "房地产",
-        "title": "高房贷利率令美国房主被锁定 再融资与装修受限",
-        "summary": "有报道指出，较高的房贷利率使房主被困在原有住房中，也令房屋翻新更难负担。此前低利率房贷的存在，降低了房主换房与再融资的意愿，房屋净值与装修融资需求随之变化。",
-        "implication": "房贷利率高位对住房流动性与相关消费形成抑制。",
+        "tag": "美股",
+        "title": "特斯拉Cybercab在奥斯汀首月遇挫，扩张面临考验",
+        "summary": "CNBC报道称，特斯拉的Cybercab在奥斯汀的首个月表现坎坷，接下来面临的难点是扩张。马斯克推动公司超越汽车销售的努力，在很大程度上依赖该业务的成功。这一进展关系到特斯拉在自动驾驶与出行服务领域的商业化节奏，也影响市场对其估值逻辑的判断。",
+        "implication": "自动驾驶商业化进度是特斯拉估值的重要变量，进展不顺或加大股价波动。",
         "source": {
           "name": "CNBC·市场",
-          "url": "https://www.cnbc.com/2026/10/03/mortgage-rates-home-equity-heloc-remodeling.html"
-        }
-      },
-      {
-        "date": "10-04",
-        "tag": "汇率",
-        "title": "管涛谈贸易顺差与资本外流的经济政策涵义",
-        "summary": "有分析围绕贸易顺差与资本外流的关系展开讨论，梳理其经济与政策涵义。文章关注在国际收支结构变化背景下，顺差与资本流动对汇率与政策取向的影响。",
-        "implication": "国际收支结构变化是观察汇率与跨境资本流动的重要线索。",
-        "source": {
-          "name": "新浪财经",
-          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE93aTBuX0U2djRPaVFDUW9oc2w4UnNyVHBnQmo0Q1JraW9BYXRuM3BZN2N1TzhiOC1KbXJaQ1BkTTd0UEFlR0tFNDREb192ekxBdmE5T191OU1KYVFvVUFGcERoRDVoaG1xTjZONDIzSUFPWVVpSmdSYw?oc=5"
+          "url": "https://www.cnbc.com/2026/10/03/tesla-cybercab-pressure-to-expand-after-rocky-first-month-in-austin.html"
         }
       }
     ]
@@ -265,10 +265,10 @@
     "news": [
       {
         "date": "10-04",
-        "tag": "宏观",
-        "title": "人民日报十篇“金轩”阐述中国经济向新向优向好",
-        "summary": "人民日报刊发十篇“金轩”文章，阐述中国经济向新向优向好的必然性。相关报道从多个角度梳理经济结构优化与新动能成长的逻辑。同期还有关于国庆长假世界消费活力、前沿科技与新经济板块蓬勃发展的讨论。",
-        "implication": "官方媒体对经济基本面的表述，有助于稳定市场对增长前景的预期。",
+        "tag": "宏观数据",
+        "title": "人民日报10篇金轩文章，阐释中国经济向新向优向好",
+        "summary": "人民日报刊发10篇“金轩”文章，系统阐释中国经济向新向优向好的必然性。与此同时，有报道关注中国国庆长假期间的世界消费活力，显示假期消费对经济的支撑作用。前沿科技与新经济板块蓬勃发展的讨论也在升温，有观点提出应驾驭中国K型转型带来的结构性分化。",
+        "implication": "官方叙事强调经济结构优化，市场关注新经济板块与消费数据的验证。",
         "source": {
           "name": "证券时报网",
           "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE51ZVBIWHp0blgtRldBeDZLdzhlQnpzUG4zSEUweDNBal9tcmY3SXlYeklncE1BS0NGT3FrMkZnRmZ3VmlqbXlkY2FGR0tiUjNBUUdxSzBSaUhSd0Yy?oc=5"
@@ -277,9 +277,9 @@
       {
         "date": "10-04",
         "tag": "货币政策",
-        "title": "央行“四箭齐发”释放利好 加码结构性工具宽松",
-        "summary": "有报道称，央行“四箭齐发”释放利好，并加码结构性工具宽松。相关宏观周报提到，G7将释放1亿桶战略石油储备。政策组合拳的落地节奏与力度，成为市场关注焦点。",
-        "implication": "结构性宽松有助于改善流动性环境，支持重点领域融资需求。",
+        "title": "央行四箭齐发释放利好，加码结构性工具宽松",
+        "summary": "有报道称央行“四箭齐发”释放利好，Mysteel宏观周报亦指出央行加码结构性工具宽松。政策组合拳指向对特定领域的流动性支持，市场关注其对实体经济融资环境和资本市场风险偏好的影响。在美联储加息预期回落的背景下，国内政策空间与节奏成为节后市场的重要观察点。",
+        "implication": "结构性宽松有助于稳定预期，但传导效果仍取决于实体融资需求。",
         "source": {
           "name": "搜狐网",
           "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPSUNNanQ5UWUzTk5YYWJMME9ycTE3YkxkdEstN0FqRWNzeTdEVEhlS3cwRDNJZk5ETHQybjh3OElJVm82TjNna0NhMkNMUFlWd0FXNkR3UkdnVEJsUmZWR2pRa1BIVEQ4RThfSXluNGNnRFhEOXlNcmhFSWliZlBQcmFoOE92c1cyVUZvTQ?oc=5"
@@ -288,9 +288,9 @@
       {
         "date": "10-04",
         "tag": "A股",
-        "title": "机构研判A股节后大概率回暖 上涨胜率超60%",
-        "summary": "多家机构研判A股节后大概率回暖，有统计称节后上涨胜率超过60%，机构认为持股过节或更合算。外围股市上涨，股民期盼开门红。药明康德获机构扎堆推荐，机构看好节后A股反弹。",
-        "implication": "节后资金回流与风险偏好修复，是短期市场情绪的主要支撑。",
+        "title": "机构研判A股节后大概率回暖，上涨胜率超60%",
+        "summary": "多家机构研判A股节后大概率回暖，有统计称A股节后上涨胜率超60%，机构认为持股过节或更合算。外围股市上涨背景下，股民期盼开门红。药明康德获机构扎堆推荐，机构看好节后A股反弹。与此同时，10月A股解禁规模超3100亿元，5股解禁比例超70%，构成短期供给扰动。",
+        "implication": "节后情绪偏暖但解禁压力并存，市场或呈现结构性活跃与分化。",
         "source": {
           "name": "新浪财经",
           "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxObE5zdXdFTnhsbXFBWDIxb2ZoN3YxMVNPODllZXl2SzJfQUl6LU5qZjU0NmNlallDaVBsOWcxRThtelRSMkFSci1lUzBjNlkzUDRJT0ozZHR0MnZfNDJsOUlDUlhtSkdKaXlNNUdNbm9KaHMtd2Eyd1A4T3pDeW5VWVpFUzhoSEU1cVA0MXFTbFVMUkVSTGxmenRvdzRjclVO?oc=5"
@@ -299,20 +299,9 @@
       {
         "date": "10-04",
         "tag": "A股",
-        "title": "10月A股解禁规模超3100亿元 5股解禁比例超70%",
-        "summary": "数据显示，10月A股解禁规模超过3100亿元，其中5只个股解禁比例超过70%。解禁节奏与个股结构，成为影响短期供给与股价表现的关注因素。",
-        "implication": "高比例解禁个股可能面临阶段性供给压力，需关注股东行为变化。",
-        "source": {
-          "name": "天天基金",
-          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9WUFAtaFRJUG5iU0ZWOHdjRzhyZnExampKTFdzalppUlRzNzhYa2dhUVAyMUZIVkYwOU5DVVZLbk1TZ21FWktvSS1mXzR0ZWx6YnJIOW9OcFFtcHVRU0stekRB?oc=5"
-        }
-      },
-      {
-        "date": "10-04",
-        "tag": "A股",
-        "title": "前三季度A股IPO募资超2163亿元 北交所占比五成",
-        "summary": "统计显示，前三季度A股IPO募资超过2163亿元，北交所上市数量占比达到五成。同期A股前三季度新股上市首日零破发，4只“大肉签”浮盈超过30万元。浙江企业新上市26家，数量居全国第一。",
-        "implication": "新股发行结构与打新收益变化，反映市场融资功能与板块偏好。",
+        "title": "前三季度A股IPO募资超2163亿元，新股首日零破发",
+        "summary": "前三季度A股IPO募资超2163亿元，北交所上市数量占比达五成。同期A股新股上市首日零破发，4只“大肉签”浮盈超30万元。区域分布上，前三季度A股浙企新上市26家，数量居全国第一。龙虎榜数据显示，7家营业部成交额破千亿，资金青睐部分赛道。",
+        "implication": "IPO与打新赚钱效应回暖，但资金集中度上升提示赛道选择的重要性。",
         "source": {
           "name": "新浪财经",
           "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5fTlVQTEtlOEIwanRqNVR2NVpsem5sdXVYcEZlQjlkUTUzaFF1dkh5ck9USGFMeUNHaFQ1VDRTUG1uX0FDZXc5MjZyMzgtQmF2TGdDU3ZHR2xlQ1hhdnRzNkgzcHlUbVdJeU1mbFFYaEZObnd0UUxSdg?oc=5"
@@ -321,9 +310,9 @@
       {
         "date": "10-04",
         "tag": "基金",
-        "title": "新基金发行重回千亿 九月成立数量创近5年新高",
-        "summary": "新基金发行规模重回千亿水平，九月成立数量创下近5年新高。与此同时，基金公司固定收益类基金中长期业绩榜单公布。个人投资者大举涌入新上市ETF，占比超过八成。",
-        "implication": "发行回暖与资金结构变化，反映居民资产配置向公募与ETF迁移的趋势。",
+        "title": "新基金发行重回千亿，九月成立数量创近5年新高",
+        "summary": "新基金发行规模重回千亿，九月成立数量创近5年新高。与此同时，基金公司固定收益类基金中长期业绩榜单公布，为投资者提供参考。主动权益领域出现洗牌，张坤跌出前十，新“一哥”上位。招商基金10只主动权益基金9月跌超10%，两名基金经理霸榜，显示产品业绩分化明显。",
+        "implication": "发行回暖与业绩分化并存，资金流向与基金经理风格切换值得跟踪。",
         "source": {
           "name": "新浪财经",
           "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBiUjFReS13RTZ5R2dMaFVvRnp5eGRZazNpODRjdDVCRVFHOHRjVkVReEdHY05MQVFsc3VkVXJORnNNSURpc2Z1ZzNIYUo1NFZnN0ZaUkZfWGl5RlI3Q1hSbEZuaTkweVU4ajlSdzZhUXVFaGpveXVVaw?oc=5"
@@ -332,9 +321,9 @@
       {
         "date": "10-04",
         "tag": "港股",
-        "title": "内地ETF集中上市 港交所出海按下加速键",
-        "summary": "有报道称，港交所的锣又不够敲，内地ETF集中上市，出海按下加速键。与此同时，个人投资者大举涌入新上市ETF，占比超过八成。ETF产品供给与跨境布局同步提速。",
-        "implication": "ETF扩容与跨境上市，有助于提升港股市场流动性与产品丰富度。",
+        "title": "内地ETF集中上市，港股出海按下加速键",
+        "summary": "有报道以“港交所的锣又不够敲”形容内地ETF集中上市的热度，并讨论ETF出海为何按下加速键。与此同时，个人投资者大举涌入新上市ETF，占比超八成。ETF产品供给与投资者结构的变化，正在重塑被动投资生态，也带来对流动性与产品同质化的关注。",
+        "implication": "ETF扩容提升市场效率，但个人资金集中涌入也需关注波动放大效应。",
         "source": {
           "name": "新浪财经",
           "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBuVlBWejdxdk9wTHZrUzdVXzljalkydjZ3QW4tLVJ5V2RZQk9DdUhZUG51ZGtwamVGd211NndqNjBPams2OTd3UDRxNmhTQldpSkJzYllnd2hHSGZ3ckJNc2Y0WjBIajFQRU5ybmFQM1hjTlppSk9Gdg?oc=5"
@@ -342,21 +331,21 @@
       },
       {
         "date": "10-04",
-        "tag": "产业政策",
-        "title": "商务部最新发声 医保基金管理整治深化",
-        "summary": "商务部最新发声，市场关注其在贸易与产业政策方面的表述。同期报道显示，医保基金管理整治持续深化，全力守护群众“看病钱”。政策在促发展与防风险之间保持平衡。",
-        "implication": "政策表态与行业整治并行，影响相关产业的预期与合规成本。",
+        "tag": "汇率",
+        "title": "管涛谈贸易顺差与资本外流的经济与政策涵义",
+        "summary": "管涛撰文浅谈“贸易顺差、资本外流”的经济与政策涵义，讨论在国际收支格局变化下，顺差与资本流动对汇率和政策的相互影响。这一讨论与当前全球货币政策分化、资金跨境流动加剧的背景相关，为理解人民币汇率与跨境资本管理提供分析视角。",
+        "implication": "国际收支结构变化是汇率与政策判断的重要背景，需持续跟踪资本流动。",
         "source": {
-          "name": "证券之星",
-          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9VODlNN1lITnp5aHRhNU51YXM0MnUzTTVSTHMwQlFod2VsZWc3SGI2LU1NQ25CcWtTU3VmXzUyNFg0c05LZFJSY19iX2dzaE1yWDhVazAzb2JaSTF2Q19BOQ?oc=5"
+          "name": "新浪财经",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE93aTBuX0U2djRPaVFDUW9oc2w4UnNyVHBnQmo0Q1JraW9BYXRuM3BZN2N1TzhiOC1KbXJaQ1BkTTd0UEFlR0tFNDREb192ekxBdmE5T191OU1KYVFvVUFGcERoRDVoaG1xTjZONDIzSUFPWVVpSmdSYw?oc=5"
         }
       },
       {
         "date": "10-04",
-        "tag": "产业",
-        "title": "万亿CPO龙头收购A股公司股权有新进展",
-        "summary": "有报道称，万亿市值的CPO龙头在收购A股公司股权方面取得新进展。该事项涉及光通信产业链的资本运作，市场关注其对相关公司股权结构与业务协同的影响。",
-        "implication": "产业链龙头的并购进展，可能带动相关板块的估值与资金关注度。",
+        "tag": "产业政策",
+        "title": "万亿CPO龙头收购A股公司股权取得新进展",
+        "summary": "有报道称，万亿市值的CPO龙头收购A股公司股权取得新进展。该事项涉及光通信与算力产业链的资本运作，受到市场关注。在AI算力需求持续演进的背景下，产业链龙头的并购整合动作，可能影响相关板块的竞争格局与估值预期。",
+        "implication": "算力产业链资本运作活跃，相关板块或受事件催化但需关注整合成效。",
         "source": {
           "name": "手机新浪网",
           "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPZE5KTzFWc1JIcDFVMzM2RnVpdUEzS3IwaDcyX0NoLTgyYjhkS2I4RVhFQlp6NGtmbndZRzNZYVNoZ2RoTUhKN001bElqUnctXzJzemxJUVVqMU5uUlBpd3JPa0lGd0pvOGZMNUtYMGVZdWFFUTJKa0ZCYkQ1ZjIxaFJ0cw?oc=5"
@@ -364,13 +353,24 @@
       },
       {
         "date": "10-04",
-        "tag": "A股",
-        "title": "龙虎榜透视：7家营业部成交额破千亿 资金青睐这些赛道",
-        "summary": "龙虎榜数据显示，7家营业部成交额突破千亿，资金青睐的赛道受到关注。相关统计从交易席位角度，梳理了资金在板块间的流向与集中度。",
-        "implication": "营业部资金动向可作为观察短期市场热点与交易结构的参考。",
+        "tag": "医保",
+        "title": "深化医保基金管理整治，守护群众看病钱",
+        "summary": "“民生答卷”系列报道关注深化医保基金管理整治，全力守护群众“看病钱”。相关内容聚焦医保基金使用的规范与监管，反映政策在民生保障领域的持续发力。医保基金监管趋严，对医药医疗行业的支付端与合规要求具有中长期影响。",
+        "implication": "医保监管强化影响医药行业支付环境，合规与效率成为相关企业关注重点。",
         "source": {
-          "name": "手机新浪网",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPRXI3NzhUSjVUSkg2bWlMYmlYVHdDNEpGVUF1TVp3SWREZFg5X0plcTE3Q0dZY29kZTZtTldGTjhqdWpxakw1clY5c01CN2hLbWpzY3ZrN0lEdGJnU01NRmMtX2gtaldvX3ZLalU4VVFJSzVCVTV4d2hzMnF5MElIdVFB?oc=5"
+          "name": "紫牛新闻",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9mZmdGbU01WDVRUnZBQUxzUlpWenJWeEg0Nkc2T21Pb041TVVGOENWMTZhNlhsT0JfUjhzS3ZCV2dKUjdVX0I2Wk8yZ1ZzVGJZX1JmTGhGSEFPZ3pmWUF0d21JVHRlWk03NV9QWUJVQQ?oc=5"
+        }
+      },
+      {
+        "date": "10-04",
+        "tag": "楼市",
+        "title": "美国高房贷利率困住业主，国内楼市政策环境受关注",
+        "summary": "CNBC报道称，美国高房贷利率使业主被困在原地，翻新改造也更难负担。这一海外经验显示利率水平对房地产流动性的显著影响。在国内，市场持续关注楼市政策环境与居民信贷条件的变化，房地产相关数据与政策信号仍是影响内需与金融条件的重要变量。",
+        "implication": "利率与信贷条件对楼市流动性影响显著，政策变化是地产链的关键观察点。",
+        "source": {
+          "name": "CNBC·市场",
+          "url": "https://www.cnbc.com/2026/10/03/mortgage-rates-home-equity-heloc-remodeling.html"
         }
       }
     ]
@@ -496,32 +496,32 @@
       ]
     },
     "globalAnalysis": [
-      "货币政策方面，美联储会议纪要公布在即，市场围绕加息预期重新定价。Kevin Warsh已以54比45的史上最分裂票数获确认为美联储主席，其上任后已启动加息，政策路径的不确定性明显上升。日本央行放出下周加息风声，相关人士称再拖下去就太晚，全球主要央行同步收紧的预期正在强化。美司法部长表示不会重启对鲍威尔的刑事调查，但翻修项目问责仍将继续。",
-      "增长与通胀方面，美国就业增长逊于预期，但能源价格高企构成新的通胀压力。有市场观点认为工资下滑、能源价格飙升与通胀并存，情形开始类似1970年代，滞胀讨论升温。欧洲央行指出欧元区企业难以筹集人工智能资金，显示欧洲在AI投资周期中处于相对被动位置。G7拟释放1亿桶战略石油储备，试图平抑油价。",
-      "资产分化方面，美股三大指数继续走高，纳指年内涨17.0%、标普500涨12.6%、道指涨5.8%，但10年期美债收益率升至5.277%对估值形成压制。黄金年内下跌3.9%至4162美元，比特币年内跌4.3%，与股市走势背离。布伦特原油年内大涨68.3%，成为年内表现最强的主要资产之一。美元指数年内涨3.6%至101.93。",
-      "地缘与机构观点方面，乌克兰机器人攻势暴露俄方战争机器脆弱性，专家认为并非决定性突破。美伊与也门局势牵动油价，下周诺贝尔奖揭晓与美联储纪要成为重要日程。特朗普任命Jay Clayton为AI事务负责人，显示AI政策优先级提升。有回测研究显示，多数所谓明显技术形态在高波动美股上只是抛硬币，仅两个真正有效。"
+      "货币政策方面，美联储主席Kevin Warsh以54比45的史上最分裂票数获得确认，并已启动加息，最新会议纪要即将公布，市场围绕加息路径定价。日本央行放出下周加息风声，相关人士称再拖下去就太晚，全球主要央行同步转向紧缩的迹象增多。欧洲央行则指出欧元区企业难以筹集人工智能资金，反映融资条件收紧对科技投资的约束。",
+      "增长与通胀方面，美国9月非农意外爆冷，与油价年内大涨68.3%形成类滞胀组合，有市场观点将其与1970年代类比。10年期美债收益率升至5.277%，年内上行109个基点，反映通胀预期与期限溢价的共同抬升。欧元区融资环境偏紧，AI相关资本开支的融资难度上升，或拖累中期增长动能。",
+      "资产分化方面，标普500与纳斯达克续创新高，年内分别上涨12.6%和17.0%，道琼斯年内上涨5.8%；而黄金年内下跌3.9%，比特币年内下跌4.3%，恒生科技年内下跌27.6%。美元指数年内上涨3.6%至101.93，美元兑人民币报6.7048，年内人民币升值4.2%，非美资产承压特征明显。",
+      "地缘与机构观点方面，乌克兰机器人攻势被专家认为并非决定性突破，但暴露俄方战争机器的脆弱环节；美伊与也门局势牵动油价，G7将释放1亿桶战略石油储备。美股拟推通宵交易引发关注，市场进入传统强势季节，财报季开始预热，机构对风险资产的短期分歧加大。"
     ],
     "chinaAnalysis": [
-      "物价与景气方面，上一版序列显示中国CPI在8月为0.8%，PPI为3.8%，PMI为49.8，仍处于荣枯线下方。新闻池中未见新公布的官方物价或景气数据，因此相关序列原样沿用。人民日报10篇金轩文章强调中国经济向新向优向好的必然性，前沿科技与新经济板块蓬勃发展，被解读为K型转型下的结构性亮点。",
-      "政策取向方面，央行四箭齐发释放利好，并加码结构性工具宽松。商务部最新发声，市场关注后续稳增长政策落地节奏。民生领域深化医保基金管理整治，守护群众看病钱。基金委生命科学部征集2027年度重大项目立项建议，显示科技与产业政策持续推进。整体政策基调偏向宽松与结构支持。",
-      "市场结构方面，A股前三季度新股上市首日零破发，4只大肉签浮盈超30万，前三季度IPO募资超2163亿元，北交所上市数量占比达五成。10月A股解禁规模超3100亿元，5股解禁比例超70%。新基金发行重回千亿，九月成立数量创近5年新高，个人投资者大举涌入新上市ETF，占比超八成，内地ETF集中赴港上市加速。",
-      "汇率与机构共识方面，美元兑人民币报6.7048，年内人民币升值4.2%。机构普遍研判A股节后大概率回暖，历史节后上涨胜率超60%，有观点认为持股过节或更合算。药明康德获机构扎堆推荐。管涛撰文讨论贸易顺差与资本外流的经济与政策涵义。恒生指数年内跌9.0%，恒生科技年内跌27.6%，港股表现明显弱于A股。"
+      "物价与景气方面，沿用上一版序列：8月CPI同比0.8%，较7月0.5%小幅回升；PPI同比3.8%，延续正增长区间；8月制造业PMI为49.8，仍处荣枯线下方但较7月49.2回升。整体呈现物价温和、景气边际改善但需求端仍待巩固的组合，与假期消费活力的报道方向一致。",
+      "政策取向方面，央行四箭齐发释放利好，并加码结构性工具宽松，Mysteel宏观周报亦提及这一方向。人民日报10篇金轩文章强调中国经济向新向优向好的必然性，政策沟通侧重预期引导。LPR连续16个月持平，1年期3.0%、5年期以上3.5%，10年期国债收益率维持低位震荡。",
+      "市场结构方面，前三季度A股IPO募资超2163亿元，北交所上市数量占比达五成，新股上市首日零破发，4只大肉签浮盈超30万。新基金发行重回千亿，9月成立数量创近5年新高，个人投资者大举涌入新上市ETF，占比超八成。同时10月解禁规模超3100亿元，5股解禁比例超70%，主动权益基金经理排名出现洗牌。",
+      "汇率与机构共识方面，美元兑人民币报6.7048，年内人民币升值4.2%，管涛撰文讨论贸易顺差与资本外流的经济与政策涵义。机构研判A股节后大概率回暖，历史上涨胜率超60%，药明康德获扎堆推荐，外围股市上涨强化开门红预期，但港股走弱与解禁压力构成对冲因素。"
     ],
     "scenarios": [
       {
-        "name": "基准：震荡分化延续",
+        "name": "基准：高位震荡延续",
         "prob": "55%",
-        "desc": "美股高位震荡，美债利率维持5%以上对估值形成约束，油价高位运行但G7释储部分对冲。A股节后温和回暖，政策宽松与基金发行回暖提供支撑，港股继续相对偏弱。黄金与比特币维持区间波动。"
+        "desc": "美股在盈利与AI叙事支撑下维持高位，10年期美债收益率在5.2%附近震荡，油价高位运行但G7释储缓和供给担忧。A股节后在机构看多情绪与解禁压力之间震荡，上证指数围绕3800点附近波动，港股延续弱势整理。"
       },
       {
         "name": "乐观：风险偏好回升",
         "prob": "25%",
-        "desc": "美联储纪要偏鸽或就业数据走弱缓解加息担忧，美债收益率回落带动成长股与黄金同步走强。A股节后开门红兑现，成交与基金发行进一步放量，恒生科技超跌反弹，油价因释储回落缓解通胀压力。"
+        "desc": "美联储会议纪要释放偏鸽信号，加息预期降温带动美债收益率回落，成长股与港股同步反弹。A股节后开门红兑现，新基金发行与个人投资者入场形成增量资金，恒生科技在深度调整后出现修复性反弹。"
       },
       {
-        "name": "悲观：滞胀交易升温",
+        "name": "悲观：油价与利率双压",
         "prob": "20%",
-        "desc": "油价持续冲高叠加日本央行加息，全球利率同步上行，美债收益率进一步突破，股市估值承压回调。滞胀叙事强化，黄金与比特币同步走弱。A股解禁压力与港股弱势拖累风险偏好，节后回暖预期落空。"
+        "desc": "美伊与也门局势升级推动油价进一步走高，通胀预期升温迫使美联储维持甚至强化加息，10年期美债收益率突破前高。高估值美股回调，港股与A股风险偏好同步受压，解禁与IPO供给放大市场波动。"
       }
     ]
   },
@@ -755,11 +755,11 @@
       {
         "theme": "加密资产（仅观察，不建议参与）",
         "heat": "深熊观察",
-        "drivers": "比特币报84896.5469（日+0.47%，年内-4.3%，截至2026-10-04），年内收益转负，波动率仍远高于传统资产，境内缺乏合规参与渠道。",
-        "catalysts": "海外监管政策变化；美元流动性与风险偏好切换；相关ETF资金流向。",
-        "vehicles": "境内无合规直接标的，仅作情绪与流动性观察指标。",
-        "risks": "监管不确定性高、波动极端，单日两位数波动常见；境内参与渠道不合规，风险不可控。",
-        "discipline": "仅观察不参与；若已持有，仓位≤1%并预设离场条件。"
+        "drivers": "比特币报84888.0（日+0.46%，年内-4.3%，截至2026-10-04），年内收益转负，波动率仍远高于传统资产；境内无合规直接参与渠道，相关概念股与境外产品风险属性差异极大。",
+        "catalysts": "美国监管政策变化；ETF资金流向；全球流动性预期。",
+        "vehicles": "境内无合规直接标的；相关概念股波动与币价并不同步，不构成替代。",
+        "risks": "监管与合规风险、24小时交易无涨跌停、单日两位数波动常见；对平衡型组合而言风险收益比不匹配。",
+        "discipline": "仅作观察记录；若参与境外合规产品，仓位≤1%并预设-20%止损，不补仓。"
       }
     ]
   },
@@ -809,28 +809,32 @@
       "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOR2lON2JxQXVhWkNzVXNzcElNdnBkY0FpRzR5MHdZNURteUFPaWN2NEV0a1MteWVJQ2hfcmNSN2ctVWh3MEhiM1NtZkp6d1ZuaG1UaERFSnN4Q1N6eVRPTnprRWM1NnpsNUhwOFVOd2hwODU4VTVNWUZYTWU0Uk5mR2huRXB3dw?oc=5"
     },
     {
+      "name": "新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMiogJBVV95cUxNcmNaczV0SjlVY1VZXzBuS2JoZ1Z4eEZiOFNuODZoUjZmakF1T1BPRWRUVVJkOHpLRm1ic241OEhFTEJvV2FEWG12WkV2ZFQ5emxOMjFGNnBmTmtqc0o2RExUMGhfT3ZIZHVvbjh4VEgtUlBiQzlZM0FtUmhXQ2UxSU5NUFdTbzI3TnI0d1FBQjVDQlB0MFJ6RklrcUJIZmtpVmlPRU1SUkRRaXpweFF2VjZRTlhzbjNoNmRna0gyMmMyakVBcGx2bVNvTm5IdDFvNHZ5NHhXd0djWUlxVmNVZW5OenVsWjlHeTVybk5iMjE0dzYtSTVKZnkzRkNnUW5aUVJ5M04wcE9xU1ZJZDlteFphTmdJOTZuenN0U3M3ZUl1dw?oc=5"
+    },
+    {
+      "name": "CryptoRank",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOX2hNM0ZiNFRDWUVmRjlpV3VacUw2dXNEa1F0TU5rcDZheXV1SUVaU2pKR1BSMWktdXFIX2lNbmNfTmJualU3bUxsVkh0V3ZTdS1jNmoyTXMya2ctaWlTZHBZREMwYlJuNUhTd1N2X0NtbjR6Q0tTcHA2b191d3ppQXZoVlY1Nzg0QVVSaTgzMHBRZnU0OUpBc3JDRklUSVAz?oc=5"
+    },
+    {
       "name": "Bloomberg.com",
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNOFpSQnpjU1hLeUJYN1dqN2VnbWhJV2FvMW03eFA4ZGk3TUE2ZlZnZFBoVVJTcVUySlZDeUM3dWViTDV5dlliNTAzRkw4SGhYOEwxZDBOcVNzdFlHRklvZGlaV1hUQmZHU3NzTGw3LXdSY1JFbm94czZfak43N2VDU1ZSTjYwd0h5MGVNYl9wdVN5MEltWGxWRlJTZm53SDMyS29ibXRXbTJzbVZU?oc=5"
-    },
-    {
-      "name": "新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxORHVyRGg2R0hYNUY0NjQybENtNWxCYy1WcjhidTI2ZmdWZWNBN05qcVV4NmsxaWJGeUFmX1JhN1I5U0REclVYMjhSeTByRkZNMVVqOG9neG11S2xnelVDZkIwOWpxLURTQW1XcVJlelE4UW1LWk1VZFZZeUlOQ0d5azRyREpCdDk3QjZGSnM0TXZudGxyT3R0UW45c2RSbmRaemtRYi1BaGt1Z1BHczNwcDFyak5ETVpRam02a01IYmtPaTRoMkE?oc=5"
-    },
-    {
-      "name": "The Motley Fool",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOVjhEQ3pmSHJTOE5UWTlVUlNPendEZDIzcmdGWWNEcnY4TkFCODBudVByaThtVF9URjlrbW5oMi1zUVRaV2lFQmZ1U09pVXJFV3NRNnVPR3hUOEU2OWF3RWRjUXBiVXRTTWtRUV9aTUk0S3ZXS2NGQkhFSGM1STJQT1VCZHdoUUZFQk5CdjlHb0RSSHBEaHNSWg?oc=5"
     },
     {
       "name": "财联社",
       "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE55a2VUd1VieHgyN0ZwaHpHTDVWLWVMb1gzNkQzcmRPU0FPc25VeHdBSHhXYk0yMkFBa29kMXAzT2JMeE1wSXFjUg?oc=5"
     },
     {
+      "name": "我的钢铁",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5iMFVDTGUxQlF2OUpxcE1DcDVEZDAtSEpfYk44UC05WHpEM3dIcmVsWHhuVHBtVWw2cWhyWUpQR0x6Qko2OEcySFhrb2JWT0h1UU5qRU9ObC1ac0ZhM19JX05rUXFPYmky?oc=5"
+    },
+    {
       "name": "CNBC·市场",
       "url": "https://www.cnbc.com/2026/10/04/russia-ukraine-war-putin-zelenskyy-donbas-lyman.html"
     },
     {
-      "name": "EnergyNow",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOeHVDVE55bjVBU0U1NWVtRlRFT1FpVVV3bmo5ZGRrRFczR2ZWM25SNEFiS2ZkT3RXbFBqUjJJaUlvUC03TG9vTzY5R0VycXdDV2dLZUlibl9ZLW5DMklXRVl1NzFwaHFOSVAyaWhKTEhTZjZaUG5LSFdUazk4MUVIdVM0dmpNR1VZM1lqWEphT2tZdzJKOHdDVlYwOXF2U3hINGNSbWt3ZXNGRkVm?oc=5"
+      "name": "MarketWatch·头条",
+      "url": "https://www.marketwatch.com/story/falling-wages-soaring-energy-prices-and-inflation-its-beginning-to-look-a-lot-like-the-1970s-d645cbca?mod=mw_rss_topstories"
     },
     {
       "name": "CNBC·市场",
@@ -838,11 +842,7 @@
     },
     {
       "name": "CNBC·市场",
-      "url": "https://www.cnbc.com/2026/10/03/mortgage-rates-home-equity-heloc-remodeling.html"
-    },
-    {
-      "name": "新浪财经",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE93aTBuX0U2djRPaVFDUW9oc2w4UnNyVHBnQmo0Q1JraW9BYXRuM3BZN2N1TzhiOC1KbXJaQ1BkTTd0UEFlR0tFNDREb192ekxBdmE5T191OU1KYVFvVUFGcERoRDVoaG1xTjZONDIzSUFPWVVpSmdSYw?oc=5"
+      "url": "https://www.cnbc.com/2026/10/03/tesla-cybercab-pressure-to-expand-after-rocky-first-month-in-austin.html"
     },
     {
       "name": "证券时报网",
@@ -857,8 +857,8 @@
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxObE5zdXdFTnhsbXFBWDIxb2ZoN3YxMVNPODllZXl2SzJfQUl6LU5qZjU0NmNlallDaVBsOWcxRThtelRSMkFSci1lUzBjNlkzUDRJT0ozZHR0MnZfNDJsOUlDUlhtSkdKaXlNNUdNbm9KaHMtd2Eyd1A4T3pDeW5VWVpFUzhoSEU1cVA0MXFTbFVMUkVSTGxmenRvdzRjclVO?oc=5"
     },
     {
-      "name": "天天基金",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9WUFAtaFRJUG5iU0ZWOHdjRzhyZnExampKTFdzalppUlRzNzhYa2dhUVAyMUZIVkYwOU5DVVZLbk1TZ21FWktvSS1mXzR0ZWx6YnJIOW9OcFFtcHVRU0stekRB?oc=5"
+      "name": "新浪财经",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5fTlVQTEtlOEIwanRqNVR2NVpsem5sdXVYcEZlQjlkUTUzaFF1dkh5ck9USGFMeUNHaFQ1VDRTUG1uX0FDZXc5MjZyMzgtQmF2TGdDU3ZHR2xlQ1hhdnRzNkgzcHlUbVdJeU1mbFFYaEZObnd0UUxSdg?oc=5"
     }
   ]
 }
