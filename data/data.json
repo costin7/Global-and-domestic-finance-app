@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-10-20 12:58（北京时间）",
+    "generatedAt": "2026-10-20 13:28（北京时间）",
     "riskProfile": "平衡型",
     "scope": "国内 + 海外",
     "newsWindow": "近 30 天焦点",
@@ -63,22 +63,22 @@
       },
       {
         "label": "COMEX黄金",
-        "value": "$4,164",
-        "delta": "-3.8%",
+        "value": "$4,154",
+        "delta": "-4.1%",
         "deltaLabel": "年内",
         "dir": "down"
       },
       {
         "label": "布伦特原油",
-        "value": "$109.79",
-        "delta": "+80.7%",
+        "value": "$109.99",
+        "delta": "+81.0%",
         "deltaLabel": "年内",
         "dir": "up"
       },
       {
         "label": "比特币",
-        "value": "$81,984",
-        "delta": "-7.6%",
+        "value": "$81,874",
+        "delta": "-7.7%",
         "deltaLabel": "年内",
         "dir": "down"
       }
@@ -200,8 +200,8 @@
     "kpis": [
       {
         "label": "上证指数",
-        "value": "3,727.75",
-        "delta": "-7.3%",
+        "value": "3,717.02",
+        "delta": "-7.6%",
         "deltaLabel": "年内",
         "dir": "down"
       },
@@ -228,15 +228,15 @@
       },
       {
         "label": "恒生指数",
-        "value": "23,956.93",
-        "delta": "-9.0%",
+        "value": "23,896.07",
+        "delta": "-9.3%",
         "deltaLabel": "年内",
         "dir": "down"
       },
       {
         "label": "恒生科技",
-        "value": "4.06",
-        "delta": "-29.1%",
+        "value": "4.04",
+        "delta": "-29.3%",
         "deltaLabel": "年内",
         "dir": "down"
       },
@@ -256,7 +256,7 @@
       },
       {
         "label": "美元兑人民币",
-        "value": "6.6782",
+        "value": "6.6783",
         "delta": "-4.5%",
         "deltaLabel": "人民币年内升值",
         "dir": "down"
@@ -379,7 +379,7 @@
     "assetYTD": [
       {
         "label": "日经225",
-        "value": 23.77,
+        "value": 23.54,
         "note": "截至2026-10-19"
       },
       {
@@ -394,27 +394,27 @@
       },
       {
         "label": "红利类(515080代理)",
-        "value": 0.97,
+        "value": 0.71,
         "note": "截至2026-10-20"
       },
       {
         "label": "COMEX黄金",
-        "value": -3.82,
+        "value": -4.06,
         "note": "截至2026-10-20"
       },
       {
         "label": "上证指数",
-        "value": -7.35,
+        "value": -7.62,
         "note": "截至2026-10-20"
       },
       {
         "label": "恒生指数",
-        "value": -9.04,
+        "value": -9.27,
         "note": "截至2026-10-20"
       },
       {
         "label": "恒生科技",
-        "value": -29.09,
+        "value": -29.34,
         "note": "截至2026-10-20"
       }
     ],
