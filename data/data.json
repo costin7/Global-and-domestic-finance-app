@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-11-16 14:41（北京时间）",
+    "generatedAt": "2026-11-16 15:25（北京时间）",
     "riskProfile": "平衡型",
     "scope": "国内 + 海外",
     "newsWindow": "近 30 天焦点",
@@ -63,21 +63,21 @@
       },
       {
         "label": "COMEX黄金",
-        "value": "$3,850",
-        "delta": "-11.1%",
+        "value": "$3,858",
+        "delta": "-10.9%",
         "deltaLabel": "年内",
         "dir": "down"
       },
       {
         "label": "布伦特原油",
-        "value": "$96.51",
-        "delta": "+58.9%",
+        "value": "$96.24",
+        "delta": "+58.4%",
         "deltaLabel": "年内",
         "dir": "up"
       },
       {
         "label": "比特币",
-        "value": "$64,571",
+        "value": "$64,562",
         "delta": "-27.2%",
         "deltaLabel": "年内",
         "dir": "down"
@@ -200,8 +200,8 @@
     "kpis": [
       {
         "label": "上证指数",
-        "value": "3,590.17",
-        "delta": "-10.8%",
+        "value": "3,602.57",
+        "delta": "-10.5%",
         "deltaLabel": "年内",
         "dir": "down"
       },
@@ -228,7 +228,7 @@
       },
       {
         "label": "恒生指数",
-        "value": "23,749.44",
+        "value": "23,743.68",
         "delta": "-9.8%",
         "deltaLabel": "年内",
         "dir": "down"
@@ -256,7 +256,7 @@
       },
       {
         "label": "美元兑人民币",
-        "value": "6.6689",
+        "value": "6.6688",
         "delta": "-4.7%",
         "deltaLabel": "人民币年内升值",
         "dir": "down"
@@ -379,7 +379,7 @@
     "assetYTD": [
       {
         "label": "日经225",
-        "value": 15.18,
+        "value": 15.1,
         "note": "截至2026-11-15"
       },
       {
@@ -394,22 +394,22 @@
       },
       {
         "label": "红利类(515080代理)",
-        "value": 1.42,
+        "value": 1.55,
         "note": "截至2026-11-16"
       },
       {
         "label": "恒生指数",
-        "value": -9.83,
+        "value": -9.85,
         "note": "截至2026-11-16"
       },
       {
         "label": "上证指数",
-        "value": -10.77,
+        "value": -10.46,
         "note": "截至2026-11-16"
       },
       {
         "label": "COMEX黄金",
-        "value": -11.07,
+        "value": -10.88,
         "note": "截至2026-11-16"
       },
       {
