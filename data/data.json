@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-11-25 16:44（北京时间）",
+    "generatedAt": "2026-11-25 17:20（北京时间）",
     "riskProfile": "平衡型",
     "scope": "国内 + 海外",
     "newsWindow": "近 30 天焦点",
@@ -70,15 +70,15 @@
       },
       {
         "label": "布伦特原油",
-        "value": "$87.43",
-        "delta": "+43.9%",
+        "value": "$88.29",
+        "delta": "+45.3%",
         "deltaLabel": "年内",
         "dir": "up"
       },
       {
         "label": "比特币",
-        "value": "$59,196",
-        "delta": "-33.3%",
+        "value": "$59,096",
+        "delta": "-33.4%",
         "deltaLabel": "年内",
         "dir": "down"
       }
@@ -256,7 +256,7 @@
       },
       {
         "label": "美元兑人民币",
-        "value": "6.6623",
+        "value": "6.6615",
         "delta": "-4.8%",
         "deltaLabel": "人民币年内升值",
         "dir": "down"
