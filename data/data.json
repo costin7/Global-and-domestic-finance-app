@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-11-27 16:44（北京时间）",
+    "generatedAt": "2026-11-27 17:12（北京时间）",
     "riskProfile": "平衡型",
     "scope": "国内 + 海外",
     "newsWindow": "近 30 天焦点",
@@ -63,21 +63,21 @@
       },
       {
         "label": "COMEX黄金",
-        "value": "$3,700",
-        "delta": "-14.5%",
+        "value": "$3,708",
+        "delta": "-14.4%",
         "deltaLabel": "年内",
         "dir": "down"
       },
       {
         "label": "布伦特原油",
-        "value": "$92.46",
-        "delta": "+52.2%",
+        "value": "$92.43",
+        "delta": "+52.1%",
         "deltaLabel": "年内",
         "dir": "up"
       },
       {
         "label": "比特币",
-        "value": "$61,697",
+        "value": "$61,669",
         "delta": "-30.5%",
         "deltaLabel": "年内",
         "dir": "down"
@@ -256,7 +256,7 @@
       },
       {
         "label": "美元兑人民币",
-        "value": "6.6534",
+        "value": "6.6533",
         "delta": "-4.9%",
         "deltaLabel": "人民币年内升值",
         "dir": "down"
@@ -409,7 +409,7 @@
       },
       {
         "label": "COMEX黄金",
-        "value": -14.54,
+        "value": -14.36,
         "note": "截至2026-11-27"
       },
       {
