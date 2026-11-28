@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generatedAt": "2026-11-28 15:58（北京时间）",
+    "generatedAt": "2026-11-28 16:31（北京时间）",
     "riskProfile": "平衡型",
     "scope": "国内 + 海外",
     "newsWindow": "近 30 天焦点",
@@ -77,8 +77,8 @@
       },
       {
         "label": "比特币",
-        "value": "$59,761",
-        "delta": "-32.6%",
+        "value": "$59,563",
+        "delta": "-32.9%",
         "deltaLabel": "年内",
         "dir": "down"
       }
